@@ -1,0 +1,17 @@
+---
+// Text column with a grid of small icon + label tiles, beside a rounded photo (no fade).
+import Sec from '../Sec.astro'; import Icon from '../Icon.astro';
+const { heading, intro, label, items, after, image, mist = false, join } = Astro.props;
+---
+<Sec mist={mist} join={join}>
+  <div class="skills">
+    <div class="skills__body">
+      <h2>{heading}</h2>
+      {intro && <p class="skills__intro">{intro}</p>}
+      {label && <p class="skills__label">{label}</p>}
+      <ul class="skills__grid">{items.map(i => <li><Icon name={i.icon} /><span>{i.label}</span></li>)}</ul>
+      {after && <p class="skills__after">{after}</p>}
+    </div>
+    <div class="skills__img"><img class="cover" src={image.src} alt={image.alt} loading="lazy" /></div>
+  </div>
+</Sec>

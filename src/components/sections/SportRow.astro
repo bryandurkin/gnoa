@@ -1,0 +1,13 @@
+---
+// Seven-sport hub row: portrait photo tiles with the sport name under the photo, plus an optional button.
+// lead = short bold line under the heading; intro = one short paragraph.
+import Sec from '../Sec.astro'; import Btn from '../Btn.astro';
+const { heading, lead, intro, tiles, button, mist = true, join } = Astro.props;
+---
+<Sec mist={mist} join={join}>
+  <div class="sec-head sec-head--wide"><h2>{heading}</h2>{lead && <p class="sec-head__lead">{lead}</p>}{intro && <p class="sec-head__intro">{intro}</p>}</div>
+  <ul class="sport-row" style={`--n:${tiles.length}`}>
+    {tiles.map(t => <li><a class="sport-row__tile" href={t.href}><span class="sport-row__img"><img class="cover" src={t.image.src} alt={t.image.alt} loading="lazy" /></span><span class="sport-row__label">{t.label}</span></a></li>)}
+  </ul>
+  {button && <div class="sec-cta"><Btn {...button} variant="teal" /></div>}
+</Sec>

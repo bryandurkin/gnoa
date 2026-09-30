@@ -1,6 +1,6 @@
-# GNOA Design Kit v1.2.2
+# GNOA Design Kit v1.3
 
-Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association), plus the Football and Baseball page handoff packs (v1.2 sections).
+Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association), plus the Football, Baseball and About page handoff packs (v1.2 and v1.3 sections).
 Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY from the sections below. It does not invent new layouts, colors or fonts. Copy markup from preview.html.
 
 ## 1. Style tokens (locked)
@@ -43,27 +43,30 @@ Fields marked * are required.
 | id | What it is | Fields | Limits |
 |---|---|---|---|
 | site-header | Logo, 5 nav links, ArbiterSports button | from site config | Same on every page. Collapses to a Menu button below 1200px |
-| hero | Large hero, navy with photo on the right | eyebrow (3 words), title (2 lines)*, subhead (short line), lead or 1 to 3 paragraphs (max 30 words each)*, 1 to 2 buttons*, image* | Home and full sport pages only. Title max 8 words |
+| hero | Large hero, navy with photo on the right | eyebrow (3 words), title (2 lines)*, subhead (short line), lead or 1 to 3 paragraphs (max 35 words each)*, 1 to 2 buttons*, image* | Home and full sport pages only. Title max 8 words |
 | sport-strip | Navy band of sport links | 3 to 8 sport names with links* | Home only, directly under hero |
 | icon-strip | Navy band of icon + short label items, not links (v1.2) | 3 to 5 items (icon*, label*) | Directly under a hero. Labels max 5 words |
-| benefits | White cards with navy icon | heading*, tagline, intro (max 45 words), 3 to 4 items (icon*, title*, text*) | Text max 20 words. Title must differ from text |
+| benefits | White cards with an icon | heading*, tagline, intro (max 45 words), 3 to 4 items (icon*, title*, text* or 2 short paragraphs), align "left" for left-aligned card text | Text max 20 words per paragraph. Title must differ from text |
+| sport-row | Portrait sport photo tiles with the name under each (v1.3) | heading*, lead (one bold line), intro (max 35 words), 3 to 8 tiles (label*, link*, image* 4:5), button | 7 across desktop, 4 across tablet, 2 across phone |
+| skills | Heading, intro and small icon + label tiles beside a rounded photo, no fade (v1.3) | heading*, intro*, label ("You learn to:"), 4 to 6 items (icon*, label* max 5 words), after (1 paragraph), image* | 3 across desktop, 2 across tablet and phone |
 | sport-tiles | Photo link tiles, label and arrow | heading*, 3 to 8 tiles (label*, link*, image*) | Layout adapts to count. 7 tiles = 4 over 3, as in mockup |
 | split | Text and photo, photo fading into white | heading*, subhead*, 1 to 2 paragraphs* (max 45 words each), list (heading + 4 to 12 checklist items), after (1 paragraph), button*, image*. reverse = photo on the left; aside = boxed checklist (heading + 4 to 8 items, columns 1 or 2) plus an optional line, beside the text (use with reverse) | Max twice per page. Checklist items max 6 words |
 | steps | Numbered process on a connector line | heading*, 3 to 6 steps (icon*, title*, text*), button (centered below) | Only for a real sequence. Text max 15 words |
 | learn-cards | Photo cards with title and text under the photo (v1.2) | heading*, tagline, 3 to 6 cards (image*, title*, text* max 35 words) | One row on desktop (columns follow the card count), 3 across on tablet |
 | band | Navy panel, photo right | heading* and paragraph (max 45 words), or heading* and lines (3 to 8 short lines), or blocks (2 topics, each heading + paragraph max 60 words, split by a thin rule); button, image* | Never directly after another dark section |
-| path | Photo cards joined by arrows | heading*, tagline*, intro (one line), 3 to 5 cards (label*, image*, text = caption under the photo), button (centered below) | Only for a progression. Labels max 4 words, captions max 12 words |
+| path | Photo cards joined by arrows | heading*, tagline, intro (one line) or headAlign "left" with 1 to 4 paragraphs, 3 to 5 cards (label*, image*, text = caption under the photo), numbered (number circles), button (centered below) | Only for a progression. Labels max 4 words, captions max 14 words |
 | testimonials | Quote cards with headshot | heading*, 1 to 3 quotes (photo*, quote*, name*, role*) | Real, approved quotes only. SAMPLE tag until GNOA approves |
 | faq | Two-column accordion | heading*, 3 to 10 questions with answers* | Answers from GNOA only, never invented |
 | info-faq | Info panel (photo, text, callout) beside a one-column FAQ (v1.2) | info: heading*, image*, 1 to 3 paragraphs*, callout (max 10 words); faq: heading*, 3 to 8 questions with answers* | One FAQ per page. Answers from GNOA only |
-| cta-band | Closing banner, same style as band | title (1 to 2 lines)*, paragraphs (1 to 2) and/or list (3 to 6 short bullet lines), subline*, button*, image* | Last section on every page. Split a title over 40 characters into two balanced lines so it stays clear of the photo subject |
-| site-footer | White logo, tagline, nav, social, ArbiterSports, legal row | from site config | Social links must be GNOA's real profile URLs. Copyright year is the current year |
+| cta-band | Closing banner, same style as band | title (1 to 2 lines)*, paragraphs (1 to 2) and/or list (3 to 6 short bullet lines), subline*, button* or buttons (2: cyan then outline), image* | Last section on every page (only a utility-strip may follow it). Split a title over 40 characters into two balanced lines so it stays clear of the photo subject |
+| utility-strip | Small light panel with icon, heading, one line and a button (v1.3) | icon, heading*, text*, button* | Only after the cta-band. Used for Current Officials to ArbiterSports |
+| site-footer | White logo, tagline, motto (Recruit. Train. Develop.), nav, social, ArbiterSports, legal row | from site config | Social links must be GNOA's real profile URLs. Copyright year is the current year |
 | page-hero | Inner page top (derived, not in mockup) | eyebrow (page or parent name)*, title*, lead*, 0 to 1 button, image | Every inner page starts with it. No image = plain navy |
 | prose | Rich text (derived) | h2, h3, paragraphs, lists, link lists | Keep the team's wording |
 | post-cards | News and blog cards (derived) | 1 to 12 posts (image*, date*, title*, excerpt*, link*) | Pulls from News & Recognition posts |
 | contact | Contact details plus form (derived) | details (real only)*, form embed* | Contact page only. Form provider to be confirmed |
 
-Icons: the SVG sprite at the top of preview.html (arrow, external, menu, group, community, chart, whistle, doc, clipboard, cap, trophy, football, gear, book, check, info, baseball, ballcap, target, runner, scales, chat, facebook, instagram, youtube). On the site they live in src/components/Icon.astro. Include the sprite once in the site layout. Card and step icons are solid and use icon-blue. Checklist and callout icons use cyan. Icons on navy bands are white. New icons must match: 24px grid, solid shapes.
+Icons: the SVG sprite at the top of preview.html (arrow, external, menu, group, community, chart, whistle, doc, clipboard, cap, trophy, football, gear, book, check, info, baseball, ballcap, target, runner, scales, chat, bars, brain, shield, feedback, calendar, facebook, instagram, youtube). On the site they live in src/components/Icon.astro. Include the sprite once in the site layout. Card and step icons are solid and use icon-blue. Checklist and callout icons use cyan. Icons on navy bands are white. New icons must match: 24px grid, solid shapes.
 
 SAMPLE flag: any text GNOA has not confirmed (testimonials, missing FAQ answers, post placeholders, contact details) carries `<span class="sample-tag">`. Pages can go live on the draft worker with visible SAMPLE tags. None may remain at final launch.
 
@@ -79,7 +82,7 @@ Page list read from the mockup nav and footer. Sports list (7) confirmed by Brya
 | Sport page, full (Football and Baseball built Sept 30, 2026 from their handoff packs) | hero (no eyebrow), icon-strip, benefits (intro, tagline optional), split (checklist), steps (+ button), learn-cards, band (lines or blocks), split (reverse + aside), path (captions + button), info-faq, cta-band (list or paragraphs) |
 | Sport page, short (the other 5 until their copy arrives) | page-hero (uses sport-NAME.jpg), prose, steps (only if the team gives sport-specific steps), faq (sport-specific, optional), cta-band. Switch to the full recipe when the sport's copy pack arrives |
 | Training & Development | page-hero, prose, path, testimonials, cta-band |
-| About GNOA | page-hero, prose, benefits (optional), testimonials (optional), cta-band |
+| About GNOA (built Sept 30, 2026 from its handoff pack) | hero (no eyebrow, 3 paragraphs), icon-strip, benefits (white, align left, 2 paragraphs per card), sport-row, skills, path (headAlign left, numbered, captions, join), cta-band (2 buttons), utility-strip |
 | News & Recognition (blog index, at /blog/) | page-hero, post-cards, cta-band |
 | Blog post | page-hero (date as eyebrow, post image), prose, post-cards (3 related, optional), cta-band |
 | Contact | page-hero, contact, faq (optional), cta-band |
@@ -110,6 +113,7 @@ When GNOA sends real files, they use the same file names (see IMAGE-CHECKLIST.md
 | cta-home.jpg | cta-band |
 | football-hero.jpg, football-mentor.jpg, football-learn-rules.jpg, football-learn-positioning.jpg, football-learn-mechanics.jpg, football-learn-judgment.jpg, football-learn-communication.jpg, football-first-game.jpg, football-crew.jpg, football-path-training.jpg, football-path-friday-night.jpg, football-path-postseason.jpg, football-path-championship.jpg, football-equipment.jpg, football-cta.jpg | Football page (full recipe), in page order |
 | baseball-hero.jpg, baseball-mentor.jpg, baseball-learn-positioning.jpg, baseball-learn-plate-work.jpg, baseball-learn-base-mechanics.jpg, baseball-learn-rules.jpg, baseball-learn-judgment.jpg, baseball-learn-communication.jpg, baseball-timing.jpg, baseball-crew.jpg, baseball-path-training.jpg, baseball-path-local.jpg, baseball-path-postseason.jpg, baseball-path-championship.jpg, baseball-equipment.jpg, baseball-cta.jpg | Baseball page (full recipe), in page order |
+| about-hero.jpg, about-sport-football.jpg, about-sport-basketball.jpg, about-sport-baseball.jpg, about-sport-softball.jpg, about-sport-soccer.jpg, about-sport-volleyball.jpg, about-sport-wrestling.jpg, about-community.jpg, about-path-new-official.jpg, about-path-crew-member.jpg, about-path-varsity.jpg, about-path-postseason.jpg, about-cta.jpg | About GNOA page, in page order |
 | page-hero-PAGE.jpg (optional) | page-hero on inner pages. If not supplied, reuse a homepage photo that fits the page |
 | og-share.jpg (optional) | social share image, 1200 x 630 |
 | favicon.png (optional) | browser tab icon, 512 x 512 |
@@ -133,7 +137,7 @@ Never: invent facts, prices, dates, stats, testimonials, names or FAQ answers. N
 6. No dummy links (#, bare facebook.com, example.com). Social icons use GNOA's real profile URLs or are removed.
 7. Headings keep their punctuation (commas, ampersands, periods in "Recruit. Train. Develop.").
 8. Every element in the inventory below is present (icons, arrows, heading bars, step numbers, connector line, path arrows), not just the text.
-9. Each page starts with hero or page-hero and ends with cta-band.
+9. Each page starts with hero or page-hero and ends with cta-band (a utility-strip may follow it).
 10. Correct at 390, 1024, 1280 and 1440px, with nothing running past the screen edge (render_check.py passes). Header ArbiterSports button fully visible at every width it shows.
 11. No em dashes in any copy.
 12. Page counts match the client's confirmed page list, not just the number of items shown in the mockup.

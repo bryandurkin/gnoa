@@ -2,36 +2,89 @@
   "name": "Greater Naples Officials Association",
   "shortName": "GNOA",
   "url": "https://gnoa-sample.example",
-  "logo": { "color": "/images/logo-color.png", "white": "/images/logo-white.png", "alt": "Greater Naples Officials Association (GNOA) home" },
+  "logo": {
+    "color": "/images/logo-color.png",
+    "white": "/images/logo-white.png",
+    "alt": "Greater Naples Officials Association (GNOA) home"
+  },
   "ogImage": "/images/hero-home.jpg",
   "tagline": "Naples • Collier County • Southwest Florida",
   "phone": "[[sample]]GNOA phone number[[/sample]]",
   "email": "[[sample]]GNOA email address[[/sample]]",
   "area": "Naples, Collier County and Southwest Florida",
   "social": [
-    { "label": "Facebook", "icon": "facebook", "url": "" },
-    { "label": "Instagram", "icon": "instagram", "url": "" },
-    { "label": "YouTube", "icon": "youtube", "url": "" }
+    {
+      "label": "Facebook",
+      "icon": "facebook",
+      "url": ""
+    },
+    {
+      "label": "Instagram",
+      "icon": "instagram",
+      "url": ""
+    },
+    {
+      "label": "YouTube",
+      "icon": "youtube",
+      "url": ""
+    }
   ],
-  "arbiter": { "lines": ["Current Officials -", "Go to ArbiterSports"], "href": "https://www.arbitersports.com/" },
+  "arbiter": {
+    "lines": [
+      "Current Officials -",
+      "Go to ArbiterSports"
+    ],
+    "href": "https://www.arbitersports.com/"
+  },
   "nav": [
-    { "label": "Become an Official", "href": "/become-an-official/" },
-    { "label": "Sports", "href": "/sports/" },
-    { "label": "Training & Development", "href": "/training-development/" },
-    { "label": "About GNOA", "href": "/about/" },
-    { "label": "News & Recognition", "href": "/blog/" }
+    {
+      "label": "Become an Official",
+      "href": "/become-an-official/"
+    },
+    {
+      "label": "Sports",
+      "href": "/sports/"
+    },
+    {
+      "label": "Training & Development",
+      "href": "/training-development/"
+    },
+    {
+      "label": "About GNOA",
+      "href": "/about/"
+    },
+    {
+      "label": "News & Recognition",
+      "href": "/blog/"
+    }
   ],
   "legal": [
-    { "label": "Contact", "href": "/contact/" },
-    { "label": "Privacy Policy", "href": "/privacy-policy/" },
-    { "label": "Site Map", "href": "/site-map/" }
+    {
+      "label": "Contact",
+      "href": "/contact/"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy/"
+    },
+    {
+      "label": "Site Map",
+      "href": "/site-map/"
+    }
   ],
   "pendingPages": [],
   "defaultCta": {
     "title1": "Your Next Game Could",
     "title2": "Look Different From This Side",
     "text": "Start with a conversation.",
-    "button": { "text": "Become an Official", "href": "/become-an-official/" },
-    "image": { "src": "/images/cta-home.jpg", "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset" }
-  }
+    "button": {
+      "text": "Become an Official",
+      "href": "/become-an-official/"
+    },
+    "image": {
+      "src": "/images/cta-home.jpg",
+      "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+    }
+  },
+  "motto": "Recruit. Train. Develop."
 }

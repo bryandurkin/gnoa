@@ -84,6 +84,25 @@ Same rules as above. Umpires are the main subject. Please make sure no MLB or ot
 | B15 | baseball-equipment.jpg | "What Will I Need?" | Flat lay: mask, chest protector, shin guards, indicator, plate brush, ball bag (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | B16 | baseball-cta.jpg | Closing banner on the Baseball page | Umpire from behind looking out at the field | 2200 x 1240 | Wide 16:9 | Umpire in the right half | Sample in place |
 
+## Needed for the About GNOA page
+
+| # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
+|---|---|---|---|---|---|---|---|
+| A1 | about-hero.jpg | Big photo at the top of the About page | 4 to 6 GNOA officials in a relaxed pregame or training conversation, faces visible | 2200 x 1300 | Landscape 5:3 | People in the right half; left side is covered by the headline | Sample in place |
+| A2 | about-sport-football.jpg | "Seven Sports" row, tile 1 | One football official, clearly the subject | 900 x 1125 | Portrait 4:5 | Centered, head near the top third | Sample in place |
+| A3 | about-sport-basketball.jpg | Tile 2 | One basketball official | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
+| A4 | about-sport-baseball.jpg | Tile 3 | One baseball umpire | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
+| A5 | about-sport-softball.jpg | Tile 4 | One softball umpire | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
+| A6 | about-sport-soccer.jpg | Tile 5 | One soccer referee or assistant referee | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
+| A7 | about-sport-volleyball.jpg | Tile 6 | One volleyball official | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
+| A8 | about-sport-wrestling.jpg | Tile 7 | One wrestling referee | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
+| A9 | about-community.jpg | "More Than the Game" photo | A small group of officials talking, laughing or mentoring, candid | 1400 x 1400 | Square-ish | Centered | Sample in place |
+| A10 | about-path-new-official.jpg | "New Official to Experienced Veteran" card 1 | A newer official getting guidance | 1000 x 700 | Landscape | Face in the upper two thirds (a number circle covers the bottom center) | Sample in place |
+| A11 | about-path-crew-member.jpg | Card 2 | Two or more officials preparing together | 1000 x 700 | Landscape | Upper two thirds | Sample in place |
+| A12 | about-path-varsity.jpg | Card 3 | An official working a live game under lights | 1000 x 700 | Landscape | Upper two thirds | Sample in place |
+| A13 | about-path-postseason.jpg | Card 4 | An experienced official or crew at a big game | 1000 x 700 | Landscape | Upper two thirds | Sample in place |
+| A14 | about-cta.jpg | Closing banner on the About page | An official from behind looking toward the field at sunset or under lights | 2200 x 900 | Wide | Person in the right half | Sample in place |
+
 ## Nice to have
 
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |

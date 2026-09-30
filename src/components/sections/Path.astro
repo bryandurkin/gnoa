@@ -1,14 +1,19 @@
 ---
 // Photo cards joined by arrows. Items with "text" get the caption layout (label and text under the photo).
+// numbered = number circles on the photos. headAlign = "left" puts the heading and intro paragraphs on the left.
 import Sec from '../Sec.astro'; import SecHead from '../SecHead.astro'; import Icon from '../Icon.astro'; import Btn from '../Btn.astro';
-const { heading, tagline, intro, items, button, mist = true, join } = Astro.props;
+const { heading, tagline, intro, paragraphs, headAlign, items, button, numbered = false, mist = true, join } = Astro.props;
 const captions = items.some(i => i.text);
+const cls = ['path', captions && 'path--captions', numbered && 'path--numbered'].filter(Boolean).join(' ');
 ---
 <Sec mist={mist} join={join}>
-  <SecHead heading={heading} tagline={tagline} intro={intro} />
-  <ol class={captions ? 'path path--captions' : 'path'}>
-    {items.map(i => <li class="path__item">
+  {headAlign === 'left'
+    ? <div class="sec-head-left"><h2>{heading}</h2>{tagline && <p class="sec-head__tag">{tagline}</p>}{paragraphs && paragraphs.map(p => <p>{p}</p>)}</div>
+    : <SecHead heading={heading} tagline={tagline} intro={intro} />}
+  <ol class={cls}>
+    {items.map((i, n) => <li class="path__item">
       <div class="path__card"><img class="cover" src={i.image.src} alt={i.image.alt} loading="lazy" />{!captions && <span class="path__label">{i.label}</span>}</div>
+      {numbered && <span class="path__num" aria-hidden="true">{n + 1}</span>}
       {captions && <div class="path__caption"><h3>{i.label}</h3><p>{i.text}</p></div>}
       <Icon name="arrow" class="path__arrow" />
     </li>)}

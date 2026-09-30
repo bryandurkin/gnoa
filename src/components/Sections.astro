@@ -7,10 +7,12 @@ import Band from './sections/Band.astro'; import Path from './sections/Path.astr
 import Testimonials from './sections/Testimonials.astro'; import Faq from './sections/Faq.astro';
 import CtaBand from './sections/CtaBand.astro'; import Prose from './sections/Prose.astro';
 import PostCards from './sections/PostCards.astro'; import Contact from './sections/Contact.astro';
-import IconStrip from './sections/IconStrip.astro'; import LearnCards from './sections/LearnCards.astro'; import InfoFaq from './sections/InfoFaq.astro';
-const registry = { hero: Hero, 'page-hero': Hero, 'sport-strip': SportStrip, benefits: Benefits, 'sport-tiles': SportTiles, split: Split, steps: Steps, band: Band, path: Path, testimonials: Testimonials, faq: Faq, 'cta-band': CtaBand, prose: Prose, 'post-cards': PostCards, contact: Contact, 'icon-strip': IconStrip, 'learn-cards': LearnCards, 'info-faq': InfoFaq };
+import IconStrip from './sections/IconStrip.astro'; import SportRow from './sections/SportRow.astro'; import Skills from './sections/Skills.astro'; import UtilityStrip from './sections/UtilityStrip.astro'; import LearnCards from './sections/LearnCards.astro'; import InfoFaq from './sections/InfoFaq.astro';
+const registry = { hero: Hero, 'page-hero': Hero, 'sport-strip': SportStrip, benefits: Benefits, 'sport-tiles': SportTiles, split: Split, steps: Steps, band: Band, path: Path, testimonials: Testimonials, faq: Faq, 'cta-band': CtaBand, prose: Prose, 'post-cards': PostCards, contact: Contact, 'icon-strip': IconStrip, 'learn-cards': LearnCards, 'info-faq': InfoFaq, 'sport-row': SportRow, skills: Skills, 'utility-strip': UtilityStrip };
 const { sections, pageName } = Astro.props;
 if (!['hero', 'page-hero'].includes(sections[0]?.type)) throw new Error(`${pageName}: first section must be hero or page-hero`);
-if (sections.at(-1)?.type !== 'cta-band') throw new Error(`${pageName}: last section must be cta-band`);
+// The page ends with cta-band. Only a utility-strip may follow it.
+const tail = sections.at(-1)?.type === 'utility-strip' ? sections.at(-2)?.type : sections.at(-1)?.type;
+if (tail !== 'cta-band') throw new Error(`${pageName}: last section must be cta-band (a utility-strip may follow it)`);
 ---
 {sections.map(s => { const C = registry[s.type]; if (!C) throw new Error(`${pageName}: "${s.type}" is not a kit section`); return <C {...s} isPage={s.type === 'page-hero'} />; })}

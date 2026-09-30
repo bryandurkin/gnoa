@@ -1,7 +1,8 @@
 ---
-// Closing banner. paragraphs and/or list (short bullet lines) sit between the title and the subline.
+// Closing banner. button, or buttons (1 to 2: first cyan, second outline). paragraphs and/or list (short bullet lines) sit between the title and the subline.
 import Btn from '../Btn.astro';
-const { title1, title2, paragraphs, list, text, button, image } = Astro.props;
+const { title1, title2, paragraphs, list, text, button, buttons, image } = Astro.props;
+const btns = buttons ?? [button];
 ---
 <section class="band cta-band">
   {image && <div class="band__media"><img class="cover" src={image.src} alt={image.alt} loading="lazy" /></div>}
@@ -10,6 +11,6 @@ const { title1, title2, paragraphs, list, text, button, image } = Astro.props;
     {paragraphs && paragraphs.map(p => <p class="band__para">{p}</p>)}
     {list && <ul class="band__list">{list.map(l => <li>{l}</li>)}</ul>}
     <p class="band__sub">{text}</p>
-    <Btn {...button} variant="cyan" />
+    <div class="hero__actions">{btns.map((b, i) => <Btn {...b} variant={i === 0 ? 'cyan' : 'outline'} />)}</div>
   </div></div>
 </section>

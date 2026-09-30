@@ -50,6 +50,7 @@ const year = new Date().getFullYear();
       <div class="site-footer__brand">
         <a href="/"><img src={site.logo.white} alt={site.logo.alt} width="616" height="128" loading="lazy" /></a>
         <p>{site.tagline}</p>
+        {site.motto && <p class="site-footer__motto">{site.motto}</p>}
       </div>
       <ul class="footer-nav">{site.nav.map(n => <li><a href={n.href}>{n.label}</a></li>)}</ul>
       <ul class="social">

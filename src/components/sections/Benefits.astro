@@ -1,10 +1,12 @@
 ---
+// White cards with an icon. Item text is one string (text) or 2 short paragraphs (paragraphs).
+// align = "left" left-aligns the card body text (icon and title stay centered).
 import Sec from '../Sec.astro'; import SecHead from '../SecHead.astro'; import Icon from '../Icon.astro';
-const { heading, tagline, intro, items, mist = true, join } = Astro.props;
+const { heading, tagline, intro, items, align, mist = true, join } = Astro.props;
 ---
 <Sec mist={mist} join={join}>
   <SecHead heading={heading} tagline={tagline} intro={intro} />
-  <ul class="benefits">
-    {items.map(i => <li class="benefit"><Icon name={i.icon} /><h3>{i.title}</h3><p>{i.text}</p></li>)}
+  <ul class={align === 'left' ? 'benefits benefits--left' : 'benefits'}>
+    {items.map(i => <li class="benefit"><Icon name={i.icon} /><h3>{i.title}</h3>{i.paragraphs ? i.paragraphs.map(t => <p>{t}</p>) : <p>{i.text}</p>}</li>)}
   </ul>
 </Sec>

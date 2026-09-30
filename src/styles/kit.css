@@ -397,6 +397,73 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
   .learn-cards,.path--captions{grid-template-columns:1fr}
 }
 
+/* ================= v1.3 additions: About page sections ================= */
+/* benefits with left-aligned body and two short paragraphs */
+.benefit p+p{margin-top:10px}
+.benefits--left .benefit p{text-align:left;font-size:15.5px}
+.benefits--left .benefit{padding:24px 24px 26px}
+
+/* heading lead line (bold navy) */
+.sec-head__lead{margin:10px auto 0;font-weight:700;font-size:16.5px;color:var(--navy)}
+
+/* sport-row: portrait sport tiles, name under the photo */
+.sport-row{display:grid;grid-template-columns:repeat(var(--n,7),1fr);gap:12px;list-style:none;margin:0;padding:0}
+.sport-row__tile{display:block;text-decoration:none;text-align:center}
+.sport-row__img{display:block;position:relative;aspect-ratio:4/5;border-radius:var(--radius);overflow:hidden;background:var(--navy)}
+.sport-row__img img{transition:transform .35s}
+.sport-row__tile:hover .sport-row__img img{transform:scale(1.04)}
+.sport-row__label{display:block;margin-top:10px;font-family:var(--font-display);font-weight:800;font-size:20px;color:var(--navy)}
+.sport-row__tile:hover .sport-row__label{color:var(--teal)}
+
+/* skills: text + small icon tiles beside a rounded photo */
+.skills{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:stretch}
+.skills h2{font-weight:800;font-size:clamp(32px,3.8vw,46px)}
+.skills__intro{margin:10px 0 18px;font-size:17px;color:var(--muted);max-width:52ch}
+.skills__label{margin:0 0 10px;font-family:var(--font-display);font-weight:800;font-size:19px;color:var(--navy)}
+.skills__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;list-style:none;margin:0 0 18px;padding:0}
+.skills__grid li{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:18px 10px;min-height:118px;font-family:var(--font-display);font-weight:700;font-size:18px;line-height:1.15;color:var(--navy)}
+.skills__grid .icon{width:36px;height:36px;color:var(--icon-blue)}
+.skills__after{margin:0;font-size:16px;color:var(--muted);max-width:56ch}
+.skills__img{border-radius:10px;overflow:hidden;min-height:360px;background:var(--mist)}
+
+/* left-aligned section head with paragraphs (path) */
+.sec-head-left{margin:0 0 28px}
+.sec-head-left h2{font-weight:800;font-size:clamp(30px,3.6vw,42px);margin:0 0 10px}
+.sec-head-left p{margin:0 0 4px;font-size:16px;color:var(--muted)}
+.sec-head-left .sec-head__tag{margin:0 0 8px}
+
+/* path number circles */
+.path--numbered .path__num{position:absolute;left:50%;top:calc(clamp(130px,12vw,168px) - 22px);transform:translateX(-50%);z-index:2;width:44px;height:44px;border-radius:50%;background:var(--cyan);color:var(--white);border:3px solid var(--white);display:grid;place-items:center;font-family:var(--font-display);font-weight:800;font-size:22px}
+.path--numbered .path__caption{padding-top:26px}
+
+/* utility-strip: small panel after the closing banner */
+.sec:has(> .wrap > .utility-strip){padding:30px 0}
+.utility-strip{display:flex;align-items:center;gap:20px 24px;background:#eef6fb;border:1px solid var(--line);border-radius:10px;padding:20px 26px}
+.utility-strip__icon{width:48px;height:48px;color:var(--cyan)}
+.utility-strip__text{flex:1}
+.utility-strip h2{font-weight:800;font-size:clamp(24px,2.4vw,30px);margin:0 0 4px}
+.utility-strip p{margin:0;font-size:15px;color:var(--muted)}
+
+/* footer motto */
+.site-footer__brand .site-footer__motto{margin-top:6px;font-family:var(--font-display);font-weight:700;font-size:15px;color:var(--white)}
+
+@media (max-width:1100px){
+  .sport-row{grid-template-columns:repeat(4,1fr);row-gap:20px}
+  .skills{grid-template-columns:1fr 1fr;gap:32px}
+  .skills__grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:760px){
+  .skills{grid-template-columns:1fr}
+  .skills__img{min-height:0;aspect-ratio:4/3.4}
+  .utility-strip{flex-wrap:wrap}
+  .utility-strip .btn{width:100%;justify-content:center}
+}
+@media (max-width:560px){
+  .sport-row{grid-template-columns:repeat(2,1fr)}
+  .sport-row li:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc(50% - 6px)}
+  .path--numbered .path__num{top:calc(clamp(130px,12vw,168px) - 22px)}
+}
+
 /* ================= v1.1 additions for the Builder (site only) ================= */
 /* Self-hosted fonts (SIL Open Font License, see /fonts/OFL-*.txt). No Google Fonts request. */
 @font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/barlow-condensed-latin-600-normal.woff2) format("woff2")}

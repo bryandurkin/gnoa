@@ -1,0 +1,12 @@
+---
+// Small utility panel (for example Current Officials to ArbiterSports). May follow the cta-band as the last section.
+import Sec from '../Sec.astro'; import Icon from '../Icon.astro'; import Btn from '../Btn.astro';
+const { icon = 'calendar', heading, text, button, mist = false, join } = Astro.props;
+---
+<Sec mist={mist} join={join}>
+  <div class="utility-strip">
+    <Icon name={icon} class="utility-strip__icon" />
+    <div class="utility-strip__text"><h2>{heading}</h2><p>{text}</p></div>
+    <Btn {...button} variant="teal" />
+  </div>
+</Sec>
