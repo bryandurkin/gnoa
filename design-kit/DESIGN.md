@@ -1,4 +1,4 @@
-# GNOA Design Kit v1
+# GNOA Design Kit v1.1
 
 Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association).
 Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY from the sections below. It does not invent new layouts, colors or fonts. Copy markup from preview.html.
@@ -22,7 +22,7 @@ Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY
 | sand | #e8c28a | Hero eyebrow word 2 only |
 | white | #ffffff | Main background, text on dark |
 
-Type: Figtree (headings, 700 to 800, sentence or title case as the team writes it, never all caps except the eyebrow) and Nunito Sans (body). These are the closest Google Fonts to the mockup. The hero eyebrow is small, uppercase, widely spaced, three words split by dots, colored sky, sand, white.
+Type: Barlow Condensed (headings, 600 to 800, sentence or title case as the team writes it, never all caps except the eyebrow) and Inter (body, 400 to 800). Chosen by Bryan on Sept 30, 2026 from the football handoff pack. On the site the fonts are self-hosted from public/fonts (no Google Fonts request), so the layout never falls back to a wider font. Icons stay solid (filled) as in the mockups; the pack's outline icon files are not used. The hero eyebrow is small, uppercase, widely spaced, three words split by dots, colored sky, sand, white.
 
 Buttons (all in kit.css):
 - `btn--cyan`: primary. Hero, band, cta-band, page-hero.

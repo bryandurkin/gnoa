@@ -26,9 +26,8 @@ const year = new Date().getFullYear();
   <meta property="og:url" content={url} />
   <meta property="og:type" content="website" />
   <meta property="og:image" content={new URL(site.ogImage, site.url).href} />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" href="/fonts/barlow-condensed-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <script type="application/ld+json" set:html={JSON.stringify(org)} />
   {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
 </head>
