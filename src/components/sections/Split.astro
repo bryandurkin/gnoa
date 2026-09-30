@@ -1,13 +1,27 @@
 ---
-import Btn from '../Btn.astro';
-const { heading, subhead, text, button, image } = Astro.props;
+// Text and photo, photo fading into white. reverse = photo on the left.
+// text or paragraphs; list = { heading, items } checklist; after = paragraph after the list;
+// aside = { heading, items, text } boxed checklist shown beside the text (use with reverse).
+import Btn from '../Btn.astro'; import Icon from '../Icon.astro';
+const { heading, subhead, text, paragraphs, list, after, aside, button, image, reverse = false } = Astro.props;
+const paras = paragraphs ?? (text ? [text] : []);
 ---
-<section class="split">
+<section class={reverse ? 'split split--reverse' : 'split'}>
   <div class="split__media"><img class="cover" src={image.src} alt={image.alt} loading="lazy" /></div>
-  <div class="wrap"><div class="split__body">
+  <div class="wrap"><div class={aside ? 'split__body split__body--wide' : 'split__body'}>
     <h2>{heading}</h2>
     <p class="split__sub">{subhead}</p>
-    <p>{text}</p>
-    {button && <Btn {...button} variant="teal" />}
+    <div class={aside ? 'split__cols' : undefined}>
+      <div>
+        {paras.map(p => <p>{p}</p>)}
+        {list && <><h3 class="checklist__head">{list.heading}</h3><ul class="checklist" style={`--rows:${Math.ceil(list.items.length / 2)}`}>{list.items.map(i => <li><Icon name="check" />{i}</li>)}</ul></>}
+        {after && <p>{after}</p>}
+        {button && <Btn {...button} variant="teal" />}
+      </div>
+      {aside && <div>
+        <div class="check-box"><h3 class="checklist__head">{aside.heading}</h3><ul class="checklist" style={`--rows:${Math.ceil(aside.items.length / 2)}`}>{aside.items.map(i => <li><Icon name="check" />{i}</li>)}</ul></div>
+        {aside.text && <p class="check-box__after">{aside.text}</p>}
+      </div>}
+    </div>
   </div></div>
 </section>

@@ -1,0 +1,11 @@
+---
+// Photo cards with a title and short text under the photo (3 to 6 cards).
+import Sec from '../Sec.astro'; import SecHead from '../SecHead.astro';
+const { heading, tagline, items, mist = false, join } = Astro.props;
+---
+<Sec mist={mist} join={join}>
+  <SecHead heading={heading} tagline={tagline} />
+  <ul class="learn-cards">
+    {items.map(i => <li class="learn-card"><div class="learn-card__img"><img class="cover" src={i.image.src} alt={i.image.alt} loading="lazy" /></div><div class="learn-card__body"><h3>{i.title}</h3><p>{i.text}</p></div></li>)}
+  </ul>
+</Sec>

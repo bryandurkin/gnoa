@@ -1,57 +1,356 @@
 {
   "name": "Football",
   "slug": "sports/football",
-  "title": "Football Officiating in Naples and Collier County | GNOA",
-  "description": "Become a football official in Naples, Collier County, and Southwest Florida. No experience needed. GNOA provides training, mentorship, and support.",
+  "title": "Become a Football Official in Southwest Florida | GNOA",
+  "description": "Learn the rules, mechanics, positioning, and communication to join a football officiating crew in Naples, Collier County, and Southwest Florida.",
   "sections": [
     {
-      "type": "page-hero",
-      "kicker": "Sports",
-      "title1": "Football Officiating",
-      "lead": "Officiate football in Naples, Collier County, and Southwest Florida. You do not need experience. We will teach you.",
+      "type": "hero",
+      "title1": "Become a Football Official",
+      "title2": "in Southwest Florida",
+      "subhead": "Stay in the game. Join the crew.",
+      "paragraphs": [
+        "Football officiating gives you a completely different perspective on the game.",
+        "Learn the rules, mechanics, positioning, communication, and judgment required to become part of an officiating crew while staying connected to the sport you love.",
+        "Greater Naples Officials Association recruits, trains, and develops new and experienced football officials throughout Naples, Collier County, and Southwest Florida."
+      ],
       "buttons": [
         {
-          "text": "Become an Official",
-          "href": "/become-an-official/"
+          "text": "Become a Football Official",
+          "href": "/contact/"
+        },
+        {
+          "text": "Experienced Official? | Connect With GNOA",
+          "href": "/contact/"
         }
       ],
       "image": {
-        "src": "/images/sport-football.jpg",
-        "alt": "Football referee signaling a touchdown with both arms raised"
+        "src": "/images/football-hero.jpg",
+        "alt": "Football referee signaling a touchdown with both arms raised at a night game, palm trees and sunset behind"
       }
     },
     {
-      "type": "prose",
-      "blocks": [
+      "type": "icon-strip",
+      "label": "Why football officiating",
+      "items": [
         {
-          "h2": "What Football Officials Do"
+          "icon": "group",
+          "label": "Teamwork"
         },
         {
-          "p": "[[sample]]Levels, season dates, and crew sizes for football, supplied by GNOA.[[/sample]]"
+          "icon": "chart",
+          "label": "Development"
         },
         {
-          "h2": "How to Get Started"
+          "icon": "trophy",
+          "label": "Opportunity"
         },
         {
-          "p": "Tell us you're interested, connect with GNOA, complete the requirements, train and prepare, then work your first games."
+          "icon": "community",
+          "label": "Community"
         },
         {
-          "p": "[[sample]]Sport-specific requirements and training for football officials, supplied by GNOA.[[/sample]]"
+          "icon": "football",
+          "label": "Same Game. A Different Perspective."
         }
       ]
     },
     {
-      "type": "cta-band",
-      "title1": "Your Next Game Could",
-      "title2": "Look Different From This Side",
-      "text": "Start with a conversation.",
+      "type": "benefits",
+      "heading": "More Than a Whistle and a Flag",
+      "tagline": "Football officiating is a team sport.",
+      "intro": "Every official has specific responsibilities, but the crew has one common goal: work together to manage the game fairly, safely, and professionally. As an official, you'll develop skills that go far beyond knowing the rules.",
+      "mist": true,
+      "items": [
+        {
+          "icon": "group",
+          "title": "Be Part of a Crew",
+          "text": "Work alongside other officials who prepare, communicate, and make decisions together."
+        },
+        {
+          "icon": "football",
+          "title": "Stay Close to Football",
+          "text": "Continue being part of the game even when you're no longer playing or coaching."
+        },
+        {
+          "icon": "chart",
+          "title": "Challenge Yourself",
+          "text": "Develop your rules knowledge, positioning, communication, concentration, and judgment."
+        },
+        {
+          "icon": "gear",
+          "title": "Keep Improving",
+          "text": "Every meeting, practice, and game gives you another opportunity to get better."
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "Never Officiated Before?",
+      "subhead": "That's what training is for.",
+      "paragraphs": [
+        "You don't need to walk onto the field already knowing everything. GNOA helps new football officials learn the fundamentals before they're expected to handle them in a game."
+      ],
+      "list": {
+        "heading": "You'll learn:",
+        "items": [
+          "Basic rules and responsibilities",
+          "Where to stand and what to watch",
+          "Officiating mechanics and signals",
+          "Crew communication",
+          "Pre-game preparation",
+          "Player and coach communication",
+          "Game management",
+          "How to learn from every assignment"
+        ]
+      },
+      "after": "You will learn alongside officials who have already worked the games, handled difficult situations, and developed their craft.",
       "button": {
-        "text": "Become an Official",
+        "text": "I Want to Learn More",
         "href": "/become-an-official/"
       },
       "image": {
-        "src": "/images/cta-home.jpg",
-        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+        "src": "/images/football-mentor.jpg",
+        "alt": "Veteran football official coaching a newer official on the field before a game"
+      }
+    },
+    {
+      "type": "steps",
+      "heading": "From Interested to On the Field",
+      "mist": true,
+      "items": [
+        {
+          "icon": "doc",
+          "title": "Tell Us You're Interested",
+          "text": "Complete the short form and select Football."
+        },
+        {
+          "icon": "group",
+          "title": "Meet the Football Team",
+          "text": "We'll explain training, the season, equipment, registration, and what you can expect."
+        },
+        {
+          "icon": "book",
+          "title": "Learn the Craft",
+          "text": "Attend training, study the rules, learn mechanics, and work alongside experienced officials."
+        },
+        {
+          "icon": "whistle",
+          "title": "Work Your First Games",
+          "text": "Start with assignments appropriate for your experience and preparation."
+        },
+        {
+          "icon": "chart",
+          "title": "Keep Developing",
+          "text": "Gain experience, get feedback, and continue building your skills season after season."
+        }
+      ],
+      "button": {
+        "text": "Start the Process",
+        "href": "/contact/"
+      }
+    },
+    {
+      "type": "learn-cards",
+      "heading": "What Does a Football Official Learn?",
+      "items": [
+        {
+          "title": "Rules",
+          "text": "Knowing the rules is the foundation. Training helps you understand both the rule itself and how it applies during a live game.",
+          "image": {
+            "src": "/images/football-learn-rules.jpg",
+            "alt": "Open football rulebook resting on an official's gear on the grass"
+          }
+        },
+        {
+          "title": "Positioning",
+          "text": "Different officials see different parts of the play. Learn where to be, where to look, and how your position fits into the entire crew.",
+          "image": {
+            "src": "/images/football-learn-positioning.jpg",
+            "alt": "Football official watching the play from his position on the field"
+          }
+        },
+        {
+          "title": "Mechanics",
+          "text": "Movement, signals, coverage, timing, and communication create consistency across the officiating crew.",
+          "image": {
+            "src": "/images/football-learn-mechanics.jpg",
+            "alt": "Football official giving a signal under the stadium lights"
+          }
+        },
+        {
+          "title": "Judgment",
+          "text": "Not every decision comes from memorizing a rulebook. Good officials learn to recognize what matters and apply the rules to real situations.",
+          "image": {
+            "src": "/images/football-learn-judgment.jpg",
+            "alt": "Football officiating crew conferring on the field about a call"
+          }
+        },
+        {
+          "title": "Communication",
+          "text": "Officials communicate constantly, with their crew, players, coaches, and game administrators.",
+          "image": {
+            "src": "/images/football-learn-communication.jpg",
+            "alt": "Two football officials talking through a situation during a game"
+          }
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "heading": "Your First Game Is Just the Beginning",
+      "lines": [
+        "Your first assignment will probably feel fast.",
+        "That's normal.",
+        "The goal isn't to prove that you already know everything.",
+        "It's to apply what you've learned, work with your crew, ask questions, receive feedback, and be a little better the next time you step onto the field.",
+        "One game becomes ten.",
+        "Ten games become a season.",
+        "And what once seemed overwhelming starts becoming familiar."
+      ],
+      "image": {
+        "src": "/images/football-first-game.jpg",
+        "alt": "Football official seen from behind watching a night game under the stadium lights"
+      }
+    },
+    {
+      "type": "split",
+      "reverse": true,
+      "heading": "Already an Experienced Football Official?",
+      "subhead": "Bring your experience to Southwest Florida.",
+      "paragraphs": [
+        "If you're relocating to Naples or the surrounding area, or you're looking for a new football officiating association, GNOA would like to hear from you."
+      ],
+      "button": {
+        "text": "Connect With GNOA Football",
+        "href": "/contact/"
+      },
+      "aside": {
+        "heading": "Tell us about your:",
+        "items": [
+          "Years of officiating experience",
+          "Primary positions",
+          "Previous association",
+          "Levels worked",
+          "Postseason or championship assignments",
+          "Current certifications"
+        ],
+        "text": "We'll connect you with the appropriate GNOA football leadership and help you understand the local process."
+      },
+      "image": {
+        "src": "/images/football-crew.jpg",
+        "alt": "Experienced football officiating crew in a pregame huddle"
+      }
+    },
+    {
+      "type": "path",
+      "heading": "From Your First Game to the State Finals",
+      "tagline": "Becoming an official is only the beginning.",
+      "intro": "Officials continue developing through: Training · Preparation · Rules Study · Film Review · Mentoring · Crew Work · Feedback · Experience",
+      "mist": true,
+      "items": [
+        {
+          "label": "New Official Training",
+          "text": "Learning mechanics, rules, and positioning.",
+          "image": {
+            "src": "/images/football-path-training.jpg",
+            "alt": "New football officials watching game film in a training session"
+          }
+        },
+        {
+          "label": "Friday Night Football",
+          "text": "Working live high school games throughout the area.",
+          "image": {
+            "src": "/images/football-path-friday-night.jpg",
+            "alt": "Football official working a high school game under Friday night lights"
+          }
+        },
+        {
+          "label": "Postseason Assignments",
+          "text": "Officials earning opportunities to work playoff football.",
+          "image": {
+            "src": "/images/football-path-postseason.jpg",
+            "alt": "Football officiating crew walking onto the field for a playoff game"
+          }
+        },
+        {
+          "label": "Championship Crews",
+          "text": "Recognizing GNOA officials selected for state-level assignments.",
+          "image": {
+            "src": "/images/football-path-championship.jpg",
+            "alt": "Football officiating crew lined up at a Florida state championship game"
+          }
+        }
+      ],
+      "button": {
+        "text": "Football News & Recognition",
+        "href": "/blog/"
+      }
+    },
+    {
+      "type": "info-faq",
+      "info": {
+        "heading": "What Will I Need?",
+        "image": {
+          "src": "/images/football-equipment.jpg",
+          "alt": "Football official's cap, penalty flag, game card and stopwatch laid out on the grass"
+        },
+        "paragraphs": [
+          "Don't buy a full officiating kit before talking with GNOA.",
+          "Football has specific uniform and equipment requirements, and we'll help you understand what you actually need before you spend money.",
+          "Depending on your position and assignment, equipment may include your approved uniform, whistle, penalty flag, down indicator, game cards, timing equipment, and other officiating tools."
+        ],
+        "callout": "Talk to us first. Buy second."
+      },
+      "faq": {
+        "heading": "Football Officiating FAQs",
+        "items": [
+          {
+            "q": "Do I need previous officiating experience?",
+            "a": "No. GNOA trains and develops new officials."
+          },
+          {
+            "q": "Do I have to have played football?",
+            "a": "No. Playing or coaching experience can help with familiarity, but officiating is its own skill and can be learned."
+          },
+          {
+            "q": "Will I start with varsity games?",
+            "a": "Officials develop over time. Assignments should be appropriate for your training, experience, and readiness."
+          },
+          {
+            "q": "Do officials work alone?",
+            "a": "No. Football officiating is built around the crew. Each official has different responsibilities, and everyone works together."
+          },
+          {
+            "q": "Is football officiating physically demanding?",
+            "a": "Officials need to move with the game and maintain proper positioning. The demands vary by position and assignment."
+          },
+          {
+            "q": "When should I buy my uniform and equipment?",
+            "a": "Talk with GNOA first so you understand the current requirements before purchasing anything."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-band",
+      "title1": "Ready to See Football From This Side?",
+      "list": [
+        "You don't have to decide whether you'll officiate for the next twenty years.",
+        "Start by learning more.",
+        "Meet the people.",
+        "See how the training works.",
+        "Learn what officiating involves.",
+        "Then decide whether there's a place for you on the field."
+      ],
+      "text": "Stay in the game. Join the crew.",
+      "button": {
+        "text": "Become a Football Official",
+        "href": "/contact/"
+      },
+      "image": {
+        "src": "/images/football-cta.jpg",
+        "alt": "Football official seen from behind looking out at a lit stadium field during a night game"
       }
     }
   ]

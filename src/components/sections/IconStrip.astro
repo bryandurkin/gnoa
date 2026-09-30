@@ -1,0 +1,8 @@
+---
+// Navy band of icon + short label items (not links). Sits directly under a hero.
+import Icon from '../Icon.astro';
+const { items, label = 'Highlights' } = Astro.props;
+---
+<section class="icon-strip" aria-label={label}><div class="wrap"><ul>
+  {items.map(i => <li><Icon name={i.icon} /><span>{i.label}</span></li>)}
+</ul></div></section>

@@ -1,7 +1,8 @@
 ---
-// hero (home) and page-hero (inner pages). eyebrow: array of words (home, colored) or kicker: string (inner).
+// hero (home and full sport pages) and page-hero (inner pages).
+// eyebrow: array of words (colored). kicker: plain eyebrow text. subhead: short line under the title. paragraphs: extra intro text.
 import Btn from '../Btn.astro';
-const { eyebrow, kicker, title1, title2, lead, buttons = [], image, isPage = false } = Astro.props;
+const { eyebrow, kicker, title1, title2, subhead, lead, paragraphs = [], buttons = [], image, isPage = false } = Astro.props;
 ---
 <section class={isPage ? 'hero page-hero' : 'hero'}>
   {image && <div class="hero__media"><img class="cover" src={image.src} alt={image.alt} fetchpriority="high" /></div>}
@@ -9,7 +10,9 @@ const { eyebrow, kicker, title1, title2, lead, buttons = [], image, isPage = fal
     {eyebrow && <p class="eyebrow">{eyebrow.map((w, i) => <>{i > 0 && <span class="dot" aria-hidden="true">&bull;</span>}<span class={i < 2 ? `c${i + 1}` : undefined}>{w}</span></>)}</p>}
     {kicker && <p class="eyebrow">{kicker}</p>}
     <h1 class="hero__title">{title1}{title2 && <>{' '}<br />{title2}</>}</h1>
-    <p class="hero__lead">{lead}</p>
+    {subhead && <p class="hero__sub">{subhead}</p>}
+    {lead && <p class="hero__lead">{lead}</p>}
+    {paragraphs.length > 0 && <div class="hero__text">{paragraphs.map(p => <p>{p}</p>)}</div>}
     {buttons.length > 0 && <div class="hero__actions">{buttons.map((b, i) => <Btn {...b} variant={i === 0 ? 'cyan' : 'outline'} />)}</div>}
   </div></div>
 </section>

@@ -1,9 +1,9 @@
 ---
 import Sec from '../Sec.astro'; import SecHead from '../SecHead.astro'; import Icon from '../Icon.astro';
-const { heading, items, mist = true, join } = Astro.props;
+const { heading, tagline, intro, items, mist = true, join } = Astro.props;
 ---
 <Sec mist={mist} join={join}>
-  <SecHead heading={heading} />
+  <SecHead heading={heading} tagline={tagline} intro={intro} />
   <ul class="benefits">
     {items.map(i => <li class="benefit"><Icon name={i.icon} /><h3>{i.title}</h3><p>{i.text}</p></li>)}
   </ul>

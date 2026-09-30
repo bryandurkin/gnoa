@@ -1,10 +1,11 @@
 ---
-import Sec from '../Sec.astro'; import SecHead from '../SecHead.astro'; import Icon from '../Icon.astro';
-const { heading, items, mist = true, join } = Astro.props;
+import Sec from '../Sec.astro'; import SecHead from '../SecHead.astro'; import Icon from '../Icon.astro'; import Btn from '../Btn.astro';
+const { heading, items, button, mist = true, join } = Astro.props;
 ---
 <Sec mist={mist} join={join}>
   <SecHead heading={heading} />
   <ol class="steps">
     {items.map((s, n) => <li class="step"><span class="step__num" aria-hidden="true">{n + 1}</span><span class="step__disc"><Icon name={s.icon} /></span><h3>{s.title}</h3><p>{s.text}</p></li>)}
   </ol>
+  {button && <div class="sec-cta"><Btn {...button} variant="teal" /></div>}
 </Sec>

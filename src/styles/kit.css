@@ -160,7 +160,7 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .band h2{color:var(--white);font-weight:800;font-size:clamp(34px,4.2vw,52px);margin:0 0 12px}
 .band p{margin:0 0 24px;font-size:16.5px;color:#eaf0f6}
 .band .band__sub{font-family:var(--font-display);font-weight:600;font-size:clamp(21px,2.2vw,26px);color:var(--white);margin:-4px 0 22px}
-.cta-band .band__body{max-width:660px}
+.cta-band .band__body{max-width:760px}
 .cta-band h2{font-size:clamp(32px,3.9vw,48px)}
 
 /* ---------- 9. path (Development and Recognition, 3 to 5 cards with arrows) ---------- */
@@ -283,6 +283,110 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
   .tile{height:140px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.tile:hover img{transform:none}}
+
+/* ================= v1.2 additions: full sport page sections (from the football handoff pack) ================= */
+/* hero extras: subhead line and intro paragraphs */
+.hero__sub{font-family:var(--font-display);font-weight:700;font-size:clamp(24px,2.6vw,32px);color:var(--white);margin:-2px 0 16px;line-height:1.1}
+.hero__text{max-width:62ch;margin:0 0 26px}
+.hero__text p{margin:0 0 4px;font-size:16px;color:#e4ebf2}
+
+/* icon-strip: navy band of icon + label items under a hero */
+.icon-strip{background:#062444;color:var(--white)}
+.icon-strip ul{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;list-style:none;margin:0;padding:13px 0;row-gap:8px}
+.icon-strip li{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:600;font-size:17px}
+.icon-strip li+li::before{content:"";width:1px;height:20px;background:rgba(255,255,255,.35);margin:0 clamp(14px,2.4vw,34px)}
+.icon-strip .icon{width:24px;height:24px}
+
+/* section heading intro line, centered button under a section */
+.sec-head--wide{max-width:1040px}
+.sec-head__intro{margin:10px auto 0;font-size:16px;color:var(--muted)}
+.sec-cta{text-align:center;margin-top:30px}
+
+/* checklist (split list and boxed aside) */
+.checklist__head{font-family:var(--font-display);font-weight:800;font-size:21px;color:var(--navy);margin:4px 0 10px}
+.checklist{list-style:none;margin:0 0 18px;padding:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(var(--rows,4),auto);grid-auto-flow:column;gap:8px 24px}
+.checklist li{display:flex;align-items:flex-start;gap:8px;font-size:15px;line-height:1.4;color:var(--text)}
+.checklist .icon{width:18px;height:18px;color:var(--cyan);margin-top:1px}
+
+/* split reverse (photo left) with boxed aside */
+.split--reverse .split__media{left:0;right:auto;width:30%}
+.split--reverse .split__media::after{background:linear-gradient(270deg,var(--white) 0%,rgba(255,255,255,.85) 10%,rgba(255,255,255,0) 40%)}
+.split--reverse .split__media img{object-position:center}
+.split--reverse .split__body{margin-left:31%;max-width:none}
+.split__cols{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;align-items:start}
+.check-box{background:#f2f7fa;border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px 4px}
+.check-box .checklist{margin-bottom:12px;gap:6px 16px}
+.check-box .checklist li{font-size:14px}
+.split .check-box__after{margin:14px 0 0;font-size:15px}
+
+/* learn-cards: photo, title and text under the photo */
+.learn-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;list-style:none;margin:0;padding:0}
+.learn-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
+.learn-card__img{aspect-ratio:16/9.4;background:var(--mist)}
+.learn-card__body{padding:14px 14px 18px;text-align:center}
+.learn-card h3{font-weight:800;font-size:21px;margin:0 0 6px}
+.learn-card p{margin:0;font-size:14.5px;color:var(--muted)}
+
+/* band lines (short tightly spaced lines) and cta-band bullet list */
+.band__body--wide{max-width:720px}
+.band__body--wide h2{font-size:clamp(32px,3.4vw,44px)}
+.band__lines{max-width:640px}
+.band__lines{margin:0 0 8px}
+.band .band__lines p{margin:0 0 6px;font-size:16.5px}
+.band__list{list-style:none;margin:0 0 18px;padding:0;max-width:640px}
+.band__list li{position:relative;padding-left:18px;margin:0 0 5px;font-size:16px;color:#eaf0f6}
+.band__list li::before{content:"";position:absolute;left:2px;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--cyan)}
+
+/* path with captions under the photos */
+.path--captions .path__item{background:var(--white);border:1px solid var(--line);border-radius:var(--radius)}
+.path--captions .path__card{border-radius:var(--radius) var(--radius) 0 0}
+.path--captions .path__card::after{display:none}
+.path__caption{padding:12px 14px 16px;text-align:center}
+.path__caption h3{font-weight:800;font-size:20px;margin:0 0 4px}
+.path__caption p{margin:0;font-size:14.5px;color:var(--muted)}
+.path--captions .path__arrow{top:calc(clamp(130px,12vw,168px) / 2);color:var(--teal)}
+
+/* info-faq: info panel beside an FAQ */
+.info-faq{display:grid;grid-template-columns:1.12fr 1fr}
+.info-faq__info{padding-right:36px;border-right:1px solid var(--line)}
+.info-faq__faq{padding-left:36px}
+.info-faq h2{font-weight:800;font-size:clamp(30px,3.4vw,40px);margin:0 0 16px}
+.info-faq__body{display:grid;grid-template-columns:.85fr 1.15fr;gap:20px;align-items:start}
+.info-faq__img{aspect-ratio:1/1.05;border-radius:var(--radius);overflow:hidden;background:var(--mist)}
+.info-faq__body p{margin:0 0 12px;font-size:15px;color:var(--muted)}
+.info-faq .callout{display:flex;align-items:center;gap:12px;background:#e8f2f8;border-radius:var(--radius);padding:14px 16px;margin:14px 0 0;font-family:var(--font-display);font-weight:700;font-size:21px;line-height:1.15;color:var(--teal-deep)}
+.callout .icon{width:28px;height:28px;color:var(--cyan)}
+.faq--single{columns:auto;max-width:none;margin:0}
+
+@media (max-width:1100px){
+  .learn-cards{grid-template-columns:repeat(3,1fr)}
+  .check-box .checklist{grid-template-columns:1fr;grid-template-rows:none;grid-auto-flow:row}
+}
+@media (max-width:960px){
+  .info-faq{grid-template-columns:1fr;gap:36px}
+  .info-faq__info{padding-right:0;border-right:0}
+  .info-faq__faq{padding-left:0}
+  .split__cols{grid-template-columns:1fr;gap:18px}
+  .path--captions{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:760px){
+  .split--reverse .split__media{width:100%}
+  .split--reverse .split__media::after{background:linear-gradient(0deg,var(--white) 0%,rgba(255,255,255,0) 35%)}
+  .split--reverse .split__body{margin-left:0}
+  .icon-strip ul{gap:8px 20px}
+  .icon-strip li+li::before{display:none}
+  .icon-strip li{font-size:15.5px}
+  .learn-cards{grid-template-columns:repeat(2,1fr)}
+  .hero__text p{font-size:15.5px}
+}
+@media (max-width:560px){
+  .checklist{grid-template-columns:1fr;grid-template-rows:none;grid-auto-flow:row}
+  .info-faq__body{grid-template-columns:1fr}
+  .info-faq__img{aspect-ratio:16/10}
+}
+@media (max-width:480px){
+  .learn-cards,.path--captions{grid-template-columns:1fr}
+}
 
 /* ================= v1.1 additions for the Builder (site only) ================= */
 /* Self-hosted fonts (SIL Open Font License, see /fonts/OFL-*.txt). No Google Fonts request. */

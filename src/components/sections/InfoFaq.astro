@@ -1,0 +1,25 @@
+---
+// Two columns: an info panel (photo, text, callout) and an FAQ accordion.
+import Sec from '../Sec.astro'; import Icon from '../Icon.astro';
+const { info, faq, mist = false, join } = Astro.props;
+const schema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.items.map(i => ({ '@type': 'Question', name: i.q, acceptedAnswer: { '@type': 'Answer', text: i.a } })) };
+---
+<Sec mist={mist} join={join}>
+  <div class="info-faq">
+    <div class="info-faq__info">
+      <h2>{info.heading}</h2>
+      <div class="info-faq__body">
+        <div class="info-faq__img"><img class="cover" src={info.image.src} alt={info.image.alt} loading="lazy" /></div>
+        <div>
+          {info.paragraphs.map(p => <p>{p}</p>)}
+          {info.callout && <p class="callout"><Icon name="info" />{info.callout}</p>}
+        </div>
+      </div>
+    </div>
+    <div class="info-faq__faq">
+      <h2>{faq.heading}</h2>
+      <div class="faq faq--single">{faq.items.map((i, n) => <details open={n === 0}><summary>{i.q}</summary><p>{i.a}</p></details>)}</div>
+    </div>
+  </div>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+</Sec>
