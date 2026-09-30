@@ -161,7 +161,7 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .band p{margin:0 0 24px;font-size:16.5px;color:#eaf0f6}
 .band .band__sub{font-family:var(--font-display);font-weight:600;font-size:clamp(21px,2.2vw,26px);color:var(--white);margin:-4px 0 22px}
 .cta-band .band__body{max-width:760px}
-.cta-band h2{font-size:clamp(32px,3.9vw,48px)}
+.cta-band h2{font-size:clamp(30px,3.3vw,44px)}
 
 /* ---------- 9. path (Development and Recognition, 3 to 5 cards with arrows) ---------- */
 .path{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:40px;list-style:none;margin:0;padding:0}
@@ -320,7 +320,7 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .split .check-box__after{margin:14px 0 0;font-size:15px}
 
 /* learn-cards: photo, title and text under the photo */
-.learn-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;list-style:none;margin:0;padding:0}
+.learn-cards{display:grid;grid-template-columns:repeat(var(--cols,5),1fr);gap:14px;list-style:none;margin:0;padding:0}
 .learn-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
 .learn-card__img{aspect-ratio:16/9.4;background:var(--mist)}
 .learn-card__body{padding:14px 14px 18px;text-align:center}
@@ -357,6 +357,14 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .info-faq .callout{display:flex;align-items:center;gap:12px;background:#e8f2f8;border-radius:var(--radius);padding:14px 16px;margin:14px 0 0;font-family:var(--font-display);font-weight:700;font-size:21px;line-height:1.15;color:var(--teal-deep)}
 .callout .icon{width:28px;height:28px;color:var(--cyan)}
 .faq--single{columns:auto;max-width:none;margin:0}
+
+/* v1.2.1: baseball page additions */
+.band__block+.band__block{border-top:1px solid rgba(255,255,255,.3);margin-top:6px;padding-top:20px}
+.band__block h2{font-size:clamp(32px,3.4vw,44px)}
+.band__block+.band__block h2{font-size:clamp(26px,2.8vw,36px)}
+.band .band__block p{margin:0 0 14px;max-width:640px}
+.checklist--one{grid-template-columns:1fr;column-gap:0}
+.cta-band .band__para{margin:0 0 10px;max-width:640px;font-size:16.5px}
 
 @media (max-width:1100px){
   .learn-cards{grid-template-columns:repeat(3,1fr)}

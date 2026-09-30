@@ -1,58 +1,369 @@
 {
   "name": "Baseball",
   "slug": "sports/baseball",
-  "title": "Baseball Officiating in Naples and Collier County | GNOA",
-  "description": "Become a baseball official in Naples, Collier County, and Southwest Florida. No experience needed. GNOA provides training, mentorship, and support.",
+  "title": "Become a Baseball Umpire in Southwest Florida | GNOA",
+  "description": "Learn plate work, base mechanics, positioning, and judgment to join a baseball umpiring crew in Naples, Collier County, and Southwest Florida.",
   "sections": [
     {
-      "type": "page-hero",
-      "kicker": "Sports",
-      "title1": "Baseball Officiating",
-      "lead": "Officiate baseball in Naples, Collier County, and Southwest Florida. You do not need experience. We will teach you.",
+      "type": "hero",
+      "title1": "Become a Baseball Umpire",
+      "title2": "in Southwest Florida",
+      "subhead": "Stay in the game. See every pitch differently.",
+      "paragraphs": [
+        "Baseball looks different when you're responsible for every pitch, play, and decision.",
+        "Umpiring challenges you to learn the rules, master positioning and mechanics, develop good judgment, communicate confidently, and work with your crew to manage the game.",
+        "Greater Naples Officials Association recruits, trains, and develops new and experienced baseball umpires throughout Naples, Collier County, and Southwest Florida."
+      ],
       "buttons": [
         {
-          "text": "Become an Official",
-          "href": "/become-an-official/"
+          "text": "Become a Baseball Umpire",
+          "href": "/contact/"
+        },
+        {
+          "text": "Experienced Umpire? | Connect With GNOA",
+          "href": "/contact/"
         }
       ],
       "image": {
-        "src": "/images/sport-baseball.jpg",
-        "alt": "Baseball umpire in a face mask pointing to make a call"
+        "src": "/images/baseball-hero.jpg",
+        "alt": "Plate umpire crouched behind the catcher as the batter swings"
       }
     },
     {
-      "type": "prose",
-      "blocks": [
+      "type": "icon-strip",
+      "label": "What baseball umpires develop",
+      "items": [
         {
-          "h2": "What Baseball Officials Do"
+          "icon": "target",
+          "label": "Positioning"
         },
         {
-          "p": "[[sample]]Levels, season dates, and crew sizes for baseball, supplied by GNOA.[[/sample]]"
+          "icon": "runner",
+          "label": "Mechanics"
         },
         {
-          "h2": "How to Get Started"
+          "icon": "scales",
+          "label": "Judgment"
         },
         {
-          "p": "Tell us you're interested, connect with GNOA, complete the requirements, train and prepare, then work your first games."
+          "icon": "group",
+          "label": "Crew Work"
         },
         {
-          "p": "[[sample]]Sport-specific requirements and training for baseball officials, supplied by GNOA.[[/sample]]"
+          "icon": "chat",
+          "label": "Communication"
         }
       ]
     },
     {
-      "type": "cta-band",
-      "title1": "Your Next Game Could",
-      "title2": "Look Different From This Side",
-      "text": "Start with a conversation.",
+      "type": "benefits",
+      "heading": "There's More to Umpiring Than Balls and Strikes",
+      "intro": "Good baseball umpiring starts long before the first pitch. You learn where to position yourself, how to anticipate the next play, what responsibilities belong to each member of the crew, and how to make confident decisions when the game moves quickly.",
+      "mist": true,
+      "items": [
+        {
+          "icon": "baseball",
+          "title": "Stay Close to Baseball",
+          "text": "Continue being part of the game you love from one of the best seats in the ballpark."
+        },
+        {
+          "icon": "chart",
+          "title": "Learn the Craft",
+          "text": "Rules matter, but so do positioning, timing, mechanics, communication, and judgment."
+        },
+        {
+          "icon": "group",
+          "title": "Work as a Crew",
+          "text": "Plate and base umpires depend on one another to provide proper coverage and manage the game."
+        },
+        {
+          "icon": "trophy",
+          "title": "Challenge Yourself",
+          "text": "No two games are exactly alike. Every assignment gives you another opportunity to improve."
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "Never Umpired Before?",
+      "subhead": "That's what training is for.",
+      "paragraphs": [
+        "You don't have to walk onto a baseball field already knowing every rule or mechanic. GNOA helps new umpires build their skills step by step."
+      ],
+      "list": {
+        "heading": "You'll learn:",
+        "items": [
+          "Basic baseball rules and responsibilities",
+          "Plate and base positioning",
+          "Proper umpiring mechanics",
+          "Signals and communication",
+          "Strike-zone fundamentals",
+          "Fair and foul responsibilities",
+          "Force plays and tag plays",
+          "Crew responsibilities",
+          "Game management",
+          "Professionalism",
+          "How to learn from each assignment"
+        ]
+      },
+      "after": "The goal isn't to turn you into an experienced umpire overnight. It's to give you the foundation you need to begin working games and continue getting better.",
       "button": {
-        "text": "Become an Official",
+        "text": "I Want to Learn More",
         "href": "/become-an-official/"
       },
       "image": {
-        "src": "/images/cta-home.jpg",
-        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+        "src": "/images/baseball-mentor.jpg",
+        "alt": "Veteran baseball umpire coaching a newer umpire on the field"
       }
+    },
+    {
+      "type": "steps",
+      "heading": "From Interested to Behind the Plate",
+      "mist": true,
+      "items": [
+        {
+          "icon": "doc",
+          "title": "Tell Us You're Interested",
+          "text": "Complete the short form and select Baseball."
+        },
+        {
+          "icon": "group",
+          "title": "Meet the Baseball Team",
+          "text": "We'll explain training, the season, registration, equipment, expectations, and how new umpires get started."
+        },
+        {
+          "icon": "book",
+          "title": "Learn the Fundamentals",
+          "text": "Study the rules, practice mechanics and positioning, and learn how an umpiring crew works together."
+        },
+        {
+          "icon": "ballcap",
+          "title": "Work Your First Games",
+          "text": "Begin with assignments appropriate for your training and experience."
+        },
+        {
+          "icon": "chart",
+          "title": "Keep Developing",
+          "text": "Every game provides new situations, new lessons, and another opportunity to improve."
+        }
+      ],
+      "button": {
+        "text": "Start the Process",
+        "href": "/contact/"
+      }
+    },
+    {
+      "type": "learn-cards",
+      "heading": "What Does a Baseball Umpire Learn?",
+      "items": [
+        {
+          "title": "Positioning",
+          "text": "Being in the right place gives you the best opportunity to make the right call. Learn how positioning changes based on runners, outs, crew size, and the developing play.",
+          "image": {
+            "src": "/images/baseball-learn-positioning.jpg",
+            "alt": "Base umpire set in the ready position near the infield"
+          }
+        },
+        {
+          "title": "Plate Work",
+          "text": "Calling balls and strikes is one of the most visible parts of umpiring. You'll learn stance, positioning, timing, tracking the pitch, signals, and how to develop consistency behind the plate.",
+          "image": {
+            "src": "/images/baseball-learn-plate-work.jpg",
+            "alt": "Plate umpire in a mask tracking the pitch from behind the catcher"
+          }
+        },
+        {
+          "title": "Base Mechanics",
+          "text": "Good base umpiring requires positioning, angle, timing, concentration, and understanding where the next play may happen.",
+          "image": {
+            "src": "/images/baseball-learn-base-mechanics.jpg",
+            "alt": "Base umpire in a set position watching the play develop"
+          }
+        },
+        {
+          "title": "Rules",
+          "text": "Training helps you understand the rules and, more importantly, how to apply them when something unusual happens.",
+          "image": {
+            "src": "/images/baseball-learn-rules.jpg",
+            "alt": "Umpire writing notes on a lineup card"
+          }
+        },
+        {
+          "title": "Judgment",
+          "text": "Great umpiring is about seeing the entire play, processing what happened, and making a confident decision.",
+          "image": {
+            "src": "/images/baseball-learn-judgment.jpg",
+            "alt": "Baseball umpire pointing to signal a call"
+          }
+        },
+        {
+          "title": "Communication",
+          "text": "Umpires communicate with their partners, coaches, players, and game administrators throughout the game.",
+          "image": {
+            "src": "/images/baseball-learn-communication.jpg",
+            "alt": "Two baseball umpires talking between plays"
+          }
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "blocks": [
+        {
+          "heading": "Timing Matters",
+          "text": "One of the first things new umpires learn is that you don't have to rush. See the play. Process what happened. Then make the call. Confidence comes from good positioning, proper mechanics, preparation, and experience, not from trying to be the loudest person on the field. Those skills develop one game at a time."
+        },
+        {
+          "heading": "Your First Game Is Just the Beginning",
+          "text": "Your first game may feel like everything is happening at once. That's normal. With experience, you begin to understand where to look, what matters, where you need to move, and how your responsibilities fit with the rest of the crew. One game becomes ten. Ten games become a season. And gradually, the game begins to slow down."
+        }
+      ],
+      "image": {
+        "src": "/images/baseball-timing.jpg",
+        "alt": "Plate umpire seen from behind looking out at a lit ballpark at night"
+      }
+    },
+    {
+      "type": "split",
+      "reverse": true,
+      "heading": "Already an Experienced Baseball Umpire?",
+      "subhead": "Bring your experience to Southwest Florida.",
+      "paragraphs": [
+        "If you've recently moved to Naples or the surrounding area, or you're an experienced umpire looking for a local association, GNOA would like to connect with you."
+      ],
+      "button": {
+        "text": "Connect With GNOA Baseball",
+        "href": "/contact/"
+      },
+      "aside": {
+        "heading": "Tell us about your:",
+        "columns": 1,
+        "items": [
+          "Years of umpiring experience",
+          "Previous associations",
+          "Levels worked",
+          "Plate and base experience",
+          "Postseason assignments",
+          "Championship experience",
+          "Current certifications"
+        ]
+      },
+      "image": {
+        "src": "/images/baseball-crew.jpg",
+        "alt": "Three experienced baseball umpires meeting before a game"
+      }
+    },
+    {
+      "type": "path",
+      "heading": "From Your First Game to Your Biggest Assignment",
+      "tagline": "Learning to umpire is only the beginning.",
+      "intro": "Rules Study · Mechanics · Positioning · Film Review · Mentoring · Crew Work · Feedback · Experience",
+      "mist": true,
+      "items": [
+        {
+          "label": "New Umpire Training",
+          "text": "Learning positioning, mechanics, signals, and responsibilities.",
+          "image": {
+            "src": "/images/baseball-path-training.jpg",
+            "alt": "Baseball umpires gathered for a training session"
+          }
+        },
+        {
+          "label": "Working Local Baseball",
+          "text": "Umpires working games throughout Naples and Southwest Florida.",
+          "image": {
+            "src": "/images/baseball-path-local.jpg",
+            "alt": "Umpire working a local baseball game"
+          }
+        },
+        {
+          "label": "Postseason Opportunities",
+          "text": "Officials selected to work increasingly competitive assignments.",
+          "image": {
+            "src": "/images/baseball-path-postseason.jpg",
+            "alt": "Umpire crew in a pregame meeting before a postseason game"
+          }
+        },
+        {
+          "label": "Recognition and Championships",
+          "text": "Celebrate GNOA umpires who earn significant postseason and championship opportunities.",
+          "image": {
+            "src": "/images/baseball-path-championship.jpg",
+            "alt": "Umpire on the field at a championship game at sunset"
+          }
+        }
+      ],
+      "button": {
+        "text": "Baseball News & Recognition",
+        "href": "/blog/"
+      }
+    },
+    {
+      "type": "info-faq",
+      "info": {
+        "heading": "What Will I Need?",
+        "image": {
+          "src": "/images/baseball-equipment.jpg",
+          "alt": "Baseball umpire gear: mask, chest protector bags, caps, indicator and plate brush"
+        },
+        "paragraphs": [
+          "Don't buy everything before talking with GNOA. Baseball umpires need specific uniforms and equipment, particularly for work behind the plate, but getting started does not necessarily mean buying an entire set of brand-new gear.",
+          "Depending on your assignments, equipment may include approved umpire uniform, umpire shoes, ball bags, indicator, plate brush, protective mask, chest protector, shin guards, and other protective equipment.",
+          "Experienced umpires often have extra equipment, older gear that is still in good condition, or items they are willing to pass along to someone just getting started. Hand-me-down, borrowed, or used equipment may sometimes be available while you are learning what you need."
+        ],
+        "callout": "Talk to us first. See what's available. Buy what you need."
+      },
+      "faq": {
+        "heading": "Baseball Umpiring FAQs",
+        "items": [
+          {
+            "q": "Do I need previous umpiring experience?",
+            "a": "No. GNOA helps train and develop new baseball umpires."
+          },
+          {
+            "q": "Do I need to have played baseball?",
+            "a": "No. Playing or coaching experience can give you familiarity with the game, but umpiring is its own skill."
+          },
+          {
+            "q": "Do I have to start behind the plate?",
+            "a": "GNOA baseball leadership can explain how new officials typically progress."
+          },
+          {
+            "q": "Is calling balls and strikes difficult?",
+            "a": "It is a skill that develops through training and repetition."
+          },
+          {
+            "q": "Do baseball umpires work alone?",
+            "a": "Most games involve an umpiring crew."
+          },
+          {
+            "q": "Do I have to know every rule before my first game?",
+            "a": "No. You need a solid foundation, but rules knowledge continues developing throughout an umpire's career."
+          },
+          {
+            "q": "Should I buy umpire equipment now?",
+            "a": "Talk with GNOA first."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-band",
+      "title1": "See Baseball From the",
+      "paragraphs": [
+        "You already know what the game looks like from the stands. Umpiring gives you a completely different perspective.",
+        "Learn the craft. Work with a crew. Challenge yourself. Stay involved in baseball."
+      ],
+      "text": "Your first game starts with a conversation.",
+      "button": {
+        "text": "Become a Baseball Umpire",
+        "href": "/contact/"
+      },
+      "image": {
+        "src": "/images/baseball-cta.jpg",
+        "alt": "Plate umpire seen from behind facing the field at sunset, palm trees beyond the outfield"
+      },
+      "title2": "Best Seat in the Park"
     }
   ]
 }

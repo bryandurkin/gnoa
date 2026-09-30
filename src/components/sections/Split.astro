@@ -19,7 +19,7 @@ const paras = paragraphs ?? (text ? [text] : []);
         {button && <Btn {...button} variant="teal" />}
       </div>
       {aside && <div>
-        <div class="check-box"><h3 class="checklist__head">{aside.heading}</h3><ul class="checklist" style={`--rows:${Math.ceil(aside.items.length / 2)}`}>{aside.items.map(i => <li><Icon name="check" />{i}</li>)}</ul></div>
+        <div class="check-box"><h3 class="checklist__head">{aside.heading}</h3><ul class={aside.columns === 1 ? 'checklist checklist--one' : 'checklist'} style={`--rows:${aside.columns === 1 ? aside.items.length : Math.ceil(aside.items.length / 2)}`}>{aside.items.map(i => <li><Icon name="check" />{i}</li>)}</ul></div>
         {aside.text && <p class="check-box__after">{aside.text}</p>}
       </div>}
     </div>

@@ -1,14 +1,16 @@
 ---
-// Navy panel, photo right. text (one paragraph) or lines (short lines, tightly spaced). Button optional.
+// Navy panel, photo right. text (one paragraph) or lines (short lines, tightly spaced) or
+// blocks [{heading, text}] (two short topics stacked, split by a thin rule). Button optional.
 import Btn from '../Btn.astro';
-const { heading, text, lines, button, image } = Astro.props;
+const { heading, text, lines, blocks, button, image } = Astro.props;
 ---
 <section class="band">
   {image && <div class="band__media"><img class="cover" src={image.src} alt={image.alt} loading="lazy" /></div>}
-  <div class="wrap"><div class={lines ? 'band__body band__body--wide' : 'band__body'}>
-    <h2>{heading}</h2>
+  <div class="wrap"><div class={lines || blocks ? 'band__body band__body--wide' : 'band__body'}>
+    {heading && <h2>{heading}</h2>}
     {text && <p>{text}</p>}
     {lines && <div class="band__lines">{lines.map(l => <p>{l}</p>)}</div>}
+    {blocks && blocks.map(b => <div class="band__block"><h2>{b.heading}</h2><p>{b.text}</p></div>)}
     {button && <Btn {...button} variant="cyan" />}
   </div></div>
 </section>

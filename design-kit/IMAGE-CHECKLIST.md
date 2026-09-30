@@ -61,6 +61,29 @@ These come from the approved Football page design. Same rules as above: original
 | F14 | football-equipment.jpg | "What Will I Need?" | Flat lay: black cap, whistle, flags, down indicator, game cards, timer (no brand logos) | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | F15 | football-cta.jpg | Closing banner on the Football page | An official looking out over the field and crowd under the lights | 2200 x 1240 | Wide 16:9 | Person in the right half | Sample in place |
 
+## Needed for the Baseball page
+
+Same rules as above. Umpires are the main subject. Please make sure no MLB or other league logos show on shirts, caps or gear (the sample photos from the mockup have them).
+
+| # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
+|---|---|---|---|---|---|---|---|
+| B1 | baseball-hero.jpg | Big photo at the top of the Baseball page | Plate umpire working behind the catcher | 2400 x 1350 | Wide 16:9 | Umpire in the right half; left side is covered by the headline | Sample in place |
+| B2 | baseball-mentor.jpg | "Never Umpired Before?" section | A veteran umpire talking with a newer umpire | 1600 x 1070 | Landscape 3:2 | People in the right two thirds | Sample in place |
+| B3 | baseball-learn-positioning.jpg | "What Does a Baseball Umpire Learn?" card 1 | Base umpire in the ready position | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| B4 | baseball-learn-plate-work.jpg | Learn card 2 | Plate umpire tracking a pitch | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| B5 | baseball-learn-base-mechanics.jpg | Learn card 3 | Base umpire set and watching the play | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| B6 | baseball-learn-rules.jpg | Learn card 4 | Rulebook, lineup card or rules study | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| B7 | baseball-learn-judgment.jpg | Learn card 5 | Umpire making a call | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| B8 | baseball-learn-communication.jpg | Learn card 6 | Umpires talking with each other or a coach | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| B9 | baseball-timing.jpg | "Timing Matters" band | Umpire from behind at a lit field at dusk or night | 2200 x 1240 | Wide 16:9 | Umpire in the right half | Sample in place |
+| B10 | baseball-crew.jpg | "Already an Experienced Baseball Umpire?" | An umpire crew meeting before a game | 1600 x 1070 | Landscape 3:2 | Centered; right edge fades to white | Sample in place |
+| B11 | baseball-path-training.jpg | "First Game to Biggest Assignment" card 1 | A training, rules or film session | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| B12 | baseball-path-local.jpg | Card 2 | An umpire working a local game | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| B13 | baseball-path-postseason.jpg | Card 3 | A crew at a postseason game | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| B14 | baseball-path-championship.jpg | Card 4 | A crew at a championship game | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| B15 | baseball-equipment.jpg | "What Will I Need?" | Flat lay: mask, chest protector, shin guards, indicator, plate brush, ball bag (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| B16 | baseball-cta.jpg | Closing banner on the Baseball page | Umpire from behind looking out at the field | 2200 x 1240 | Wide 16:9 | Umpire in the right half | Sample in place |
+
 ## Nice to have
 
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |

@@ -1,12 +1,13 @@
 ---
-// Closing banner. list = short bullet lines between the title and the subline.
+// Closing banner. paragraphs and/or list (short bullet lines) sit between the title and the subline.
 import Btn from '../Btn.astro';
-const { title1, title2, list, text, button, image } = Astro.props;
+const { title1, title2, paragraphs, list, text, button, image } = Astro.props;
 ---
 <section class="band cta-band">
   {image && <div class="band__media"><img class="cover" src={image.src} alt={image.alt} loading="lazy" /></div>}
   <div class="wrap"><div class="band__body">
     <h2>{title1}{title2 && <>{' '}<br />{title2}</>}</h2>
+    {paragraphs && paragraphs.map(p => <p class="band__para">{p}</p>)}
     {list && <ul class="band__list">{list.map(l => <li>{l}</li>)}</ul>}
     <p class="band__sub">{text}</p>
     <Btn {...button} variant="cyan" />
