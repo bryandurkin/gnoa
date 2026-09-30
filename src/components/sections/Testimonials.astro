@@ -1,0 +1,13 @@
+---
+import Sec from '../Sec.astro'; import SecHead from '../SecHead.astro';
+const { heading, items, mist = false, join } = Astro.props;
+---
+<Sec mist={mist} join={join}>
+  <SecHead heading={heading} />
+  <ul class="testimonials">
+    {items.map(t => <li><figure class="quote-card">
+      <div class="quote-card__photo"><img class="cover" src={t.photo.src} alt={t.photo.alt} loading="lazy" /></div>
+      <div><blockquote>{t.quote}</blockquote><figcaption><p class="quote-card__name">{t.name}</p><p class="quote-card__role">{t.role}</p></figcaption></div>
+    </figure></li>)}
+  </ul>
+</Sec>

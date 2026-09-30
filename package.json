@@ -1,0 +1,16 @@
+{
+  "name": "gnoa-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "astro build",
+    "build:live": "SITE_MODE=live astro build",
+    "qa": "node scripts/qa.mjs",
+    "qa:live": "SITE_MODE=live node scripts/qa.mjs",
+    "check": "astro build && node scripts/qa.mjs",
+    "check:live": "SITE_MODE=live astro build && SITE_MODE=live node scripts/qa.mjs",
+    "dev": "astro dev"
+  },
+  "dependencies": { "astro": "^5.18.2" },
+  "devDependencies": { "wrangler": "^4" }
+}

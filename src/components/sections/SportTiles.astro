@@ -1,0 +1,10 @@
+---
+import Sec from '../Sec.astro'; import SecHead from '../SecHead.astro'; import Icon from '../Icon.astro';
+const { heading, tiles, mist = true, join } = Astro.props;
+---
+<Sec mist={mist} join={join}>
+  <SecHead heading={heading} />
+  <ul class="sport-tiles">
+    {tiles.map(t => <li><a class="tile" href={t.href}><img class="cover" src={t.image.src} alt={t.image.alt} loading="lazy" /><span class="tile__label">{t.label}<Icon name="arrow" /></span></a></li>)}
+  </ul>
+</Sec>

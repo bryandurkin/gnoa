@@ -1,0 +1,139 @@
+{
+  "name": "Become an Official",
+  "slug": "become-an-official",
+  "title": "How to Become a Sports Official in Naples, FL | GNOA",
+  "description": "New to officiating? GNOA welcomes officials from all backgrounds and provides the training, mentorship, and support you need to work your first games.",
+  "sections": [
+    {
+      "type": "page-hero",
+      "kicker": "Become an Official",
+      "title1": "You do not need experience.",
+      "title2": "We will teach you.",
+      "lead": "GNOA welcomes new officials from all backgrounds. Whether you played sports, coached, or simply love the game, we'll provide the training, mentorship, and support you need to get started.",
+      "buttons": [
+        {
+          "text": "Tell Us You're Interested",
+          "href": "/contact/"
+        }
+      ],
+      "image": {
+        "src": "/images/split-new-officials.jpg",
+        "alt": "Veteran official mentoring a younger official on the field"
+      }
+    },
+    {
+      "type": "benefits",
+      "heading": "Why Officiate",
+      "mist": true,
+      "items": [
+        {
+          "icon": "group",
+          "title": "Stay Connected",
+          "text": "Be part of the game and stay engaged in your community."
+        },
+        {
+          "icon": "chart",
+          "title": "Keep Learning",
+          "text": "Build new skills, gain confidence, and challenge yourself."
+        },
+        {
+          "icon": "community",
+          "title": "Join a Community",
+          "text": "Work with great people who share your passion for sports."
+        },
+        {
+          "icon": "whistle",
+          "title": "Make a Difference",
+          "text": "Help create a positive, respectful experience for student-athletes."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "heading": "How It Works",
+      "mist": false,
+      "items": [
+        {
+          "icon": "doc",
+          "title": "Tell Us You're Interested",
+          "text": "Share a few details and let us know which sports interest you."
+        },
+        {
+          "icon": "group",
+          "title": "Connect With GNOA",
+          "text": "We'll reach out with next steps and answer your questions."
+        },
+        {
+          "icon": "clipboard",
+          "title": "Complete Requirements",
+          "text": "Finish the necessary registrations, background checks, and sport-specific requirements."
+        },
+        {
+          "icon": "cap",
+          "title": "Train and Prepare",
+          "text": "Attend training, learn the rules, and work with experienced mentors."
+        },
+        {
+          "icon": "whistle",
+          "title": "Work Your First Games",
+          "text": "Get assigned, gain experience, and start building your officiating career."
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "heading": "Already an Experienced Official?",
+      "subhead": "Looking for a new association in Collier County or Southwest Florida?",
+      "text": "We welcome experienced officials who are relocating, new to the area, or looking for a strong, supportive association. Bring your experience to GNOA and be part of our community.",
+      "button": {
+        "text": "Connect With GNOA",
+        "href": "/contact/"
+      },
+      "image": {
+        "src": "/images/split-experienced-officials.jpg",
+        "alt": "Four experienced officials in a pregame huddle on the field"
+      }
+    },
+    {
+      "type": "faq",
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Do I need experience to get started?",
+          "a": "No. You do not need experience. We will teach you. GNOA provides training, mentorship, and support to help you get started, regardless of your background."
+        },
+        {
+          "q": "What sports can I officiate?",
+          "a": "Football, basketball, baseball, softball, soccer, volleyball, and wrestling."
+        },
+        {
+          "q": "How much training is provided?",
+          "a": "[[sample]]Training details to be supplied by GNOA[[/sample]]"
+        },
+        {
+          "q": "Can I officiate part-time?",
+          "a": "[[sample]]Part-time details to be supplied by GNOA[[/sample]]"
+        },
+        {
+          "q": "How do I connect if I already have experience?",
+          "a": "Reach out through our Contact page. We welcome experienced officials who are relocating, new to the area, or looking for a strong, supportive association."
+        }
+      ],
+      "mist": true
+    },
+    {
+      "type": "cta-band",
+      "title1": "Your Next Game Could",
+      "title2": "Look Different From This Side",
+      "text": "Start with a conversation.",
+      "button": {
+        "text": "Become an Official",
+        "href": "/become-an-official/"
+      },
+      "image": {
+        "src": "/images/cta-home.jpg",
+        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+      }
+    }
+  ]
+}

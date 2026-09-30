@@ -1,0 +1,115 @@
+{
+  "name": "Training & Development",
+  "slug": "training-development",
+  "title": "Official Training and Development in Naples | GNOA",
+  "description": "GNOA develops people, not just assigns games. Quality training, mentorship, and ongoing development to help you grow as an official.",
+  "sections": [
+    {
+      "type": "page-hero",
+      "kicker": "Training & Development",
+      "title1": "Recruit. Train. Develop.",
+      "lead": "GNOA develops people, not just assigns games.",
+      "image": {
+        "src": "/images/band-recruit-train-develop.jpg",
+        "alt": "Group of officials in striped shirts talking before a game"
+      }
+    },
+    {
+      "type": "prose",
+      "blocks": [
+        {
+          "p": "We provide quality training, mentorship, and ongoing development to help you grow your skills and reach your goals as an official."
+        },
+        {
+          "h2": "Training for New and Experienced Officials"
+        },
+        {
+          "p": "[[sample]]Training schedule, clinics, and mentoring program details, supplied by GNOA.[[/sample]]"
+        }
+      ]
+    },
+    {
+      "type": "path",
+      "heading": "Development and Recognition",
+      "tagline": "From your first game to your biggest assignment.",
+      "mist": true,
+      "items": [
+        {
+          "label": "New Official Training",
+          "image": {
+            "src": "/images/path-new-official-training.jpg",
+            "alt": "Instructor leading a classroom training session for new officials"
+          }
+        },
+        {
+          "label": "Local Varsity Game",
+          "image": {
+            "src": "/images/path-local-varsity-game.jpg",
+            "alt": "Official on the field at a high school varsity game"
+          }
+        },
+        {
+          "label": "Playoff Assignment",
+          "image": {
+            "src": "/images/path-playoff-assignment.jpg",
+            "alt": "Three-person officiating crew walking onto the field for a playoff game"
+          }
+        },
+        {
+          "label": "State Championship Crew",
+          "image": {
+            "src": "/images/path-state-championship-crew.jpg",
+            "alt": "Officiating crew lined up at a Florida state championship game"
+          }
+        }
+      ]
+    },
+    {
+      "type": "testimonials",
+      "heading": "What Officials Say",
+      "items": [
+        {
+          "photo": {
+            "src": "/images/testimonial-1.jpg",
+            "alt": "Headshot of a volleyball official smiling"
+          },
+          "quote": "[[sample]]\"GNOA gave me the training and support I needed to get started. It's an amazing community of people who truly care.\"[[/sample]]",
+          "name": "[[sample]]Sarah M.[[/sample]]",
+          "role": "Volleyball Official"
+        },
+        {
+          "photo": {
+            "src": "/images/testimonial-2.jpg",
+            "alt": "Headshot of a football official in a striped shirt and cap"
+          },
+          "quote": "[[sample]]\"Officiating has kept me in the game and connected to the sports I love. GNOA provides great training and opportunities.\"[[/sample]]",
+          "name": "[[sample]]Mike T.[[/sample]]",
+          "role": "Football Official"
+        },
+        {
+          "photo": {
+            "src": "/images/testimonial-3.jpg",
+            "alt": "Headshot of a baseball official in a cap"
+          },
+          "quote": "[[sample]]\"I moved to Naples a few years ago and found a home with GNOA. The people, the support, and the opportunities are first class.\"[[/sample]]",
+          "name": "[[sample]]David R.[[/sample]]",
+          "role": "Baseball Official"
+        }
+      ]
+    },
+    {
+      "type": "cta-band",
+      "title1": "Your Next Game Could",
+      "title2": "Look Different From This Side",
+      "text": "Start with a conversation.",
+      "button": {
+        "text": "Become an Official",
+        "href": "/become-an-official/"
+      },
+      "image": {
+        "src": "/images/cta-home.jpg",
+        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+      }
+    }
+  ]
+}

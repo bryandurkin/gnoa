@@ -1,0 +1,72 @@
+---
+import '../styles/kit.css';
+import Icon from '../components/Icon.astro';
+import Btn from '../components/Btn.astro';
+import site from '../content/site.json';
+import { MODE } from '../mode.mjs';
+const { title, description, path = '/', schema } = Astro.props;
+const url = new URL(path, site.url).href;
+const realSocial = site.social.filter(s => s.url);
+const missingSocial = site.social.some(s => !s.url);
+const org = { '@context': 'https://schema.org', '@type': 'Organization', name: site.name, alternateName: site.shortName, url: site.url, logo: new URL(site.logo.color, site.url).href, email: site.email, telephone: site.phone, areaServed: site.area, ...(realSocial.length ? { sameAs: realSocial.map(s => s.url) } : {}) };
+const isCurrent = href => href === '/' ? path === '/' : path.startsWith(href);
+const year = new Date().getFullYear();
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  {MODE === 'draft' && <meta name="robots" content="noindex, nofollow" />}
+  <link rel="canonical" href={url} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={url} />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content={new URL(site.ogImage, site.url).href} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <script type="application/ld+json" set:html={JSON.stringify(org)} />
+  {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  {MODE === 'draft' && <div class="draft-bar">Draft preview. Highlighted items marked SAMPLE are placeholders until confirmed.</div>}
+  <header class="site-header"><div class="wrap">
+    <a class="logo" href="/"><img src={site.logo.color} alt={site.logo.alt} width="792" height="156" /></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><Icon name="menu" />Menu</button>
+    <div class="site-header__menu" id="site-menu">
+      <nav aria-label="Main"><ul class="nav">
+        {site.nav.map(n => <li><a href={n.href} aria-current={isCurrent(n.href) ? 'page' : undefined}>{n.label}</a></li>)}
+      </ul></nav>
+      <span class="site-header__cta"><Btn lines={site.arbiter.lines} href={site.arbiter.href} variant="deep" /></span>
+    </div>
+  </div></header>
+  <main id="main"><slot /></main>
+  <footer class="site-footer"><div class="wrap">
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <a href="/"><img src={site.logo.white} alt={site.logo.alt} width="616" height="128" loading="lazy" /></a>
+        <p>{site.tagline}</p>
+      </div>
+      <ul class="footer-nav">{site.nav.map(n => <li><a href={n.href}>{n.label}</a></li>)}</ul>
+      <ul class="social">
+        {site.social.map(s => <li>{s.url ? <a href={s.url} aria-label={`${site.shortName} on ${s.label}`}><Icon name={s.icon} /></a> : <span class="social__missing" title={`${s.label} link needed`}><Icon name={s.icon} /></span>}</li>)}
+        {missingSocial && <li class="social__missing">[[sample]]Social links needed[[/sample]]</li>}
+      </ul>
+      <Btn lines={site.arbiter.lines} href={site.arbiter.href} variant="deep" />
+    </div>
+    <div class="site-footer__bottom">
+      <p>&copy; {year} {site.name}. All rights reserved.</p>
+      <ul class="footer-legal">{site.legal.map(n => <li><a href={n.href}>{n.label}</a></li>)}</ul>
+    </div>
+  </div></footer>
+  <script>
+    const t = document.querySelector('.nav-toggle'), m = document.getElementById('site-menu');
+    t?.addEventListener('click', () => { const o = m.classList.toggle('is-open'); t.setAttribute('aria-expanded', String(o)); });
+  </script>
+</body>
+</html>

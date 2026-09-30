@@ -1,0 +1,6 @@
+---
+// Standard section wrapper: mist = tinted background, join = no top padding (same background as the section above).
+const { mist = false, join = false } = Astro.props;
+const cls = ['sec', mist && 'sec--mist', join && 'sec--join'].filter(Boolean).join(' ');
+---
+<section class={cls}><div class="wrap"><slot /></div></section>

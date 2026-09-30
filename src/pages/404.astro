@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import Hero from '../components/sections/Hero.astro';
+import CtaBand from '../components/sections/CtaBand.astro';
+import site from '../content/site.json';
+---
+<Base title={`Page not found | ${site.shortName}`} description={`The page you were looking for is not on the ${site.name} website. Use the menu or go back to the home page.`} path="/404/">
+  <Hero isPage kicker="Page not found" title1="This page is out of bounds." lead="It does not exist or has moved. Use the menu above or head back to the home page." buttons={[{ text: 'Back to home', href: '/' }]} image={site.defaultCta.image} />
+  <CtaBand {...site.defaultCta} />
+</Base>

@@ -1,0 +1,97 @@
+{
+  "name": "Site Map",
+  "slug": "site-map",
+  "title": "Site Map | GNOA",
+  "description": "Every page on the Greater Naples Officials Association website, from becoming an official to each sport, training, news, and contact.",
+  "sections": [
+    {
+      "type": "page-hero",
+      "kicker": "Site Map",
+      "title1": "Site Map",
+      "lead": "Every page on the GNOA website."
+    },
+    {
+      "type": "prose",
+      "blocks": [
+        {
+          "links": [
+            {
+              "text": "Home",
+              "href": "/"
+            },
+            {
+              "text": "Become an Official",
+              "href": "/become-an-official/"
+            },
+            {
+              "text": "Sports",
+              "href": "/sports/"
+            },
+            {
+              "text": "Football",
+              "href": "/sports/football/"
+            },
+            {
+              "text": "Basketball",
+              "href": "/sports/basketball/"
+            },
+            {
+              "text": "Baseball",
+              "href": "/sports/baseball/"
+            },
+            {
+              "text": "Softball",
+              "href": "/sports/softball/"
+            },
+            {
+              "text": "Soccer",
+              "href": "/sports/soccer/"
+            },
+            {
+              "text": "Volleyball",
+              "href": "/sports/volleyball/"
+            },
+            {
+              "text": "Wrestling",
+              "href": "/sports/wrestling/"
+            },
+            {
+              "text": "Training & Development",
+              "href": "/training-development/"
+            },
+            {
+              "text": "About GNOA",
+              "href": "/about/"
+            },
+            {
+              "text": "News & Recognition",
+              "href": "/blog/"
+            },
+            {
+              "text": "Contact",
+              "href": "/contact/"
+            },
+            {
+              "text": "Privacy Policy",
+              "href": "/privacy-policy/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta-band",
+      "title1": "Your Next Game Could",
+      "title2": "Look Different From This Side",
+      "text": "Start with a conversation.",
+      "button": {
+        "text": "Become an Official",
+        "href": "/become-an-official/"
+      },
+      "image": {
+        "src": "/images/cta-home.jpg",
+        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+      }
+    }
+  ]
+}

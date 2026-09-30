@@ -1,0 +1,81 @@
+{
+  "name": "About GNOA",
+  "slug": "about",
+  "title": "About the Greater Naples Officials Association | GNOA",
+  "description": "The Greater Naples Officials Association serves Naples, Collier County, and Southwest Florida, built on integrity, opportunity, and community.",
+  "sections": [
+    {
+      "type": "page-hero",
+      "kicker": "About GNOA",
+      "title1": "Greater Naples",
+      "title2": "Officials Association",
+      "lead": "Serving Naples, Collier County, and Southwest Florida.",
+      "image": {
+        "src": "/images/split-experienced-officials.jpg",
+        "alt": "Four experienced officials in a pregame huddle on the field"
+      }
+    },
+    {
+      "type": "prose",
+      "blocks": [
+        {
+          "h2": "What We Stand For"
+        },
+        {
+          "ul": [
+            "Integrity",
+            "Opportunity",
+            "Community"
+          ]
+        },
+        {
+          "h2": "Who We Are"
+        },
+        {
+          "p": "[[sample]]GNOA history, leadership, and mission, supplied by GNOA.[[/sample]]"
+        }
+      ]
+    },
+    {
+      "type": "benefits",
+      "heading": "Why Officiate",
+      "mist": true,
+      "items": [
+        {
+          "icon": "group",
+          "title": "Stay Connected",
+          "text": "Be part of the game and stay engaged in your community."
+        },
+        {
+          "icon": "chart",
+          "title": "Keep Learning",
+          "text": "Build new skills, gain confidence, and challenge yourself."
+        },
+        {
+          "icon": "community",
+          "title": "Join a Community",
+          "text": "Work with great people who share your passion for sports."
+        },
+        {
+          "icon": "whistle",
+          "title": "Make a Difference",
+          "text": "Help create a positive, respectful experience for student-athletes."
+        }
+      ]
+    },
+    {
+      "type": "cta-band",
+      "title1": "Your Next Game Could",
+      "title2": "Look Different From This Side",
+      "text": "Start with a conversation.",
+      "button": {
+        "text": "Become an Official",
+        "href": "/become-an-official/"
+      },
+      "image": {
+        "src": "/images/cta-home.jpg",
+        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+      }
+    }
+  ]
+}

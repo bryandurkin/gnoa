@@ -1,0 +1,95 @@
+{
+  "name": "Sports",
+  "slug": "sports",
+  "title": "Sports We Officiate in Collier County | GNOA",
+  "description": "GNOA officials work football, basketball, baseball, softball, soccer, volleyball, and wrestling across Naples, Collier County, and Southwest Florida.",
+  "sections": [
+    {
+      "type": "page-hero",
+      "kicker": "Sports",
+      "title1": "Choose Your Sport",
+      "lead": "Football, basketball, baseball, softball, soccer, volleyball, and wrestling across Naples, Collier County, and Southwest Florida.",
+      "image": {
+        "src": "/images/sport-basketball.jpg",
+        "alt": "Basketball official holding a game ball courtside"
+      }
+    },
+    {
+      "type": "sport-tiles",
+      "heading": "Pick a Sport to Learn More",
+      "mist": true,
+      "tiles": [
+        {
+          "label": "Football",
+          "href": "/sports/football/",
+          "image": {
+            "src": "/images/sport-football.jpg",
+            "alt": "Football referee signaling a touchdown with both arms raised"
+          }
+        },
+        {
+          "label": "Basketball",
+          "href": "/sports/basketball/",
+          "image": {
+            "src": "/images/sport-basketball.jpg",
+            "alt": "Basketball official holding a game ball courtside"
+          }
+        },
+        {
+          "label": "Baseball",
+          "href": "/sports/baseball/",
+          "image": {
+            "src": "/images/sport-baseball.jpg",
+            "alt": "Baseball umpire in a face mask pointing to make a call"
+          }
+        },
+        {
+          "label": "Softball",
+          "href": "/sports/softball/",
+          "image": {
+            "src": "/images/sport-softball.jpg",
+            "alt": "Softball umpire watching the play from the field"
+          }
+        },
+        {
+          "label": "Soccer",
+          "href": "/sports/soccer/",
+          "image": {
+            "src": "/images/sport-soccer.jpg",
+            "alt": "Soccer assistant referee raising a checkered flag on the sideline"
+          }
+        },
+        {
+          "label": "Volleyball",
+          "href": "/sports/volleyball/",
+          "image": {
+            "src": "/images/sport-volleyball.jpg",
+            "alt": "Volleyball official signaling at the net"
+          }
+        },
+        {
+          "label": "Wrestling",
+          "href": "/sports/wrestling/",
+          "image": {
+            "src": "/images/sport-wrestling.jpg",
+            "alt": "Wrestling referee in a crouch watching the match"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta-band",
+      "title1": "Your Next Game Could",
+      "title2": "Look Different From This Side",
+      "text": "Start with a conversation.",
+      "button": {
+        "text": "Become an Official",
+        "href": "/become-an-official/"
+      },
+      "image": {
+        "src": "/images/cta-home.jpg",
+        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+      }
+    }
+  ]
+}

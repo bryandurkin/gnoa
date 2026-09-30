@@ -1,0 +1,14 @@
+---
+import Sec from '../Sec.astro'; import SecHead from '../SecHead.astro'; import Icon from '../Icon.astro';
+const { heading, posts = [], empty, mist = true, join } = Astro.props;
+const fmt = d => new Date(d + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+---
+<Sec mist={mist} join={join}>
+  {heading && <SecHead heading={heading} />}
+  {posts.length ? <ul class="post-cards">
+    {posts.map(p => <li><a class="post-card" href={`/blog/${p.slug}/`}>
+      <div class="post-card__img"><img class="cover" src={p.image.src} alt={p.image.alt} loading="lazy" /></div>
+      <div class="post-card__body"><span class="post-card__date">{fmt(p.date)}{p.category && ` · ${p.category}`}</span><h3>{p.title}</h3><p>{p.summary}</p><span class="post-card__more">Read more<Icon name="arrow" /></span></div>
+    </a></li>)}
+  </ul> : empty && <p class="post-empty">{empty}</p>}
+</Sec>

@@ -1,0 +1,17 @@
+---
+// details: [{label, value, href?}]. A value holding a [[sample]] marker is shown as text, never as a link.
+import Sec from '../Sec.astro';
+const { heading, details, formHeading, formText, mist = false, join } = Astro.props;
+---
+<Sec mist={mist} join={join}>
+  <div class="contact">
+    <div class="contact__details">
+      <h2>{heading}</h2>
+      <dl>{details.map(d => <><dt>{d.label}</dt><dd>{d.href && !d.value.includes('[[sample') ? <a href={d.href}>{d.value}</a> : d.value}</dd></>)}</dl>
+    </div>
+    <div class="contact__form">
+      <h2>{formHeading}</h2>
+      <div class="contact__embed">{formText}</div>
+    </div>
+  </div>
+</Sec>

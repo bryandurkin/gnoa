@@ -1,0 +1,12 @@
+---
+import Btn from '../Btn.astro';
+const { title1, title2, text, button, image } = Astro.props;
+---
+<section class="band cta-band">
+  {image && <div class="band__media"><img class="cover" src={image.src} alt={image.alt} loading="lazy" /></div>}
+  <div class="wrap"><div class="band__body">
+    <h2>{title1}{title2 && <>{' '}<br />{title2}</>}</h2>
+    <p class="band__sub">{text}</p>
+    <Btn {...button} variant="cyan" />
+  </div></div>
+</section>

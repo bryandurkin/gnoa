@@ -1,0 +1,5 @@
+---
+// Centered section heading. bar = cyan underline (most sections). tagline = teal line under the heading (no bar).
+const { heading, tagline, bar = true } = Astro.props;
+---
+<div class={bar && !tagline ? 'sec-head sec-head--bar' : 'sec-head'}><h2>{heading}</h2>{tagline && <p class="sec-head__tag">{tagline}</p>}</div>

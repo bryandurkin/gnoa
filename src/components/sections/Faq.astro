@@ -1,0 +1,10 @@
+---
+import Sec from '../Sec.astro'; import SecHead from '../SecHead.astro';
+const { heading, items, mist = false, join } = Astro.props;
+const schema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: items.map(i => ({ '@type': 'Question', name: i.q, acceptedAnswer: { '@type': 'Answer', text: i.a } })) };
+---
+<Sec mist={mist} join={join}>
+  <SecHead heading={heading} />
+  <div class="faq">{items.map((i, n) => <details open={n === 0}><summary>{i.q}</summary><p>{i.a}</p></details>)}</div>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+</Sec>

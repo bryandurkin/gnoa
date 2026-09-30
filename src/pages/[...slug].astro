@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import Sections from '../components/Sections.astro';
+import { getCollection } from 'astro:content';
+export async function getStaticPaths() {
+  const files = import.meta.glob('../content/pages/*.json', { eager: true });
+  return Object.values(files).map(m => { const p = m.default; return { params: { slug: p.slug || undefined }, props: { page: p } }; });
+}
+const { page } = Astro.props;
+const posts = (await getCollection('blog')).sort((a, b) => b.data.date.localeCompare(a.data.date)).map(p => ({ slug: p.id, ...p.data }));
+const sections = page.sections.map(s => s.type === 'post-cards' && s.source === 'latest' ? { ...s, posts: posts.slice(0, s.limit ?? 3) } : s);
+const faq = page.sections.find(s => s.type === 'faq');
+---
+<Base title={page.title} description={page.description} path={page.slug ? `/${page.slug}/` : '/'}>
+  <Sections sections={sections} pageName={page.name} />
+</Base>

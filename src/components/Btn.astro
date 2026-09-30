@@ -1,0 +1,12 @@
+---
+// variant: cyan (primary, dark sections and hero), teal (white sections), outline (secondary on dark), deep (ArbiterSports)
+// Internal buttons end with the arrow icon. External buttons open in a new tab with the external icon.
+import Icon from './Icon.astro';
+const { text, href, variant = 'cyan', lines } = Astro.props;
+const external = /^https?:\/\//.test(href);
+const parts = lines ?? (text && text.includes('|') ? text.split('|').map(s => s.trim()) : null);
+---
+<a class={`btn btn--${variant}`} href={href} {...(external ? { target: '_blank', rel: 'noopener' } : {})}>
+  {parts ? <span class="btn__lines">{parts.map((p, i) => <>{i > 0 && <br />}{p}</>)}</span> : text}
+  {variant !== 'outline' && <Icon name={external ? 'external' : 'arrow'} />}
+</a>

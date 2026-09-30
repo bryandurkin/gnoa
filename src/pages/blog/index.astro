@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import Sections from '../../components/Sections.astro';
+import { getCollection } from 'astro:content';
+import page from '../../content/blog-index.json';
+const posts = (await getCollection('blog')).sort((a, b) => b.data.date.localeCompare(a.data.date)).map(p => ({ slug: p.id, ...p.data }));
+const sections = page.sections.map(s => s.type === 'post-cards' ? { ...s, posts } : s);
+---
+<Base title={page.title} description={page.description} path="/blog/">
+  <Sections sections={sections} pageName={page.name} />
+</Base>

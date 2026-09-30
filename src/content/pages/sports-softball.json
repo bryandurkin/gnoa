@@ -1,0 +1,58 @@
+{
+  "name": "Softball",
+  "slug": "sports/softball",
+  "title": "Softball Officiating in Naples and Collier County | GNOA",
+  "description": "Become a softball official in Naples, Collier County, and Southwest Florida. No experience needed. GNOA provides training, mentorship, and support.",
+  "sections": [
+    {
+      "type": "page-hero",
+      "kicker": "Sports",
+      "title1": "Softball Officiating",
+      "lead": "Officiate softball in Naples, Collier County, and Southwest Florida. You do not need experience. We will teach you.",
+      "buttons": [
+        {
+          "text": "Become an Official",
+          "href": "/become-an-official/"
+        }
+      ],
+      "image": {
+        "src": "/images/sport-softball.jpg",
+        "alt": "Softball umpire watching the play from the field"
+      }
+    },
+    {
+      "type": "prose",
+      "blocks": [
+        {
+          "h2": "What Softball Officials Do"
+        },
+        {
+          "p": "[[sample]]Levels, season dates, and crew sizes for softball, supplied by GNOA.[[/sample]]"
+        },
+        {
+          "h2": "How to Get Started"
+        },
+        {
+          "p": "Tell us you're interested, connect with GNOA, complete the requirements, train and prepare, then work your first games."
+        },
+        {
+          "p": "[[sample]]Sport-specific requirements and training for softball officials, supplied by GNOA.[[/sample]]"
+        }
+      ]
+    },
+    {
+      "type": "cta-band",
+      "title1": "Your Next Game Could",
+      "title2": "Look Different From This Side",
+      "text": "Start with a conversation.",
+      "button": {
+        "text": "Become an Official",
+        "href": "/become-an-official/"
+      },
+      "image": {
+        "src": "/images/cta-home.jpg",
+        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+      }
+    }
+  ]
+}

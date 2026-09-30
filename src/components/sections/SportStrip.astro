@@ -1,0 +1,6 @@
+---
+const { items } = Astro.props;
+---
+<nav class="sport-strip" aria-label="Sports"><div class="wrap"><ul>
+  {items.map(i => <li><a href={i.href}>{i.label}</a></li>)}
+</ul></div></nav>
