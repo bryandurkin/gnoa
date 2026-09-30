@@ -1,4 +1,4 @@
-# GNOA Design Kit v1.2.1
+# GNOA Design Kit v1.2.2
 
 Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association), plus the Football and Baseball page handoff packs (v1.2 sections).
 Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY from the sections below. It does not invent new layouts, colors or fonts. Copy markup from preview.html.
@@ -7,7 +7,8 @@ Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY
 
 | Token | Value | Use |
 |---|---|---|
-| navy | #0a2342 | Headings, icons, sport strip, hero, band, page-hero |
+| navy | #0a2342 | Headings, sport strip, hero, band, page-hero |
+| icon-blue | #0c558c | Card and step icons (benefits, How It Works discs). Sampled from the homepage, football and baseball mockups |
 | navy-deep | #06223f | Footer |
 | cyan | #03a9c6 | Primary buttons, step numbers, heading underline bar |
 | cyan-hover | #0291ad | Primary button hover |
@@ -62,7 +63,7 @@ Fields marked * are required.
 | post-cards | News and blog cards (derived) | 1 to 12 posts (image*, date*, title*, excerpt*, link*) | Pulls from News & Recognition posts |
 | contact | Contact details plus form (derived) | details (real only)*, form embed* | Contact page only. Form provider to be confirmed |
 
-Icons: the SVG sprite at the top of preview.html (arrow, external, menu, group, community, chart, whistle, doc, clipboard, cap, trophy, football, gear, book, check, info, baseball, ballcap, target, runner, scales, chat, facebook, instagram, youtube). On the site they live in src/components/Icon.astro. Include the sprite once in the site layout. Benefits use the filled navy icons. New icons must match: 24px grid, filled or 2px stroke, navy.
+Icons: the SVG sprite at the top of preview.html (arrow, external, menu, group, community, chart, whistle, doc, clipboard, cap, trophy, football, gear, book, check, info, baseball, ballcap, target, runner, scales, chat, facebook, instagram, youtube). On the site they live in src/components/Icon.astro. Include the sprite once in the site layout. Card and step icons are solid and use icon-blue. Checklist and callout icons use cyan. Icons on navy bands are white. New icons must match: 24px grid, solid shapes.
 
 SAMPLE flag: any text GNOA has not confirmed (testimonials, missing FAQ answers, post placeholders, contact details) carries `<span class="sample-tag">`. Pages can go live on the draft worker with visible SAMPLE tags. None may remain at final launch.
 

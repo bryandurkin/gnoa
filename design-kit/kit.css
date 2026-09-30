@@ -4,7 +4,8 @@
 
 :root{
   /* Color tokens (sampled from the mockup) */
-  --navy:#0a2342;        /* headings, sport strip, dark panels, icons */
+  --navy:#0a2342;        /* headings, sport strip, dark panels */
+  --icon-blue:#0c558c;   /* card and step icons (sampled from all three approved mockups) */
   --navy-deep:#06223f;   /* footer */
   --cyan:#03a9c6;        /* primary buttons, step numbers, heading bar */
   --cyan-hover:#0291ad;
@@ -107,7 +108,7 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 /* ---------- 4. benefits ---------- */
 .benefits{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;list-style:none;margin:0;padding:0}
 .benefit{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:22px 20px 24px;text-align:center}
-.benefit .icon{width:46px;height:46px;color:var(--navy);margin:0 auto 12px}
+.benefit .icon{width:54px;height:54px;color:var(--icon-blue);margin:0 auto 12px}
 .benefit h3{font-weight:800;font-size:21px;margin:0 0 6px}
 .benefit p{margin:0;font-size:14.5px;color:var(--muted)}
 
@@ -145,7 +146,7 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .steps::before{content:"";position:absolute;left:0;right:0;top:65px;height:2px;background:var(--line-blue);z-index:0}
 .step{position:relative;z-index:1;text-align:center}
 .step__num{width:30px;height:30px;border-radius:50%;background:var(--cyan);color:var(--white);display:grid;place-items:center;margin:0 auto 4px;font-family:var(--font-display);font-weight:800;font-size:17px}
-.step__disc{width:64px;height:64px;border-radius:50%;background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow);display:grid;place-items:center;margin:0 auto 14px;color:var(--navy)}
+.step__disc{width:64px;height:64px;border-radius:50%;background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow);display:grid;place-items:center;margin:0 auto 14px;color:var(--icon-blue)}
 .step__disc .icon{width:30px;height:30px}
 .step h3{font-weight:800;font-size:19.5px;margin:0 0 6px}
 .step p{margin:0 auto;font-size:14.5px;color:var(--muted);max-width:24ch}
