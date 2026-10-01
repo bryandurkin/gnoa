@@ -15,29 +15,29 @@ The draft site uses sample photos for now. Send us the real ones below and we sw
 
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
 |---|---|---|---|---|---|---|---|
-| 1 | logo-color.svg | Top of every page | GNOA full color logo | SVG, or PNG 1200 px wide | As designed | Transparent background | Sample in place |
-| 2 | logo-white.svg | Footer | All-white version of the logo | SVG, or PNG 1200 px wide | As designed | Transparent background | Sample in place |
-| 3 | hero-home.jpg | Big photo at the top of the homepage | A GNOA official on the field, Southwest Florida feel | 2000 x 1200 | Landscape 5:3 | Person in the right half; left side is covered by the headline | Sample in place |
-| 4 | sport-football.jpg | Football tile, top of the Football page | A GNOA official working football | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| 5 | sport-basketball.jpg | Basketball tile and page | A GNOA official working basketball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| 6 | sport-baseball.jpg | Baseball tile and page | A GNOA umpire working baseball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| 7 | sport-softball.jpg | Softball tile and page | A GNOA umpire working softball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| 8 | sport-soccer.jpg | Soccer tile and page | A GNOA referee working soccer | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| 9 | sport-volleyball.jpg | Volleyball tile and page | A GNOA official working volleyball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| 10 | sport-wrestling.jpg | Wrestling tile and page | A GNOA referee working wrestling | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| 11 | split-new-officials.jpg | "Never Officiated Before?" section | A veteran official mentoring a newer official | 1800 x 900 | Wide 2:1 | People in the right two thirds; left edge fades to white | Sample in place |
-| 12 | band-recruit-train-develop.jpg | "Recruit. Train. Develop." section | A group of officials in a pregame talk or training | 2000 x 900 | Wide 20:9 | People in the right 60 percent | Sample in place |
-| 13 | split-experienced-officials.jpg | "Already an Experienced Official?" section | A crew of experienced GNOA officials | 1800 x 900 | Wide 2:1 | People in the right two thirds; left edge fades to white | Sample in place |
-| 14 | path-new-official-training.jpg | Development and Recognition, card 1 | A GNOA training class or clinic | 1200 x 800 | Landscape 3:2 | Centered; bottom strip gets a label | Sample in place |
-| 15 | path-local-varsity-game.jpg | Development and Recognition, card 2 | An official at a local varsity game | 1200 x 800 | Landscape 3:2 | Centered; bottom strip gets a label | Sample in place |
-| 16 | path-playoff-assignment.jpg | Development and Recognition, card 3 | A crew at a playoff game | 1200 x 800 | Landscape 3:2 | Centered; bottom strip gets a label | Sample in place |
-| 17 | path-state-championship-crew.jpg | Development and Recognition, card 4 | A GNOA crew at a state championship | 1200 x 800 | Landscape 3:2 | Centered; bottom strip gets a label | Sample in place |
-| 18 | testimonial-1.jpg | What Officials Say, quote 1 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Sample in place |
-| 19 | testimonial-2.jpg | What Officials Say, quote 2 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Sample in place |
-| 20 | testimonial-3.jpg | What Officials Say, quote 3 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Sample in place |
-| 21 | cta-home.jpg | Closing banner at the bottom of every page | An official seen from behind, looking out at the field | 2000 x 900 | Wide 20:9 | Person in the right half | Sample in place |
+| H1 | logo-color.svg | Top of every page | GNOA full color logo | SVG, or PNG 1200 px wide | As designed | Transparent background | Sample in place |
+| H2 | logo-white.svg | Footer | All-white version of the logo | SVG, or PNG 1200 px wide | As designed | Transparent background | Sample in place |
+| H3 | hero-home.jpg | Big photo at the top of the homepage | A GNOA official on the field, Southwest Florida feel | 2000 x 1200 | Landscape 5:3 | Person in the right half; left side is covered by the headline | Sample in place |
+| H4 | sport-football.jpg | Football tile, top of the Football page | A GNOA official working football | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
+| H5 | sport-basketball.jpg | Basketball tile and page | A GNOA official working basketball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
+| H6 | sport-baseball.jpg | Baseball tile and page | A GNOA umpire working baseball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
+| H7 | sport-softball.jpg | Softball tile and page | A GNOA umpire working softball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
+| H8 | sport-soccer.jpg | Soccer tile and page | A GNOA referee working soccer | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
+| H9 | sport-volleyball.jpg | Volleyball tile and page | A GNOA official working volleyball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
+| H10 | sport-wrestling.jpg | Wrestling tile and page | A GNOA referee working wrestling | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
+| H11 | split-new-officials.jpg | "Never Officiated Before?" section | A veteran official mentoring a newer official | 1800 x 900 | Wide 2:1 | People in the right two thirds; left edge fades to white | Sample in place |
+| H12 | band-recruit-train-develop.jpg | "Recruit. Train. Develop." section | A group of officials in a pregame talk or training | 2000 x 900 | Wide 20:9 | People in the right 60 percent | Sample in place |
+| H13 | split-experienced-officials.jpg | "Already an Experienced Official?" section | A crew of experienced GNOA officials | 1800 x 900 | Wide 2:1 | People in the right two thirds; left edge fades to white | Sample in place |
+| H14 | path-new-official-training.jpg | Development and Recognition, card 1 | A GNOA training class or clinic | 1200 x 800 | Landscape 3:2 | Centered; bottom strip gets a label | Sample in place |
+| H15 | path-local-varsity-game.jpg | Development and Recognition, card 2 | An official at a local varsity game | 1200 x 800 | Landscape 3:2 | Centered; bottom strip gets a label | Sample in place |
+| H16 | path-playoff-assignment.jpg | Development and Recognition, card 3 | A crew at a playoff game | 1200 x 800 | Landscape 3:2 | Centered; bottom strip gets a label | Sample in place |
+| H17 | path-state-championship-crew.jpg | Development and Recognition, card 4 | A GNOA crew at a state championship | 1200 x 800 | Landscape 3:2 | Centered; bottom strip gets a label | Sample in place |
+| H18 | testimonial-1.jpg | What Officials Say, quote 1 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Sample in place |
+| H19 | testimonial-2.jpg | What Officials Say, quote 2 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Sample in place |
+| H20 | testimonial-3.jpg | What Officials Say, quote 3 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Sample in place |
+| H21 | cta-home.jpg | Closing banner at the bottom of every page | An official seen from behind, looking out at the field | 2000 x 900 | Wide 20:9 | Person in the right half | Sample in place |
 
-With each headshot (18 to 20), please also send: first name and last initial, the sport they officiate, their quote in their own words, and their OK to use it on the website.
+With each headshot (H18 to H20), please also send: first name and last initial, the sport they officiate, their quote in their own words, and their OK to use it on the website.
 
 ## Needed for the Football page
 
@@ -107,11 +107,10 @@ Same rules as above. Umpires are the main subject. Please make sure no MLB or ot
 
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
 |---|---|---|---|---|---|---|---|
-| 22 | page-hero-become-an-official.jpg | Top of the Become an Official page | New officials or a training moment | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
-| 23 | page-hero-training-development.jpg | Top of the Training & Development page | A clinic, film session or mentoring | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
-| 24 | page-hero-about.jpg | Top of the About GNOA page | A group photo of GNOA members | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
-| 25 | page-hero-news.jpg | Top of the News & Recognition page | An award, recognition or big-game moment | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
-| 26 | page-hero-contact.jpg | Top of the Contact page | Officials on the field | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
-| 27 | og-share.jpg | The picture that shows when someone shares a GNOA link on Facebook, LinkedIn or by text | Logo on a field photo, or a strong group shot | 1200 x 630 | Wide 1.91:1 | Centered | Not yet |
-| 28 | favicon.png | The small icon in the browser tab | The palm mark or GNOA letters | 512 x 512 | Square | Centered | Not yet |
-| 29 | post-SHORT-TITLE.jpg | Each News & Recognition post | Whatever the post is about | 1600 x 900 | Wide 16:9 | Centered | One per post |
+| N1 | page-hero-become-an-official.jpg | Top of the Become an Official page | New officials or a training moment | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
+| N2 | page-hero-training-development.jpg | Top of the Training & Development page | A clinic, film session or mentoring | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
+| N3 | page-hero-news.jpg | Top of the News & Recognition page | An award, recognition or big-game moment | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
+| N4 | page-hero-contact.jpg | Top of the Contact page | Officials on the field | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
+| N5 | og-share.jpg | The picture that shows when someone shares a GNOA link on Facebook, LinkedIn or by text | Logo on a field photo, or a strong group shot | 1200 x 630 | Wide 1.91:1 | Centered | Not yet |
+| N6 | favicon.png | The small icon in the browser tab | The palm mark or GNOA letters | 512 x 512 | Square | Centered | Not yet |
+| N7 | post-SHORT-TITLE.jpg | Each News & Recognition post | Whatever the post is about | 1600 x 900 | Wide 16:9 | Centered | One per post |
