@@ -84,6 +84,23 @@ Same rules as above. Umpires are the main subject. Please make sure no MLB or ot
 | B15 | baseball-equipment.jpg | "What Will I Need?" | Flat lay: mask, chest protector, shin guards, indicator, plate brush, ball bag (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | B16 | baseball-cta.jpg | Closing banner on the Baseball page | Umpire from behind looking out at the field | 2200 x 1240 | Wide 16:9 | Umpire in the right half | Sample in place |
 
+## Needed for the Wrestling page
+
+Same rules as above. The official is the main subject, low to the mat, in a proper wrestling officiating shirt with red and green wristbands. Wrestlers only in support of the official.
+
+| # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
+|---|---|---|---|---|---|---|---|
+| W1 | wrestling-hero.jpg | Big photo at the top of the Wrestling page | Official crouched close to live action, wrestlers visible | 2400 x 1350 | Wide 16:9 | Official in the right half; left side is covered by the headline | Sample in place |
+| W2 | wrestling-training.jpg | "Never Officiated Before?" section | Close angle on the official's positioning, wristbands or signal, wrestlers in action | 1200 x 1600 | Portrait 3:4 | Centered | Sample in place |
+| W3 | wrestling-match.jpg | "The Match Starts to Look Different" | Official watching a match closely, tournament setting | 2200 x 1240 | Wide 16:9 | Official in the right half | Sample in place (borrowed from the sport tile) |
+| W4 | wrestling-experienced.jpg | "Already an Experienced Wrestling Official?" | A veteran official at a tournament or talking with another official | 1600 x 1070 | Landscape 3:2 | Centered | Needed (gray SAMPLE PHOTO now) |
+| W5 | wrestling-path-varsity.jpg | "Keep Developing" card 1 | Official working a local varsity dual meet | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
+| W6 | wrestling-path-tournament.jpg | Card 2 | Official at a multi-mat tournament | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
+| W7 | wrestling-path-postseason.jpg | Card 3 | Official at a district or regional postseason match | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
+| W8 | wrestling-path-championship.jpg | Card 4 | Official at a state championship venue | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
+| W9 | wrestling-equipment.jpg | "What Will I Need?" | Flat lay: officiating shirt, whistle, red and green wristbands, shoes, rule book (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
+| W10 | wrestling-cta.jpg | Closing banner on the Wrestling page | Official's shoes and stance on the mat, or official overlooking competition | 2200 x 1240 | Wide 16:9 | Subject in the right half | Sample in place |
+
 ## Needed for the About GNOA page
 
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |

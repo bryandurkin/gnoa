@@ -1,5 +1,6 @@
 ---
 // Two columns: an info panel (photo, text, callout) and an FAQ accordion.
+// info.list = short checklist after the paragraphs; info.after = paragraphs after the list.
 import Sec from '../Sec.astro'; import Icon from '../Icon.astro';
 const { info, faq, mist = false, join } = Astro.props;
 const schema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.items.map(i => ({ '@type': 'Question', name: i.q, acceptedAnswer: { '@type': 'Answer', text: i.a } })) };
@@ -12,6 +13,8 @@ const schema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntit
         <div class="info-faq__img"><img class="cover" src={info.image.src} alt={info.image.alt} loading="lazy" /></div>
         <div>
           {info.paragraphs.map(p => <p>{p}</p>)}
+          {info.list && <ul class="checklist checklist--one" style={`--rows:${info.list.length}`}>{info.list.map(i => <li><Icon name="check" />{i}</li>)}</ul>}
+          {info.after && info.after.map(p => <p>{p}</p>)}
           {info.callout && <p class="callout"><Icon name="info" />{info.callout}</p>}
         </div>
       </div>
