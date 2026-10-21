@@ -1,0 +1,17 @@
+/* GNOA softball - simplified design system */
+:root {
+  --gnoa-navy: #0A2F5A;
+  --gnoa-navy-deep: #082742;
+  --gnoa-teal: #2FC1C8;
+  --gnoa-teal-strong: #18AEB7;
+  --gnoa-white: #FFFFFF;
+  --gnoa-bg: #F7FAFC;
+  --gnoa-panel: #EEF5F8;
+  --gnoa-border: #D9E5EC;
+  --gnoa-text: #15324D;
+  --gnoa-muted: #597186;
+  --gnoa-radius: 18px;
+  --gnoa-max-width: 1180px;
+  --gnoa-heading: "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
+  --gnoa-body: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}

@@ -117,6 +117,16 @@ Same rules as above. Referees in proper soccer referee kit are the main subject;
 | S8 | soccer-equipment.jpg | "What Will I Need?" | Flat lay: jersey, whistle, watch, cards, match wallet, AR flags (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
 | S9 | soccer-cta.jpg | Closing banner on the Soccer page | A referee looking over the field (the mockup has a ball on the line) | 2200 x 1240 | Wide 16:9 | Subject in the right half | Sample in place |
 
+## Needed for the Softball page
+
+Same rules as above. Umpires are the main subject; softball caps are fine. More photo slots will be added when the rest of the Softball copy arrives.
+
+| # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
+|---|---|---|---|---|---|---|---|
+| SB1 | softball-hero.jpg | Big photo at the top of the Softball page | Plate umpire set behind the catcher, game in progress | 2400 x 1350 | Wide 16:9 | Umpire in the right half; left side is covered by the headline | Sample in place |
+| SB2 | softball-training.jpg | "Never Umpired Before?" section | A softball on the foul line, or an experienced umpire mentoring a newer one | 1200 x 1600 | Portrait 3:4 | Centered | Sample in place |
+| SB3 | softball-cta.jpg | Closing banner on the Softball page | Base or plate umpire making a decisive call | 2200 x 1240 | Wide 16:9 | Umpire in the right half | Sample in place |
+
 ## Needed for the About GNOA page
 
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |

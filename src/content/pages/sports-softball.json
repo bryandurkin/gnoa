@@ -1,57 +1,175 @@
 {
   "name": "Softball",
   "slug": "sports/softball",
-  "title": "Softball Officiating in Naples and Collier County | GNOA",
-  "description": "Become a softball official in Naples, Collier County, and Southwest Florida. No experience needed. GNOA provides training, mentorship, and support.",
+  "title": "Become a Softball Umpire in Southwest Florida | GNOA",
+  "description": "Learn positioning, mechanics, rules, and timing to umpire softball in Naples, Collier County, and Southwest Florida.",
   "sections": [
     {
-      "type": "page-hero",
-      "kicker": "Sports",
-      "title1": "Softball Officiating",
-      "lead": "Officiate softball in Naples, Collier County, and Southwest Florida. You do not need experience. We will teach you.",
+      "type": "hero",
+      "title1": "Become a Softball Umpire",
+      "title2": "in Southwest Florida",
+      "subhead": "Stay in the game. See every play differently.",
+      "paragraphs": [
+        "Softball umpiring puts you close to the action and challenges you to make confident decisions in a game that can change quickly.",
+        "You'll learn positioning, mechanics, rules, timing, communication, and how to work with your crew to manage the game.",
+        "Greater Naples Officials Association recruits, trains, and develops new and experienced softball umpires throughout Naples, Collier County, and Southwest Florida."
+      ],
       "buttons": [
         {
-          "text": "Become an Official",
-          "href": "/become-an-official/"
+          "text": "Become a Softball Umpire",
+          "href": "/contact/"
+        },
+        {
+          "text": "Experienced Umpire? | Connect With GNOA",
+          "href": "/contact/"
         }
       ],
       "image": {
-        "src": "/images/sport-softball.jpg",
-        "alt": "Softball umpire watching the play from the field"
+        "src": "/images/softball-hero.jpg",
+        "alt": "Softball plate umpire in a mask set behind the catcher, watching the pitch"
       }
     },
     {
-      "type": "prose",
-      "blocks": [
+      "type": "benefits",
+      "heading": "Fast Game. Good Position. Strong Judgment.",
+      "intro": "A pitch can become a bunt, steal, force play, tag play, or play at the plate in seconds. Good umpires learn where to be, what to watch, and when to make the call.",
+      "mist": true,
+      "items": [
         {
-          "h2": "What Softball Officials Do"
+          "icon": "baseball",
+          "title": "Stay Close to Softball",
+          "text": "Continue being part of the sport you enjoy."
         },
         {
-          "p": "[[sample]]Levels, season dates, and crew sizes for softball, supplied by GNOA.[[/sample]]"
+          "icon": "whistle",
+          "title": "Learn the Craft",
+          "text": "Rules, positioning, timing, mechanics, communication, and judgment."
         },
         {
-          "h2": "How to Get Started"
+          "icon": "group",
+          "title": "Work as a Crew",
+          "text": "Plate and base umpires work together to cover the field."
         },
         {
-          "p": "Tell us you're interested, connect with GNOA, complete the requirements, train and prepare, then work your first games."
+          "icon": "bars",
+          "title": "Challenge Yourself",
+          "text": "Every game brings new situations and opportunities to improve."
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "reverse": true,
+      "heading": "Never Umpired Before?",
+      "subhead": "That's what training is for.",
+      "paragraphs": [
+        "You don't need previous umpiring experience. GNOA helps new softball umpires learn the fundamentals and build confidence before taking on more challenging assignments."
+      ],
+      "list": {
+        "heading": "You'll learn:",
+        "items": [
+          "Rules and responsibilities",
+          "Plate and base positioning",
+          "Mechanics and signals",
+          "Strike-zone fundamentals",
+          "Fair and foul responsibilities",
+          "Crew communication",
+          "Game management",
+          "Working with players and coaches",
+          "How to improve through feedback"
+        ]
+      },
+      "after": "You won't learn everything at once. You build it one game at a time.",
+      "button": {
+        "text": "I Want to Learn More",
+        "href": "/become-an-official/"
+      },
+      "image": {
+        "src": "/images/softball-training.jpg",
+        "alt": "Softball resting on the infield dirt beside the white foul line"
+      }
+    },
+    {
+      "type": "steps",
+      "heading": "How to Get Started",
+      "tagline": "A clear path from interest to your first games.",
+      "mist": true,
+      "items": [
+        {
+          "icon": "chat",
+          "title": "Tell Us You're Interested",
+          "text": "Complete the short form and select Softball."
         },
         {
-          "p": "[[sample]]Sport-specific requirements and training for softball officials, supplied by GNOA.[[/sample]]"
+          "icon": "group",
+          "title": "Meet the Softball Team",
+          "text": "We'll explain training, registration, equipment, the season, and what to expect."
+        },
+        {
+          "icon": "doc",
+          "title": "Learn the Fundamentals",
+          "text": "Study the rules, practice mechanics and positioning, and learn how a crew works."
+        },
+        {
+          "icon": "shoe",
+          "title": "Work Your First Games",
+          "text": "Start with assignments that match your training and experience."
+        },
+        {
+          "icon": "bars",
+          "title": "Keep Getting Better",
+          "text": "Work games, receive feedback, learn from experienced umpires, and continue developing."
+        }
+      ],
+      "button": {
+        "text": "Start the Process",
+        "href": "/contact/"
+      }
+    },
+    {
+      "type": "benefits",
+      "heading": "What Makes a Good Umpire?",
+      "tagline": "It's a combination of skills.",
+      "mist": false,
+      "items": [
+        {
+          "icon": "target",
+          "title": "Positioning",
+          "text": "Get the right angle and distance to see the entire play."
+        },
+        {
+          "icon": "timer",
+          "title": "Timing",
+          "text": "See the play finish before making the call."
+        },
+        {
+          "icon": "book",
+          "title": "Rules Knowledge",
+          "text": "Understand the rules and how to apply them when the unexpected happens."
+        },
+        {
+          "icon": "chat",
+          "title": "Communication",
+          "text": "Work with partners, coaches, players, and game administrators."
+        },
+        {
+          "icon": "shield",
+          "title": "Composure",
+          "text": "Stay calm, communicate professionally, and focus on the next pitch."
         }
       ]
     },
     {
       "type": "cta-band",
-      "title1": "Your Next Game Could",
-      "title2": "Look Different From This Side",
-      "text": "Start with a conversation.",
+      "title1": "Ready to See Softball From This Side?",
+      "text": "Stay in the game. See every play differently.",
       "button": {
-        "text": "Become an Official",
-        "href": "/become-an-official/"
+        "text": "Become a Softball Umpire",
+        "href": "/contact/"
       },
       "image": {
-        "src": "/images/cta-home.jpg",
-        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+        "src": "/images/softball-cta.jpg",
+        "alt": "Softball umpire in a mask and light blue shirt extending an arm to make a call"
       }
     }
   ]
