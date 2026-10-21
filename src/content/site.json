@@ -3,8 +3,8 @@
   "shortName": "GNOA",
   "url": "https://gnoa-sample.example",
   "logo": {
-    "color": "/images/logo-color.png",
-    "white": "/images/logo-white.png",
+    "color": "/images/logo-gnoa-officials.svg",
+    "white": "/images/logo-gnoa-officials-footer.svg",
     "alt": "Greater Naples Officials Association (GNOA) home"
   },
   "ogImage": "/images/hero-home.jpg",
