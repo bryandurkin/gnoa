@@ -17,9 +17,12 @@ What was built, from which source. Newest first.
 
 ## Pages still on SAMPLE content
 
-Whole pages: Basketball, Softball, Soccer, Volleyball, Become an Official,
+Whole pages: Basketball, Become an Official,
 Training and Development, Contact, Privacy Policy. These need a handoff pack or copy from GNOA.
 
-A few SAMPLE items also remain on Home and About (stats, testimonials, contact details) and on
-Wrestling (6 photos).
+Softball: lower half missing (The Game Starts to Slow Down, Experienced Umpire, Keep Developing,
+What Will I Need, FAQs, closing banner text). The pack referred to copy it did not include.
+
+A few SAMPLE items also remain on Home and About (stats, testimonials, contact details) and photos on
+Wrestling (6), Soccer (5) and Volleyball (5).
 `npm run check:live` lists every one.
