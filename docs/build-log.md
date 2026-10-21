@@ -4,6 +4,7 @@ What was built, from which source. Newest first.
 
 | Date | What | Source | Notes |
 |---|---|---|---|
+| 2026-10-21 | Wrestling page | `handoff/completed/2026-10-21-wrestling` | Design kit v1.4: benefits allows 5 items, info-faq takes a list, new wrestling and shoe icons. 3 stand-in photos cut from the mockup, 6 photo slots marked SAMPLE (W4 to W9 in the image checklist). |
 | 2026-10-21 | Repo organized for Claude Code handoffs | | Added `CLAUDE.md`, `handoff/`, `docs/`. Archived the three built packs. |
 | 2026-10-21 | Branding switched to Florida Officials logo | | `logo-gnoa-officials.svg` and footer variant |
 | 2026-09-30 | About GNOA page | `handoff/completed/2026-09-30-about` | Design kit v1.3. 14 stand-in photos cut from mockup. |
@@ -13,8 +14,9 @@ What was built, from which source. Newest first.
 
 ## Pages still on SAMPLE content
 
-Whole pages: Basketball, Softball, Soccer, Volleyball, Wrestling, Become an Official,
+Whole pages: Basketball, Softball, Soccer, Volleyball, Become an Official,
 Training and Development, Contact, Privacy Policy. These need a handoff pack or copy from GNOA.
 
-A few SAMPLE items also remain on Home and About (stats, testimonials, contact details).
+A few SAMPLE items also remain on Home and About (stats, testimonials, contact details) and on
+Wrestling (6 photos).
 `npm run check:live` lists every one.

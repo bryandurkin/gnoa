@@ -1,0 +1,44 @@
+path,type,intended_use,production_status,notes
+reference-images/00-full-page-mockup.png,mockup,Primary visual authority,reference only,Approved clean wrestling concept
+reference-images/01-header-hero.png,section crop,01 Header Hero,reference only,Use for layout/spacing reference
+reference-images/02-close-action-benefits.png,section crop,02 Close Action Benefits,reference only,Use for layout/spacing reference
+reference-images/03-training.png,section crop,03 Training,reference only,Use for layout/spacing reference
+reference-images/04-getting-started.png,section crop,04 Getting Started,reference only,Use for layout/spacing reference
+reference-images/05-final-cta.png,section crop,05 Final Cta,reference only,Use for layout/spacing reference
+photo-crops/hero-wrestling-official-reference.png,photo crop,Prototype image reference,replace for production,AI-composite crop; not original source photo
+photo-crops/training-wrestling-action-reference.png,photo crop,Prototype image reference,replace for production,AI-composite crop; not original source photo
+photo-crops/final-mat-official-reference.png,photo crop,Prototype image reference,replace for production,AI-composite crop; not original source photo
+photo-crops/logo-header-reference.png,photo crop,Prototype image reference,replace for production,AI-composite crop; not original source photo
+design-tokens/tokens.css,tokens,CSS implementation starting point,usable,Approximate
+design-tokens/tokens.json,tokens,Token data,usable,Approximate
+docs/page-content.md,copy,Exact wrestling page copy,approved,Copy authority
+docs/agent-build-brief.md,instructions,Builder implementation brief,approved,
+docs/production-image-shot-list.md,instructions,Production photo plan,approved,
+icons/arrow-right-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/arrow-right-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/book-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/book-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/chat-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/chat-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/check-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/check-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/crew-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/crew-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/external-link-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/external-link-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/growth-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/growth-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/positioning-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/positioning-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/rules-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/rules-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/shield-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/shield-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/shoe-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/shoe-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/timing-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/timing-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/whistle-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/whistle-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/wrestling-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/wrestling-teal.svg,svg icon,UI icon,usable,Editable vector

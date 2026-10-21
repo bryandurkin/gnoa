@@ -1,0 +1,16 @@
+/* GNOA wrestling recruiting page — approximate design tokens */
+:root {
+  --gnoa-navy: #082f55;
+  --gnoa-navy-dark: #062643;
+  --gnoa-teal: #29c6cf;
+  --gnoa-teal-dark: #18aeb9;
+  --gnoa-white: #ffffff;
+  --gnoa-bg: #f6f9fc;
+  --gnoa-border: #d9e5ef;
+  --gnoa-text: #0c2d4d;
+  --gnoa-text-soft: #425f78;
+  --gnoa-radius: 14px;
+  --gnoa-max-width: 1200px;
+  --gnoa-font-heading: "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
+  --gnoa-font-body: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}

@@ -1,57 +1,352 @@
 {
   "name": "Wrestling",
   "slug": "sports/wrestling",
-  "title": "Wrestling Officiating in Naples and Collier County | GNOA",
-  "description": "Become a wrestling official in Naples, Collier County, and Southwest Florida. No experience needed. GNOA provides training, mentorship, and support.",
+  "title": "Become a Wrestling Official in Southwest Florida | GNOA",
+  "description": "Learn rules, scoring, positioning, signals, and match management to officiate wrestling in Naples, Collier County, and Southwest Florida.",
   "sections": [
     {
-      "type": "page-hero",
-      "kicker": "Sports",
-      "title1": "Wrestling Officiating",
-      "lead": "Officiate wrestling in Naples, Collier County, and Southwest Florida. You do not need experience. We will teach you.",
+      "type": "hero",
+      "title1": "Become a Wrestling Official",
+      "title2": "in Southwest Florida",
+      "subhead": "Stay in the sport. See every position differently.",
+      "paragraphs": [
+        "Wrestling officiating puts you close to the action and challenges you to make clear, confident decisions in a sport where control, position, timing, and safety all matter.",
+        "You'll learn rules, scoring, positioning, signals, communication, judgment, and how to manage a match from start to finish.",
+        "Greater Naples Officials Association recruits, trains, and develops new and experienced wrestling officials throughout Naples, Collier County, and Southwest Florida."
+      ],
       "buttons": [
         {
-          "text": "Become an Official",
-          "href": "/become-an-official/"
+          "text": "Become a Wrestling Official",
+          "href": "/contact/"
+        },
+        {
+          "text": "Experienced Official? | Connect With GNOA",
+          "href": "/contact/"
         }
       ],
       "image": {
-        "src": "/images/sport-wrestling.jpg",
-        "alt": "Wrestling referee in a crouch watching the match"
+        "src": "/images/wrestling-hero.jpg",
+        "alt": "Wrestling official crouched close to two wrestlers on the mat, whistle in mouth, watching for control"
       }
     },
     {
-      "type": "prose",
-      "blocks": [
+      "type": "benefits",
+      "heading": "Close Action. Quick Decisions. Strong Judgment.",
+      "intro": "Wrestling happens fast and often within inches of the official. A takedown, reversal, near fall, escape, or potentially dangerous situation can develop in seconds. Good officials learn how to move, maintain the right angle, recognize control, and make decisions with confidence.",
+      "mist": true,
+      "items": [
         {
-          "h2": "What Wrestling Officials Do"
+          "icon": "wrestling",
+          "title": "Stay Close to Wrestling",
+          "text": "Continue being part of the sport you enjoy from a completely different perspective."
         },
         {
-          "p": "[[sample]]Levels, season dates, and crew sizes for wrestling, supplied by GNOA.[[/sample]]"
+          "icon": "whistle",
+          "title": "Learn the Craft",
+          "text": "Rules matter, but so do positioning, timing, scoring, communication, and judgment."
         },
         {
-          "h2": "How to Get Started"
+          "icon": "shield",
+          "title": "Protect the Competitors",
+          "paragraphs": [
+            "Safety is a major part of wrestling officiating.",
+            "Officials need to recognize potentially dangerous situations and act quickly when necessary."
+          ]
         },
         {
-          "p": "Tell us you're interested, connect with GNOA, complete the requirements, train and prepare, then work your first games."
-        },
-        {
-          "p": "[[sample]]Sport-specific requirements and training for wrestling officials, supplied by GNOA.[[/sample]]"
+          "icon": "bars",
+          "title": "Challenge Yourself",
+          "text": "Every match brings different styles, positions, and situations."
         }
       ]
     },
     {
-      "type": "cta-band",
-      "title1": "Your Next Game Could",
-      "title2": "Look Different From This Side",
-      "text": "Start with a conversation.",
+      "type": "split",
+      "reverse": true,
+      "heading": "Never Officiated Before?",
+      "subhead": "That's what training is for.",
+      "paragraphs": [
+        "You don't need previous wrestling officiating experience to get started.",
+        "GNOA helps new officials learn the fundamentals and become more confident as they gain experience."
+      ],
+      "list": {
+        "heading": "You'll learn:",
+        "items": [
+          "Wrestling rules and responsibilities",
+          "Scoring",
+          "Positioning and movement",
+          "Proper signals and mechanics",
+          "Takedowns and control",
+          "Escapes and reversals",
+          "Near-fall situations",
+          "Potentially dangerous situations",
+          "Match management",
+          "Working with coaches and wrestlers",
+          "How to improve through feedback"
+        ]
+      },
+      "after": "You won't learn everything in your first match. You build it one match at a time.",
       "button": {
-        "text": "Become an Official",
+        "text": "I Want to Learn More",
         "href": "/become-an-official/"
       },
       "image": {
-        "src": "/images/cta-home.jpg",
-        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+        "src": "/images/wrestling-training.jpg",
+        "alt": "Wrestling official's hand in a green wristband, ready to signal as two wrestlers work on the mat"
+      }
+    },
+    {
+      "type": "steps",
+      "heading": "How Do I Get Started?",
+      "mist": true,
+      "items": [
+        {
+          "icon": "chat",
+          "title": "Tell Us You're Interested",
+          "text": "Complete the short form and select Wrestling."
+        },
+        {
+          "icon": "group",
+          "title": "Meet the Wrestling Team",
+          "text": "We'll explain training, registration, equipment, the season, and what you should expect."
+        },
+        {
+          "icon": "book",
+          "title": "Learn the Fundamentals",
+          "text": "Study the rules, practice positioning and signals, and learn how to recognize scoring situations."
+        },
+        {
+          "icon": "shoe",
+          "title": "Work Your First Matches",
+          "text": "Start with assignments that match your training and experience."
+        },
+        {
+          "icon": "bars",
+          "title": "Keep Getting Better",
+          "text": "Work matches, receive feedback, learn from experienced officials, and continue developing."
+        }
+      ],
+      "button": {
+        "text": "Start the Process",
+        "href": "/contact/"
+      }
+    },
+    {
+      "type": "benefits",
+      "heading": "What Makes a Good Wrestling Official?",
+      "align": "left",
+      "mist": false,
+      "items": [
+        {
+          "icon": "target",
+          "title": "Positioning",
+          "paragraphs": [
+            "Officials need to move constantly to maintain the best possible view of the action.",
+            "The right angle helps you recognize control, scoring, and safety situations."
+          ]
+        },
+        {
+          "icon": "book",
+          "title": "Rules Knowledge",
+          "paragraphs": [
+            "Wrestling has detailed rules involving scoring, control, penalties, boundaries, and match situations.",
+            "Training helps you learn how to apply them in real time."
+          ]
+        },
+        {
+          "icon": "scales",
+          "title": "Judgment",
+          "paragraphs": [
+            "Not every situation is obvious.",
+            "Good officials learn to recognize what happened, determine control, and make clear decisions without guessing."
+          ]
+        },
+        {
+          "icon": "chat",
+          "title": "Communication",
+          "text": "Signals, voice, body language, and communication with coaches, wrestlers, and the scorer's table all matter."
+        },
+        {
+          "icon": "brain",
+          "title": "Composure",
+          "paragraphs": [
+            "Matches can become intense.",
+            "Good officials stay calm, professional, and focused on the action in front of them."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "heading": "The Match Starts to Look Different",
+      "lines": [
+        "Your first few matches may feel like everything is happening at once.",
+        "Position. Control. Scoring. Time. Safety. The boundary. The next move.",
+        "That's normal.",
+        "With training and experience, you begin to recognize patterns and anticipate where the action is going.",
+        "You stop trying to see everything at once.",
+        "You get better at seeing what matters."
+      ],
+      "image": {
+        "src": "/images/wrestling-match.jpg",
+        "alt": "Wrestling official low in a crouch with red and green wristbands, watching the action closely"
+      }
+    },
+    {
+      "type": "split",
+      "reverse": true,
+      "heading": "Already an Experienced Wrestling Official?",
+      "subhead": "Bring your experience to Southwest Florida.",
+      "paragraphs": [
+        "If you're relocating to Naples or the surrounding area, or looking for a local officiating association, GNOA would like to hear from you."
+      ],
+      "button": {
+        "text": "Connect With GNOA Wrestling",
+        "href": "/contact/"
+      },
+      "aside": {
+        "heading": "Tell us about your:",
+        "items": [
+          "Years of officiating experience",
+          "Previous associations",
+          "Levels worked",
+          "Tournament experience",
+          "Postseason assignments",
+          "Championship experience",
+          "Current certifications"
+        ],
+        "text": "We'll connect you with GNOA wrestling leadership and help you understand the local process."
+      },
+      "image": {
+        "src": "/images/sample-photo.svg",
+        "alt": "[[sample]]Needed: a veteran GNOA wrestling official at a tournament or talking with another official[[/sample]]"
+      }
+    },
+    {
+      "type": "path",
+      "heading": "Keep Developing",
+      "headAlign": "left",
+      "tagline": "Your first match is only the beginning.",
+      "paragraphs": [
+        "Wrestling officials continue improving through: Rules Study · Positioning · Mechanics · Mentoring · Film · Feedback · Tournament Experience · Repetition",
+        "Some officials want to stay involved in wrestling and work matches they enjoy. Others want to progress toward varsity, tournament, postseason, and championship assignments.",
+        "There's room for both."
+      ],
+      "mist": true,
+      "items": [
+        {
+          "label": "Varsity",
+          "image": {
+            "src": "/images/sample-photo.svg",
+            "alt": "[[sample]]Needed: a GNOA official working a local varsity dual meet[[/sample]]"
+          }
+        },
+        {
+          "label": "Tournament",
+          "image": {
+            "src": "/images/sample-photo.svg",
+            "alt": "[[sample]]Needed: a GNOA official working a multi-mat tournament[[/sample]]"
+          }
+        },
+        {
+          "label": "Postseason",
+          "image": {
+            "src": "/images/sample-photo.svg",
+            "alt": "[[sample]]Needed: a GNOA official working a district or regional postseason match[[/sample]]"
+          }
+        },
+        {
+          "label": "Championship",
+          "image": {
+            "src": "/images/sample-photo.svg",
+            "alt": "[[sample]]Needed: a GNOA official at a state championship venue[[/sample]]"
+          }
+        }
+      ],
+      "button": {
+        "text": "Wrestling News & Recognition",
+        "href": "/blog/"
+      }
+    },
+    {
+      "type": "info-faq",
+      "info": {
+        "heading": "What Will I Need?",
+        "image": {
+          "src": "/images/sample-photo.svg",
+          "alt": "[[sample]]Needed: flat lay of a wrestling official's shirt, whistle, red and green wristbands, shoes and rule book[[/sample]]"
+        },
+        "paragraphs": [
+          "Wrestling officials need an approved uniform and some basic officiating equipment.",
+          "But don't buy everything before talking with GNOA.",
+          "Depending on current requirements, equipment may include:"
+        ],
+        "list": [
+          "Approved officiating uniform",
+          "Appropriate shoes",
+          "Whistle",
+          "Wristbands",
+          "Timing or scoring accessories",
+          "Rule materials",
+          "Other basic officiating equipment"
+        ],
+        "after": [
+          "Experienced officials may also have extra, used, or hand-me-down items available for someone just getting started.",
+          "GNOA can help you understand what you actually need now and what can wait."
+        ],
+        "callout": "Talk to us first. See what's available. Buy what you need."
+      },
+      "faq": {
+        "heading": "Wrestling Officiating FAQs",
+        "items": [
+          {
+            "q": "Do I need previous officiating experience?",
+            "a": "No. GNOA trains and develops new wrestling officials."
+          },
+          {
+            "q": "Do I need to have wrestled?",
+            "a": "No. Wrestling experience can help with familiarity, but officiating is its own skill and can be learned."
+          },
+          {
+            "q": "Will I start with varsity matches?",
+            "a": "New officials develop over time. Assignments should match your training, experience, and readiness."
+          },
+          {
+            "q": "Is wrestling officiating physically demanding?",
+            "a": "Officials need to move constantly around the mat, change levels, and maintain good positioning throughout the match."
+          },
+          {
+            "q": "Is safety part of the official's job?",
+            "a": "Yes. Officials are responsible for recognizing potentially dangerous situations and protecting the competitors while allowing legal action to continue."
+          },
+          {
+            "q": "Should I buy equipment now?",
+            "a": "Talk with GNOA first. We can help you understand current requirements and whether used or hand-me-down equipment may be available."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-band",
+      "title1": "Ready to See Wrestling From This Side?",
+      "paragraphs": [
+        "You already know what the sport looks like from the stands.",
+        "Officiating gives you a completely different perspective."
+      ],
+      "list": [
+        "Stay involved.",
+        "Learn the craft.",
+        "Protect the competitors.",
+        "Challenge yourself."
+      ],
+      "text": "Your first match starts with a conversation.",
+      "button": {
+        "text": "Become a Wrestling Official",
+        "href": "/contact/"
+      },
+      "image": {
+        "src": "/images/wrestling-cta.jpg",
+        "alt": "Wrestling official's black shoes planted on the mat at the edge of the circle, crowd blurred behind"
       }
     }
   ]
