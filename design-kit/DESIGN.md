@@ -10,7 +10,7 @@ Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY
 | navy | #0a2342 | Headings, sport strip, hero, band, page-hero |
 | icon-blue | #0c558c | Card and step icons (benefits, How It Works discs). Sampled from the homepage, football and baseball mockups |
 | navy-deep | #06223f | Footer |
-| cyan | #03a9c6 | Primary buttons, step numbers, heading underline bar |
+| cyan | #03a9c6 | Primary buttons and heading underline bar |
 | cyan-hover | #0291ad | Primary button hover |
 | teal | #0189a8 | Buttons on white sections |
 | teal-deep | #066a86 | ArbiterSports button, subheads, section taglines, post dates |
@@ -51,10 +51,10 @@ Fields marked * are required.
 | skills | Heading, intro and small icon + label tiles beside a rounded photo, no fade (v1.3) | heading*, intro*, label ("You learn to:"), 4 to 6 items (icon*, label* max 5 words), after (1 paragraph), image* | 3 across desktop, 2 across tablet and phone |
 | sport-tiles | Photo link tiles, label and arrow | heading*, 3 to 8 tiles (label*, link*, image*) | Layout adapts to count. 7 tiles = 4 over 3, as in mockup |
 | split | Text and photo, photo fading into white | heading*, subhead*, 1 to 2 paragraphs* (max 45 words each), list (heading + 4 to 12 checklist items), after (1 paragraph), button*, image*. reverse = photo on the left; aside = boxed checklist (heading + 4 to 8 items, columns 1 or 2) plus an optional line, beside the text (use with reverse) | Max twice per page. Checklist items max 6 words |
-| steps | Numbered process on a connector line | heading*, 3 to 6 steps (icon*, title*, text*), button (centered below) | Only for a real sequence. Text max 15 words |
+| steps | Icon-led process on a connector line (no number badges) | heading*, 3 to 6 steps (icon*, title*, text*), button (centered below) | Only for a real sequence. Text max 15 words |
 | learn-cards | Photo cards with title and text under the photo (v1.2) | heading*, tagline, 3 to 6 cards (image*, title*, text* max 35 words) | One row on desktop (columns follow the card count), 3 across on tablet |
 | band | Navy panel, photo right | heading* and paragraph (max 45 words), or heading* and lines (3 to 8 short lines), or blocks (2 topics, each heading + paragraph max 60 words, split by a thin rule); button, image* | Never directly after another dark section |
-| path | Photo cards joined by arrows | heading*, tagline, intro (one line) or headAlign "left" with 1 to 4 paragraphs, 3 to 5 cards (label*, image*, text = caption under the photo), numbered (number circles), button (centered below) | Only for a progression. Labels max 4 words, captions max 14 words |
+| path | Photo cards joined by arrows | heading*, tagline, intro (one line) or headAlign "left" with 1 to 4 paragraphs, 3 to 5 cards (label*, image*, text = caption under the photo), button (centered below) | Only for a progression. Labels max 4 words, captions max 14 words |
 | testimonials | Quote cards with headshot | heading*, 1 to 3 quotes (photo*, quote*, name*, role*) | Real, approved quotes only. SAMPLE tag until GNOA approves |
 | faq | Two-column accordion | heading*, 3 to 10 questions with answers* | Answers from GNOA only, never invented |
 | info-faq | Info panel (photo, text, callout) beside a one-column FAQ (v1.2) | info: heading*, image*, 1 to 3 paragraphs*, callout (max 10 words); faq: heading*, 3 to 8 questions with answers* | One FAQ per page. Answers from GNOA only |
@@ -65,6 +65,8 @@ Fields marked * are required.
 | prose | Rich text (derived) | h2, h3, paragraphs, lists, link lists | Keep the team's wording |
 | post-cards | News and blog cards (derived) | 1 to 12 posts (image*, date*, title*, excerpt*, link*) | Pulls from News & Recognition posts |
 | contact | Contact details plus form (derived) | details (real only)*, form embed* | Contact page only. Form provider to be confirmed |
+
+GNOA site rule: Do not display numbered badges or number circles over or above process icons, step diagrams, or pathway cards. Use the pictogram icons and progression arrows/lines instead.
 
 Icons: the SVG sprite at the top of preview.html (arrow, external, menu, group, community, chart, whistle, doc, clipboard, cap, trophy, football, gear, book, check, info, baseball, ballcap, target, runner, scales, chat, bars, brain, shield, feedback, calendar, facebook, instagram, youtube). On the site they live in src/components/Icon.astro. Include the sprite once in the site layout. Card and step icons are solid and use icon-blue. Checklist and callout icons use cyan. Icons on navy bands are white. New icons must match: 24px grid, solid shapes.
 
@@ -82,7 +84,7 @@ Page list read from the mockup nav and footer. Sports list (7) confirmed by Brya
 | Sport page, full (Football and Baseball built Sept 30, 2026 from their handoff packs) | hero (no eyebrow), icon-strip, benefits (intro, tagline optional), split (checklist), steps (+ button), learn-cards, band (lines or blocks), split (reverse + aside), path (captions + button), info-faq, cta-band (list or paragraphs) |
 | Sport page, short (the other 5 until their copy arrives) | page-hero (uses sport-NAME.jpg), prose, steps (only if the team gives sport-specific steps), faq (sport-specific, optional), cta-band. Switch to the full recipe when the sport's copy pack arrives |
 | Training & Development | page-hero, prose, path, testimonials, cta-band |
-| About GNOA (built Sept 30, 2026 from its handoff pack) | hero (no eyebrow, 3 paragraphs), icon-strip, benefits (white, align left, 2 paragraphs per card), sport-row, skills, path (headAlign left, numbered, captions, join), cta-band (2 buttons), utility-strip |
+| About GNOA (built Sept 30, 2026 from its handoff pack) | hero (no eyebrow, 3 paragraphs), icon-strip, benefits (white, align left, 2 paragraphs per card), sport-row, skills, path (headAlign left, captions, join), cta-band (2 buttons), utility-strip |
 | News & Recognition (blog index, at /blog/) | page-hero, post-cards, cta-band |
 | Blog post | page-hero (date as eyebrow, post image), prose, post-cards (3 related, optional), cta-band |
 | Contact | page-hero, contact, faq (optional), cta-band |
@@ -136,7 +138,7 @@ Never: invent facts, prices, dates, stats, testimonials, names or FAQ answers. N
 5. Every image has descriptive alt text.
 6. No dummy links (#, bare facebook.com, example.com). Social icons use GNOA's real profile URLs or are removed.
 7. Headings keep their punctuation (commas, ampersands, periods in "Recruit. Train. Develop.").
-8. Every element in the inventory below is present (icons, arrows, heading bars, step numbers, connector line, path arrows), not just the text.
+8. Every element in the inventory below is present (icons, arrows, heading bars, connector line, path arrows), not just the text.
 9. Each page starts with hero or page-hero and ends with cta-band (a utility-strip may follow it).
 10. Correct at 390, 1024, 1280 and 1440px, with nothing running past the screen edge (render_check.py passes). Header ArbiterSports button fully visible at every width it shows.
 11. No em dashes in any copy.
@@ -155,7 +157,7 @@ Never: invent facts, prices, dates, stats, testimonials, names or FAQ answers. N
 | benefits | Centered heading, cyan underline bar, 4 bordered white cards, navy filled icons (group, rising chart, community, whistle), bold title, gray text |
 | sport-tiles | Centered heading and bar, 4 tiles over 3 wider tiles, rounded corners, dark bottom fade, white label with arrow |
 | split (new) | Photo right fading into white, navy heading, teal subhead, gray paragraph, teal button with arrow |
-| steps | Heading and bar, 5 steps, cyan number circles, white icon discs with shadow, light blue connector line through the discs, bold title, gray text |
+| steps | Heading and bar, 5 steps, white icon discs with shadow, light blue connector line through the discs, bold title, gray text |
 | band | Navy left panel fading into photo, white heading, white paragraph, cyan button with arrow |
 | split (experienced) | Same as split (new), teal button "Connect With GNOA" with arrow |
 | path | Heading, teal tagline (no bar), 4 photo cards with navy bottom fade and centered white label, navy arrows between cards |

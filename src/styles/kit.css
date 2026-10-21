@@ -7,7 +7,7 @@
   --navy:#0a2342;        /* headings, sport strip, dark panels */
   --icon-blue:#0c558c;   /* card and step icons (sampled from all three approved mockups) */
   --navy-deep:#06223f;   /* footer */
-  --cyan:#03a9c6;        /* primary buttons, step numbers, heading bar */
+  --cyan:#03a9c6;        /* primary buttons and heading bar */
   --cyan-hover:#0291ad;
   --teal:#0189a8;        /* buttons on light sections */
   --teal-deep:#066a86;   /* header/footer ArbiterSports button, subheads */
@@ -142,10 +142,9 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .split p{color:var(--muted);margin:0 0 22px;font-size:16px}
 
 /* ---------- 7. steps (How It Works, 3 to 6 steps) ---------- */
-.steps{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:22px;list-style:none;margin:0;padding:0;counter-reset:step}
-.steps::before{content:"";position:absolute;left:0;right:0;top:65px;height:2px;background:var(--line-blue);z-index:0}
+.steps{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:22px;list-style:none;margin:0;padding:0}
+.steps::before{content:"";position:absolute;left:0;right:0;top:32px;height:2px;background:var(--line-blue);z-index:0}
 .step{position:relative;z-index:1;text-align:center}
-.step__num{width:30px;height:30px;border-radius:50%;background:var(--cyan);color:var(--white);display:grid;place-items:center;margin:0 auto 4px;font-family:var(--font-display);font-weight:800;font-size:17px}
 .step__disc{width:64px;height:64px;border-radius:50%;background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow);display:grid;place-items:center;margin:0 auto 14px;color:var(--icon-blue)}
 .step__disc .icon{width:30px;height:30px}
 .step h3{font-weight:800;font-size:19.5px;margin:0 0 6px}
@@ -432,9 +431,6 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .sec-head-left p{margin:0 0 4px;font-size:16px;color:var(--muted)}
 .sec-head-left .sec-head__tag{margin:0 0 8px}
 
-/* path number circles */
-.path--numbered .path__num{position:absolute;left:50%;top:calc(clamp(130px,12vw,168px) - 22px);transform:translateX(-50%);z-index:2;width:44px;height:44px;border-radius:50%;background:var(--cyan);color:var(--white);border:3px solid var(--white);display:grid;place-items:center;font-family:var(--font-display);font-weight:800;font-size:22px}
-.path--numbered .path__caption{padding-top:26px}
 
 /* utility-strip: small panel after the closing banner */
 .sec:has(> .wrap > .utility-strip){padding:30px 0}
@@ -461,7 +457,6 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 @media (max-width:560px){
   .sport-row{grid-template-columns:repeat(2,1fr)}
   .sport-row li:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc(50% - 6px)}
-  .path--numbered .path__num{top:calc(clamp(130px,12vw,168px) - 22px)}
 }
 
 /* ================= v1.1 additions for the Builder (site only) ================= */
