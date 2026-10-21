@@ -1,9 +1,9 @@
 ---
 import Sec from '../Sec.astro'; import SecHead from '../SecHead.astro'; import Icon from '../Icon.astro'; import Btn from '../Btn.astro';
-const { heading, items, button, mist = true, join } = Astro.props;
+const { heading, tagline, items, button, mist = true, join } = Astro.props;
 ---
 <Sec mist={mist} join={join}>
-  <SecHead heading={heading} />
+  <SecHead heading={heading} tagline={tagline} />
   <ol class="steps">
     {items.map(s => <li class="step"><span class="step__disc"><Icon name={s.icon} /></span><h3>{s.title}</h3><p>{s.text}</p></li>)}
   </ol>
