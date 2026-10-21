@@ -1,0 +1,19 @@
+:root {
+  --gnoa-navy: #082b55;
+  --gnoa-navy-deep: #052342;
+  --gnoa-blue: #0b4f86;
+  --gnoa-teal: #08a5bf;
+  --gnoa-teal-dark: #078aa1;
+  --gnoa-sky: #eaf6fb;
+  --gnoa-neutral-50: #f7fafc;
+  --gnoa-neutral-100: #eef3f7;
+  --gnoa-neutral-300: #d6e0e7;
+  --gnoa-text: #0d2e50;
+  --gnoa-muted: #53687a;
+  --gnoa-white: #ffffff;
+  --radius-card: 10px;
+  --radius-button: 6px;
+  --shadow-soft: 0 4px 18px rgba(5,35,66,.08);
+  --content-max: 1180px;
+  --section-space: clamp(56px, 6vw, 92px);
+}

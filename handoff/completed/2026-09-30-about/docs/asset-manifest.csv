@@ -1,0 +1,32 @@
+asset,type,purpose,production_status,notes
+reference-images/00-full-page-mockup.png,reference,Full visual authority,reference only,Use to match overall page composition and hierarchy
+reference-images/01-header-hero.png,reference,Header hero and value strip,reference only,Latest concise mockup crop
+reference-images/02-recruit-train-develop.png,reference,Three-pillar section,reference only,Use exact page-content copy
+reference-images/03-seven-sports.png,reference,Sports hub section,reference only,Replace sport photos with production images
+reference-images/04-more-than-game.png,reference,Skills/community section,reference only,Icon grid plus community photo
+reference-images/05-new-to-veteran.png,reference,Development progression,reference only,Four-stage progression
+reference-images/06-final-cta.png,reference,Recruiting CTA,reference only,Use production field/sunset photo
+reference-images/07-current-officials-footer.png,reference,Arbiter strip and footer,reference only,Reuse shared site footer where possible
+photo-crops/hero-officials-community-reference.png,image reference,Hero photo composition,replace for production,Composite crop not original source photo
+photo-crops/sports-card-row-reference.png,image reference,Seven-sport composition,replace for production,Composite crop not original source photos
+photo-crops/community-officials-reference.png,image reference,Community section photo,replace for production,Composite crop not original source photo
+photo-crops/progression-new-official-reference.png,image reference,Progression stage 1,replace for production,Composite crop
+photo-crops/progression-crew-reference.png,image reference,Progression stage 2,replace for production,Composite crop
+photo-crops/progression-varsity-reference.png,image reference,Progression stage 3,replace for production,Composite crop
+photo-crops/progression-veteran-reference.png,image reference,Progression stage 4,replace for production,Composite crop
+photo-crops/final-cta-field-reference.png,image reference,Closing CTA composition,replace for production,Composite crop
+icons/recruit-teal.svg,svg icon,Recruit card,reusable,Editable vector
+icons/train-teal.svg,svg icon,Train card,reusable,Editable vector
+icons/develop-teal.svg,svg icon,Develop card,reusable,Editable vector
+icons/pressure-navy.svg,svg icon,Decision-pressure skill,reusable,Editable vector
+icons/communication-navy.svg,svg icon,Communication skill,reusable,Editable vector
+icons/team-navy.svg,svg icon,Teamwork skill,reusable,Editable vector
+icons/feedback-navy.svg,svg icon,Feedback skill,reusable,Editable vector
+icons/composed-navy.svg,svg icon,Composure skill,reusable,Editable vector
+icons/growth-navy.svg,svg icon,Improvement skill,reusable,Editable vector
+icons/community-teal.svg,svg icon,Community/value strip,reusable,Editable vector
+icons/opportunity-teal.svg,svg icon,Opportunity/value strip,reusable,Editable vector
+icons/arrow-right-teal.svg,svg icon,CTA arrow/repeated links,reusable,Editable vector
+icons/external-link-teal.svg,svg icon,Arbiter external link,reusable,Editable vector
+design-tokens/tokens.css,design tokens,CSS variables,reusable,Approximate tokens; visual mockup is authority
+design-tokens/tokens.json,design tokens,Machine-readable tokens,reusable,Approximate tokens

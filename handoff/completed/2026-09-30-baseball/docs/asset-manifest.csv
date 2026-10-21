@@ -1,0 +1,45 @@
+asset,type,page_use,status,notes
+reference-images/00-full-page-mockup.png,reference,Entire page,approved visual authority,Use for layout and styling comparison
+reference-images/01-header-hero.png,reference,Header + hero,approved reference,Section crop
+reference-images/02-more-than-balls-strikes.png,reference,Benefit cards,approved reference,Section crop
+reference-images/03-never-umpired.png,reference,Training/mentorship,approved reference,Section crop
+reference-images/04-process-timeline.png,reference,5-step process,approved reference,Section crop
+reference-images/05-what-umpire-learns.png,reference,Learning cards,approved reference,Section crop
+reference-images/06-timing-first-game.png,reference,Timing/first game,approved reference,Section crop
+reference-images/07-experienced-umpire.png,reference,Experienced umpire,approved reference,Section crop
+reference-images/08-development-recognition.png,reference,Progression/recognition,approved reference,Section crop
+reference-images/09-equipment-faq.png,reference,Equipment + FAQ,approved reference,Section crop
+reference-images/10-final-cta-footer.png,reference,Final CTA + footer,approved reference,Section crop
+photo-crops/hero-plate-umpire-reference.png,image,Hero,prototype/reference,Extracted from composite; replace with production photo
+photo-crops/mentor-new-umpire-reference.png,image,Never Umpired Before,prototype/reference,Extracted from composite; replace with GNOA photo
+photo-crops/learn-positioning-reference.png,image,Positioning card,prototype/reference,Extracted from composite
+photo-crops/learn-plate-work-reference.png,image,Plate Work card,prototype/reference,Extracted from composite
+photo-crops/learn-base-mechanics-reference.png,image,Base Mechanics card,prototype/reference,Extracted from composite
+photo-crops/learn-rules-reference.png,image,Rules card,prototype/reference,Extracted from composite
+photo-crops/learn-judgment-reference.png,image,Judgment card,prototype/reference,Extracted from composite
+photo-crops/learn-communication-reference.png,image,Communication card,prototype/reference,Extracted from composite
+photo-crops/timing-night-field-reference.png,image,Timing/First Game,prototype/reference,Extracted from composite
+photo-crops/experienced-crew-reference.png,image,Experienced Umpire,prototype/reference,Extracted from composite
+photo-crops/progression-new-training-reference.png,image,New Umpire Training,prototype/reference,Extracted from composite
+photo-crops/progression-local-baseball-reference.png,image,Working Local Baseball,prototype/reference,Extracted from composite
+photo-crops/progression-postseason-reference.png,image,Postseason Opportunities,prototype/reference,Extracted from composite
+photo-crops/progression-championship-reference.png,image,Recognition and Championships,prototype/reference,Extracted from composite
+photo-crops/umpire-equipment-reference.png,image,What Will I Need,prototype/reference,Extracted from composite
+photo-crops/final-cta-umpire-reference.png,image,Final CTA,prototype/reference,Extracted from composite
+icons/baseball-navy.svg,icon,Stay Close to Baseball,production-ready editable SVG,Use CSS/currentColor alternative if desired
+icons/growth-navy.svg,icon,Learn the Craft,production-ready editable SVG,
+icons/crew-navy.svg,icon,Work as a Crew,production-ready editable SVG,
+icons/trophy-navy.svg,icon,Challenge Yourself,production-ready editable SVG,
+icons/positioning-navy.svg,icon,Value bar/positioning,production-ready editable SVG,
+icons/mechanics-navy.svg,icon,Value bar/mechanics,production-ready editable SVG,
+icons/judgment-navy.svg,icon,Value bar/judgment,production-ready editable SVG,
+icons/communication-navy.svg,icon,Value bar/communication,production-ready editable SVG,
+icons/document-navy.svg,icon,Process step 1,production-ready editable SVG,
+icons/crew-teal.svg,icon,Process step 2,production-ready editable SVG,
+icons/book-navy.svg,icon,Process step 3,production-ready editable SVG,
+icons/cap-navy.svg,icon,Process step 4,production-ready editable SVG,
+icons/growth-teal.svg,icon,Process step 5,production-ready editable SVG,
+icons/check-teal.svg,icon,Checklist bullets,production-ready editable SVG,
+icons/info-teal.svg,icon,Equipment callout,production-ready editable SVG,
+icons/chevron-right-teal.svg,icon,Buttons/arrows,production-ready editable SVG,
+icons/external-link-teal.svg,icon,ArbiterSports,production-ready editable SVG,
