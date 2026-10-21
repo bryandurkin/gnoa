@@ -1,0 +1,46 @@
+path,type,intended_use,production_status,notes
+reference-images/00-full-page-mockup.png,mockup,Primary visual authority,reference only,Approved simplified softball design
+reference-images/01-header-hero.png,section crop,Layout/build reference,reference only,
+reference-images/02-fast-game-benefits.png,section crop,Layout/build reference,reference only,
+reference-images/03-training.png,section crop,Layout/build reference,reference only,
+reference-images/04-getting-started.png,section crop,Layout/build reference,reference only,
+reference-images/05-good-umpire-skills.png,section crop,Layout/build reference,reference only,
+photo-crops/good-umpire-action-reference.png,photo crop,Prototype/reference image,replace for production,Extracted from composite mockup
+photo-crops/hero-plate-umpire-reference.png,photo crop,Prototype/reference image,replace for production,Extracted from composite mockup
+photo-crops/logo-header-reference.png,photo crop,Prototype/reference image,replace for production,Extracted from composite mockup
+photo-crops/training-softball-reference.png,photo crop,Prototype/reference image,replace for production,Extracted from composite mockup
+icons/arrow-right-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/arrow-right-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/ball-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/ball-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/book-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/book-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/chat-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/chat-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/check-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/check-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/crew-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/crew-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/document-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/document-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/equipment-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/equipment-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/external-link-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/external-link-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/growth-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/growth-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/location-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/location-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/shield-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/shield-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/shoe-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/shoe-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/timing-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/timing-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/whistle-navy.svg,svg icon,Reusable UI icon,usable,Editable vector
+icons/whistle-teal.svg,svg icon,Reusable UI icon,usable,Editable vector
+design-tokens/tokens.css,tokens,CSS starting point,usable,Approximate
+design-tokens/tokens.json,tokens,Structured design tokens,usable,Approximate
+docs/page-content.md,copy,Simplified content/presentation direction,approved,
+docs/agent-build-brief.md,instructions,Builder implementation brief,approved,
+docs/production-image-shot-list.md,instructions,Final photo plan,approved,

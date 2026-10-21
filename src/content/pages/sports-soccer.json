@@ -1,57 +1,346 @@
 {
   "name": "Soccer",
   "slug": "sports/soccer",
-  "title": "Soccer Officiating in Naples and Collier County | GNOA",
-  "description": "Become a soccer official in Naples, Collier County, and Southwest Florida. No experience needed. GNOA provides training, mentorship, and support.",
+  "title": "Become a Soccer Referee in Southwest Florida | GNOA",
+  "description": "Learn positioning, rules, signals, and crew communication to referee soccer in Naples, Collier County, and Southwest Florida.",
   "sections": [
     {
-      "type": "page-hero",
-      "kicker": "Sports",
-      "title1": "Soccer Officiating",
-      "lead": "Officiate soccer in Naples, Collier County, and Southwest Florida. You do not need experience. We will teach you.",
+      "type": "hero",
+      "title1": "Become a Soccer Referee",
+      "title2": "in Southwest Florida",
+      "subhead": "Stay in the game. See the whole field differently.",
+      "paragraphs": [
+        "Soccer officiating puts you close to the action and challenges you to make decisions while the game is constantly moving.",
+        "You'll learn positioning, rules, signals, communication, judgment, and how to work with your referee crew to manage the match.",
+        "Greater Naples Officials Association recruits, trains, and develops new and experienced soccer referees throughout Naples, Collier County, and Southwest Florida."
+      ],
       "buttons": [
         {
-          "text": "Become an Official",
-          "href": "/become-an-official/"
+          "text": "Become a Soccer Referee",
+          "href": "/contact/"
+        },
+        {
+          "text": "Experienced Referee? | Connect With GNOA",
+          "href": "/contact/"
         }
       ],
       "image": {
-        "src": "/images/sport-soccer.jpg",
-        "alt": "Soccer assistant referee raising a checkered flag on the sideline"
+        "src": "/images/soccer-hero.jpg",
+        "alt": "Soccer referee in a yellow jersey pointing to signal a decision during a match, players behind"
       }
     },
     {
-      "type": "prose",
-      "blocks": [
+      "type": "benefits",
+      "heading": "Keep Moving. Read the Play. Make the Call.",
+      "intro": "Soccer rarely stops. Possession changes quickly. Players move into space. Challenges develop. Attacks can move from one end of the field to the other in seconds. Good referees learn how to anticipate the play, maintain the right position, and recognize what matters.",
+      "mist": true,
+      "items": [
         {
-          "h2": "What Soccer Officials Do"
+          "icon": "soccer",
+          "title": "Stay Close to Soccer",
+          "text": "Continue being part of the sport you enjoy from a completely different perspective."
         },
         {
-          "p": "[[sample]]Levels, season dates, and crew sizes for soccer, supplied by GNOA.[[/sample]]"
+          "icon": "whistle",
+          "title": "Learn the Craft",
+          "text": "Rules matter, but so do positioning, anticipation, communication, fitness, and judgment."
         },
         {
-          "h2": "How to Get Started"
+          "icon": "group",
+          "title": "Work as a Team",
+          "text": "The referee and assistant referees work together to cover the field and manage the match."
         },
         {
-          "p": "Tell us you're interested, connect with GNOA, complete the requirements, train and prepare, then work your first games."
-        },
-        {
-          "p": "[[sample]]Sport-specific requirements and training for soccer officials, supplied by GNOA.[[/sample]]"
+          "icon": "bars",
+          "title": "Challenge Yourself",
+          "text": "Every match brings different players, situations, and decisions."
         }
       ]
     },
     {
-      "type": "cta-band",
-      "title1": "Your Next Game Could",
-      "title2": "Look Different From This Side",
-      "text": "Start with a conversation.",
+      "type": "split",
+      "reverse": true,
+      "heading": "Never Refereed Before?",
+      "subhead": "That's what training is for.",
+      "paragraphs": [
+        "You don't need previous officiating experience to get started.",
+        "GNOA helps new soccer referees learn the fundamentals and become more confident as they gain experience."
+      ],
+      "list": {
+        "heading": "You'll learn:",
+        "items": [
+          "Laws of the Game",
+          "Referee and assistant referee responsibilities",
+          "Positioning and movement",
+          "Signals and mechanics",
+          "Fouls and misconduct",
+          "Offside responsibilities",
+          "Advantage",
+          "Crew communication",
+          "Match management",
+          "Working with players and coaches",
+          "How to improve through feedback"
+        ]
+      },
+      "after": "You won't learn everything in your first match. You build it one game at a time.",
       "button": {
-        "text": "Become an Official",
+        "text": "I Want to Learn More",
         "href": "/become-an-official/"
       },
       "image": {
-        "src": "/images/cta-home.jpg",
-        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+        "src": "/images/soccer-training.jpg",
+        "alt": "Assistant referee on the touchline holding a checkered flag at their side"
+      }
+    },
+    {
+      "type": "steps",
+      "heading": "How Do I Get Started?",
+      "mist": true,
+      "items": [
+        {
+          "icon": "chat",
+          "title": "Tell Us You're Interested",
+          "text": "Complete the short form and select Soccer."
+        },
+        {
+          "icon": "group",
+          "title": "Meet the Soccer Team",
+          "text": "We'll explain training, registration, equipment, the season, and what you should expect."
+        },
+        {
+          "icon": "book",
+          "title": "Learn the Fundamentals",
+          "text": "Study the rules, practice positioning and signals, and learn how a referee crew works together."
+        },
+        {
+          "icon": "shoe",
+          "title": "Work Your First Games",
+          "text": "Start with assignments that match your training and experience."
+        },
+        {
+          "icon": "bars",
+          "title": "Keep Getting Better",
+          "text": "Work matches, receive feedback, learn from experienced referees, and continue developing."
+        }
+      ],
+      "button": {
+        "text": "Start the Process",
+        "href": "/contact/"
+      }
+    },
+    {
+      "type": "benefits",
+      "heading": "What Makes a Good Soccer Referee?",
+      "align": "left",
+      "mist": false,
+      "items": [
+        {
+          "icon": "target",
+          "title": "Positioning",
+          "paragraphs": [
+            "The right position gives you a better view of the play and helps you make better decisions.",
+            "Good referees learn to anticipate where the game is going instead of simply chasing the ball."
+          ]
+        },
+        {
+          "icon": "scales",
+          "title": "Judgment",
+          "paragraphs": [
+            "Not every bit of contact is a foul.",
+            "Referees learn to recognize what happened, understand its impact on the play, and decide when the game needs intervention."
+          ]
+        },
+        {
+          "icon": "chat",
+          "title": "Communication",
+          "paragraphs": [
+            "A whistle is only one way a referee communicates.",
+            "Voice, signals, body language, eye contact, and communication with the referee crew all help manage the match."
+          ]
+        },
+        {
+          "icon": "runner",
+          "title": "Advantage",
+          "paragraphs": [
+            "Sometimes the best decision is allowing the game to continue.",
+            "Learning when to apply advantage, and when not to, is part of developing good match awareness."
+          ]
+        },
+        {
+          "icon": "brain",
+          "title": "Composure",
+          "paragraphs": [
+            "Soccer can become emotional quickly.",
+            "Good referees stay calm, communicate professionally, and remain focused on the next decision."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "heading": "The Field Starts to Look Different",
+      "lines": [
+        "Your first few matches may feel like there is too much to watch.",
+        "The ball. The players. Potential fouls. Offside. Your assistant referees. Where the next play is going.",
+        "That's normal.",
+        "With training and experience, you begin to anticipate play instead of reacting to it. You learn where to move and what needs your attention.",
+        "The field doesn't get smaller.",
+        "You get better at seeing the game."
+      ],
+      "image": {
+        "src": "/images/soccer-match.jpg",
+        "alt": "Soccer referee watching play closely during a match"
+      }
+    },
+    {
+      "type": "split",
+      "reverse": true,
+      "heading": "Already an Experienced Soccer Referee?",
+      "subhead": "Bring your experience to Southwest Florida.",
+      "paragraphs": [
+        "If you're relocating to Naples or the surrounding area, or looking for a local officiating association, GNOA would like to hear from you."
+      ],
+      "button": {
+        "text": "Connect With GNOA Soccer",
+        "href": "/contact/"
+      },
+      "aside": {
+        "heading": "Tell us about your:",
+        "items": [
+          "Years of officiating experience",
+          "Previous associations",
+          "Levels worked",
+          "Referee and assistant referee experience",
+          "Postseason assignments",
+          "Championship experience",
+          "Current certifications"
+        ],
+        "text": "We'll connect you with GNOA soccer leadership and help you understand the local process."
+      },
+      "image": {
+        "src": "/images/sample-photo.svg",
+        "alt": "[[sample]]Needed: an experienced GNOA referee crew before a match, or a referee talking with an assistant referee[[/sample]]"
+      }
+    },
+    {
+      "type": "path",
+      "heading": "Keep Developing",
+      "headAlign": "left",
+      "tagline": "Your first match is only the beginning.",
+      "paragraphs": [
+        "Soccer referees continue improving through: Rules Study · Positioning · Fitness · Crew Work · Mentoring · Film · Feedback · Experience",
+        "Some officials want to stay involved in soccer and work games they enjoy. Others want to progress toward varsity, postseason, and championship assignments.",
+        "There's room for both."
+      ],
+      "mist": true,
+      "items": [
+        {
+          "label": "Varsity",
+          "image": {
+            "src": "/images/sample-photo.svg",
+            "alt": "[[sample]]Needed: a GNOA referee crew working a local varsity match[[/sample]]"
+          }
+        },
+        {
+          "label": "Postseason",
+          "image": {
+            "src": "/images/sample-photo.svg",
+            "alt": "[[sample]]Needed: a GNOA referee crew at a district or regional playoff match[[/sample]]"
+          }
+        },
+        {
+          "label": "Championship",
+          "image": {
+            "src": "/images/sample-photo.svg",
+            "alt": "[[sample]]Needed: a GNOA referee crew at a state championship venue[[/sample]]"
+          }
+        }
+      ],
+      "button": {
+        "text": "Soccer News & Recognition",
+        "href": "/blog/"
+      }
+    },
+    {
+      "type": "info-faq",
+      "info": {
+        "heading": "What Will I Need?",
+        "image": {
+          "src": "/images/sample-photo.svg",
+          "alt": "[[sample]]Needed: flat lay of a referee jersey, whistle, watch, yellow and red cards, match wallet and assistant referee flags[[/sample]]"
+        },
+        "paragraphs": [
+          "Soccer referees need an approved uniform and some basic officiating equipment.",
+          "But don't buy everything before talking with GNOA.",
+          "Depending on your assignments, equipment may include:"
+        ],
+        "list": [
+          "Approved referee uniform",
+          "Referee shoes",
+          "Whistle",
+          "Watch",
+          "Yellow and red cards",
+          "Match wallet",
+          "Assistant referee flags",
+          "Other basic officiating equipment"
+        ],
+        "after": [
+          "Experienced referees may also have extra, used, or hand-me-down items available for someone just getting started.",
+          "GNOA can help you understand what you actually need now and what can wait."
+        ],
+        "callout": "Talk to us first. See what's available. Buy what you need."
+      },
+      "faq": {
+        "heading": "Soccer Officiating FAQs",
+        "items": [
+          {
+            "q": "Do I need previous refereeing experience?",
+            "a": "No. GNOA trains and develops new soccer referees."
+          },
+          {
+            "q": "Do I need to have played soccer?",
+            "a": "No. Playing or coaching experience can help with familiarity, but refereeing is its own skill."
+          },
+          {
+            "q": "Will I start with varsity matches?",
+            "a": "New officials develop over time. Assignments should match your training, experience, and readiness."
+          },
+          {
+            "q": "Is soccer officiating physically demanding?",
+            "a": "Yes. Soccer officials cover significant distance and need to maintain good positioning throughout the match. Fitness develops along with your officiating skills."
+          },
+          {
+            "q": "Do soccer referees work alone?",
+            "a": "Soccer is normally officiated by a referee crew, with the referee and assistant referees working together to cover the match."
+          },
+          {
+            "q": "Should I buy equipment now?",
+            "a": "Talk with GNOA first. We can help you understand the current requirements and whether used or hand-me-down equipment may be available."
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-band",
+      "title1": "Ready to See Soccer From This Side?",
+      "paragraphs": [
+        "You already know what the game looks like from the sideline.",
+        "Officiating gives you a completely different perspective."
+      ],
+      "list": [
+        "Stay involved.",
+        "Learn the craft.",
+        "Work with a crew.",
+        "Challenge yourself."
+      ],
+      "text": "Your first match starts with a conversation.",
+      "button": {
+        "text": "Become a Soccer Referee",
+        "href": "/contact/"
+      },
+      "image": {
+        "src": "/images/soccer-cta.jpg",
+        "alt": "Soccer ball resting on the touchline of a grass field in late afternoon light"
       }
     }
   ]
