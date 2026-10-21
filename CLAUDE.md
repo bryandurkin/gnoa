@@ -57,5 +57,8 @@ npm run check:live   # live build + QA; fails while any SAMPLE item remains
 
 ## Git
 
+- Start every session with `git pull` on `main`. Other people make small edits directly on GitHub
+  (through ChatGPT), so the local copy is often behind. Pull again before opening a PR.
+- If a file you are changing was also changed on `main`, keep their edit and apply yours on top.
 - Work on a branch, open a PR, merge to `main`. Pushing to `main` redeploys the live draft site,
   so ask before pushing or merging to `main`.
