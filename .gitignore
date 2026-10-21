@@ -3,3 +3,7 @@ dist/
 .astro/
 .wrangler/
 .DS_Store
+
+# Handoff inbox: new packs wait here, not committed
+handoff/inbox/*
+!handoff/inbox/.gitkeep

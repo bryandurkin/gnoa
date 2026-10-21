@@ -1,0 +1,27 @@
+file,section_or_role,dimensions,asset_type,implementation_note
+00-full-page-mockup.png,Entire page,724x2172,APPROVED MOCKUP,Primary visual authority for page build.
+01-header-hero.png,Header + hero,1448x620,REFERENCE CROP,Use as layout/composition reference; replace photo content with final licensed/GNOA photography.
+02-more-than-whistle.png,More Than a Whistle and a Flag,1448x440,REFERENCE CROP,Use as layout/composition reference; replace photo content with final licensed/GNOA photography.
+03-never-officiated.png,Never Officiated Before,1448x540,REFERENCE CROP,Use as layout/composition reference; replace photo content with final licensed/GNOA photography.
+04-process-timeline.png,From Interested to On the Field,1448x400,REFERENCE CROP,Use as layout/composition reference; replace photo content with final licensed/GNOA photography.
+05-what-official-learns.png,What Does a Football Official Learn,1448x460,REFERENCE CROP,Use as layout/composition reference; replace photo content with final licensed/GNOA photography.
+06-first-game.png,Your First Game Is Just the Beginning,1448x380,REFERENCE CROP,Use as layout/composition reference; replace photo content with final licensed/GNOA photography.
+07-experienced-official.png,Experienced Football Official,1448x380,REFERENCE CROP,Use as layout/composition reference; replace photo content with final licensed/GNOA photography.
+08-development-recognition.png,First Game to State Finals,1448x470,REFERENCE CROP,Use as layout/composition reference; replace photo content with final licensed/GNOA photography.
+09-equipment-faq.png,What Will I Need + FAQs,1448x460,REFERENCE CROP,Use as layout/composition reference; replace photo content with final licensed/GNOA photography.
+10-final-cta-footer.png,Final CTA + footer,1448x514,REFERENCE CROP,Use as layout/composition reference; replace photo content with final licensed/GNOA photography.
+crew.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+football.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+growth.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+gear.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+document.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+book.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+whistle.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+positioning.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+communication.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+flag.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+checklist.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+info.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+external-link.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+arrow-right.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.
+award.svg,Reusable UI icon,64x64 SVG,REUSABLE VECTOR,Stroke-based icon styled to match mockup; recolor via SVG/CSS if desired.

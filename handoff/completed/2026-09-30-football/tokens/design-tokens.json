@@ -1,0 +1,25 @@
+{
+  "colors": {
+    "navy900": "#0D2A49",
+    "navy800": "#153A5D",
+    "teal600": "#0895B5",
+    "teal500": "#0AA7C7",
+    "sky100": "#E8F4F8",
+    "neutral050": "#F4F5F7",
+    "neutral100": "#EEF2F4",
+    "neutral300": "#D7E0E5",
+    "text": "#182431",
+    "textMuted": "#5F6B76",
+    "white": "#FFFFFF"
+  },
+  "layout": {
+    "contentMax": "1180px",
+    "sectionSpaceDesktop": "72px",
+    "radiusCard": "10px",
+    "radiusButton": "6px"
+  },
+  "type": {
+    "heading": "Barlow Condensed / Arial Narrow fallback",
+    "body": "Inter / Arial fallback"
+  }
+}
