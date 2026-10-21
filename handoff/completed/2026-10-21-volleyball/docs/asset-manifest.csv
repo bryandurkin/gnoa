@@ -1,0 +1,46 @@
+path,type,intended_use,production_status,notes
+reference-images/00-full-page-mockup.png,mockup,Primary visual authority,reference only,Approved clean volleyball mockup
+reference-images/01-header-hero.png,section crop,Header Hero,reference only,Use for layout/spacing/hierarchy
+reference-images/02-fast-rallies-benefits.png,section crop,Fast Rallies Benefits,reference only,Use for layout/spacing/hierarchy
+reference-images/03-training.png,section crop,Training,reference only,Use for layout/spacing/hierarchy
+reference-images/04-getting-started.png,section crop,Getting Started,reference only,Use for layout/spacing/hierarchy
+reference-images/05-final-cta.png,section crop,Final Cta,reference only,Use for layout/spacing/hierarchy
+photo-crops/hero-volleyball-official-reference.png,photo crop,Prototype/reference imagery,replace for production,AI-composite crop; not original source photo
+photo-crops/training-volleyball-action-reference.png,photo crop,Prototype/reference imagery,replace for production,AI-composite crop; not original source photo
+photo-crops/final-volleyball-ball-reference.png,photo crop,Prototype/reference imagery,replace for production,AI-composite crop; not original source photo
+photo-crops/logo-header-reference.png,photo crop,Prototype/reference imagery,replace for production,AI-composite crop; not original source photo
+design-tokens/tokens.css,tokens,CSS implementation starting point,usable,Approximate
+design-tokens/tokens.json,tokens,Design-token data,usable,Approximate
+docs/page-content.md,copy,Complete approved volleyball page content,approved,Copy authority
+docs/agent-build-brief.md,instructions,Developer/agent implementation brief,approved,
+docs/production-image-shot-list.md,instructions,Production photo plan,approved,
+icons/arrow-right-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/arrow-right-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/book-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/book-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/cards-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/cards-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/chat-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/chat-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/check-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/check-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/crew-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/crew-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/external-link-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/external-link-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/focus-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/focus-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/growth-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/growth-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/net-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/net-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/positioning-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/positioning-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/shield-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/shield-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/shoe-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/shoe-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/volleyball-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/volleyball-teal.svg,svg icon,UI icon,usable,Editable vector
+icons/whistle-navy.svg,svg icon,UI icon,usable,Editable vector
+icons/whistle-teal.svg,svg icon,UI icon,usable,Editable vector
