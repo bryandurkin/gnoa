@@ -101,6 +101,22 @@ Same rules as above. The official is the main subject, low to the mat, in a prop
 | W9 | wrestling-equipment.jpg | "What Will I Need?" | Flat lay: officiating shirt, whistle, red and green wristbands, shoes, rule book (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
 | W10 | wrestling-cta.jpg | Closing banner on the Wrestling page | Official's shoes and stance on the mat, or official overlooking competition | 2200 x 1240 | Wide 16:9 | Subject in the right half | Sample in place |
 
+## Needed for the Soccer page
+
+Same rules as above. Referees in proper soccer referee kit are the main subject; assistant referee flag shots are welcome. Players only in the background.
+
+| # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
+|---|---|---|---|---|---|---|---|
+| S1 | soccer-hero.jpg | Big photo at the top of the Soccer page | Referee signaling during a match, players behind | 2400 x 1350 | Wide 16:9 | Referee in the right half; left side is covered by the headline | Sample in place |
+| S2 | soccer-training.jpg | "Never Refereed Before?" section | Assistant referee on the touchline with the flag | 1200 x 1600 | Portrait 3:4 | Centered | Sample in place |
+| S3 | soccer-match.jpg | "The Field Starts to Look Different" | Referee reading the play mid-match | 2200 x 1240 | Wide 16:9 | Referee in the right half | Sample in place (borrowed from the sport tile) |
+| S4 | soccer-experienced.jpg | "Already an Experienced Soccer Referee?" | A referee crew before a match, or referee and assistant talking | 1600 x 1070 | Landscape 3:2 | Centered | Needed (gray SAMPLE PHOTO now) |
+| S5 | soccer-path-varsity.jpg | "Keep Developing" card 1 | Crew working a local varsity match | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
+| S6 | soccer-path-postseason.jpg | Card 2 | Crew at a district or regional playoff match | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
+| S7 | soccer-path-championship.jpg | Card 3 | Crew at a state championship venue | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
+| S8 | soccer-equipment.jpg | "What Will I Need?" | Flat lay: jersey, whistle, watch, cards, match wallet, AR flags (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
+| S9 | soccer-cta.jpg | Closing banner on the Soccer page | A referee looking over the field (the mockup has a ball on the line) | 2200 x 1240 | Wide 16:9 | Subject in the right half | Sample in place |
+
 ## Needed for the About GNOA page
 
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
