@@ -54,7 +54,7 @@ These come from the approved Football page design. Same rules as above: original
 | F7 | football-learn-communication.jpg | Learn card 5 | An official talking with a coach or another official | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | F8 | football-first-game.jpg | "Your First Game Is Just the Beginning" | An official from behind under Friday night lights | 2200 x 1240 | Wide 16:9 | Person in the right half | Sample in place |
 | F9 | football-crew.jpg | "Already an Experienced Football Official?" | A football crew in a pregame huddle | 1600 x 1070 | Landscape 3:2 | Centered; right edge fades to white | Sample in place |
-| F10 | football-path-training.jpg | "First Game to the State Finals" card 1 | A mechanics, rules or film session | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| F10 | football-path-training-roorda.webp | "First Game to the State Finals" card 1 | Larry Roorda teaching football officials using Hudl film (photo from GNOA's former website) | 320 x 214 | Landscape 3:2 | Centered | Original GNOA image, screenshot crop |
 | F11 | football-path-friday-night.jpg | Card 2 | A live high school game, official prominent | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | F12 | football-path-postseason.jpg | Card 3 | A crew working a playoff game | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | F13 | football-path-championship.jpg | Card 4 | A crew at a state championship venue | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
