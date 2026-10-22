@@ -45,7 +45,7 @@ These come from the approved Football page design. Same rules as above: original
 
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
 |---|---|---|---|---|---|---|---|
-| F1 | football-hero.jpg | Big photo at the top of the Football page | A GNOA football official signaling, stadium and palm trees behind | 2400 x 1350 | Wide 16:9 | Person in the right half; left side is covered by the headline | Sample in place |
+| F1 | football-crew-hero.avif | Big photo at the top of the Football page | Actual photograph of GNOA football officials and friends posing together on the field | 818 x 620 | Landscape about 4:3 | Keep group faces visible in the right-side hero image, with existing text overlay on left | Supplied real photo in place |
 | F2 | football-mentor.jpg | "Never Officiated Before?" section | An experienced official talking with a newer official on the field | 1600 x 1070 | Landscape 3:2 | People in the right two thirds | Sample in place |
 | F3 | football-learn-rules.jpg | "What Does a Football Official Learn?" card 1 | Rulebook or game card with officiating gear | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | F4 | football-learn-positioning.jpg | Learn card 2 | An official in position watching the play | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
