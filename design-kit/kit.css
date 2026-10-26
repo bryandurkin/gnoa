@@ -322,7 +322,7 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 /* learn-cards: photo, title and text under the photo */
 .learn-cards{display:grid;grid-template-columns:repeat(var(--cols,5),1fr);gap:14px;list-style:none;margin:0;padding:0}
 .learn-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
-.learn-card__img{aspect-ratio:16/9.4;background:var(--mist)}
+.learn-card__img{aspect-ratio:16/9.4;overflow:hidden;background:var(--mist)}
 .learn-card__body{padding:14px 14px 18px;text-align:center}
 .learn-card h3{font-weight:800;font-size:21px;margin:0 0 6px}
 .learn-card p{margin:0;font-size:14.5px;color:var(--muted)}
