@@ -46,12 +46,12 @@ These come from the approved Football page design. Same rules as above: original
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
 |---|---|---|---|---|---|---|---|
 | F1 | football-crew-hero.avif | Big photo at the top of the Football page | Actual photograph of GNOA football officials and friends posing together on the field | 818 x 620 | Landscape about 4:3 | Keep group faces visible in the right-side hero image, with existing text overlay on left | Supplied real photo in place |
-| F2 | football-mentor.jpg | "Never Officiated Before?" section | An experienced official talking with a newer official on the field | 1600 x 1070 | Landscape 3:2 | People in the right two thirds | Sample in place |
+| F2 | football-mentor.jpg | "Never Officiated Before?" section | An experienced official talking with a newer official on the field | 1600 x 1070 | Landscape 3:2 | People in the right two thirds | Supplied real photo in place |
 | F3 | football-learn-rules.jpg | "What Does a Football Official Learn?" card 1 | Rulebook or game card with officiating gear | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | F4 | football-learn-positioning.jpg | Learn card 2 | An official in position watching the play | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | F5 | football-learn-mechanics.jpg | Learn card 3 | An official giving a signal | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | F6 | football-learn-judgment.jpg | Learn card 4 | A crew conference on the field | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
-| F7 | football-learn-communication.jpg | Learn card 5 | An official talking with a coach or another official | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| F7 | football-learn-communication.jpg | Learn card 5 | An official talking with a coach or another official | 1200 x 900 | Landscape 4:3 | Centered | Supplied real photo in place |
 | F8 | football-first-game.jpg | "Your First Game Is Just the Beginning" | An official from behind under Friday night lights | 2200 x 1240 | Wide 16:9 | Person in the right half | Sample in place |
 | F9 | football-crew.jpg | "Already an Experienced Football Official?" | A football crew in a pregame huddle | 1600 x 1070 | Landscape 3:2 | Centered; right edge fades to white | Sample in place |
 | F10 | football-path-training-roorda.webp | "First Game to the State Finals" card 1 | Larry Roorda teaching football officials using Hudl film (photo from GNOA's former website) | 320 x 214 | Landscape 3:2 | Centered | Original GNOA image, screenshot crop |
