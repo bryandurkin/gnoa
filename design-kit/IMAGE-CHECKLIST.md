@@ -47,7 +47,7 @@ These come from the approved Football page design. Same rules as above: original
 |---|---|---|---|---|---|---|---|
 | F1 | football-crew-hero.avif | Big photo at the top of the Football page | Actual photograph of GNOA football officials and friends posing together on the field | 818 x 620 | Landscape about 4:3 | Keep group faces visible in the right-side hero image, with existing text overlay on left | Supplied real photo in place |
 | F2 | football-mentor.jpg | "Never Officiated Before?" section | An experienced official talking with a newer official on the field | 1600 x 1070 | Landscape 3:2 | People in the right two thirds | Supplied real photo in place |
-| F3 | football-learn-rules.jpg | "What Does a Football Official Learn?" card 1 | Rulebook or game card with officiating gear | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| F3 | football-learn-rules-referee.avif | "What Does a Football Official Learn?" card 1 (Rules) | Original photo: football sideline down marker, official and players in blue | 720 x 480 | Landscape 3:2 | Centered down marker | Client-supplied photo |
 | F4 | football-learn-positioning.jpg | Learn card 2 | An official in position watching the play | 1200 x 900 | Landscape 4:3 | Centered | Supplied real photo in place |
 | F5 | football-learn-mechanics.jpg | Learn card 3 | An official giving a signal | 1200 x 900 | Landscape 4:3 | Centered | Supplied real photo in place |
 | F6 | football-learn-judgment.jpg | Learn card 4 | A crew conference on the field | 1200 x 900 | Landscape 4:3 | Centered | Supplied real photo in place |
@@ -58,7 +58,7 @@ These come from the approved Football page design. Same rules as above: original
 | F11 | football-path-friday-night.jpg | Card 2 | A live high school game, official prominent | 1200 x 900 | Landscape 4:3 | Centered | Supplied real photo in place |
 | F12 | football-path-postseason.jpg | Card 3 | A crew working a playoff game | 1200 x 900 | Landscape 4:3 | Centered | Supplied real photo in place |
 | F13 | football-path-championship.jpg | Card 4 | A crew at a state championship venue | 1200 x 900 | Landscape 4:3 | Centered | Supplied real photo in place |
-| F14 | football-equipment.jpg | "What Will I Need?" | Flat lay: black cap, whistle, flags, down indicator, game cards, timer (no brand logos) | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
+| F14 | football-what-will-i-need-referee.avif | "What Will I Need?" | Original photo: football official with both arms outstretched at night game, R on shirt | 900 x 631 | Landscape approximately 10:7 | Keep official in frame | Client-supplied photo |
 | F15 | football-cta.jpg | Closing banner on the Football page | An official looking out over the field and crowd under the lights | 2200 x 1240 | Wide 16:9 | Person in the right half | Supplied real photo in place |
 
 ## Needed for the Baseball page
