@@ -16,6 +16,6 @@ const showPoster = image?.layout === 'poster';
     {paragraphs.length > 0 && <div class="hero__text">{paragraphs.map(p => <p>{p}</p>)}</div>}
     {buttons.length > 0 && <div class="hero__actions">{buttons.map((b, i) => <Btn {...b} variant={i === 0 ? 'cyan' : 'outline'} />)}</div>}
   </div>
-  {showPoster && <a class="hero__poster" href={image.src} target="_blank" rel="noopener noreferrer" aria-label="View the full GNOA recruitment flyer"><img src={image.src} alt={image.alt} width="800" height="1120" fetchpriority="high" /></a>}
+  {showPoster && <a class="hero__poster" href={image.src} target="_blank" rel="noopener noreferrer" aria-label="View the full GNOA recruitment flyer"><img src={image.src} alt={image.alt} width="1060" height="1484" fetchpriority="high" /></a>}
   </div>
 </section>
