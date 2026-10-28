@@ -166,7 +166,7 @@ Same rules as above. Officials in proper volleyball officiating attire are the m
 
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
 |---|---|---|---|---|---|---|---|
-| N1 | page-hero-become-an-official.jpg | Top of the Become an Official page | New officials or a training moment | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
+| N1 | gnoa-we-want-you-recruiting-poster.avif | Top of Become an Official page | Original GNOA We Want You recruiting poster, supplied by association | 800 x 1120 | Portrait 5:7 | Display full poster, no crop or overlays | Original poster uploaded, optimized for the web |
 | N2 | page-hero-training-development.jpg | Top of the Training & Development page | A clinic, film session or mentoring | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
 | N3 | page-hero-news.jpg | Top of the News & Recognition page | An award, recognition or big-game moment | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
 | N4 | page-hero-contact.jpg | Top of the Contact page | Officials on the field | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |

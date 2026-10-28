@@ -17,8 +17,9 @@
         }
       ],
       "image": {
-        "src": "/images/split-new-officials.jpg",
-        "alt": "Veteran official mentoring a younger official on the field"
+        "src": "/images/gnoa-we-want-you-recruiting-poster.avif",
+        "alt": "GNOA recruitment poster titled We Want You, showing women and men officiating football and other school sports",
+        "layout": "poster"
       }
     },
     {

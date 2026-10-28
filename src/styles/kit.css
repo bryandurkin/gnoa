@@ -91,6 +91,16 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .page-hero .hero__title{font-size:clamp(36px,4.6vw,56px)}
 .page-hero .hero__body{max-width:700px}
 
+/* Show the original tall recruitment flyer in full, never crop or fade it. */
+.hero--poster .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,390px);gap:clamp(24px,4vw,64px);align-items:center}
+.hero--poster .hero__body{max-width:620px}
+.hero__poster{display:block;max-width:390px;justify-self:end;width:100%;border:1px solid rgba(255,255,255,.25);box-shadow:0 12px 40px rgba(0,0,0,.26)}
+.hero__poster img{display:block;width:100%;height:auto;object-fit:contain}
+@media(max-width:760px){
+  .hero--poster .wrap{grid-template-columns:1fr;gap:28px}
+  .hero__poster{justify-self:center;width:min(100%,440px)}
+}
+
 /* ---------- 3. sport-strip ---------- */
 .sport-strip{background:#062444;color:var(--white)}
 .sport-strip ul{display:flex;flex-wrap:wrap;justify-content:center;list-style:none;margin:0;padding:12px 0;row-gap:4px}
