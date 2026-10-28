@@ -1,13 +1,22 @@
 ---
-// Seven-sport hub row: portrait photo tiles with the sport name under the photo, plus an optional button.
+// Seven-sport hub row: sport-specific icon cards, or legacy photo tiles, with the sport name below.
 // lead = short bold line under the heading; intro = one short paragraph.
-import Sec from '../Sec.astro'; import Btn from '../Btn.astro';
+import Sec from '../Sec.astro'; import Btn from '../Btn.astro'; import Icon from '../Icon.astro';
 const { heading, lead, intro, tiles, button, mist = true, join } = Astro.props;
 ---
 <Sec mist={mist} join={join}>
   <div class="sec-head sec-head--wide"><h2>{heading}</h2>{lead && <p class="sec-head__lead">{lead}</p>}{intro && <p class="sec-head__intro">{intro}</p>}</div>
-  <ul class="sport-row" style={`--n:${tiles.length}`}>
-    {tiles.map(t => <li><a class="sport-row__tile" href={t.href}><span class="sport-row__img"><img class="cover" src={t.image.src} alt={t.image.alt} loading="lazy" /></span><span class="sport-row__label">{t.label}</span></a></li>)}
+  <ul class:list={['sport-row', tiles.every(t => t.icon) && 'sport-row--icons']} style={`--n:${tiles.length}`}>
+    {tiles.map(t => (
+      <li>
+        <a class="sport-row__tile" href={t.href}>
+          {t.icon
+            ? <span class="sport-row__symbol"><Icon name={t.icon} /></span>
+            : t.image && <span class="sport-row__img"><img class="cover" src={t.image.src} alt={t.image.alt} loading="lazy" /></span>}
+          <span class="sport-row__label">{t.label}</span>
+        </a>
+      </li>
+    ))}
   </ul>
   {button && <div class="sec-cta"><Btn {...button} variant="teal" /></div>}
 </Sec>

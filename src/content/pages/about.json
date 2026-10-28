@@ -97,58 +97,37 @@
         {
           "label": "Football",
           "href": "/sports/football/",
-          "image": {
-            "src": "/images/about-sport-football.jpg",
-            "alt": "Football official signaling a touchdown with both arms raised"
-          }
+          "icon": "football"
         },
         {
           "label": "Basketball",
           "href": "/sports/basketball/",
-          "image": {
-            "src": "/images/about-sport-basketball.jpg",
-            "alt": "Basketball official holding a game ball"
-          }
+          "icon": "basketball"
         },
         {
           "label": "Baseball",
           "href": "/sports/baseball/",
-          "image": {
-            "src": "/images/about-sport-baseball.jpg",
-            "alt": "Baseball umpire in a mask and black uniform"
-          }
+          "icon": "baseball"
         },
         {
           "label": "Softball",
           "href": "/sports/softball/",
-          "image": {
-            "src": "/images/about-sport-softball.jpg",
-            "alt": "Softball umpire in a light blue uniform on the field"
-          }
+          "icon": "softball"
         },
         {
           "label": "Soccer",
           "href": "/sports/soccer/",
-          "image": {
-            "src": "/images/about-sport-soccer.jpg",
-            "alt": "Soccer assistant referee holding a flag on the sideline"
-          }
+          "icon": "soccer"
         },
         {
           "label": "Volleyball",
           "href": "/sports/volleyball/",
-          "image": {
-            "src": "/images/about-sport-volleyball.jpg",
-            "alt": "Volleyball official watching play at the net"
-          }
+          "icon": "volleyball"
         },
         {
           "label": "Wrestling",
           "href": "/sports/wrestling/",
-          "image": {
-            "src": "/images/about-sport-wrestling.jpg",
-            "alt": "Wrestling referee raising an arm to signal"
-          }
+          "icon": "wrestling"
         }
       ],
       "button": {
