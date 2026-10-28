@@ -91,14 +91,52 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .page-hero .hero__title{font-size:clamp(36px,4.6vw,56px)}
 .page-hero .hero__body{max-width:700px}
 
-/* Show the original tall recruitment flyer in full, never crop or fade it. */
-.hero--poster .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,390px);gap:clamp(24px,4vw,64px);align-items:center}
-.hero--poster .hero__body{max-width:620px}
-.hero__poster{display:block;max-width:390px;justify-self:end;width:100%;border:1px solid rgba(255,255,255,.25);box-shadow:0 12px 40px rgba(0,0,0,.26)}
-.hero__poster img{display:block;width:100%;height:auto;object-fit:contain}
-@media(max-width:760px){
-  .hero--poster .wrap{grid-template-columns:1fr;gap:28px}
-  .hero__poster{justify-self:center;width:min(100%,440px)}
+/* Become an Official: keep the complete recruiting poster INSIDE the navy hero.
+   Copy and portrait have separate grid tracks, so neither can overlap the other. */
+.hero--poster .wrap{
+  display:grid;
+  grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+  align-items:center;
+  column-gap:clamp(24px,3.5vw,52px);
+  padding-top:clamp(32px,4vw,56px);
+  padding-bottom:clamp(32px,4vw,56px);
+}
+.hero--poster .hero__body{
+  position:relative;
+  z-index:1;
+  min-width:0;
+  width:100%;
+  max-width:620px;
+}
+.hero--poster .hero__poster{
+  display:block;
+  width:100%;
+  max-width:460px;
+  min-width:0;
+  justify-self:end;
+  align-self:center;
+  margin:0;
+  border:1px solid rgba(255,255,255,.25);
+  box-shadow:0 12px 40px rgba(0,0,0,.26);
+}
+.hero--poster .hero__poster img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:none;
+  object-fit:contain;
+  object-position:center;
+}
+@media(max-width:900px){
+  .hero--poster .wrap{
+    grid-template-columns:minmax(0,1fr);
+    row-gap:28px;
+  }
+  .hero--poster .hero__body{max-width:700px}
+  .hero--poster .hero__poster{
+    justify-self:center;
+    width:min(100%,460px);
+  }
 }
 
 /* ---------- 3. sport-strip ---------- */
