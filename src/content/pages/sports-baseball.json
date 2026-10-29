@@ -25,8 +25,8 @@
         }
       ],
       "image": {
-        "src": "/images/baseball-hero.jpg",
-        "alt": "Plate umpire crouched behind the catcher as the batter swings"
+        "src": "/images/baseball-hero-gnoa.webp",
+        "alt": "Group of baseball umpires smiling together outdoors"
       }
     },
     {
@@ -112,8 +112,8 @@
         "href": "/become-an-official/"
       },
       "image": {
-        "src": "/images/baseball-mentor.jpg",
-        "alt": "Veteran baseball umpire coaching a newer umpire on the field"
+        "src": "/images/baseball-mentor-gnoa.webp",
+        "alt": "Experienced baseball umpire smiling with a younger official at a baseball field"
       }
     },
     {
@@ -160,48 +160,48 @@
           "title": "Positioning",
           "text": "Being in the right place gives you the best opportunity to make the right call. Learn how positioning changes based on runners, outs, crew size, and the developing play.",
           "image": {
-            "src": "/images/baseball-learn-positioning.jpg",
-            "alt": "Base umpire set in the ready position near the infield"
+            "src": "/images/baseball-learn-positioning-gnoa.webp",
+            "alt": "Baseball umpire observes a sliding runner and attempted tag at a base"
           }
         },
         {
           "title": "Plate Work",
           "text": "Calling balls and strikes is one of the most visible parts of umpiring. You'll learn stance, positioning, timing, tracking the pitch, signals, and how to develop consistency behind the plate.",
           "image": {
-            "src": "/images/baseball-learn-plate-work.jpg",
-            "alt": "Plate umpire in a mask tracking the pitch from behind the catcher"
+            "src": "/images/baseball-learn-plate-work-gnoa.webp",
+            "alt": "Home plate umpire positioned behind the catcher during a baseball game"
           }
         },
         {
           "title": "Base Mechanics",
           "text": "Good base umpiring requires positioning, angle, timing, concentration, and understanding where the next play may happen.",
           "image": {
-            "src": "/images/baseball-learn-base-mechanics.jpg",
-            "alt": "Base umpire in a set position watching the play develop"
+            "src": "/images/baseball-learn-base-mechanics-gnoa.webp",
+            "alt": "Baseball umpire watching a live play at night near the infield"
           }
         },
         {
           "title": "Rules",
           "text": "Training helps you understand the rules and, more importantly, how to apply them when something unusual happens.",
           "image": {
-            "src": "/images/baseball-learn-rules.jpg",
-            "alt": "Umpire writing notes on a lineup card"
+            "src": "/images/baseball-learn-rules-gnoa.webp",
+            "alt": "Baseball umpire discussing a situation with a uniformed player on the field"
           }
         },
         {
           "title": "Judgment",
           "text": "Great umpiring is about seeing the entire play, processing what happened, and making a confident decision.",
           "image": {
-            "src": "/images/baseball-learn-judgment.jpg",
-            "alt": "Baseball umpire pointing to signal a call"
+            "src": "/images/baseball-learn-judgment-gnoa.webp",
+            "alt": "Baseball umpire signaling a call on the field"
           }
         },
         {
           "title": "Communication",
           "text": "Umpires communicate with their partners, coaches, players, and game administrators throughout the game.",
           "image": {
-            "src": "/images/baseball-learn-communication.jpg",
-            "alt": "Two baseball umpires talking between plays"
+            "src": "/images/baseball-learn-communication-gnoa.webp",
+            "alt": "Baseball umpire speaking with players and coaches on the field"
           }
         }
       ]
@@ -219,8 +219,8 @@
         }
       ],
       "image": {
-        "src": "/images/baseball-timing.jpg",
-        "alt": "Plate umpire seen from behind looking out at a lit ballpark at night"
+        "src": "/images/baseball-timing-gnoa.webp",
+        "alt": "Daytime baseball game viewed from behind home plate"
       }
     },
     {
@@ -249,8 +249,8 @@
         ]
       },
       "image": {
-        "src": "/images/baseball-crew.jpg",
-        "alt": "Three experienced baseball umpires meeting before a game"
+        "src": "/images/baseball-crew-gnoa.webp",
+        "alt": "Plate umpire set behind a catcher and ready for the next pitch"
       }
     },
     {
@@ -264,32 +264,32 @@
           "label": "New Umpire Training",
           "text": "Learning positioning, mechanics, signals, and responsibilities.",
           "image": {
-            "src": "/images/baseball-path-training.jpg",
-            "alt": "Baseball umpires gathered for a training session"
+            "src": "/images/baseball-path-training-gnoa.webp",
+            "alt": "Baseball officials and students posing together at night"
           }
         },
         {
           "label": "Working Local Baseball",
           "text": "Umpires working games throughout Naples and Southwest Florida.",
           "image": {
-            "src": "/images/baseball-path-local.jpg",
-            "alt": "Umpire working a local baseball game"
+            "src": "/images/baseball-path-local-gnoa.webp",
+            "alt": "Baseball officials and coaches meeting on a local baseball field"
           }
         },
         {
           "label": "Postseason Opportunities",
           "text": "Officials selected to work increasingly competitive assignments.",
           "image": {
-            "src": "/images/baseball-path-postseason.jpg",
-            "alt": "Umpire crew in a pregame meeting before a postseason game"
+            "src": "/images/baseball-path-postseason-gnoa.webp",
+            "alt": "Three baseball umpires posing together in uniform"
           }
         },
         {
           "label": "Recognition and Championships",
           "text": "Celebrate GNOA umpires who earn significant postseason and championship opportunities.",
           "image": {
-            "src": "/images/baseball-path-championship.jpg",
-            "alt": "Umpire on the field at a championship game at sunset"
+            "src": "/images/baseball-path-championship-gnoa.webp",
+            "alt": "A group posing with an award plaque at a baseball recognition event"
           }
         }
       ],
@@ -303,8 +303,8 @@
       "info": {
         "heading": "What Will I Need?",
         "image": {
-          "src": "/images/baseball-equipment.jpg",
-          "alt": "Baseball umpire gear: mask, chest protector bags, caps, indicator and plate brush"
+          "src": "/images/baseball-equipment-gnoa.webp",
+          "alt": "Baseball umpire on the field wearing a mask and protective equipment"
         },
         "paragraphs": [
           "Don't buy everything before talking with GNOA. Baseball umpires need specific uniforms and equipment, particularly for work behind the plate, but getting started does not necessarily mean buying an entire set of brand-new gear.",
@@ -360,8 +360,8 @@
         "href": "/contact/"
       },
       "image": {
-        "src": "/images/baseball-cta.jpg",
-        "alt": "Plate umpire seen from behind facing the field at sunset, palm trees beyond the outfield"
+        "src": "/images/baseball-cta-gnoa.webp",
+        "alt": "Crew of baseball umpires walking onto a ballpark field"
       },
       "title2": "Best Seat in the Park"
     }
