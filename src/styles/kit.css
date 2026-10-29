@@ -236,6 +236,7 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .faq summary::after{content:"+";font-size:22px;font-weight:400;line-height:1;color:var(--navy);flex:none}
 .faq details[open] summary::after{content:"\2212"}
 .faq details p{margin:0 0 14px;font-size:14.5px;color:var(--muted)}
+.faq details p a{color:var(--teal-deep);text-decoration:underline;text-underline-offset:2px;font-weight:600}
 
 /* ---------- 12. site-footer ---------- */
 .site-footer{background:var(--navy-deep);color:var(--white)}

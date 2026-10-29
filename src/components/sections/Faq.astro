@@ -5,6 +5,6 @@ const schema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntit
 ---
 <Sec mist={mist} join={join}>
   <SecHead heading={heading} />
-  <div class="faq">{items.map((i, n) => <details open={n === 0}><summary>{i.q}</summary><p>{i.a}</p></details>)}</div>
+  <div class="faq">{items.map((i, n) => <details open={n === 0}><summary>{i.q}</summary><p>{i.aParts ? i.aParts.map(part => part.href ? <a href={part.href} target="_blank" rel="noopener noreferrer">{part.text}</a> : part.text) : i.a}</p></details>)}</div>
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
 </Sec>

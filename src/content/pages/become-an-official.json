@@ -109,7 +109,16 @@
         },
         {
           "q": "How much training is provided?",
-          "a": "[[sample]]Training details to be supplied by GNOA[[/sample]]"
+          "a": "GNOA offers pre-season and in-season training opportunities for each sport to help officials prepare, review rules and mechanics, and continue improving throughout the season. The most current training dates, locations, and details are posted on the GNOA Central Hub",
+          "aParts": [
+            {
+              "text": "GNOA offers pre-season and in-season training opportunities for each sport to help officials prepare, review rules and mechanics, and continue improving throughout the season. The most current training dates, locations, and details are posted on the "
+            },
+            {
+              "text": "GNOA Central Hub",
+              "href": "https://www1.arbitersports.com/front/108522/Site/Page-Content/Sports"
+            }
+          ]
         },
         {
           "q": "Can I officiate part-time?",
