@@ -6,13 +6,16 @@
   "sections": [
     {
       "type": "page-hero",
-      "kicker": "Become an Official",
-      "title1": "You do not need experience.",
-      "title2": "We will teach you.",
-      "lead": "GNOA welcomes new officials from all backgrounds. Whether you played sports, coached, or simply love the game, we'll provide the training, mentorship, and support you need to get started.",
+      "title1": "Become a Sports Official",
+      "title2": "in Southwest Florida",
+      "lead": "Stay in the game. Learn the craft. Be part of something bigger.",
       "buttons": [
         {
-          "text": "Tell Us You're Interested",
+          "text": "Become an Official",
+          "href": "/contact/"
+        },
+        {
+          "text": "Experienced Official? | Connect With GNOA",
           "href": "/contact/"
         }
       ],
