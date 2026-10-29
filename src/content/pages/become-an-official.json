@@ -96,6 +96,39 @@
       }
     },
     {
+      "type": "testimonials",
+      "heading": "What Officials Say",
+      "items": [
+        {
+          "photo": {
+            "src": "/images/testimonial-1.jpg",
+            "alt": "Headshot of a volleyball official smiling"
+          },
+          "quote": "[[sample]]\"GNOA gave me the training and support I needed to get started. It's an amazing community of people who truly care.\"[[/sample]]",
+          "name": "[[sample]]Sarah M.[[/sample]]",
+          "role": "Volleyball Official"
+        },
+        {
+          "photo": {
+            "src": "/images/testimonial-2.jpg",
+            "alt": "Headshot of a football official in a striped shirt and cap"
+          },
+          "quote": "[[sample]]\"Officiating has kept me in the game and connected to the sports I love. GNOA provides great training and opportunities.\"[[/sample]]",
+          "name": "[[sample]]Mike T.[[/sample]]",
+          "role": "Football Official"
+        },
+        {
+          "photo": {
+            "src": "/images/testimonial-3.jpg",
+            "alt": "Headshot of a baseball official in a cap"
+          },
+          "quote": "[[sample]]\"I moved to Naples a few years ago and found a home with GNOA. The people, the support, and the opportunities are first class.\"[[/sample]]",
+          "name": "[[sample]]David R.[[/sample]]",
+          "role": "Baseball Official"
+        }
+      ]
+    },
+    {
       "type": "faq",
       "heading": "Frequently Asked Questions",
       "items": [
