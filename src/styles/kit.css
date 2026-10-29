@@ -567,46 +567,10 @@ mark.sample{background:#fff3a3;color:#1d1d1d;padding:0 .15em;border-radius:2px;b
 .sample-tag{display:inline-block;margin-left:.35em;padding:1px 5px;font:700 10px/1.4 var(--font-body);letter-spacing:.08em;text-transform:uppercase;background:#d93025;color:#fff;border:0;border-radius:2px;vertical-align:middle;font-style:normal}
 .draft-bar{background:#d93025;color:#fff;text-align:center;font:600 13px/1.4 var(--font-body);padding:6px var(--gutter);letter-spacing:.02em}
 
-
-/* Uncropped GNOA photo presentation: opt-in per image, so other sport pages stay unchanged. */
-.hero--full-image .wrap{
-  display:grid;
-  grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);
-  align-items:center;
-  column-gap:clamp(24px,4vw,52px);
-}
-.hero--full-image .hero__body{max-width:none;min-width:0}
-.hero--full-image .hero__full-image{min-width:0}
-.hero--full-image .hero__full-image img{
-  display:block;width:100%;height:auto;object-fit:contain;
-  border-radius:var(--radius);
-}
-.split--full-image .wrap{
-  display:grid;
-  grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);
-  align-items:center;
-  column-gap:clamp(24px,4vw,52px);
-}
-.split--full-image .split__body{max-width:none;min-width:0}
-.split--full-image .split__full-image{min-width:0}
-.split--full-image .split__full-image img{
-  display:block;width:100%;height:auto;object-fit:contain;
-  border-radius:var(--radius);
-}
-.learn-card--portrait-fit .learn-card__img{aspect-ratio:1/1}
-.learn-card--portrait-fit .learn-card__img img{
-  object-fit:contain;object-position:center;background:var(--mist);
-}
-@media(max-width:850px){
-  .hero--full-image .wrap,.split--full-image .wrap{
-    grid-template-columns:minmax(0,1fr);
-    row-gap:24px;
-  }
-  .hero--full-image .hero__full-image,.split--full-image .split__full-image{
-    width:100%;max-width:700px;margin-inline:auto;
-  }
-  .split--full-image .wrap{
-    padding-top:clamp(32px,5vw,56px);
-    padding-bottom:clamp(32px,5vw,56px);
-  }
-}
+/* Baseball photo focus within the original, football-matching image frames.
+   Keep the shared frame dimensions and cover treatment unchanged. */
+.hero__media img[src="/images/baseball-hero-gnoa.webp"]{object-position:center center}
+.split__media img[src="/images/baseball-mentor-gnoa.webp"]{object-position:center center}
+.learn-card__img img[src="/images/baseball-learn-plate-work-gnoa.webp"]{object-position:center top}
+.learn-card__img img[src="/images/baseball-learn-rules-gnoa.webp"]{object-position:center top}
+.learn-card__img img[src="/images/baseball-learn-judgment-gnoa.webp"]{object-position:center top}

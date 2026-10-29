@@ -26,8 +26,7 @@
       ],
       "image": {
         "src": "/images/baseball-hero-gnoa.webp",
-        "alt": "Group of baseball umpires smiling together outdoors",
-        "fit": "full"
+        "alt": "Group of baseball umpires smiling together outdoors"
       }
     },
     {
@@ -114,8 +113,7 @@
       },
       "image": {
         "src": "/images/baseball-mentor-gnoa.webp",
-        "alt": "Experienced baseball umpire smiling with a younger official at a baseball field",
-        "fit": "full"
+        "alt": "Experienced baseball umpire smiling with a younger official at a baseball field"
       }
     },
     {
@@ -171,8 +169,7 @@
           "text": "Calling balls and strikes is one of the most visible parts of umpiring. You'll learn stance, positioning, timing, tracking the pitch, signals, and how to develop consistency behind the plate.",
           "image": {
             "src": "/images/baseball-learn-plate-work-gnoa.webp",
-            "alt": "Home plate umpire positioned behind the catcher during a baseball game",
-            "fit": "portrait"
+            "alt": "Home plate umpire positioned behind the catcher during a baseball game"
           }
         },
         {
@@ -188,8 +185,7 @@
           "text": "Training helps you understand the rules and, more importantly, how to apply them when something unusual happens.",
           "image": {
             "src": "/images/baseball-learn-rules-gnoa.webp",
-            "alt": "Baseball umpire discussing a situation with a uniformed player on the field",
-            "fit": "portrait"
+            "alt": "Baseball umpire discussing a situation with a uniformed player on the field"
           }
         },
         {
@@ -197,8 +193,7 @@
           "text": "Great umpiring is about seeing the entire play, processing what happened, and making a confident decision.",
           "image": {
             "src": "/images/baseball-learn-judgment-gnoa.webp",
-            "alt": "Baseball umpire signaling a call on the field",
-            "fit": "portrait"
+            "alt": "Baseball umpire signaling a call on the field"
           }
         },
         {

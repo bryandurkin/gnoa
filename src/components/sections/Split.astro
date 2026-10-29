@@ -5,10 +5,9 @@
 import Btn from '../Btn.astro'; import Icon from '../Icon.astro';
 const { heading, subhead, text, paragraphs, list, after, aside, button, image, reverse = false } = Astro.props;
 const paras = paragraphs ?? (text ? [text] : []);
-const showFullImage = image?.fit === 'full';
 ---
-<section class={[reverse ? 'split split--reverse' : 'split', showFullImage && 'split--full-image'].filter(Boolean).join(' ')}>
-  {!showFullImage && <div class="split__media"><img class="cover" src={image.src} alt={image.alt} loading="lazy" /></div>}
+<section class={reverse ? 'split split--reverse' : 'split'}>
+  <div class="split__media"><img class="cover" src={image.src} alt={image.alt} loading="lazy" /></div>
   <div class="wrap"><div class={aside ? 'split__body split__body--wide' : 'split__body'}>
     <h2>{heading}</h2>
     <p class="split__sub">{subhead}</p>
@@ -24,7 +23,5 @@ const showFullImage = image?.fit === 'full';
         {aside.text && <p class="check-box__after">{aside.text}</p>}
       </div>}
     </div>
-  </div>
-  {showFullImage && <div class="split__full-image"><img src={image.src} alt={image.alt} loading="lazy" /></div>}
-  </div>
+  </div></div>
 </section>
