@@ -2,7 +2,7 @@
 // hero (home and full sport pages) and page-hero (inner pages).
 // eyebrow: array of words (colored). kicker: plain eyebrow text. subhead: short line under the title. paragraphs: extra intro text.
 import Btn from '../Btn.astro';
-const { eyebrow, kicker, title1, title2, subhead, lead, paragraphs = [], buttons = [], image, isPage = false, isSubhero = false } = Astro.props;
+const { eyebrow, kicker, title1, title2, subhead, lead, paragraphs = [], buttons = [], image, isPage = false } = Astro.props;
 const showPoster = image?.layout === 'poster';
 ---
 <section class={["hero", isPage && "page-hero", showPoster && "hero--poster"].filter(Boolean).join(' ')}>
@@ -10,7 +10,7 @@ const showPoster = image?.layout === 'poster';
   <div class="wrap"><div class="hero__body">
     {eyebrow && <p class="eyebrow">{eyebrow.map((w, i) => <>{i > 0 && <span class="dot" aria-hidden="true">&bull;</span>}<span class={i < 2 ? `c${i + 1}` : undefined}>{w}</span></>)}</p>}
     {kicker && <p class="eyebrow">{kicker}</p>}
-    {isSubhero ? <h2 class="hero__title">{title1}{title2 && <>{' '}<br />{title2}</>}</h2> : <h1 class="hero__title">{title1}{title2 && <>{' '}<br />{title2}</>}</h1>}
+    <h1 class="hero__title">{title1}{title2 && <>{' '}<br />{title2}</>}</h1>
     {subhead && <p class="hero__sub">{subhead}</p>}
     {lead && <p class="hero__lead">{lead}</p>}
     {paragraphs.length > 0 && <div class="hero__text">{paragraphs.map(p => <p>{p}</p>)}</div>}
