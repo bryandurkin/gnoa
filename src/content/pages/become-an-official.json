@@ -5,7 +5,32 @@
   "description": "New to officiating? GNOA welcomes officials from all backgrounds and provides the training, mentorship, and support you need to work your first games.",
   "sections": [
     {
-      "type": "page-hero",
+      "type": "hero",
+      "eyebrow": [
+        "Recruit",
+        "Train",
+        "Develop"
+      ],
+      "title1": "Become a Sports Official",
+      "title2": "in Southwest Florida",
+      "lead": "Stay in the game. Learn the craft. Be part of something bigger.",
+      "buttons": [
+        {
+          "text": "Become an Official",
+          "href": "/contact/"
+        },
+        {
+          "text": "Experienced Official? | Connect With GNOA",
+          "href": "/contact/"
+        }
+      ],
+      "image": {
+        "src": "/images/hero-home.jpg",
+        "alt": "Football referee in a striped shirt and cap on the sideline of a lit field at sunset, palm trees behind"
+      }
+    },
+    {
+      "type": "poster-feature",
       "kicker": "Become an Official",
       "title1": "You do not need experience.",
       "title2": "We will teach you.",
