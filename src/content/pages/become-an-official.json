@@ -17,13 +17,22 @@
         {
           "text": "Experienced Official? | Connect With GNOA",
           "href": "/contact/"
+        },
+        {
+          "text": "Tell Us You're Interested",
+          "href": "/contact/"
         }
       ],
       "image": {
         "src": "/images/gnoa-we-want-you-recruiting-poster-original.jpg",
         "alt": "Original GNOA We Want You recruiting poster with school sports officials and recruiting information",
         "layout": "poster"
-      }
+      },
+      "kicker": "Become an Official",
+      "subhead": "You do not need experience. We will teach you.",
+      "paragraphs": [
+        "GNOA welcomes new officials from all backgrounds. Whether you played sports, coached, or simply love the game, we'll provide the training, mentorship, and support you need to get started."
+      ]
     },
     {
       "type": "sport-strip",
