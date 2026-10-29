@@ -38,6 +38,10 @@
   },
   "nav": [
     {
+      "label": "Home",
+      "href": "/"
+    },
+    {
       "label": "Become an Official",
       "href": "/become-an-official/"
     },
