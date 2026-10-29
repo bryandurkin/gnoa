@@ -146,6 +146,11 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .sport-strip li+li::before{content:"";width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.75);margin:0 clamp(12px,2vw,26px)}
 .sport-strip a{font-family:var(--font-display);font-weight:700;font-size:17px;text-decoration:none;padding:4px 0}
 .sport-strip a:hover{color:var(--sky)}
+/* Keep the Become an Official sports strip in one horizontal line, swipeable on narrow screens. */
+.sport-strip--single-row ul{flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+.sport-strip--single-row li{flex:0 0 auto}
+@media(max-width:960px){.sport-strip--single-row ul{justify-content:flex-start}}
+
 
 /* ---------- Section heading (used by most sections) ---------- */
 .sec-head{text-align:center;margin:0 auto 30px;max-width:820px}

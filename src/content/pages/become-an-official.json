@@ -23,6 +23,40 @@
       }
     },
     {
+      "type": "sport-strip",
+      "items": [
+        {
+          "label": "Football",
+          "href": "/sports/football/"
+        },
+        {
+          "label": "Basketball",
+          "href": "/sports/basketball/"
+        },
+        {
+          "label": "Baseball",
+          "href": "/sports/baseball/"
+        },
+        {
+          "label": "Softball",
+          "href": "/sports/softball/"
+        },
+        {
+          "label": "Soccer",
+          "href": "/sports/soccer/"
+        },
+        {
+          "label": "Volleyball",
+          "href": "/sports/volleyball/"
+        },
+        {
+          "label": "Wrestling",
+          "href": "/sports/wrestling/"
+        }
+      ],
+      "singleRow": true
+    },
+    {
       "type": "benefits",
       "heading": "Why Officiate",
       "mist": true,
