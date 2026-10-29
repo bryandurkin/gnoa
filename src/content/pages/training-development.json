@@ -24,7 +24,37 @@
           "h2": "Training for New and Experienced Officials"
         },
         {
-          "p": "[[sample]]Training schedule, clinics, and mentoring program details, supplied by GNOA.[[/sample]]"
+          "h3": "Training & Development"
+        },
+        {
+          "p": "Good officiating starts with good training."
+        },
+        {
+          "p": "GNOA provides pre-season and in-season training opportunities for each sport to help officials prepare, stay sharp, review rules and mechanics, and learn from other experienced officials throughout the season."
+        },
+        {
+          "pParts": [
+            {
+              "text": "Training schedules vary by sport and time of year, so the most current dates, locations, and details are maintained on the "
+            },
+            {
+              "text": "GNOA Central Hub",
+              "href": "https://www1.arbitersports.com/front/108522/Site/Page-Content/Sports"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "p": "Whether you are brand new or have years of experience, these training sessions are a great opportunity to ask questions, improve your skills, and stay connected with your fellow officials."
+        },
+        {
+          "button": {
+            "text": "View Your Sport’s Training Schedule on the GNOA Central Hub",
+            "href": "https://www1.arbitersports.com/front/108522/Site/Page-Content/Sports",
+            "variant": "teal"
+          }
         }
       ]
     },

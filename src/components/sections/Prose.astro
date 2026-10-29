@@ -1,8 +1,18 @@
 ---
-// blocks: [{h2} | {h3} | {p} | {ul: [..]} | {links: [{text, href}]}]
+// blocks: [{h2} | {h3} | {p} | {pParts: [{text, href?}]} |
+//          {ul: [..]} | {links: [{text, href}]} | {button: {text, href, variant?}}]
 import Sec from '../Sec.astro';
+import Btn from '../Btn.astro';
 const { blocks, mist = false, join } = Astro.props;
 ---
 <Sec mist={mist} join={join}><div class="prose">
-  {blocks.map(b => b.h2 ? <h2>{b.h2}</h2> : b.h3 ? <h3>{b.h3}</h3> : b.ul ? <ul>{b.ul.map(li => <li>{li}</li>)}</ul> : b.links ? <ul class="link-list">{b.links.map(l => <li><a href={l.href}>{l.text}</a></li>)}</ul> : <p>{b.p}</p>)}
+  {blocks.map(b =>
+    b.h2 ? <h2>{b.h2}</h2>
+    : b.h3 ? <h3>{b.h3}</h3>
+    : b.ul ? <ul>{b.ul.map(li => <li>{li}</li>)}</ul>
+    : b.links ? <ul class="link-list">{b.links.map(l => <li><a href={l.href}>{l.text}</a></li>)}</ul>
+    : b.pParts ? <p>{b.pParts.map(part => part.href ? <a href={part.href} target="_blank" rel="noopener noreferrer">{part.text}</a> : part.text)}</p>
+    : b.button ? <div class="prose__action"><Btn text={b.button.text} href={b.button.href} variant={b.button.variant ?? 'teal'} /></div>
+    : <p>{b.p}</p>
+  )}
 </div></Sec>
