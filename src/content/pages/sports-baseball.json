@@ -26,7 +26,8 @@
       ],
       "image": {
         "src": "/images/baseball-hero-gnoa.webp",
-        "alt": "Group of baseball umpires smiling together outdoors"
+        "alt": "Group of baseball umpires smiling together outdoors",
+        "fit": "full"
       }
     },
     {
@@ -113,7 +114,8 @@
       },
       "image": {
         "src": "/images/baseball-mentor-gnoa.webp",
-        "alt": "Experienced baseball umpire smiling with a younger official at a baseball field"
+        "alt": "Experienced baseball umpire smiling with a younger official at a baseball field",
+        "fit": "full"
       }
     },
     {
@@ -169,7 +171,8 @@
           "text": "Calling balls and strikes is one of the most visible parts of umpiring. You'll learn stance, positioning, timing, tracking the pitch, signals, and how to develop consistency behind the plate.",
           "image": {
             "src": "/images/baseball-learn-plate-work-gnoa.webp",
-            "alt": "Home plate umpire positioned behind the catcher during a baseball game"
+            "alt": "Home plate umpire positioned behind the catcher during a baseball game",
+            "fit": "portrait"
           }
         },
         {
@@ -185,7 +188,8 @@
           "text": "Training helps you understand the rules and, more importantly, how to apply them when something unusual happens.",
           "image": {
             "src": "/images/baseball-learn-rules-gnoa.webp",
-            "alt": "Baseball umpire discussing a situation with a uniformed player on the field"
+            "alt": "Baseball umpire discussing a situation with a uniformed player on the field",
+            "fit": "portrait"
           }
         },
         {
@@ -193,7 +197,8 @@
           "text": "Great umpiring is about seeing the entire play, processing what happened, and making a confident decision.",
           "image": {
             "src": "/images/baseball-learn-judgment-gnoa.webp",
-            "alt": "Baseball umpire signaling a call on the field"
+            "alt": "Baseball umpire signaling a call on the field",
+            "fit": "portrait"
           }
         },
         {
