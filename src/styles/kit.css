@@ -576,6 +576,8 @@ mark.sample{background:#fff3a3;color:#1d1d1d;padding:0 .15em;border-radius:2px;b
 .learn-card__img img[src="/images/baseball-learn-rules-gnoa.webp"]{object-position:center top}
 .learn-card__img img[src="/images/baseball-learn-judgment-gnoa.webp"]{object-position:center top}
 
+/* Keep the three volleyball officials visible in the existing hero frame. */
+.hero__media img[src="/images/volleyball-hero-gnoa.webp"]{object-position:20% center}
 /* Volleyball: focus on officials within existing fixed-size football-style frames. */
 .band__media img[src="/images/volleyball-match-gnoa.webp"]{object-position:center 12%}
 .band__media img[src="/images/volleyball-cta-gnoa.webp"]{object-position:center 15%}
