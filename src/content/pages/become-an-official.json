@@ -155,13 +155,9 @@
           "role": "Volleyball Official"
         },
         {
-          "photo": {
-            "src": "/images/testimonial-2.jpg",
-            "alt": "Headshot of a football official in a striped shirt and cap"
-          },
-          "quote": "[[sample]]\"Officiating has kept me in the game and connected to the sports I love. GNOA provides great training and opportunities.\"[[/sample]]",
-          "name": "[[sample]]Mike T.[[/sample]]",
-          "role": "Football Official"
+          "quote": "\"The training is phenomenal; the veterans always make sure you're prepared to make the right call and they won't let you fail. Not only that, but I've made too many friends to count in the GNOA, as they are a fantastic group of guys.\"",
+          "name": "Cameron Ballarino",
+          "initials": "CB"
         },
         {
           "photo": {
