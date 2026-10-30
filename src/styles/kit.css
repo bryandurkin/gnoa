@@ -575,3 +575,8 @@ mark.sample{background:#fff3a3;color:#1d1d1d;padding:0 .15em;border-radius:2px;b
 .learn-card__img img[src="/images/baseball-learn-plate-work-gnoa.webp"]{object-position:center top}
 .learn-card__img img[src="/images/baseball-learn-rules-gnoa.webp"]{object-position:center top}
 .learn-card__img img[src="/images/baseball-learn-judgment-gnoa.webp"]{object-position:center top}
+
+/* Volleyball: focus on officials within existing fixed-size football-style frames. */
+.band__media img[src="/images/volleyball-match-gnoa.webp"]{object-position:center 12%}
+.band__media img[src="/images/volleyball-cta-gnoa.webp"]{object-position:center 15%}
+.split__media img[src="/images/volleyball-experienced-gnoa.webp"]{object-fit:contain;object-position:center;background:var(--white)}

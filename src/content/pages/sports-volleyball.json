@@ -25,8 +25,8 @@
         }
       ],
       "image": {
-        "src": "/images/volleyball-hero.jpg",
-        "alt": "Volleyball first referee on the stand at the net, whistle in mouth, signaling with an outstretched arm"
+        "src": "/images/volleyball-hero-gnoa.webp",
+        "alt": "Three volleyball officials in white shirts standing together on a gym court"
       }
     },
     {
@@ -87,8 +87,8 @@
         "href": "/become-an-official/"
       },
       "image": {
-        "src": "/images/volleyball-training.jpg",
-        "alt": "Volleyball rising above the net as a player reaches to play it, the moment officials watch for contact"
+        "src": "/images/volleyball-training-gnoa.webp",
+        "alt": "Volleyball official standing by the scorer's table during a match"
       }
     },
     {
@@ -181,8 +181,8 @@
         "You get better at seeing it."
       ],
       "image": {
-        "src": "/images/volleyball-match.jpg",
-        "alt": "Volleyball official watching play closely from the side of the court"
+        "src": "/images/volleyball-match-gnoa.webp",
+        "alt": "Smiling volleyball official on the referee stand beside the net"
       }
     },
     {
@@ -211,8 +211,8 @@
         "text": "We'll connect you with GNOA volleyball leadership and help you understand the local process."
       },
       "image": {
-        "src": "/images/sample-photo.svg",
-        "alt": "[[sample]]Needed: first and second referee talking at the net before a match[[/sample]]"
+        "src": "/images/volleyball-experienced-gnoa.webp",
+        "alt": "Four experienced volleyball officials standing together in blue shirts in a gym"
       }
     },
     {
@@ -237,15 +237,17 @@
         {
           "label": "Postseason",
           "image": {
-            "src": "/images/sample-photo.svg",
-            "alt": "[[sample]]Needed: a GNOA officiating crew at a district or regional playoff match[[/sample]]"
+            "src": "/images/volleyball-path-postseason-gnoa.webp",
+            "alt": "Volleyball referee standing on the referee platform with a whistle during a match",
+            "position": "center 20%"
           }
         },
         {
           "label": "Championship",
           "image": {
-            "src": "/images/sample-photo.svg",
-            "alt": "[[sample]]Needed: a GNOA officiating crew at a state championship venue[[/sample]]"
+            "src": "/images/volleyball-path-championship-gnoa.webp",
+            "alt": "Four volleyball officials posing together at a Florida high school state championship",
+            "position": "center 48%"
           }
         }
       ],
@@ -259,8 +261,8 @@
       "info": {
         "heading": "What Will I Need?",
         "image": {
-          "src": "/images/sample-photo.svg",
-          "alt": "[[sample]]Needed: flat lay of a volleyball officiating shirt, whistle and lanyard, court shoes, watch and rule book[[/sample]]"
+          "src": "/images/volleyball-equipment-gnoa.webp",
+          "alt": "Volleyball official in blue shirt holding a red line judge flag and wearing a whistle"
         },
         "paragraphs": [
           "Volleyball officials need an approved uniform and some basic officiating equipment.",
@@ -331,8 +333,8 @@
         "href": "/contact/"
       },
       "image": {
-        "src": "/images/volleyball-cta.jpg",
-        "alt": "Volleyball resting on a polished gym floor beside the court line, crowd blurred behind"
+        "src": "/images/volleyball-cta-gnoa.webp",
+        "alt": "Smiling volleyball official in a white polo shirt on an indoor court"
       }
     }
   ]
