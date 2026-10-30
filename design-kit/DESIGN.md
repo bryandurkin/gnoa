@@ -1,4 +1,4 @@
-# GNOA Design Kit v1.6
+# GNOA Design Kit v1.7
 
 Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association), plus the Football, Baseball, About, Wrestling, Soccer, Softball and Volleyball page handoff packs (v1.2 to v1.5 sections).
 Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY from the sections below. It does not invent new layouts, colors or fonts. Copy markup from preview.html.
@@ -121,7 +121,7 @@ When GNOA sends real files, they use the same file names (see IMAGE-CHECKLIST.md
 | favicon.png (optional) | browser tab icon, 512 x 512 |
 | post-SLUG.jpg | each blog post (post-cards and post page-hero) |
 
-Path photos: cut every card photo in one row to the same 3:2 (1200 x 800) or 4:3 shape with faces in the upper middle. Cards show a 3:2 crop on desktop and a wide 2.75:1 strip on phones, so set image.position (for example "center top") when heads sit near the top of the frame. (v1.6)
+Path photos: cut every card photo in one row to the same 3:2 (1200 x 800) or 4:3 shape with faces in the upper middle. Cards show a 3:2 crop on desktop and a wide 2.75:1 strip on phones, so set image.position (for example "center top") when heads sit near the top of the frame. (v1.6) The info-faq photo takes the same optional info.image.position; it shows near square on desktop and a 16:10 strip on phones, so portrait photos need a focus near the top. (v1.7)
 
 ## 5. What the Builder may and may not decide
 

@@ -33,3 +33,9 @@ The four "From Your First Game to Your Biggest Assignment" photos on the Basebal
 (1.34 to 1.80), so the center crop cut off heads, badly on phones. Recut all four to 1200 x 800 (3:2)
 from the GNOA source photos and added an optional `image.position` focus to the path section
 (Design Kit v1.6). Training and Recognition anchor to the top, the others sit slightly above center.
+
+## 2026-10-29 Baseball "What Will I Need?" photo on phones
+
+The portrait equipment photo was center-cropped into a 16:10 strip on phones, cutting off the
+umpire's masked head. Added an optional `info.image.position` focus to info-faq (Design Kit v1.7)
+and set the baseball photo to "center 10%". Desktop framing is unchanged apart from keeping the mask in view.

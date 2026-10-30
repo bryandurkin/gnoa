@@ -308,7 +308,8 @@
         "heading": "What Will I Need?",
         "image": {
           "src": "/images/baseball-equipment-gnoa.webp",
-          "alt": "Baseball umpire on the field wearing a mask and protective equipment"
+          "alt": "Baseball umpire on the field wearing a mask and protective equipment",
+          "position": "center 10%"
         },
         "paragraphs": [
           "Don't buy everything before talking with GNOA. Baseball umpires need specific uniforms and equipment, particularly for work behind the plate, but getting started does not necessarily mean buying an entire set of brand-new gear.",

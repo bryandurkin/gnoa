@@ -10,7 +10,7 @@ const schema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntit
     <div class="info-faq__info">
       <h2>{info.heading}</h2>
       <div class="info-faq__body">
-        <div class="info-faq__img"><img class="cover" src={info.image.src} alt={info.image.alt} loading="lazy" /></div>
+        <div class="info-faq__img"><img class="cover" src={info.image.src} alt={info.image.alt} loading="lazy" style={info.image.position && `object-position:${info.image.position}`} /></div>
         <div>
           {info.paragraphs.map(p => <p>{p}</p>)}
           {info.list && <ul class="checklist checklist--one" style={`--rows:${info.list.length}`}>{info.list.map(i => <li><Icon name="check" />{i}</li>)}</ul>}
