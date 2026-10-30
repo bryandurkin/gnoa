@@ -16,17 +16,17 @@
     {
       "label": "Facebook",
       "icon": "facebook",
-      "url": ""
+      "url": "https://www.facebook.com/profile.php?id=100094402598389"
     },
     {
       "label": "Instagram",
       "icon": "instagram",
-      "url": ""
+      "url": "https://www.instagram.com/gnoa_referees?obrf=aHF5NmgyaXlvNXBr"
     },
     {
-      "label": "YouTube",
-      "icon": "youtube",
-      "url": ""
+      "label": "X (Twitter)",
+      "icon": "x",
+      "url": "https://x.com/GnoaOfficials"
     }
   ],
   "arbiter": {
