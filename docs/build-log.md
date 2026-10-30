@@ -26,3 +26,10 @@ What Will I Need, FAQs, closing banner text). The pack referred to copy it did n
 A few SAMPLE items also remain on Home and About (stats, testimonials, contact details) and photos on
 Wrestling (6), Soccer (5) and Volleyball (5).
 `npm run check:live` lists every one.
+
+## 2026-10-29 Baseball path photos recut
+
+The four "From Your First Game to Your Biggest Assignment" photos on the Baseball page had mixed shapes
+(1.34 to 1.80), so the center crop cut off heads, badly on phones. Recut all four to 1200 x 800 (3:2)
+from the GNOA source photos and added an optional `image.position` focus to the path section
+(Design Kit v1.6). Training and Recognition anchor to the top, the others sit slightly above center.

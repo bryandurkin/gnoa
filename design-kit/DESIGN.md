@@ -1,4 +1,4 @@
-# GNOA Design Kit v1.5
+# GNOA Design Kit v1.6
 
 Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association), plus the Football, Baseball, About, Wrestling, Soccer, Softball and Volleyball page handoff packs (v1.2 to v1.5 sections).
 Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY from the sections below. It does not invent new layouts, colors or fonts. Copy markup from preview.html.
@@ -54,7 +54,7 @@ Fields marked * are required.
 | steps | Icon-led process on a connector line (no number badges) | heading*, tagline (v1.5), 3 to 6 steps (icon*, title*, text*), button (centered below) | Only for a real sequence. Text max 15 words |
 | learn-cards | Photo cards with title and text under the photo (v1.2) | heading*, tagline, 3 to 6 cards (image*, title*, text* max 35 words) | One row on desktop (columns follow the card count), 3 across on tablet |
 | band | Navy panel, photo right | heading* and paragraph (max 45 words), or heading* and lines (3 to 8 short lines), or blocks (2 topics, each heading + paragraph max 60 words, split by a thin rule); button, image* | Never directly after another dark section |
-| path | Photo cards joined by arrows | heading*, tagline, intro (one line) or headAlign "left" with 1 to 4 paragraphs, 3 to 5 cards (label*, image*, text = caption under the photo), button (centered below) | Only for a progression. Labels max 4 words, captions max 14 words |
+| path | Photo cards joined by arrows | heading*, tagline, intro (one line) or headAlign "left" with 1 to 4 paragraphs, 3 to 5 cards (label*, image*, image.position = optional CSS object-position focus such as "center top", text = caption under the photo), button (centered below) | Only for a progression. Labels max 4 words, captions max 14 words |
 | testimonials | Quote cards with headshot | heading*, 1 to 3 quotes (photo*, quote*, name*, role*) | Real, approved quotes only. SAMPLE tag until GNOA approves |
 | faq | Two-column accordion | heading*, 3 to 10 questions with answers* | Answers from GNOA only, never invented |
 | info-faq | Info panel (photo, text, callout) beside a one-column FAQ (v1.2) | info: heading*, image*, 1 to 3 paragraphs*, list (3 to 8 short checklist items, v1.4), after (1 to 2 paragraphs after the list, v1.4), callout (max 12 words); faq: heading*, 3 to 8 questions with answers* | One FAQ per page. Answers from GNOA only |
@@ -120,6 +120,8 @@ When GNOA sends real files, they use the same file names (see IMAGE-CHECKLIST.md
 | og-share.jpg (optional) | social share image, 1200 x 630 |
 | favicon.png (optional) | browser tab icon, 512 x 512 |
 | post-SLUG.jpg | each blog post (post-cards and post page-hero) |
+
+Path photos: cut every card photo in one row to the same 3:2 (1200 x 800) or 4:3 shape with faces in the upper middle. Cards show a 3:2 crop on desktop and a wide 2.75:1 strip on phones, so set image.position (for example "center top") when heads sit near the top of the frame. (v1.6)
 
 ## 5. What the Builder may and may not decide
 

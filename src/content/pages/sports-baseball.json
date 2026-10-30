@@ -265,7 +265,8 @@
           "text": "Learning positioning, mechanics, signals, and responsibilities.",
           "image": {
             "src": "/images/baseball-path-training-gnoa.webp",
-            "alt": "Baseball officials and students posing together at night"
+            "alt": "Baseball officials and students posing together at night",
+            "position": "center top"
           }
         },
         {
@@ -273,7 +274,8 @@
           "text": "Umpires working games throughout Naples and Southwest Florida.",
           "image": {
             "src": "/images/baseball-path-local-gnoa.webp",
-            "alt": "Baseball officials and coaches meeting on a local baseball field"
+            "alt": "Baseball officials and coaches meeting on a local baseball field",
+            "position": "center 40%"
           }
         },
         {
@@ -281,7 +283,8 @@
           "text": "Officials selected to work increasingly competitive assignments.",
           "image": {
             "src": "/images/baseball-path-postseason-gnoa.webp",
-            "alt": "Three baseball umpires posing together in uniform"
+            "alt": "Three baseball umpires posing together in uniform",
+            "position": "center 20%"
           }
         },
         {
@@ -289,7 +292,8 @@
           "text": "Celebrate GNOA umpires who earn significant postseason and championship opportunities.",
           "image": {
             "src": "/images/baseball-path-championship-gnoa.webp",
-            "alt": "A group posing with an award plaque at a baseball recognition event"
+            "alt": "A group posing with an award plaque at a baseball recognition event",
+            "position": "center top"
           }
         }
       ],
