@@ -6,8 +6,8 @@ const { heading, items, mist = false, join } = Astro.props;
   <SecHead heading={heading} />
   <ul class="testimonials">
     {items.map(t => <li><figure class="quote-card">
-      <div class="quote-card__photo"><img class="cover" src={t.photo.src} alt={t.photo.alt} loading="lazy" /></div>
-      <div><blockquote>{t.quote}</blockquote><figcaption><p class="quote-card__name">{t.name}</p><p class="quote-card__role">{t.role}</p></figcaption></div>
+      {t.photo ? <div class="quote-card__photo"><img class="cover" src={t.photo.src} alt={t.photo.alt} loading="lazy" /></div> : <div class="quote-card__photo quote-card__initials" aria-hidden="true">{t.initials ?? "GNOA"}</div>}
+      <div><blockquote>{t.quote}</blockquote><figcaption><p class="quote-card__name">{t.name}</p>{t.role && <p class="quote-card__role">{t.role}</p>}</figcaption></div>
     </figure></li>)}
   </ul>
 </Sec>
