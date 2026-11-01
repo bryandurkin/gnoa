@@ -18,12 +18,12 @@ The draft site uses sample photos for now. Send us the real ones below and we sw
 | H1 | logo-color.svg | Top of every page | GNOA full color logo | SVG, or PNG 1200 px wide | As designed | Transparent background | Sample in place |
 | H2 | logo-white.svg | Footer | All-white version of the logo | SVG, or PNG 1200 px wide | As designed | Transparent background | Sample in place |
 | H3 | hero-home.jpg | Big photo at the top of the homepage | A GNOA official on the field, Southwest Florida feel | 2000 x 1200 | Landscape 5:3 | Person in the right half; left side is covered by the headline | Sample in place |
-| H4 | sport-football.jpg | Football tile, top of the Football page | A GNOA official working football | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| H5 | sport-basketball.jpg | Basketball tile and page | A GNOA official working basketball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| H6 | sport-baseball.jpg | Baseball tile and page | A GNOA umpire working baseball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
+| H4 | sport-football.jpg | Football tile, top of the Football page | A GNOA official working football | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Supplied real photo in place |
+| H5 | sport-basketball.jpg | Basketball tile and page | A GNOA official working basketball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Supplied real photo in place |
+| H6 | sport-baseball.jpg | Baseball tile and page | A GNOA umpire working baseball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Supplied real photo in place |
 | H7 | sport-softball.jpg | Softball tile and page | A GNOA umpire working softball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| H8 | sport-soccer.jpg | Soccer tile and page | A GNOA referee working soccer | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| H9 | sport-volleyball.jpg | Volleyball tile and page | A GNOA official working volleyball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
+| H8 | sport-soccer.jpg | Soccer tile and page | A GNOA referee working soccer | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Supplied real photo in place |
+| H9 | sport-volleyball.jpg | Volleyball tile and page | A GNOA official working volleyball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Supplied real photo in place |
 | H11 | split-new-officials.jpg | "Never Officiated Before?" section | A veteran official mentoring a newer official | 1800 x 900 | Wide 2:1 | People in the right two thirds; left edge fades to white | Sample in place |
 | H12 | band-recruit-train-develop.jpg | "Recruit. Train. Develop." section | A group of officials in a pregame talk or training | 2000 x 900 | Wide 20:9 | People in the right 60 percent | Sample in place |
 | H13 | split-experienced-officials.jpg | "Already an Experienced Official?" section | A crew of experienced GNOA officials | 1800 x 900 | Wide 2:1 | People in the right two thirds; left edge fades to white | Sample in place |

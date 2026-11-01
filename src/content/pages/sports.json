@@ -11,7 +11,7 @@
       "lead": "Football, basketball, baseball, softball, soccer, and volleyball across Naples, Collier County, and Southwest Florida.",
       "image": {
         "src": "/images/sport-basketball.jpg",
-        "alt": "Basketball official holding a game ball courtside"
+        "alt": "Smiling GNOA basketball official in a striped shirt on the court"
       }
     },
     {
@@ -24,7 +24,7 @@
           "href": "/sports/football/",
           "image": {
             "src": "/images/sport-football.jpg",
-            "alt": "Football referee signaling a touchdown with both arms raised"
+            "alt": "GNOA football official signaling a touchdown with both arms raised"
           }
         },
         {
@@ -32,7 +32,7 @@
           "href": "/sports/basketball/",
           "image": {
             "src": "/images/sport-basketball.jpg",
-            "alt": "Basketball official holding a game ball courtside"
+            "alt": "Smiling GNOA basketball official in a striped shirt on the court"
           }
         },
         {
@@ -40,7 +40,7 @@
           "href": "/sports/baseball/",
           "image": {
             "src": "/images/sport-baseball.jpg",
-            "alt": "Baseball umpire in a face mask pointing to make a call"
+            "alt": "Two GNOA baseball umpires in caps smiling on the field"
           }
         },
         {
@@ -56,7 +56,7 @@
           "href": "/sports/soccer/",
           "image": {
             "src": "/images/sport-soccer.jpg",
-            "alt": "Soccer assistant referee raising a checkered flag on the sideline"
+            "alt": "Three GNOA soccer referees in yellow jerseys meeting at midfield before a match"
           }
         },
         {
@@ -64,7 +64,7 @@
           "href": "/sports/volleyball/",
           "image": {
             "src": "/images/sport-volleyball.jpg",
-            "alt": "Volleyball official signaling at the net"
+            "alt": "Smiling GNOA volleyball official in a white shirt courtside, holding a red card"
           }
         }
       ]
