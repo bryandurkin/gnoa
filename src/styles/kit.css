@@ -587,3 +587,15 @@ mark.sample{background:#fff3a3;color:#1d1d1d;padding:0 .15em;border-radius:2px;b
 .gallery{display:grid;grid-template-columns:repeat(var(--n,1),1fr);gap:14px;list-style:none;margin:0 auto;padding:0;max-width:calc(var(--n,1) * 360px + 300px)}
 .gallery__item{aspect-ratio:16/9;border-radius:var(--radius);overflow:hidden;background:var(--mist)}
 @media (max-width:700px){.gallery{grid-template-columns:1fr}}
+
+/* band--fit: whole photo (about 3:2) on the right, for group shots (v1.11) */
+.band--fit .band__media{width:auto;aspect-ratio:3/2;max-width:58%;margin-block:auto}
+.band--fit .band__media img{object-fit:contain;object-position:right center}
+.band--fit .band__media::after{background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.6) 8%,rgba(10,35,66,0) 26%)}
+.band--fit .band__body,.band--fit .band__body--wide{max-width:min(600px,40vw)}
+@media (max-width:760px){
+  .band--fit .band__media{width:100%;max-width:none;aspect-ratio:auto}
+  .band--fit .band__media img{object-fit:cover}
+  .band--fit .band__media::after{background:linear-gradient(180deg,rgba(10,35,66,.55) 0%,rgba(10,35,66,.82) 55%,rgba(10,35,66,.94) 100%)}
+  .band--fit .band__body,.band--fit .band__body--wide{max-width:none}
+}

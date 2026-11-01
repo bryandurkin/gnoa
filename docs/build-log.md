@@ -73,3 +73,10 @@ them: How It Works steps, Development and Recognition path, sample testimonials 
 content lives on Become an Official, Training & Development and the sport pages). The "More Than the
 Game" group photo is also used for "You Become Part of a Community". Kit v1.10: sport-tiles intro,
 optional split checklist heading, dollar icon.
+
+## 2026-11-01 Homepage community photo shows the whole group
+
+The "You Become Part of a Community" band cropped the group selfie to the panel's wide strip, cutting
+heads at the top and bottom. Added `image.fit: "contain"` to the band (Design Kit v1.11): the whole photo
+sits on the right at its own shape, centered vertically, and the text column narrows to stay clear of it.
+Phones keep the photo as the dimmed background, as before.
