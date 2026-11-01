@@ -193,7 +193,8 @@
       ],
       "image": {
         "src": "/images/about-community.jpg",
-        "alt": "Group of smiling GNOA officials in caps taking a selfie together before a night game"
+        "alt": "Group of smiling GNOA officials in caps taking a selfie together before a night game",
+        "fit": "contain"
       }
     },
     {
