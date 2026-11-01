@@ -59,6 +59,18 @@
       ]
     },
     {
+      "type": "gallery",
+      "join": true,
+      "items": [
+        {
+          "image": {
+            "src": "/images/training-on-field.jpg",
+            "alt": "GNOA football officials in stripes walking through on-field mechanics at a training session"
+          }
+        }
+      ]
+    },
+    {
       "type": "path",
       "heading": "Development and Recognition",
       "tagline": "From your first game to your biggest assignment.",
@@ -67,8 +79,9 @@
         {
           "label": "New Official Training",
           "image": {
-            "src": "/images/path-new-official-training.jpg",
-            "alt": "Instructor leading a classroom training session for new officials"
+            "src": "/images/training-new-official.jpg",
+            "alt": "GNOA football officials gathered on a practice field as an instructor points out a mechanic",
+            "position": "center 25%"
           }
         },
         {

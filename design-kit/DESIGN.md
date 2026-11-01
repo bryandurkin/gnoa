@@ -1,4 +1,4 @@
-# GNOA Design Kit v1.7
+# GNOA Design Kit v1.9
 
 Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association), plus the Football, Baseball, About, Wrestling (page since removed), Soccer, Softball and Volleyball page handoff packs (v1.2 to v1.5 sections).
 Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY from the sections below. It does not invent new layouts, colors or fonts. Copy markup from preview.html.
@@ -60,6 +60,7 @@ Fields marked * are required.
 | info-faq | Info panel (photo, text, callout) beside a one-column FAQ (v1.2) | info: heading*, image*, 1 to 3 paragraphs*, list (3 to 8 short checklist items, v1.4), after (1 to 2 paragraphs after the list, v1.4), callout (max 12 words); faq: heading*, 3 to 8 questions with answers* | One FAQ per page. Answers from GNOA only |
 | cta-band | Closing banner, same style as band | title (1 to 2 lines)*, paragraphs (1 to 2) and/or list (3 to 6 short bullet lines), subline*, button* or buttons (2: cyan then outline), image* | Last section on every page (only a utility-strip may follow it). Split a title over 40 characters into two balanced lines so it stays clear of the photo subject |
 | utility-strip | Small light panel with icon, heading, one line and a button (v1.3) | icon, heading*, text*, button* | Only after the cta-band. Used for Current Officials to ArbiterSports |
+| gallery | Row of rounded photos, no text (v1.9) | 1 to 3 photos (image*, image.position optional) | One photo sits centered at about 660px wide; 2 or 3 share the row. Phones stack them. Photos only, never words baked in |
 | site-footer | White logo, tagline, motto (Recruit. Train. Develop.), nav, social, ArbiterSports, legal row | from site config | Social links must be GNOA's real profile URLs. Copyright year is the current year |
 | page-hero | Inner page top (derived, not in mockup) | eyebrow (page or parent name)*, title*, lead*, 0 to 1 button, image | Every inner page starts with it. No image = plain navy |
 | prose | Rich text (derived) | h2, h3, paragraphs, lists, link lists | Keep the team's wording |

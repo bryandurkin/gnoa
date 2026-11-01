@@ -47,3 +47,11 @@ the homepage (sport strip, Choose Your Sport tiles, FAQ answer, search descripti
 About (now "Six Sports. One Officiating Community."), Become an Official and the Site Map. Photo checklist
 rows H10, A8 and W1 to W10 removed. The built pack stays in `handoff/completed/2026-10-21-wrestling`
 as history. /sports/wrestling/ now returns the page-not-found page.
+
+## 2026-11-01 Drive photos: closing banners, About, Training
+
+From the "GNOA site" Drive folder. "Your Next Game Could Look Different From This Side" replaces
+cta-home.jpg (the closing banner shared by most pages). "Morethanagame" replaces about-community.jpg.
+Training & Development: "Recruit.train.develop" as its banner (training-hero.jpg), one football training
+photo on the New Official Training card (training-new-official.jpg, the homepage card keeps its photo),
+and the other in a new gallery photo row under the training text (Design Kit v1.9).
