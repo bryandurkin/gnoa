@@ -17,7 +17,7 @@ What was built, from which source. Newest first.
 
 ## Pages still on SAMPLE content
 
-Whole pages: Basketball, Become an Official,
+Whole pages: Become an Official,
 Training and Development, Contact, Privacy Policy. These need a handoff pack or copy from GNOA.
 
 Softball: lower half missing (The Game Starts to Slow Down, Experienced Umpire, Keep Developing,
@@ -47,3 +47,12 @@ the homepage (sport strip, Choose Your Sport tiles, FAQ answer, search descripti
 About (now "Six Sports. One Officiating Community."), Become an Official and the Site Map. Photo checklist
 rows H10, A8 and W1 to W10 removed. The built pack stays in `handoff/completed/2026-10-21-wrestling`
 as history. /sports/wrestling/ now returns the page-not-found page.
+
+## 2026-11-01 Basketball page
+
+Full Basketball page from the "GNOA website - pictures and copy" Word doc (Drive folder "GNOA site").
+No mockup: same layout as the other sport pages, plus prose sections for "You Become Part of a Crew",
+"Giving Back to Local Basketball" and "Keep Getting Better". "The Game Starts to Slow Down" band and the
+closing banner run without photos (plain navy). cta-band gained `after` so "There's room for you here."
+follows the list (Design Kit v1.8). Photos still needed: BK3, BK4 (SAMPLE); BK2 is a low-res stand-in.
+Source doc saved in `handoff/completed/2026-11-01-basketball/`.
