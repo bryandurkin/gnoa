@@ -2,7 +2,7 @@
   "name": "Home",
   "slug": "",
   "title": "Become a Sports Official in Southwest Florida | GNOA",
-  "description": "Officiate football, basketball, baseball, softball, soccer or volleyball in Naples and Collier County. No experience needed. We will teach you.",
+  "description": "Officiate football, basketball, baseball, softball, soccer or volleyball in Naples and Collier County. Stay involved, give back, and join the crew.",
   "sections": [
     {
       "type": "hero",
@@ -13,7 +13,13 @@
       ],
       "title1": "Become a Sports Official",
       "title2": "in Southwest Florida",
-      "lead": "Stay in the game. Learn the craft. Be part of something bigger.",
+      "subhead": "Stay involved. Give back. Join the crew.",
+      "paragraphs": [
+        "Officiating is a way to stay connected to the sports you love, meet great people, stay active, earn some extra money, and give back to the athletes, schools, and families in your community.",
+        "Maybe you played. Maybe you coached. Maybe your kids played. Or maybe you've simply loved sports your whole life.",
+        "Whatever brought you to the game, officiating gives you another way to be part of it.",
+        "Greater Naples Officials Association recruits, trains, and supports new and experienced officials throughout Naples, Collier County, and Southwest Florida."
+      ],
       "buttons": [
         {
           "text": "Become an Official",
@@ -60,34 +66,41 @@
     },
     {
       "type": "benefits",
-      "heading": "Why Officiate",
+      "heading": "There's Still a Place for You in the Game",
+      "tagline": "You don't have to be playing or coaching to stay involved in sports.",
+      "intro": "Officials are an important part of what makes local games possible. You get a different view of the game, a new challenge, and a chance to become part of a community of people who enjoy sports just as much as you do.",
       "mist": true,
       "items": [
         {
-          "icon": "group",
+          "icon": "whistle",
           "title": "Stay Connected",
-          "text": "Be part of the game and stay engaged in your community."
+          "text": "Keep participating in the sports that have been part of your life."
         },
         {
-          "icon": "chart",
-          "title": "Keep Learning",
-          "text": "Build new skills, gain confidence, and challenge yourself."
+          "icon": "group",
+          "title": "Join a Great Group of People",
+          "text": "Work alongside officials from different backgrounds who share a love of sports and enjoy being part of a crew."
+        },
+        {
+          "icon": "runner",
+          "title": "Stay Active",
+          "text": "Officiating keeps you moving, thinking, and engaged."
+        },
+        {
+          "icon": "dollar",
+          "title": "Make Some Extra Money",
+          "text": "Work games around your availability and earn additional income doing something you enjoy."
         },
         {
           "icon": "community",
-          "title": "Join a Community",
-          "text": "Work with great people who share your passion for sports."
-        },
-        {
-          "icon": "whistle",
-          "title": "Make a Difference",
-          "text": "Help create a positive, respectful experience for student-athletes."
+          "title": "Give Back",
+          "text": "Help local athletes, schools, leagues, and families continue playing the games they work hard to prepare for."
         }
       ]
     },
     {
       "type": "sport-tiles",
-      "heading": "Choose Your Sport",
+      "heading": "Find Your Sport",
       "mist": true,
       "tiles": [
         {
@@ -139,15 +152,27 @@
           }
         }
       ],
-      "join": true
+      "join": true,
+      "intro": "Start with the sport you know, the sport you played or coached, or simply the one you enjoy most."
     },
     {
       "type": "split",
       "heading": "Never Officiated Before?",
-      "subhead": "You do not need experience. We will teach you.",
-      "text": "GNOA welcomes new officials from all backgrounds. Whether you played sports, coached, or simply love the game, we'll provide the training, mentorship, and support you need to get started.",
+      "subhead": "That's what training is for.",
+      "paragraphs": [
+        "You don't need previous officiating experience to get started. Nobody expects you to know every rule, signal, position, or mechanic on day one.",
+        "GNOA helps new officials learn what they need to know and connects them with experienced officials who remember exactly what it felt like to work their first game."
+      ],
+      "list": {
+        "items": [
+          "You'll learn the rules.",
+          "You'll learn where to be.",
+          "You'll learn how to communicate.",
+          "And most importantly, you'll learn by doing."
+        ]
+      },
       "button": {
-        "text": "Learn How It Works",
+        "text": "Learn How to Get Started",
         "href": "/become-an-official/"
       },
       "image": {
@@ -156,43 +181,79 @@
       }
     },
     {
-      "type": "steps",
-      "heading": "How It Works",
+      "type": "band",
+      "heading": "You Become Part of a Community",
+      "lines": [
+        "One of the best parts of officiating is the people you meet.",
+        "You'll work games with people from different professions, different ages, and different backgrounds, all connected by the same thing: They enjoy sports.",
+        "You'll prepare together. Work games together. Talk about plays afterward.",
+        "Help newer officials. Learn from experienced officials.",
+        "And probably share plenty of laughs along the way.",
+        "For many officials, the friendships and camaraderie become just as important as the games."
+      ],
+      "image": {
+        "src": "/images/about-community.jpg",
+        "alt": "Group of smiling GNOA officials in caps taking a selfie together before a night game"
+      }
+    },
+    {
+      "type": "prose",
+      "blocks": [
+        {
+          "h2": "Local Sports Need Officials"
+        },
+        {
+          "p": "Games don't happen without people willing to officiate them."
+        },
+        {
+          "p": "Athletes prepare. Coaches prepare. Schools and families show up."
+        },
+        {
+          "p": "But somebody still has to step onto the field, court, or mat and help make the competition possible."
+        },
+        {
+          "p": "Officiating is a practical way to give something back to your community."
+        },
+        {
+          "p": "You're helping local athletes compete. You're helping schools and programs play their schedules. And you're helping make sure the next generation gets the same opportunity to enjoy sports that you did."
+        },
+        {
+          "p": "That matters."
+        }
+      ]
+    },
+    {
+      "type": "prose",
       "mist": true,
-      "items": [
+      "blocks": [
         {
-          "icon": "doc",
-          "title": "Tell Us You're Interested",
-          "text": "Share a few details and let us know which sports interest you."
+          "h2": "Can I Officiate Part-Time?"
         },
         {
-          "icon": "group",
-          "title": "Connect With GNOA",
-          "text": "We'll reach out with next steps and answer your questions."
+          "p": "Absolutely."
         },
         {
-          "icon": "clipboard",
-          "title": "Complete Requirements",
-          "text": "Finish the necessary registrations, background checks, and sport-specific requirements."
+          "p": "Officiating is flexible, and you can block off dates when you're unavailable and work around your schedule."
         },
         {
-          "icon": "cap",
-          "title": "Train and Prepare",
-          "text": "Attend training, learn the rules, and work with experienced mentors."
+          "p": "Games are typically played on weekday evenings and Saturdays, with no Sunday games."
         },
         {
-          "icon": "whistle",
-          "title": "Work Your First Games",
-          "text": "Get assigned, gain experience, and start building your officiating career."
+          "p": "For many officials, it fits alongside work, family, travel, and other commitments."
         }
       ]
     },
     {
       "type": "band",
-      "heading": "Recruit. Train. Develop.",
-      "text": "GNOA develops people, not just assigns games. We provide quality training, mentorship, and ongoing development to help you grow your skills and reach your goals as an official.",
+      "heading": "Training & Support",
+      "lines": [
+        "Good officials aren't expected to figure everything out on their own.",
+        "GNOA provides pre-season and in-season training opportunities for each sport to help officials prepare, review rules and mechanics, ask questions, and continue learning throughout the season.",
+        "Development isn't only about moving to a higher level.",
+        "Sometimes getting better means communicating more clearly, being in a better position, handling a difficult situation better, helping a newer official, or simply becoming more comfortable and confident in your role."
+      ],
       "button": {
-        "text": "Be Part of Something Bigger",
+        "text": "View Training Information",
         "href": "/training-development/"
       },
       "image": {
@@ -203,8 +264,12 @@
     {
       "type": "split",
       "heading": "Already an Experienced Official?",
-      "subhead": "Looking for a new association in Collier County or Southwest Florida?",
-      "text": "We welcome experienced officials who are relocating, new to the area, or looking for a strong, supportive association. Bring your experience to GNOA and be part of our community.",
+      "subhead": "Come join the crew in Southwest Florida.",
+      "paragraphs": [
+        "If you're relocating to Naples, Collier County, or the surrounding area, or simply looking for a new association, we'd like to hear from you.",
+        "Tell us which sport you officiate and a little about your experience. We'll connect you with the appropriate GNOA leadership and help you understand the local process."
+      ],
+      "after": "More than anything, we're looking for good people who enjoy sports and want to be part of the officiating community.",
       "button": {
         "text": "Connect With GNOA",
         "href": "/contact/"
@@ -215,111 +280,50 @@
       }
     },
     {
-      "type": "path",
-      "heading": "Development and Recognition",
-      "tagline": "From your first game to your biggest assignment.",
+      "type": "prose",
       "mist": true,
-      "items": [
+      "blocks": [
         {
-          "label": "New Official Training",
-          "image": {
-            "src": "/images/path-new-official-training.jpg",
-            "alt": "Instructor leading a classroom training session for new officials"
-          }
+          "h2": "What Will I Need?"
         },
         {
-          "label": "Local Varsity Game",
-          "image": {
-            "src": "/images/path-local-varsity-game.jpg",
-            "alt": "Official on the field at a high school varsity game"
-          }
+          "p": "Every sport has its own uniform and equipment requirements, but don't rush out and buy everything before talking with GNOA."
         },
         {
-          "label": "Playoff Assignment",
-          "image": {
-            "src": "/images/path-playoff-assignment.jpg",
-            "alt": "Three-person officiating crew walking onto the field for a playoff game"
-          }
+          "p": "We'll help you understand what you actually need and what can wait."
         },
         {
-          "label": "State Championship Crew",
-          "image": {
-            "src": "/images/path-state-championship-crew.jpg",
-            "alt": "Officiating crew lined up at a Florida state championship game"
-          }
+          "p": "Experienced officials may also have used, extra, or hand-me-down equipment available for someone just getting started."
+        },
+        {
+          "p": "Talk to us first. See what's available. Buy what you need."
         }
       ]
-    },
-    {
-      "type": "testimonials",
-      "heading": "What Officials Say",
-      "items": [
-        {
-          "photo": {
-            "src": "/images/testimonial-1.jpg",
-            "alt": "Headshot of a volleyball official smiling"
-          },
-          "quote": "[[sample]]\"GNOA gave me the training and support I needed to get started. It's an amazing community of people who truly care.\"[[/sample]]",
-          "name": "[[sample]]Sarah M.[[/sample]]",
-          "role": "Volleyball Official"
-        },
-        {
-          "quote": "\"The training is phenomenal; the veterans always make sure you're prepared to make the right call and they won't let you fail. Not only that, but I've made too many friends to count in the GNOA, as they are a fantastic group of guys.\"",
-          "name": "Cameron Ballarino",
-          "initials": "CB"
-        },
-        {
-          "quote": "\"I didn't know what to expect to my first officiating meeting.  I played Pop Warner through College Football, I never thought I would enjoy officiating. My experience with the GNOA has blown away my expectations. These folks are lasered focused on protecting player, perserving the game, and ensuring high quality training for both new refs and veterans alike. A first class organization\"",
-          "name": "Chris Fahey",
-          "initials": "CF"
-        }
-      ]
-    },
-    {
-      "type": "faq",
-      "heading": "Frequently Asked Questions",
-      "items": [
-        {
-          "q": "Do I need experience to get started?",
-          "a": "No. You do not need experience. We will teach you. GNOA provides training, mentorship, and support to help you get started, regardless of your background."
-        },
-        {
-          "q": "What sports can I officiate?",
-          "a": "Football, basketball, baseball, softball, soccer, and volleyball."
-        },
-        {
-          "q": "How much training is provided?",
-          "a": "GNOA offers pre-season and in-season training opportunities for each sport to help officials prepare, review rules and mechanics, and continue improving throughout the season. The most current training dates, locations, and details are posted on the GNOA Central Hub",
-          "aParts": [
-            {
-              "text": "GNOA offers pre-season and in-season training opportunities for each sport to help officials prepare, review rules and mechanics, and continue improving throughout the season. The most current training dates, locations, and details are posted on the "
-            },
-            {
-              "text": "GNOA Central Hub",
-              "href": "https://www1.arbitersports.com/front/108522/Site/Page-Content/Sports"
-            }
-          ]
-        },
-        {
-          "q": "Can I officiate part-time?",
-          "a": "Yes. Officiating is flexible, and you can block off dates when you’re unavailable and work around your schedule. Games are typically played on weekday evenings and Saturdays, with no Sunday games."
-        },
-        {
-          "q": "How do I connect if I already have experience?",
-          "a": "Reach out through our Contact page. We welcome experienced officials who are relocating, new to the area, or looking for a strong, supportive association."
-        }
-      ],
-      "join": true
     },
     {
       "type": "cta-band",
-      "title1": "Your Next Game Could",
-      "title2": "Look Different From This Side",
-      "text": "Start with a conversation.",
-      "button": {
-        "text": "Become an Official",
-        "href": "/become-an-official/"
-      },
+      "title1": "Ready to See the Game From This Side?",
+      "list": [
+        "Maybe you miss being around sports.",
+        "Maybe you want to stay active.",
+        "Maybe you're looking for a way to make a little extra money.",
+        "Maybe you want to give something back.",
+        "Or maybe you'd simply enjoy spending time with a good group of people who love sports too."
+      ],
+      "after": [
+        "There's room for you here."
+      ],
+      "text": "Stay involved. Give back. Join the crew.",
+      "buttons": [
+        {
+          "text": "Become an Official",
+          "href": "/become-an-official/"
+        },
+        {
+          "text": "Choose Your Sport",
+          "href": "/sports/"
+        }
+      ],
       "image": {
         "src": "/images/cta-home.jpg",
         "alt": "Three GNOA umpires on the field at a high school baseball game, crowd in the stands behind"

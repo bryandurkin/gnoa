@@ -1,6 +1,6 @@
 ---
 // Text and photo, photo fading into white. reverse = photo on the left.
-// text or paragraphs; list = { heading, items } checklist; after = paragraph after the list;
+// text or paragraphs; list = { heading (optional), items } checklist; after = paragraph after the list;
 // aside = { heading, items, text } boxed checklist shown beside the text (use with reverse).
 import Btn from '../Btn.astro'; import Icon from '../Icon.astro';
 const { heading, subhead, text, paragraphs, list, after, aside, button, image, reverse = false } = Astro.props;
@@ -14,7 +14,7 @@ const paras = paragraphs ?? (text ? [text] : []);
     <div class={aside ? 'split__cols' : undefined}>
       <div>
         {paras.map(p => <p>{p}</p>)}
-        {list && <><h3 class="checklist__head">{list.heading}</h3><ul class="checklist" style={`--rows:${Math.ceil(list.items.length / 2)}`}>{list.items.map(i => <li><Icon name="check" />{i}</li>)}</ul></>}
+        {list && <>{list.heading && <h3 class="checklist__head">{list.heading}</h3>}<ul class="checklist" style={`--rows:${Math.ceil(list.items.length / 2)}`}>{list.items.map(i => <li><Icon name="check" />{i}</li>)}</ul></>}
         {after && <p>{after}</p>}
         {button && <Btn {...button} variant="teal" />}
       </div>
