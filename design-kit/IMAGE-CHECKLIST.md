@@ -83,6 +83,19 @@ Same rules as above. Umpires are the main subject. Please make sure no MLB or ot
 | B15 | baseball-equipment.jpg | "What Will I Need?" | Flat lay: mask, chest protector, shin guards, indicator, plate brush, ball bag (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | B16 | baseball-cta.jpg | Closing banner on the Baseball page | Umpire from behind looking out at the field | 2200 x 1240 | Wide 16:9 | Umpire in the right half | Sample in place |
 
+## Needed for the Basketball page
+
+Same rules as above. Officials are the main subject; players only in the background.
+
+| # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
+|---|---|---|---|---|---|---|---|
+| BK1 | basketball-hero.jpg | Big photo at the top of the Basketball page | Basketball official on the court | 2000 x 1500 | Landscape 4:3 | Official in the right half; left side is covered by the headline | Supplied real photo in place (same photo as the sport tile) |
+| BK2 | about-sport-basketball.jpg | "Never Officiated Before?" section | Official holding the ball or signaling on the court | 1200 x 1600 | Portrait 3:4 | Centered | Low-res stand-in from the mockup |
+| BK3 | basketball-experienced.jpg | "Already an Experienced Basketball Official?" | An experienced crew together on the court before a game | 1600 x 1070 | Landscape 3:2 | Centered | Needed (gray SAMPLE PHOTO now) |
+| BK4 | basketball-equipment.jpg | "What Will I Need?" | Flat lay: officiating shirt, whistle, black pants and shoes (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
+| BK5 | basketball-band.jpg | "The Game Starts to Slow Down" (optional) | Official watching play from the baseline | 2200 x 1240 | Wide 16:9 | Official in the right half | Optional, plain navy now |
+| BK6 | basketball-cta.jpg | Closing banner (optional) | Official on the court, room for text on the left | 2200 x 1240 | Wide 16:9 | Subject in the right half | Optional, plain navy now |
+
 ## Needed for the Soccer page
 
 Same rules as above. Referees in proper soccer referee kit are the main subject; assistant referee flag shots are welcome. Players only in the background.
