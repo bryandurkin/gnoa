@@ -1,4 +1,4 @@
-# GNOA Design Kit v1.9
+# GNOA Design Kit v1.10
 
 Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association), plus the Football, Baseball, About, Wrestling (page since removed), Soccer, Softball and Volleyball page handoff packs (v1.2 to v1.5 sections).
 Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY from the sections below. It does not invent new layouts, colors or fonts. Copy markup from preview.html.
@@ -49,8 +49,8 @@ Fields marked * are required.
 | benefits | White cards with an icon | heading*, tagline, intro (max 45 words), 3 to 5 items (icon*, title*, text* or 2 short paragraphs; 5 items added v1.4), align "left" for left-aligned card text | Text max 20 words per paragraph. Title must differ from text |
 | sport-row | Portrait sport photo tiles with the name under each (v1.3) | heading*, lead (one bold line), intro (max 35 words), 3 to 8 tiles (label*, link*, image* 4:5), button | 7 across desktop, 4 across tablet, 2 across phone |
 | skills | Heading, intro and small icon + label tiles beside a rounded photo, no fade (v1.3) | heading*, intro*, label ("You learn to:"), 4 to 6 items (icon*, label* max 5 words), after (1 paragraph), image* | 3 across desktop, 2 across tablet and phone |
-| sport-tiles | Photo link tiles, label and arrow | heading*, 3 to 8 tiles (label*, link*, image*) | Layout adapts to count. 7 tiles = 4 over 3, as in mockup |
-| split | Text and photo, photo fading into white | heading*, subhead*, 1 to 2 paragraphs* (max 45 words each), list (heading + 4 to 12 checklist items), after (1 paragraph), button*, image*. reverse = photo on the left; aside = boxed checklist (heading + 4 to 8 items, columns 1 or 2) plus an optional line, beside the text (use with reverse) | Max twice per page. Checklist items max 6 words |
+| sport-tiles | Photo link tiles, label and arrow | heading*, intro (one line, v1.10), 3 to 8 tiles (label*, link*, image*) | Layout adapts to count. 7 tiles = 4 over 3, as in mockup |
+| split | Text and photo, photo fading into white | heading*, subhead*, 1 to 2 paragraphs* (max 45 words each), list (heading (optional, v1.10) + 4 to 12 checklist items), after (1 paragraph), button*, image*. reverse = photo on the left; aside = boxed checklist (heading + 4 to 8 items, columns 1 or 2) plus an optional line, beside the text (use with reverse) | Max twice per page. Checklist items max 6 words |
 | steps | Icon-led process on a connector line (no number badges) | heading*, tagline (v1.5), 3 to 6 steps (icon*, title*, text*), button (centered below) | Only for a real sequence. Text max 15 words |
 | learn-cards | Photo cards with title and text under the photo (v1.2) | heading*, tagline, 3 to 6 cards (image*, title*, text* max 35 words) | One row on desktop (columns follow the card count), 3 across on tablet |
 | band | Navy panel, photo right | heading* and paragraph (max 45 words), or heading* and lines (3 to 8 short lines), or blocks (2 topics, each heading + paragraph max 60 words, split by a thin rule); button, image* | Never directly after another dark section |
@@ -69,7 +69,7 @@ Fields marked * are required.
 
 GNOA site rule: Do not display numbered badges or number circles over or above process icons, step diagrams, or pathway cards. Use the pictogram icons and progression arrows/lines instead.
 
-Icons: the SVG sprite at the top of preview.html (arrow, external, menu, group, community, chart, whistle, doc, clipboard, cap, trophy, football, gear, book, check, info, baseball, ballcap, target, runner, scales, chat, bars, brain, shield, feedback, calendar, wrestling, shoe, soccer, volleyball, timer, facebook, instagram, youtube). On the site they live in src/components/Icon.astro. Include the sprite once in the site layout. Card and step icons are solid and use icon-blue. Checklist and callout icons use cyan. Icons on navy bands are white. New icons must match: 24px grid, solid shapes.
+Icons: the SVG sprite at the top of preview.html (arrow, external, menu, group, community, chart, whistle, doc, clipboard, cap, trophy, football, gear, book, check, info, baseball, ballcap, target, runner, scales, chat, bars, brain, shield, feedback, calendar, dollar, wrestling, shoe, soccer, volleyball, timer, facebook, instagram, youtube). On the site they live in src/components/Icon.astro. Include the sprite once in the site layout. Card and step icons are solid and use icon-blue. Checklist and callout icons use cyan. Icons on navy bands are white. New icons must match: 24px grid, solid shapes.
 
 SAMPLE flag: any text GNOA has not confirmed (testimonials, missing FAQ answers, post placeholders, contact details) carries `<span class="sample-tag">`. Pages can go live on the draft worker with visible SAMPLE tags. None may remain at final launch.
 
@@ -79,7 +79,7 @@ Page list read from the mockup nav and footer. Sports list (7) confirmed by Brya
 
 | Page | Sections in order |
 |---|---|
-| Home | hero, sport-strip, benefits, sport-tiles (join), split (new officials), steps, band, split (experienced), path, testimonials, faq (join), cta-band |
+| Home (rewritten Nov 1, 2026 from the GNOA copy doc) | hero (eyebrow, subhead, 4 paragraphs), sport-strip, benefits (5 items, tagline, intro), sport-tiles (join, intro), split (new officials, checklist without heading), band (community, lines), prose (local sports), prose (part-time, mist), band (training and support, lines, button), split (experienced, after), prose (what will I need, mist), cta-band (list, after, 2 buttons) |
 | Become an Official | page-hero (new officials message), benefits, steps, split (experienced officials), faq, cta-band |
 | Sports (hub) | page-hero, sport-tiles, cta-band |
 | Sport page, full (Football and Baseball built Sept 30, 2026, Soccer, Softball and Volleyball Oct 21, 2026, Basketball Nov 1, 2026 (from the copy doc, no mockup; adds prose sections for crew, giving back and development, and a band and cta-band without photos), from their handoff packs; Wrestling was built then and removed Nov 1, 2026, as GNOA no longer officiates it). The Oct 21 pages have no icon-strip and uses a second benefits (white, align left, 5 items) in place of learn-cards, and its first split is reverse | hero (no eyebrow), icon-strip, benefits (intro, tagline optional), split (checklist), steps (+ button), learn-cards, band (lines or blocks), split (reverse + aside), path (captions + button), info-faq, cta-band (list or paragraphs) |

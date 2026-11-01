@@ -64,3 +64,12 @@ cta-home.jpg (the closing banner shared by most pages). "Morethanagame" replaces
 Training & Development: "Recruit.train.develop" as its banner (training-hero.jpg), one football training
 photo on the New Official Training card (training-new-official.jpg, the homepage card keeps its photo),
 and the other in a new gallery photo row under the training text (Design Kit v1.9).
+
+## 2026-11-01 Homepage rewritten
+
+New homepage copy from the GNOA copy doc, laid out with kit sections following the reference mockup.
+Wrestling left out of the sport list. Removed from the homepage because the new copy doesn't include
+them: How It Works steps, Development and Recognition path, sample testimonials and the FAQ (their
+content lives on Become an Official, Training & Development and the sport pages). The "More Than the
+Game" group photo is also used for "You Become Part of a Community". Kit v1.10: sport-tiles intro,
+optional split checklist heading, dollar icon.
