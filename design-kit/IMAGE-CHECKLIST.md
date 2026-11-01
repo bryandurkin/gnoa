@@ -24,7 +24,6 @@ The draft site uses sample photos for now. Send us the real ones below and we sw
 | H7 | sport-softball.jpg | Softball tile and page | A GNOA umpire working softball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
 | H8 | sport-soccer.jpg | Soccer tile and page | A GNOA referee working soccer | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
 | H9 | sport-volleyball.jpg | Volleyball tile and page | A GNOA official working volleyball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
-| H10 | sport-wrestling.jpg | Wrestling tile and page | A GNOA referee working wrestling | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Sample in place |
 | H11 | split-new-officials.jpg | "Never Officiated Before?" section | A veteran official mentoring a newer official | 1800 x 900 | Wide 2:1 | People in the right two thirds; left edge fades to white | Sample in place |
 | H12 | band-recruit-train-develop.jpg | "Recruit. Train. Develop." section | A group of officials in a pregame talk or training | 2000 x 900 | Wide 20:9 | People in the right 60 percent | Sample in place |
 | H13 | split-experienced-officials.jpg | "Already an Experienced Official?" section | A crew of experienced GNOA officials | 1800 x 900 | Wide 2:1 | People in the right two thirds; left edge fades to white | Sample in place |
@@ -84,23 +83,6 @@ Same rules as above. Umpires are the main subject. Please make sure no MLB or ot
 | B15 | baseball-equipment.jpg | "What Will I Need?" | Flat lay: mask, chest protector, shin guards, indicator, plate brush, ball bag (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Sample in place |
 | B16 | baseball-cta.jpg | Closing banner on the Baseball page | Umpire from behind looking out at the field | 2200 x 1240 | Wide 16:9 | Umpire in the right half | Sample in place |
 
-## Needed for the Wrestling page
-
-Same rules as above. The official is the main subject, low to the mat, in a proper wrestling officiating shirt with red and green wristbands. Wrestlers only in support of the official.
-
-| # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
-|---|---|---|---|---|---|---|---|
-| W1 | wrestling-hero.jpg | Big photo at the top of the Wrestling page | Official crouched close to live action, wrestlers visible | 2400 x 1350 | Wide 16:9 | Official in the right half; left side is covered by the headline | Sample in place |
-| W2 | wrestling-training.jpg | "Never Officiated Before?" section | Close angle on the official's positioning, wristbands or signal, wrestlers in action | 1200 x 1600 | Portrait 3:4 | Centered | Sample in place |
-| W3 | wrestling-match.jpg | "The Match Starts to Look Different" | Official watching a match closely, tournament setting | 2200 x 1240 | Wide 16:9 | Official in the right half | Sample in place (borrowed from the sport tile) |
-| W4 | wrestling-experienced.jpg | "Already an Experienced Wrestling Official?" | A veteran official at a tournament or talking with another official | 1600 x 1070 | Landscape 3:2 | Centered | Needed (gray SAMPLE PHOTO now) |
-| W5 | wrestling-path-varsity.jpg | "Keep Developing" card 1 | Official working a local varsity dual meet | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
-| W6 | wrestling-path-tournament.jpg | Card 2 | Official at a multi-mat tournament | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
-| W7 | wrestling-path-postseason.jpg | Card 3 | Official at a district or regional postseason match | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
-| W8 | wrestling-path-championship.jpg | Card 4 | Official at a state championship venue | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
-| W9 | wrestling-equipment.jpg | "What Will I Need?" | Flat lay: officiating shirt, whistle, red and green wristbands, shoes, rule book (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
-| W10 | wrestling-cta.jpg | Closing banner on the Wrestling page | Official's shoes and stance on the mat, or official overlooking competition | 2200 x 1240 | Wide 16:9 | Subject in the right half | Sample in place |
-
 ## Needed for the Soccer page
 
 Same rules as above. Referees in proper soccer referee kit are the main subject; assistant referee flag shots are welcome. Players only in the background.
@@ -154,7 +136,6 @@ Same rules as above. Officials in proper volleyball officiating attire are the m
 | A5 | about-sport-softball.jpg | Tile 4 | One softball umpire | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
 | A6 | about-sport-soccer.jpg | Tile 5 | One soccer referee or assistant referee | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
 | A7 | about-sport-volleyball.jpg | Tile 6 | One volleyball official | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
-| A8 | about-sport-wrestling.jpg | Tile 7 | One wrestling referee | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
 | A9 | about-community.jpg | "More Than the Game" photo | A small group of officials talking, laughing or mentoring, candid | 1400 x 1400 | Square-ish | Centered | Sample in place |
 | A10 | about-path-new-official.jpg | "New Official to Experienced Veteran" card 1 | A newer official getting guidance | 1000 x 700 | Landscape | Face in the upper two thirds (a number circle covers the bottom center) | Sample in place |
 | A11 | about-path-crew-member.jpg | Card 2 | Two or more officials preparing together | 1000 x 700 | Landscape | Upper two thirds | Sample in place |

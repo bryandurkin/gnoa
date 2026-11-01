@@ -2,7 +2,7 @@
   "name": "Home",
   "slug": "",
   "title": "Become a Sports Official in Southwest Florida | GNOA",
-  "description": "Officiate football, basketball, baseball, softball, soccer, volleyball or wrestling in Naples and Collier County. No experience needed. We will teach you.",
+  "description": "Officiate football, basketball, baseball, softball, soccer or volleyball in Naples and Collier County. No experience needed. We will teach you.",
   "sections": [
     {
       "type": "hero",
@@ -55,10 +55,6 @@
         {
           "label": "Volleyball",
           "href": "/sports/volleyball/"
-        },
-        {
-          "label": "Wrestling",
-          "href": "/sports/wrestling/"
         }
       ]
     },
@@ -140,14 +136,6 @@
           "image": {
             "src": "/images/sport-volleyball.jpg",
             "alt": "Volleyball official signaling at the net"
-          }
-        },
-        {
-          "label": "Wrestling",
-          "href": "/sports/wrestling/",
-          "image": {
-            "src": "/images/sport-wrestling.jpg",
-            "alt": "Wrestling referee in a crouch watching the match"
           }
         }
       ],
@@ -297,7 +285,7 @@
         },
         {
           "q": "What sports can I officiate?",
-          "a": "Football, basketball, baseball, softball, soccer, volleyball, and wrestling."
+          "a": "Football, basketball, baseball, softball, soccer, and volleyball."
         },
         {
           "q": "How much training is provided?",

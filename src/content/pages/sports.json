@@ -2,13 +2,13 @@
   "name": "Sports",
   "slug": "sports",
   "title": "Sports We Officiate in Collier County | GNOA",
-  "description": "GNOA officials work football, basketball, baseball, softball, soccer, volleyball, and wrestling across Naples, Collier County, and Southwest Florida.",
+  "description": "GNOA officials work football, basketball, baseball, softball, soccer, and volleyball across Naples, Collier County, and Southwest Florida.",
   "sections": [
     {
       "type": "page-hero",
       "kicker": "Sports",
       "title1": "Choose Your Sport",
-      "lead": "Football, basketball, baseball, softball, soccer, volleyball, and wrestling across Naples, Collier County, and Southwest Florida.",
+      "lead": "Football, basketball, baseball, softball, soccer, and volleyball across Naples, Collier County, and Southwest Florida.",
       "image": {
         "src": "/images/sport-basketball.jpg",
         "alt": "Basketball official holding a game ball courtside"
@@ -65,14 +65,6 @@
           "image": {
             "src": "/images/sport-volleyball.jpg",
             "alt": "Volleyball official signaling at the net"
-          }
-        },
-        {
-          "label": "Wrestling",
-          "href": "/sports/wrestling/",
-          "image": {
-            "src": "/images/sport-wrestling.jpg",
-            "alt": "Wrestling referee in a crouch watching the match"
           }
         }
       ]

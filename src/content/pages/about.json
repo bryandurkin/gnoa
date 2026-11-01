@@ -2,7 +2,7 @@
   "name": "About GNOA",
   "slug": "about",
   "title": "About Greater Naples Officials Association | GNOA",
-  "description": "Since 2014, GNOA has recruited, trained, and developed sports officials in seven sports across Naples, Collier County, and Southwest Florida.",
+  "description": "Since 2014, GNOA has recruited, trained, and developed sports officials in six sports across Naples, Collier County, and Southwest Florida.",
   "sections": [
     {
       "type": "hero",
@@ -90,8 +90,8 @@
     },
     {
       "type": "sport-row",
-      "heading": "Seven Sports. One Officiating Community.",
-      "lead": "GNOA supports officials in: Football · Basketball · Baseball · Softball · Soccer · Volleyball · Wrestling",
+      "heading": "Six Sports. One Officiating Community.",
+      "lead": "GNOA supports officials in: Football · Basketball · Baseball · Softball · Soccer · Volleyball",
       "intro": "Each sport has its own leadership, training, and development opportunities, but we share one goal: Help officials become better at what they do.",
       "tiles": [
         {
@@ -123,11 +123,6 @@
           "label": "Volleyball",
           "href": "/sports/volleyball/",
           "icon": "volleyball"
-        },
-        {
-          "label": "Wrestling",
-          "href": "/sports/wrestling/",
-          "icon": "wrestling"
         }
       ],
       "button": {

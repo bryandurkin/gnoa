@@ -60,10 +60,6 @@
         {
           "label": "Volleyball",
           "href": "/sports/volleyball/"
-        },
-        {
-          "label": "Wrestling",
-          "href": "/sports/wrestling/"
         }
       ],
       "singleRow": true
@@ -176,7 +172,7 @@
         },
         {
           "q": "What sports can I officiate?",
-          "a": "Football, basketball, baseball, softball, soccer, volleyball, and wrestling."
+          "a": "Football, basketball, baseball, softball, soccer, and volleyball."
         },
         {
           "q": "How much training is provided?",

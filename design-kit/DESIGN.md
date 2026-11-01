@@ -1,6 +1,6 @@
 # GNOA Design Kit v1.7
 
-Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association), plus the Football, Baseball, About, Wrestling, Soccer, Softball and Volleyball page handoff packs (v1.2 to v1.5 sections).
+Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association), plus the Football, Baseball, About, Wrestling (page since removed), Soccer, Softball and Volleyball page handoff packs (v1.2 to v1.5 sections).
 Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY from the sections below. It does not invent new layouts, colors or fonts. Copy markup from preview.html.
 
 ## 1. Style tokens (locked)
@@ -74,14 +74,14 @@ SAMPLE flag: any text GNOA has not confirmed (testimonials, missing FAQ answers,
 
 ## 3. Page recipes (GNOA)
 
-Page list read from the mockup nav and footer. Sports list (7) confirmed by Bryan on Sept 30, 2026. The Builder asks before creating pages beyond this list.
+Page list read from the mockup nav and footer. Sports list (7) confirmed by Bryan on Sept 30, 2026; Wrestling removed Nov 1, 2026, leaving 6. The Builder asks before creating pages beyond this list.
 
 | Page | Sections in order |
 |---|---|
 | Home | hero, sport-strip, benefits, sport-tiles (join), split (new officials), steps, band, split (experienced), path, testimonials, faq (join), cta-band |
 | Become an Official | page-hero (new officials message), benefits, steps, split (experienced officials), faq, cta-band |
 | Sports (hub) | page-hero, sport-tiles, cta-band |
-| Sport page, full (Football and Baseball built Sept 30, 2026, Wrestling, Soccer, Softball and Volleyball Oct 21, 2026, from their handoff packs). The Oct 21 pages have no icon-strip and uses a second benefits (white, align left, 5 items) in place of learn-cards, and its first split is reverse | hero (no eyebrow), icon-strip, benefits (intro, tagline optional), split (checklist), steps (+ button), learn-cards, band (lines or blocks), split (reverse + aside), path (captions + button), info-faq, cta-band (list or paragraphs) |
+| Sport page, full (Football and Baseball built Sept 30, 2026, Soccer, Softball and Volleyball Oct 21, 2026, from their handoff packs; Wrestling was built then and removed Nov 1, 2026, as GNOA no longer officiates it). The Oct 21 pages have no icon-strip and uses a second benefits (white, align left, 5 items) in place of learn-cards, and its first split is reverse | hero (no eyebrow), icon-strip, benefits (intro, tagline optional), split (checklist), steps (+ button), learn-cards, band (lines or blocks), split (reverse + aside), path (captions + button), info-faq, cta-band (list or paragraphs) |
 | Sport page, short (Basketball until its copy arrives) | page-hero (uses sport-NAME.jpg), prose, steps (only if the team gives sport-specific steps), faq (sport-specific, optional), cta-band. Switch to the full recipe when the sport's copy pack arrives |
 | Training & Development | page-hero, prose, path, testimonials, cta-band |
 | About GNOA (built Sept 30, 2026 from its handoff pack) | hero (no eyebrow, 3 paragraphs), icon-strip, benefits (white, align left, 2 paragraphs per card), sport-row, skills, path (headAlign left, captions, join), cta-band (2 buttons), utility-strip |
@@ -106,7 +106,7 @@ When GNOA sends real files, they use the same file names (see IMAGE-CHECKLIST.md
 | logo-color (svg or png) | site-header |
 | logo-white (svg or png) | site-footer |
 | hero-home.jpg | hero |
-| sport-football.jpg, sport-basketball.jpg, sport-baseball.jpg, sport-softball.jpg, sport-soccer.jpg, sport-volleyball.jpg, sport-wrestling.jpg | sport-tiles and each sport page's page-hero |
+| sport-football.jpg, sport-basketball.jpg, sport-baseball.jpg, sport-softball.jpg, sport-soccer.jpg, sport-volleyball.jpg | sport-tiles and each sport page's page-hero |
 | split-new-officials.jpg | split (Never Officiated Before?) |
 | band-recruit-train-develop.jpg | band (Recruit. Train. Develop.) |
 | split-experienced-officials.jpg | split (Already an Experienced Official?) |
@@ -115,7 +115,7 @@ When GNOA sends real files, they use the same file names (see IMAGE-CHECKLIST.md
 | cta-home.jpg | cta-band |
 | football-hero.jpg, football-mentor.jpg, football-learn-rules.jpg, football-learn-positioning.jpg, football-learn-mechanics.jpg, football-learn-judgment.jpg, football-learn-communication.jpg, football-first-game.jpg, football-crew.jpg, football-path-training.jpg, football-path-friday-night.jpg, football-path-postseason.jpg, football-path-championship.jpg, football-equipment.jpg, football-cta.jpg | Football page (full recipe), in page order |
 | baseball-hero.jpg, baseball-mentor.jpg, baseball-learn-positioning.jpg, baseball-learn-plate-work.jpg, baseball-learn-base-mechanics.jpg, baseball-learn-rules.jpg, baseball-learn-judgment.jpg, baseball-learn-communication.jpg, baseball-timing.jpg, baseball-crew.jpg, baseball-path-training.jpg, baseball-path-local.jpg, baseball-path-postseason.jpg, baseball-path-championship.jpg, baseball-equipment.jpg, baseball-cta.jpg | Baseball page (full recipe), in page order |
-| about-hero.jpg, about-sport-football.jpg, about-sport-basketball.jpg, about-sport-baseball.jpg, about-sport-softball.jpg, about-sport-soccer.jpg, about-sport-volleyball.jpg, about-sport-wrestling.jpg, about-community.jpg, about-path-new-official.jpg, about-path-crew-member.jpg, about-path-varsity.jpg, about-path-postseason.jpg, about-cta.jpg | About GNOA page, in page order |
+| about-hero.jpg, about-sport-football.jpg, about-sport-basketball.jpg, about-sport-baseball.jpg, about-sport-softball.jpg, about-sport-soccer.jpg, about-sport-volleyball.jpg, about-community.jpg, about-path-new-official.jpg, about-path-crew-member.jpg, about-path-varsity.jpg, about-path-postseason.jpg, about-cta.jpg | About GNOA page, in page order |
 | page-hero-PAGE.jpg (optional) | page-hero on inner pages. If not supplied, reuse a homepage photo that fits the page |
 | og-share.jpg (optional) | social share image, 1200 x 630 |
 | favicon.png (optional) | browser tab icon, 512 x 512 |
@@ -155,7 +155,7 @@ Never: invent facts, prices, dates, stats, testimonials, names or FAQ answers. N
 |---|---|
 | site-header | White bar, logo lockup (palm over the A, GNOA, divider, association name, small tagline), 5 nav links, ArbiterSports button (two lines, deep teal, external icon) |
 | hero | Photo with dark left fade, eyebrow (Integrity sky, Opportunity sand, Community white, dot separators), 2-line white title, lead line, cyan button with arrow, outline button (two lines, white border) |
-| sport-strip | Navy band, 7 sport names, dot separators |
+| sport-strip | Navy band, 6 sport names, dot separators (7 in the mockup; Wrestling removed Nov 1, 2026) |
 | benefits | Centered heading, cyan underline bar, 4 bordered white cards, navy filled icons (group, rising chart, community, whistle), bold title, gray text |
 | sport-tiles | Centered heading and bar, 4 tiles over 3 wider tiles, rounded corners, dark bottom fade, white label with arrow |
 | split (new) | Photo right fading into white, navy heading, teal subhead, gray paragraph, teal button with arrow |
