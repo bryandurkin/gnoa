@@ -458,3 +458,8 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
   .sport-row{grid-template-columns:repeat(2,1fr)}
   .sport-row li:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc(50% - 6px)}
 }
+
+/* gallery: 1 to 3 rounded photos in a row, no text (v1.9) */
+.gallery{display:grid;grid-template-columns:repeat(var(--n,1),1fr);gap:14px;list-style:none;margin:0 auto;padding:0;max-width:calc(var(--n,1) * 360px + 300px)}
+.gallery__item{aspect-ratio:16/9;border-radius:var(--radius);overflow:hidden;background:var(--mist)}
+@media (max-width:700px){.gallery{grid-template-columns:1fr}}

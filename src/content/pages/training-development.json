@@ -10,8 +10,8 @@
       "title1": "Recruit. Train. Develop.",
       "lead": "GNOA develops people, not just assigns games.",
       "image": {
-        "src": "/images/band-recruit-train-develop.jpg",
-        "alt": "Group of officials in striped shirts talking before a game"
+        "src": "/images/training-hero.jpg",
+        "alt": "Three GNOA umpires in FHSAA caps smiling together at the ballpark"
       }
     },
     {
@@ -59,6 +59,18 @@
       ]
     },
     {
+      "type": "gallery",
+      "join": true,
+      "items": [
+        {
+          "image": {
+            "src": "/images/training-on-field.jpg",
+            "alt": "GNOA football officials in stripes walking through on-field mechanics at a training session"
+          }
+        }
+      ]
+    },
+    {
       "type": "path",
       "heading": "Development and Recognition",
       "tagline": "From your first game to your biggest assignment.",
@@ -67,8 +79,9 @@
         {
           "label": "New Official Training",
           "image": {
-            "src": "/images/path-new-official-training.jpg",
-            "alt": "Instructor leading a classroom training session for new officials"
+            "src": "/images/training-new-official.jpg",
+            "alt": "GNOA football officials gathered on a practice field as an instructor points out a mechanic",
+            "position": "center 25%"
           }
         },
         {
@@ -130,7 +143,7 @@
       },
       "image": {
         "src": "/images/cta-home.jpg",
-        "alt": "Referee seen from behind looking out at a stadium field under the lights at sunset"
+        "alt": "Three GNOA umpires on the field at a high school baseball game, crowd in the stands behind"
       }
     }
   ]

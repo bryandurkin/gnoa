@@ -56,3 +56,11 @@ No mockup: same layout as the other sport pages, plus prose sections for "You Be
 closing banner run without photos (plain navy). cta-band gained `after` so "There's room for you here."
 follows the list (Design Kit v1.8). Photos still needed: BK3, BK4 (SAMPLE); BK2 is a low-res stand-in.
 Source doc saved in `handoff/completed/2026-11-01-basketball/`.
+
+## 2026-11-01 Drive photos: closing banners, About, Training
+
+From the "GNOA site" Drive folder. "Your Next Game Could Look Different From This Side" replaces
+cta-home.jpg (the closing banner shared by most pages). "Morethanagame" replaces about-community.jpg.
+Training & Development: "Recruit.train.develop" as its banner (training-hero.jpg), one football training
+photo on the New Official Training card (training-new-official.jpg, the homepage card keeps its photo),
+and the other in a new gallery photo row under the training text (Design Kit v1.9).

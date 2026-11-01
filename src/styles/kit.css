@@ -582,3 +582,8 @@ mark.sample{background:#fff3a3;color:#1d1d1d;padding:0 .15em;border-radius:2px;b
 .band__media img[src="/images/volleyball-match-gnoa.webp"]{object-position:center 12%}
 .band__media img[src="/images/volleyball-cta-gnoa.webp"]{object-position:center 15%}
 .split__media img[src="/images/volleyball-experienced-gnoa.webp"]{object-fit:contain;object-position:center;background:var(--white)}
+
+/* gallery: 1 to 3 rounded photos in a row, no text (v1.9) */
+.gallery{display:grid;grid-template-columns:repeat(var(--n,1),1fr);gap:14px;list-style:none;margin:0 auto;padding:0;max-width:calc(var(--n,1) * 360px + 300px)}
+.gallery__item{aspect-ratio:16/9;border-radius:var(--radius);overflow:hidden;background:var(--mist)}
+@media (max-width:700px){.gallery{grid-template-columns:1fr}}
