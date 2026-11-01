@@ -24,7 +24,7 @@ Softball: lower half missing (The Game Starts to Slow Down, Experienced Umpire, 
 What Will I Need, FAQs, closing banner text). The pack referred to copy it did not include.
 
 A few SAMPLE items also remain on Home and About (stats, testimonials, contact details) and photos on
-Wrestling (6), Soccer (5) and Volleyball (5).
+Soccer (5) and Volleyball (5).
 `npm run check:live` lists every one.
 
 ## 2026-10-29 Baseball path photos recut
@@ -39,3 +39,11 @@ from the GNOA source photos and added an optional `image.position` focus to the 
 The portrait equipment photo was center-cropped into a 16:10 strip on phones, cutting off the
 umpire's masked head. Added an optional `info.image.position` focus to info-faq (Design Kit v1.7)
 and set the baseball photo to "center 10%". Desktop framing is unchanged apart from keeping the mask in view.
+
+## 2026-11-01 Wrestling removed
+
+GNOA no longer officiates wrestling. Deleted the Wrestling page and its photos, and removed Wrestling from
+the homepage (sport strip, Choose Your Sport tiles, FAQ answer, search description), the Sports hub,
+About (now "Six Sports. One Officiating Community."), Become an Official and the Site Map. Photo checklist
+rows H10, A8 and W1 to W10 removed. The built pack stays in `handoff/completed/2026-10-21-wrestling`
+as history. /sports/wrestling/ now returns the page-not-found page.
