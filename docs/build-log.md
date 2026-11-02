@@ -80,3 +80,13 @@ The "You Become Part of a Community" band cropped the group selfie to the panel'
 heads at the top and bottom. Added `image.fit: "contain"` to the band (Design Kit v1.11): the whole photo
 sits on the right at its own shape, centered vertically, and the text column narrows to stay clear of it.
 Phones keep the photo as the dimmed background, as before.
+
+## 2026-11-02 Homepage change list (copy and order)
+
+Applied the GNOA homepage change list: hero headline is now "There's Still a Place for You in the Game",
+new Find Your Sport intro, the community band is renamed "Come for the Game. Stay for the People.",
+gains the crew line and moves above "Never Officiated Before?", and the training band becomes
+"Recruit. Train. Develop." with new copy and an "Explore Training & Development" button. The group
+photo's screenshot bars are trimmed (`home-community.jpg`); the top-center official's head is outside
+the original frame, so a better photo is needed to show it. Waiting on the new photos for Softball,
+Never Officiated Before and Local Sports Need Officials.
