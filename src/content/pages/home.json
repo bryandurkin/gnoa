@@ -11,8 +11,8 @@
         "Train",
         "Develop"
       ],
-      "title1": "Become a Sports Official",
-      "title2": "in Southwest Florida",
+      "title1": "There's Still a Place for You",
+      "title2": "in the Game",
       "subhead": "Stay involved. Give back. Join the crew.",
       "paragraphs": [
         "Officiating is a way to stay connected to the sports you love, meet great people, stay active, earn some extra money, and give back to the athletes, schools, and families in your community.",
@@ -153,7 +153,25 @@
         }
       ],
       "join": true,
-      "intro": "Start with the sport you know, the sport you played or coached, or simply the one you enjoy most."
+      "intro": "There's more than one way to stay in the game. Whether it's the sport you grew up playing, one you've coached, or simply one you enjoy watching, officiating gives you a whole new perspective. Choose a sport to learn more about officiating opportunities in Southwest Florida."
+    },
+    {
+      "type": "band",
+      "heading": "Come for the Game. Stay for the People.",
+      "lines": [
+        "One of the best parts of officiating is the people you meet.",
+        "You'll work games with people from different professions, different ages, and different backgrounds, all connected by the same thing: They enjoy sports.",
+        "You'll prepare together. Work games together. Talk about plays afterward.",
+        "Help newer officials. Learn from experienced officials.",
+        "And probably share plenty of laughs along the way.",
+        "For many officials, the friendships and camaraderie become just as important as the games.",
+        "That's what being part of a crew is all about."
+      ],
+      "image": {
+        "src": "/images/home-community.jpg",
+        "alt": "Group of smiling GNOA officials in caps taking a selfie together before a night game",
+        "fit": "contain"
+      }
     },
     {
       "type": "split",
@@ -178,23 +196,6 @@
       "image": {
         "src": "/images/split-new-officials.jpg",
         "alt": "Veteran official mentoring a younger official on the field"
-      }
-    },
-    {
-      "type": "band",
-      "heading": "You Become Part of a Community",
-      "lines": [
-        "One of the best parts of officiating is the people you meet.",
-        "You'll work games with people from different professions, different ages, and different backgrounds, all connected by the same thing: They enjoy sports.",
-        "You'll prepare together. Work games together. Talk about plays afterward.",
-        "Help newer officials. Learn from experienced officials.",
-        "And probably share plenty of laughs along the way.",
-        "For many officials, the friendships and camaraderie become just as important as the games."
-      ],
-      "image": {
-        "src": "/images/about-community.jpg",
-        "alt": "Group of smiling GNOA officials in caps taking a selfie together before a night game",
-        "fit": "contain"
       }
     },
     {
@@ -246,15 +247,14 @@
     },
     {
       "type": "band",
-      "heading": "Training & Support",
+      "heading": "Recruit. Train. Develop.",
       "lines": [
-        "Good officials aren't expected to figure everything out on their own.",
-        "GNOA provides pre-season and in-season training opportunities for each sport to help officials prepare, review rules and mechanics, ask questions, and continue learning throughout the season.",
-        "Development isn't only about moving to a higher level.",
-        "Sometimes getting better means communicating more clearly, being in a better position, handling a difficult situation better, helping a newer official, or simply becoming more comfortable and confident in your role."
+        "At GNOA, we don't just assign officials to games. We help people become better officials.",
+        "From your first training session to your next big assignment, we're here to help you develop your skills, gain experience, and grow in confidence.",
+        "And you won't have to figure it all out on your own."
       ],
       "button": {
-        "text": "View Training Information",
+        "text": "Explore Training & Development",
         "href": "/training-development/"
       },
       "image": {
