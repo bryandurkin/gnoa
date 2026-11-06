@@ -1,11 +1,11 @@
 ---
 // Closing banner. button, or buttons (1 to 2: first cyan, second outline). paragraphs and/or list (short bullet lines) sit between the title and the subline.
-// after = paragraphs shown after the list.
+// after = paragraphs shown after the list. image.fit = "contain" shows the whole photo (about 3:2) on the right; use for small group shots.
 import Btn from '../Btn.astro';
 const { title1, title2, paragraphs, list, after, text, button, buttons, image } = Astro.props;
 const btns = buttons ?? [button];
 ---
-<section class="band cta-band">
+<section class={image?.fit === 'contain' ? 'band band--fit cta-band' : 'band cta-band'}>
   {image && <div class="band__media"><img class={image.focus ? 'cover has-focus' : 'cover'} src={image.src} alt={image.alt} loading="lazy" style={image.focus && `--focus:${image.focus};--focus-phone:${image.focusPhone ?? image.focus}`} /></div>}
   <div class="wrap"><div class="band__body">
     <h2>{title1}{title2 && <>{' '}<br />{title2}</>}</h2>

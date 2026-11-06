@@ -25,8 +25,9 @@
         }
       ],
       "image": {
-        "src": "/images/about-hero.jpg",
-        "alt": "Group of GNOA officials in striped shirts talking and laughing before a game at sunset"
+        "src": "/images/home-hero-crew.jpg",
+        "alt": "A large GNOA football officiating crew in striped shirts posed together on the field before a game",
+        "fit": "contain"
       }
     },
     {
@@ -233,8 +234,9 @@
         }
       ],
       "image": {
-        "src": "/images/about-cta.jpg",
-        "alt": "Official seen from behind looking out at a field at sunset, palm trees and stadium lights beyond"
+        "src": "/images/about-cta-championships.jpg",
+        "alt": "Four GNOA officials in white polos on the court at the Florida high school volleyball state championships",
+        "fit": "contain"
       }
     },
     {

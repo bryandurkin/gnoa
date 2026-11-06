@@ -516,3 +516,12 @@ img.has-focus{object-position:var(--focus)!important}
   .hero--fit .wrap{padding-top:12px}
   .hero--fit .hero__body{max-width:none}
 }
+/* cta-band with image.fit: whole photo; clear of the text on tablets, above the text on phones (v1.15) */
+@media (min-width:761px) and (max-width:1024px){
+  .cta-band.band--fit .band__body{max-width:40vw}
+}
+@media (max-width:760px){
+  .cta-band.band--fit .band__media{position:relative;height:auto;aspect-ratio:3/2;z-index:0;margin:0}
+  .cta-band.band--fit .band__media::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(10,35,66,0) 30%)}
+  .cta-band.band--fit .wrap{padding-top:12px}
+}
