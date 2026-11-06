@@ -129,3 +129,11 @@ The hero now uses the football crew photo, the same one as the homepage (the Dri
 officials association" is that photo). The closing banner uses the four officials at the state volleyball
 championships, shown whole because the file is small. Kit v1.15: cta-band `image.fit: "contain"`, above the
 text on phones. The Drive folder held only these two photos, so the rest of the page is unchanged.
+
+## 2026-11-06 Training & Development shows training only
+
+Per Bryan, this page now shows only images and text about people getting trained. Removed the Development and
+Recognition section with its Local Varsity Game, Playoff Assignment and State Championship Crew cards. Its New
+Official Training photo moved to the photo row, now a 2 by 2 grid of four training photos with the new clinic
+photo and the mentoring photo (Kit v1.16, gallery `columns`). IMG_0191 and IMG_4922 from the Drive folder are not
+used here; IMG_0143 is held for the Soccer page.
