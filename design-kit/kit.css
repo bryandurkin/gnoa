@@ -525,3 +525,8 @@ img.has-focus{object-position:var(--focus)!important}
   .cta-band.band--fit .band__media::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(10,35,66,0) 30%)}
   .cta-band.band--fit .wrap{padding-top:12px}
 }
+/* hero--banner: very wide group photo across the full width, above the text (v1.17) */
+.hero--banner .hero__media{position:relative;width:100%;height:min(33.34vw,480px);z-index:0}
+.hero--banner .hero__media img{object-position:50% 20%}
+.hero--banner .hero__media::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(10,35,66,0) 18%)}
+.hero--banner .wrap{padding-top:16px}
