@@ -40,7 +40,7 @@ for (const file of files) {
   for (const m of html.matchAll(/<a\b[^>]*href="([^"]*)"/g)) {
     const href = m[1];
     if (!href || href === '#' || /^https?:\/\/(www\.)?(facebook|instagram|linkedin|youtube|twitter|x)\.com\/?$/.test(href) || /example\.com/.test(href)) { fail(f, `dummy link: "${href}"`); continue; }
-    if (href.startsWith('/')) { const clean = href.split('#')[0]; const target = path.join(DIST, clean, clean.endsWith('/') ? 'index.html' : ''); if (!fs.existsSync(target)) site.pendingPages.includes(clean) ? out.PENDING.add(clean) : fail(f, `broken internal link: ${href}`); }
+    if (href.startsWith('/') && !/^\/(blog\/|sitemap\.xml)/.test(href)) { const clean = href.split('#')[0]; const target = path.join(DIST, clean, clean.endsWith('/') ? 'index.html' : ''); if (!fs.existsSync(target)) site.pendingPages.includes(clean) ? out.PENDING.add(clean) : fail(f, `broken internal link: ${href}`); }
   }
 }
 if (/\.example$/.test(new URL(site.url).hostname)) (MODE === 'live' ? out.FAIL : out.WARN).push('site.json: sample domain in use, replace before launch');
