@@ -160,10 +160,10 @@ Same rules as above. Officials in proper volleyball officiating attire are the m
 | A6 | about-sport-soccer.jpg | Tile 5 | One soccer referee or assistant referee | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
 | A7 | about-sport-volleyball.jpg | Tile 6 | One volleyball official | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
 | A9 | about-community.jpg | "More Than the Game" photo | A small group of officials talking, laughing or mentoring, candid | 1400 x 1400 | Square-ish | Centered | Sample in place |
-| A10 | about-path-new-official.jpg | "New Official to Experienced Veteran" card 1 | A newer official getting guidance | 1000 x 700 | Landscape | Face in the upper two thirds (a number circle covers the bottom center) | Sample in place |
-| A11 | about-path-crew-member.jpg | Card 2 | Two or more officials preparing together | 1000 x 700 | Landscape | Upper two thirds | Sample in place |
-| A12 | about-path-varsity.jpg | Card 3 | An official working a live game under lights | 1000 x 700 | Landscape | Upper two thirds | Sample in place |
-| A13 | about-path-postseason.jpg | Card 4 | An experienced official or crew at a big game | 1000 x 700 | Landscape | Upper two thirds | Sample in place |
+| A10 | about-path-new-official.jpg | "New Official to Experienced Veteran" card 1 | A newer official getting guidance | 1000 x 700 | Landscape | Face in the upper two thirds (a number circle covers the bottom center) | Not in use; the section was removed from the About page |
+| A11 | about-path-crew-member.jpg | Card 2 | Two or more officials preparing together | 1000 x 700 | Landscape | Upper two thirds | Not in use; the section was removed from the About page |
+| A12 | about-path-varsity.jpg | Card 3 | An official working a live game under lights | 1000 x 700 | Landscape | Upper two thirds | Not in use; the section was removed from the About page |
+| A13 | about-path-postseason.jpg | Card 4 | An experienced official or crew at a big game | 1000 x 700 | Landscape | Upper two thirds | Not in use; the section was removed from the About page |
 | A14 | about-cta.jpg | Closing banner on the About page | An official from behind looking toward the field at sunset or under lights | 2200 x 900 | Wide | Person in the right half | Sample in place |
 | A20 | about-cta-championships.jpg | Closing banner, "Want to Be Part of It?" | Four GNOA officials at the state volleyball championships | 534 x 356 | Landscape 3:2 | Whole photo shown, cropped from the supplied file | Supplied real photo in place. A larger copy is welcome |
 
