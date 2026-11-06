@@ -2,6 +2,7 @@
 export const prerender = false;
 import { decodeSlug, getEmDashEntry } from 'emdash';
 import { PortableText } from 'emdash/ui';
+import NotFound from '../404.astro';
 import Base from '../../layouts/Base.astro';
 import Hero from '../../components/sections/Hero.astro';
 import CtaBand from '../../components/sections/CtaBand.astro';
@@ -10,16 +11,17 @@ import { toPost } from '../../lib/posts.mjs';
 import { MODE } from '../../mode.mjs';
 const slug = decodeSlug(Astro.params.slug);
 const { entry, cacheHint } = slug ? await getEmDashEntry('posts', slug) : { entry: null, cacheHint: null };
-if (!entry) return Astro.rewrite('/404');
-if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+if (!entry) Astro.response.status = 404;
+else if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
 if (MODE === 'draft') Astro.response.headers.set('X-Robots-Tag', 'noindex, nofollow');
-const p = toPost(entry);
-const d = entry.data;
-const author = d.byline?.displayName ?? site.shortName;
-const nice = new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-const description = (d.seo?.description ?? p.summary).slice(0, 160);
-const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: p.title, datePublished: p.date, author: { '@type': 'Organization', name: author }, publisher: { '@type': 'Organization', name: site.name }, image: new URL(p.image.src, site.url).href, description };
+const p = entry && toPost(entry);
+const d = entry?.data;
+const author = d?.byline?.displayName ?? site.shortName;
+const nice = p && new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+const description = p && (d.seo?.description ?? p.summary).slice(0, 160);
+const schema = p && { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: p.title, datePublished: p.date, author: { '@type': 'Organization', name: author }, publisher: { '@type': 'Organization', name: site.name }, image: new URL(p.image.src, site.url).href, description };
 ---
+{!entry ? <NotFound /> : (
 <Base title={`${p.title} | ${site.shortName}`} description={description} path={`/blog/${p.slug}/`} schema={schema}>
   <Hero isPage kicker={p.category ?? 'News & Recognition'} title1={p.title} lead={p.summary} image={p.image} />
   <section class="sec"><div class="wrap"><article class="prose">
@@ -29,3 +31,4 @@ const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', headl
   </article></div></section>
   <CtaBand {...site.defaultCta} />
 </Base>
+)}
