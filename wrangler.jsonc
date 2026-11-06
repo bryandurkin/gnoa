@@ -1,11 +1,13 @@
 {
-  // TEST Worker for the EmDash blog work. Rename to "gnoa" only when this is approved for the draft site.
-  "name": "gnoa-emdash-test",
+  // Draft worker: build command "npm run check" (draft build + QA gate). A QA failure stops the deploy.
+  // Serves the pre-built pages from dist/client and runs EmDash for the blog and its admin.
+  // On the first deploy, Wrangler creates the database, bucket and session store from these names.
+  "name": "gnoa",
   "main": "./src/worker.ts",
   "compatibility_date": "2026-09-01",
   "compatibility_flags": ["nodejs_compat"],
-  "d1_databases": [{ "binding": "DB", "database_name": "gnoa-emdash-test" }],
-  "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "gnoa-emdash-test-media" }],
+  "d1_databases": [{ "binding": "DB", "database_name": "gnoa" }],
+  "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "gnoa-media" }],
   // Publishes scheduled posts and runs EmDash maintenance.
   "triggers": { "crons": ["* * * * *"] }
 }

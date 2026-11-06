@@ -8,6 +8,8 @@ on every push to `main`. Repo: github.com/bryandurkin/gnoa.
 | What | Where |
 |---|---|
 | Page content (one JSON file per page) | `src/content/pages/*.json` |
+| Blog posts and their photos | EmDash, not this repo. Admin at `/_emdash/admin/`, or the site's MCP server at `/_emdash/api/mcp` |
+| Blog pages and post content model | `src/pages/blog/`, `src/lib/posts.mjs`, `seed/seed.json` |
 | Site details: phone, email, nav, social, domain | `src/content/site.json` |
 | Section components | `src/components/sections/*.astro` |
 | Styles | `src/styles/kit.css` (keep in sync with `design-kit/kit.css`) |
@@ -45,6 +47,14 @@ The `client-site-builder` skill covers this workflow in more depth; use it when 
   without real content to replace it.
 - Site stays in draft mode (noindex, robots.txt blocks all) until Bryan says it goes live.
 - Officials, not players, are the main subjects in photos. Alt text describes the officiating action.
+
+## Blog (EmDash)
+
+- Only blog posts live in EmDash. Every other page stays pre-built from this repo. Do not move pages into EmDash.
+- Posts appear as soon as they are published, with no rebuild or merge. Drafts stay hidden from visitors.
+- News articles are rewritten in GNOA's own words and credit the source in the post's source fields.
+- `seed/seed.json` does not create category terms. On a new site, add News, Recognition and Training with `taxonomy_create_term`.
+- Passkeys only work on the address where they were created. Plan any domain change first.
 
 ## Commands
 

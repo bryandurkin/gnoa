@@ -166,3 +166,14 @@ appear without a rebuild, and drafts stay hidden. Posts have title, photo, summa
 source credit. Kit v1.18: post card photos keep their shape, `.post-source`, and hero `image.focus`.
 Setup note: the seed creates the post fields but not the category terms, so News, Recognition and Training must be
 added with `taxonomy_create_term` on any new site. Passkeys belong to the address they were created on.
+
+## 2026-11-06 EmDash moves to the draft Worker
+
+Pointed the EmDash work at the draft Worker `gnoa`, with new `gnoa` and `gnoa-media` storage. The test Worker
+`gnoa-emdash-test` keeps its own data until it is deleted. Steps right after this merges:
+
+1. Confirm the Cloudflare build passed and the pages still match.
+2. Complete `/_emdash/admin/` setup straight away. The first person to finish it becomes the administrator.
+3. Add the News, Recognition and Training category terms.
+4. Connect the MCP to the draft address, then write the first posts.
+5. Delete the test Worker and its D1 database, R2 bucket and KV namespace, once Bryan agrees.
