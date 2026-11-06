@@ -39,7 +39,14 @@ const year = new Date().getFullYear();
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><Icon name="menu" />Menu</button>
     <div class="site-header__menu" id="site-menu">
       <nav aria-label="Main"><ul class="nav">
-        {site.nav.map(n => <li><a href={n.href} aria-current={isCurrent(n.href) ? 'page' : undefined}>{n.label}</a></li>)}
+        {site.nav.map((n, i) => n.children
+          ? <li class="nav-sub">
+              <button class={isCurrent(n.href) ? 'nav-sub__toggle is-current' : 'nav-sub__toggle'} type="button" aria-expanded="false" aria-controls={`nav-sub-${i}`}>{n.label}<Icon name="chevron" /></button>
+              <ul class="nav-sub__menu" id={`nav-sub-${i}`}>
+                {n.children.map(c => <li><a href={c.href} aria-current={path === c.href ? 'page' : undefined}>{c.label}</a></li>)}
+              </ul>
+            </li>
+          : <li><a href={n.href} aria-current={isCurrent(n.href) ? 'page' : undefined}>{n.label}</a></li>)}
       </ul></nav>
       <span class="site-header__cta"><Btn lines={site.arbiter.lines} href={site.arbiter.href} variant="deep" /></span>
     </div>
@@ -67,6 +74,17 @@ const year = new Date().getFullYear();
   <script>
     const t = document.querySelector('.nav-toggle'), m = document.getElementById('site-menu');
     t?.addEventListener('click', () => { const o = m.classList.toggle('is-open'); t.setAttribute('aria-expanded', String(o)); });
+    const subs = [...document.querySelectorAll('.nav-sub')];
+    const setSub = (s, o) => { s.classList.toggle('is-open', o); s.querySelector('.nav-sub__toggle').setAttribute('aria-expanded', String(o)); };
+    subs.forEach(s => {
+      s.querySelector('.nav-sub__toggle').addEventListener('click', () => setSub(s, !s.classList.contains('is-open')));
+      s.addEventListener('focusout', e => { if (e.relatedTarget && !s.contains(e.relatedTarget)) setSub(s, false); });
+    });
+    document.addEventListener('click', e => subs.forEach(s => { if (!s.contains(e.target)) setSub(s, false); }));
+    document.addEventListener('keydown', e => {
+      if (e.key !== 'Escape') return;
+      subs.forEach(s => { if (s.classList.contains('is-open')) { setSub(s, false); s.querySelector('.nav-sub__toggle').focus(); } });
+    });
   </script>
 </body>
 </html>

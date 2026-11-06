@@ -533,3 +533,31 @@ img.has-focus{object-position:var(--focus)!important}
 /* Keep post card photos in shape; source credit on rewritten news posts (v1.18) */
 .post-card__img{overflow:hidden}
 .post-source{margin-top:1.6em;padding-top:12px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+/* nav-sub: drop-down under a main menu item (v1.19) */
+.nav-sub{position:relative}
+.nav-sub__toggle{display:inline-flex;align-items:center;gap:4px;background:none;border:0;border-bottom:2px solid transparent;padding:6px 0;font-family:var(--font-display);font-weight:600;font-size:16.5px;color:#33465f;white-space:nowrap;cursor:pointer}
+.nav-sub__toggle:hover,.nav-sub.is-open .nav-sub__toggle{color:var(--navy)}
+.nav-sub__toggle.is-current{color:var(--navy);border-bottom-color:var(--cyan)}
+.nav-sub__toggle .icon{width:15px;height:15px;transition:transform .15s}
+.nav-sub.is-open .nav-sub__toggle .icon{transform:rotate(180deg)}
+.nav-sub__menu{display:none;list-style:none;margin:0;padding:0}
+.nav-sub.is-open .nav-sub__menu{display:block}
+.nav-sub__menu a{display:block}
+.nav-sub__menu li:last-child a{font-weight:700;color:var(--teal-deep)}
+@media (hover:hover) and (min-width:1200px){
+  .nav-sub:hover .nav-sub__menu{display:block}
+  .nav-sub:hover .nav-sub__toggle .icon{transform:rotate(180deg)}
+}
+@media (min-width:1200px){
+  .nav-sub__menu{position:absolute;top:100%;left:-14px;min-width:190px;padding:8px 0;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);z-index:20}
+  .nav-sub__menu a{padding:8px 14px;border-bottom:0}
+  .nav-sub__menu a:hover{background:var(--mist)}
+  .nav-sub__menu a[aria-current]{background:var(--mist);border-bottom:0}
+  .nav-sub__menu li:last-child{margin-top:6px;padding-top:6px;border-top:1px solid var(--line)}
+}
+@media (max-width:1199.98px){
+  .nav-sub__toggle{display:flex;justify-content:space-between;width:100%;padding:12px 0;font-size:18px;border-bottom:1px solid var(--line);text-align:left}
+  .nav-sub__toggle.is-current{border-bottom-color:var(--line)}
+  .nav-sub__toggle .icon{width:18px;height:18px}
+  .site-header__menu .nav .nav-sub__menu a{padding:11px 0 11px 18px;font-size:17px}
+}

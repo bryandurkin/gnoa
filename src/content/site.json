@@ -52,7 +52,37 @@
     },
     {
       "label": "Sports",
-      "href": "/sports/"
+      "href": "/sports/",
+      "children": [
+        {
+          "label": "Football",
+          "href": "/sports/football/"
+        },
+        {
+          "label": "Basketball",
+          "href": "/sports/basketball/"
+        },
+        {
+          "label": "Baseball",
+          "href": "/sports/baseball/"
+        },
+        {
+          "label": "Softball",
+          "href": "/sports/softball/"
+        },
+        {
+          "label": "Soccer",
+          "href": "/sports/soccer/"
+        },
+        {
+          "label": "Volleyball",
+          "href": "/sports/volleyball/"
+        },
+        {
+          "label": "All Sports",
+          "href": "/sports/"
+        }
+      ]
     },
     {
       "label": "Training & Development",

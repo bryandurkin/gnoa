@@ -183,3 +183,9 @@ Pointed the EmDash work at the draft Worker `gnoa`, with new `gnoa` and `gnoa-me
 On Become an Official and Training & Development, Ian Durkin's quote replaces the sample from "Sarah M." It uses
 initials like the other two quotes, because no headshot was supplied, and the sample's photo and role are gone.
 Copy uses straight apostrophes per the house rules, and the name replaces the em dash attribution.
+
+## 2026-11-06 Sports drop-down in the main menu
+
+Sports in the main menu is now a drop-down listing the six sports in homepage order, then All Sports, which goes to
+the existing Sports page. It opens on hover or click on desktop, and expands in place on tablets and phones. The
+footer's Sports link is unchanged. Kit v1.19: `nav-sub`, chevron icon, and `children` on a `site.json` nav item.
