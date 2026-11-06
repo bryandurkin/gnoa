@@ -108,3 +108,10 @@ sections with the same words. The Experienced photo moved to the narrow left spo
 and the What Will I Need photo is trimmed to remove a drink can. Keep Getting Better reuses the homepage
 photo. Kit v1.13: split `list.columns`, multi-paragraph `after`, cta-band `image.focus`, and narrower cta-band text on tablets (every page). Open: sharper copies
 of the five soft photos.
+
+## 2026-11-06 Homepage crew hero and sharper Never Officiated photo
+
+The homepage hero now shows the supplied football crew photo in full (`image.fit: "contain"`, Kit v1.14), to
+the right of the text on desktop and above it on tablets and phones. `home-never-officiated.jpg` was replaced
+with the sharper copy, which updates Home and Basketball's Keep Getting Better. That copy's polo logo reads
+"GHSA" where the older copy read GNOA, so a corrected copy is on the better-copies list.
