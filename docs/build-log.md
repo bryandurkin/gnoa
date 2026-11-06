@@ -137,3 +137,8 @@ Recognition section with its Local Varsity Game, Playoff Assignment and State Ch
 Official Training photo moved to the photo row, now a 2 by 2 grid of four training photos with the new clinic
 photo and the mentoring photo (Kit v1.16, gallery `columns`). IMG_0191 and IMG_4922 from the Drive folder are not
 used here; IMG_0143 is held for the Soccer page.
+
+## 2026-11-06 Sports page photos from the Drive folder
+
+The top of the Sports page now shows the eight-official banner across the full width, above the text (Kit v1.17,
+hero `image.fit: "banner"`). The Softball tile uses the same photo as the homepage tile.

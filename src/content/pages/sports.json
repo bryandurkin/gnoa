@@ -10,8 +10,9 @@
       "title1": "Choose Your Sport",
       "lead": "Football, basketball, baseball, softball, soccer, and volleyball across Naples, Collier County, and Southwest Florida.",
       "image": {
-        "src": "/images/sport-basketball.jpg",
-        "alt": "Smiling GNOA basketball official in a striped shirt on the court"
+        "src": "/images/sports-banner.jpg",
+        "alt": "Eight GNOA officials from different sports side by side on a football field",
+        "fit": "banner"
       }
     },
     {
@@ -47,8 +48,10 @@
           "label": "Softball",
           "href": "/sports/softball/",
           "image": {
-            "src": "/images/sport-softball.jpg",
-            "alt": "Softball umpire watching the play from the field"
+            "src": "/images/home-softball.jpg",
+            "alt": "Three GNOA umpires standing for the anthem at home plate, caps over their hearts",
+            "focus": "50% 0%",
+            "focusPhone": "36% 0%"
           }
         },
         {
