@@ -10,3 +10,4 @@ handoff/inbox/*
 .env
 .env.*
 .emdash/migrations.json
+.mcp.json
