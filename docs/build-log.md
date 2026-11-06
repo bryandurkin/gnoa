@@ -115,3 +115,10 @@ The homepage hero now shows the supplied football crew photo in full (`image.fit
 the right of the text on desktop and above it on tablets and phones. `home-never-officiated.jpg` was replaced
 with the sharper copy, which updates Home and Basketball's Keep Getting Better. That copy's polo logo reads
 "GHSA" where the older copy read GNOA, so a corrected copy is on the better-copies list.
+
+## 2026-11-06 Become an Official photo and closing button
+
+Added the supplied photo from the Drive folder to "Already an Experienced Official?", replacing the stand-in.
+The changes doc named the page but not the spot, so the spot is our choice. The closing banner button linked
+to its own page and now goes to Contact. The hero poster still lists Wrestling; it stays for now and a
+corrected poster is on the better-copies list.

@@ -133,8 +133,12 @@
         "href": "/contact/"
       },
       "image": {
-        "src": "/images/split-experienced-officials.jpg",
-        "alt": "Four experienced officials in a pregame huddle on the field"
+        "src": "/images/become-experienced.jpg",
+        "alt": "Three GNOA officials in black jackets at the Florida high school basketball championships, the center official holding the game ball",
+        "fade": "short",
+        "stack": true,
+        "focus": "50% 8%",
+        "focusPhone": "50% 8%"
       }
     },
     {
@@ -205,7 +209,7 @@
       "text": "Start with a conversation.",
       "button": {
         "text": "Become an Official",
-        "href": "/become-an-official/"
+        "href": "/contact/"
       },
       "image": {
         "src": "/images/cta-home.jpg",

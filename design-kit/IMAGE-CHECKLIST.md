@@ -171,6 +171,7 @@ Same rules as above. Officials in proper volleyball officiating attire are the m
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
 |---|---|---|---|---|---|---|---|
 | N1 | gnoa-we-want-you-recruiting-poster-original.jpg | Top of Become an Official page | Exact original user-supplied GNOA We Want You recruiting poster | 1060 x 1484 | Portrait 5:7 | Full poster with no crop or fade; clickable for full size; keep readable alongside hero copy | Original full-resolution JPEG, no extra compression or AI changes |
+| N2 | become-experienced.jpg | "Already an Experienced Official?" on Become an Official | Three GNOA officials at the state basketball championships | 814 x 949 | Portrait | Short fade; all three faces in frame | Supplied real photo in place |
 | N2 | page-hero-training-development.jpg | Top of the Training & Development page | A clinic, film session or mentoring | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
 | N3 | page-hero-news.jpg | Top of the News & Recognition page | An award, recognition or big-game moment | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
 | N4 | page-hero-contact.jpg | Top of the Contact page | Officials on the field | 2000 x 1200 | Landscape 5:3 | Right half | Using a homepage photo |
@@ -190,5 +191,6 @@ The site uses the photos below for now. Add to this list page by page, and send 
 | Basketball | The Game Starts to Slow Down | basketball-band.jpg | A sharper, larger copy; this one is 743 px wide and looks stretched |
 | Basketball | What Will I Need? | basketball-equipment.jpg | A sharper copy, or a photo of the basketball uniform and gear |
 | Basketball | Ready to See Basketball From This Side? | basketball-cta.jpg | A sharper copy; this one is soft and looks stretched |
+| Become an Official | Top of the page | gnoa-we-want-you-recruiting-poster-original.jpg | A corrected poster; this one still lists Wrestling, which GNOA no longer does |
 
 Also needed from GNOA: confirm permission for the students shown in the homepage Local Sports photo (home-local-sports.jpg).
