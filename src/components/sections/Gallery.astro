@@ -1,11 +1,11 @@
 ---
-// Photo row: 1 to 3 rounded photos, no text. One photo sits centered at reading width.
+// Photo row: 1 to 3 rounded photos, no text. One photo sits centered at reading width. columns = 2 makes a 2 by 2 grid of 4.
 // image.position = optional focus point (object-position).
 import Sec from '../Sec.astro';
-const { items, mist = false, join } = Astro.props;
+const { items, columns, mist = false, join } = Astro.props;
 ---
 <Sec mist={mist} join={join}>
-  <ul class="gallery" style={`--n:${items.length}`}>
+  <ul class="gallery" style={`--n:${columns ?? items.length}`}>
     {items.map(i => <li class="gallery__item"><img class="cover" src={i.image.src} alt={i.image.alt} loading="lazy" style={i.image.position && `object-position:${i.image.position}`} /></li>)}
   </ul>
 </Sec>

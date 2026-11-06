@@ -67,17 +67,8 @@
             "src": "/images/training-on-field.jpg",
             "alt": "GNOA football officials in stripes walking through on-field mechanics at a training session"
           }
-        }
-      ]
-    },
-    {
-      "type": "path",
-      "heading": "Development and Recognition",
-      "tagline": "From your first game to your biggest assignment.",
-      "mist": true,
-      "items": [
+        },
         {
-          "label": "New Official Training",
           "image": {
             "src": "/images/training-new-official.jpg",
             "alt": "GNOA football officials gathered on a practice field as an instructor points out a mechanic",
@@ -85,27 +76,21 @@
           }
         },
         {
-          "label": "Local Varsity Game",
           "image": {
-            "src": "/images/path-local-varsity-game.jpg",
-            "alt": "Official on the field at a high school varsity game"
+            "src": "/images/training-clinic.jpg",
+            "alt": "GNOA officials around a table with laptops and training binders during a clinic",
+            "position": "50% 38%"
           }
         },
         {
-          "label": "Playoff Assignment",
           "image": {
-            "src": "/images/path-playoff-assignment.jpg",
-            "alt": "Three-person officiating crew walking onto the field for a playoff game"
-          }
-        },
-        {
-          "label": "State Championship Crew",
-          "image": {
-            "src": "/images/path-state-championship-crew.jpg",
-            "alt": "Officiating crew lined up at a Florida state championship game"
+            "src": "/images/home-never-officiated.jpg",
+            "alt": "Two basketball officials in striped shirts talking through a play with a GNOA mentor in a gym",
+            "position": "50% 20%"
           }
         }
-      ]
+      ],
+      "columns": 2
     },
     {
       "type": "testimonials",
