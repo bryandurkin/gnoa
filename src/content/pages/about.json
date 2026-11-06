@@ -169,53 +169,6 @@
       }
     },
     {
-      "type": "path",
-      "heading": "From New Official to Experienced Veteran",
-      "headAlign": "left",
-      "mist": false,
-      "join": true,
-      "paragraphs": [
-        "Some officials join because they want to stay connected to a sport they love.",
-        "Others want to see how far officiating can take them.",
-        "Both belong at GNOA.",
-        "Whether you are working your first season or have years of experience, there is always another opportunity to learn, improve, and contribute."
-      ],
-      "items": [
-        {
-          "label": "New Official",
-          "text": "[[sample]]Take the first step. Learn the basics and get on the field or court.[[/sample]]",
-          "image": {
-            "src": "/images/about-path-new-official.jpg",
-            "alt": "New official in a cap listening before a game"
-          }
-        },
-        {
-          "label": "Crew Member",
-          "text": "[[sample]]Build experience. Work with other officials and develop your skills.[[/sample]]",
-          "image": {
-            "src": "/images/about-path-crew-member.jpg",
-            "alt": "Officiating crew talking together on the sideline"
-          }
-        },
-        {
-          "label": "Varsity Assignment",
-          "text": "[[sample]]Take on bigger games. Officiate at higher levels and grow your confidence.[[/sample]]",
-          "image": {
-            "src": "/images/about-path-varsity.jpg",
-            "alt": "Official seen from behind working a varsity game under the lights"
-          }
-        },
-        {
-          "label": "Postseason Opportunity",
-          "text": "[[sample]]Reach new milestones. Be considered for district, regional, and state assignments.[[/sample]]",
-          "image": {
-            "src": "/images/about-path-postseason.jpg",
-            "alt": "Experienced official on the field at a night postseason game"
-          }
-        }
-      ]
-    },
-    {
       "type": "cta-band",
       "title1": "Want to Be Part of It?",
       "paragraphs": [

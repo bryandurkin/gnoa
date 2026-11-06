@@ -189,3 +189,9 @@ Copy uses straight apostrophes per the house rules, and the name replaces the em
 Sports in the main menu is now a drop-down listing the six sports in homepage order, then All Sports, which goes to
 the existing Sports page. It opens on hover or click on desktop, and expands in place on tablets and phones. The
 footer's Sports link is unchanged. Kit v1.19: `nav-sub`, chevron icon, and `children` on a `site.json` nav item.
+
+## 2026-11-06 About page section removed
+
+Removed "From New Official to Experienced Veteran" and its four cards from the About page, at Bryan's request. This
+also removes that page's SAMPLE card text and its four stand-in photos. The same kind of section stays on the
+Football, Baseball, Soccer and Volleyball pages for now.
