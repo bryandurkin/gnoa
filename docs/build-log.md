@@ -142,3 +142,10 @@ used here; IMG_0143 is held for the Soccer page.
 
 The top of the Sports page now shows the eight-official banner across the full width, above the text (Kit v1.17,
 hero `image.fit: "banner"`). The Softball tile uses the same photo as the homepage tile.
+
+## 2026-11-06 Soccer page photos from the Drive folder
+
+The two photos in the Drive folder "GNOA Sports > Softball" are soccer photos, confirmed by Bryan, so they went on
+the Soccer page. "Become a soccer referee" is the hero (shown whole, cropped at the waist). "Never refereed before"
+is in "Never Refereed Before?", which moved to the wide photo spot on the right so all three referees fit. The
+band photo's phone crop now starts at the top so the referee's cap stays in frame. Other Soccer SAMPLE photos remain.

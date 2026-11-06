@@ -25,8 +25,9 @@
         }
       ],
       "image": {
-        "src": "/images/soccer-hero.jpg",
-        "alt": "Soccer referee in a yellow jersey pointing to signal a decision during a match, players behind"
+        "src": "/images/soccer-hero-crew.jpg",
+        "alt": "Three smiling GNOA soccer referees in FHSAA uniforms on the field at night",
+        "fit": "contain"
       }
     },
     {
@@ -59,7 +60,6 @@
     },
     {
       "type": "split",
-      "reverse": true,
       "heading": "Never Refereed Before?",
       "subhead": "That's what training is for.",
       "paragraphs": [
@@ -80,7 +80,8 @@
           "Match management",
           "Working with players and coaches",
           "How to improve through feedback"
-        ]
+        ],
+        "columns": 1
       },
       "after": "You won't learn everything in your first match. You build it one game at a time.",
       "button": {
@@ -88,8 +89,12 @@
         "href": "/become-an-official/"
       },
       "image": {
-        "src": "/images/soccer-training.jpg",
-        "alt": "Assistant referee on the touchline holding a checkered flag at their side"
+        "src": "/images/soccer-never-refereed.jpg",
+        "alt": "An experienced GNOA soccer referee talking with two referees in yellow on a high school field",
+        "fade": "short",
+        "stack": true,
+        "focus": "50% 0%",
+        "focusPhone": "50% 8%"
       }
     },
     {
@@ -189,7 +194,9 @@
       ],
       "image": {
         "src": "/images/soccer-match.jpg",
-        "alt": "Soccer referee watching play closely during a match"
+        "alt": "Soccer referee watching play closely during a match",
+        "focus": "right center",
+        "focusPhone": "50% 0%"
       }
     },
     {
