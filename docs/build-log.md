@@ -149,3 +149,11 @@ The two photos in the Drive folder "GNOA Sports > Softball" are soccer photos, c
 the Soccer page. "Become a soccer referee" is the hero (shown whole, cropped at the waist). "Never refereed before"
 is in "Never Refereed Before?", which moved to the wide photo spot on the right so all three referees fit. The
 band photo's phone crop now starts at the top so the referee's cap stays in frame. Other Soccer SAMPLE photos remain.
+
+## 2026-11-06 Astro upgrade (first step toward the EmDash blog)
+
+Upgraded Astro from 5.18 to 7.4.7, because EmDash needs Astro 6 or later. Changed `trailingSlash` from `always` to
+`ignore`, because EmDash's admin and API addresses return 404 under `always`. Added `.node-version` and
+`engines` for Astro's Node requirement (22.23.4 or later). No page changes: all HTML and files match the old build
+apart from the bundled menu script and stylesheet, and computed styles match on all 16 pages at 1366, 1024, 768
+and 375 px. The stylesheet differences are formatting only, such as the same gradient written the other way round.
