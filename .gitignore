@@ -7,3 +7,7 @@ dist/
 # Handoff inbox: new packs wait here, not committed
 handoff/inbox/*
 !handoff/inbox/.gitkeep
+.env
+.env.*
+.emdash/migrations.json
+.mcp.json

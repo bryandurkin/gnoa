@@ -1,3 +1,4 @@
+export const prerender = true;
 import { MODE } from '../mode.mjs';
 export function GET({ site }) {
   const body = MODE === 'live'

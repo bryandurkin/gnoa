@@ -1,11 +1,13 @@
 {
-  // Cloudflare Worker that serves the built site from dist/.
   // Draft worker: build command "npm run check" (draft build + QA gate). A QA failure stops the deploy.
+  // Serves the pre-built pages from dist/client and runs EmDash for the blog and its admin.
+  // On the first deploy, Wrangler creates the database, bucket and session store from these names.
   "name": "gnoa",
+  "main": "./src/worker.ts",
   "compatibility_date": "2026-09-01",
-  "assets": {
-    "directory": "./dist",
-    "not_found_handling": "404-page",
-    "html_handling": "auto-trailing-slash"
-  }
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [{ "binding": "DB", "database_name": "gnoa" }],
+  "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "gnoa-media" }],
+  // Publishes scheduled posts and runs EmDash maintenance.
+  "triggers": { "crons": ["* * * * *"] }
 }

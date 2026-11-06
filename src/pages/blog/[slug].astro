@@ -1,23 +1,34 @@
 ---
+export const prerender = false;
+import { decodeSlug, getEmDashEntry } from 'emdash';
+import { PortableText } from 'emdash/ui';
+import NotFound from '../404.astro';
 import Base from '../../layouts/Base.astro';
 import Hero from '../../components/sections/Hero.astro';
 import CtaBand from '../../components/sections/CtaBand.astro';
-import { getCollection, render } from 'astro:content';
 import site from '../../content/site.json';
-export async function getStaticPaths() {
-  return (await getCollection('blog')).map(post => ({ params: { slug: post.id }, props: { post } }));
-}
-const { post } = Astro.props;
-const { Content } = await render(post);
-const d = post.data;
-const nice = new Date(d.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-const schema = { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: d.title, datePublished: d.date, author: { '@type': 'Organization', name: d.author }, publisher: { '@type': 'Organization', name: site.name }, image: new URL(d.image.src, site.url).href, description: d.description };
+import { toPost } from '../../lib/posts.mjs';
+import { MODE } from '../../mode.mjs';
+const slug = decodeSlug(Astro.params.slug);
+const { entry, cacheHint } = slug ? await getEmDashEntry('posts', slug) : { entry: null, cacheHint: null };
+if (!entry) Astro.response.status = 404;
+else if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+if (MODE === 'draft') Astro.response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+const p = entry && toPost(entry);
+const d = entry?.data;
+const author = d?.byline?.displayName ?? site.shortName;
+const nice = p && new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+const description = p && (d.seo?.description ?? p.summary).slice(0, 160);
+const schema = p && { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: p.title, datePublished: p.date, author: { '@type': 'Organization', name: author }, publisher: { '@type': 'Organization', name: site.name }, image: new URL(p.image.src, site.url).href, description };
 ---
-<Base title={`${d.title} | ${site.shortName}`} description={d.description} path={`/blog/${post.id}/`} schema={schema}>
-  <Hero isPage kicker={d.category ?? 'News & Recognition'} title1={d.title} lead={d.summary} image={d.image} />
+{!entry ? <NotFound /> : (
+<Base title={`${p.title} | ${site.shortName}`} description={description} path={`/blog/${p.slug}/`} schema={schema}>
+  <Hero isPage kicker={p.category ?? 'News & Recognition'} title1={p.title} lead={p.summary} image={p.image} />
   <section class="sec"><div class="wrap"><article class="prose">
-    <p class="post-meta">{nice} &middot; {d.author}</p>
-    <Content />
+    <p class="post-meta">{nice} &middot; {author}</p>
+    <PortableText value={d.content} />
+    {d.source_name && <p class="post-source">Originally reported by {d.source_url ? <a href={d.source_url} target="_blank" rel="noopener noreferrer">{d.source_name}</a> : d.source_name}.</p>}
   </article></div></section>
   <CtaBand {...site.defaultCta} />
 </Base>
+)}

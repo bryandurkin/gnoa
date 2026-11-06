@@ -7,7 +7,7 @@ const fmt = d => new Date(d + 'T12:00:00').toLocaleDateString('en-US', { month: 
   {heading && <SecHead heading={heading} />}
   {posts.length ? <ul class="post-cards">
     {posts.map(p => <li><a class="post-card" href={`/blog/${p.slug}/`}>
-      <div class="post-card__img"><img class="cover" src={p.image.src} alt={p.image.alt} loading="lazy" /></div>
+      <div class="post-card__img"><img class={p.image.focus ? 'cover has-focus' : 'cover'} src={p.image.src} alt={p.image.alt} loading="lazy" style={p.image.focus && `--focus:${p.image.focus};--focus-phone:${p.image.focus}`} /></div>
       <div class="post-card__body"><span class="post-card__date">{fmt(p.date)}{p.category && ` · ${p.category}`}</span><h3>{p.title}</h3><p>{p.summary}</p><span class="post-card__more">Read more<Icon name="arrow" /></span></div>
     </a></li>)}
   </ul> : empty && <p class="post-empty">{empty}</p>}

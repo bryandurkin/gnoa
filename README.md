@@ -28,5 +28,6 @@ npm run check:live   # live build + QA; fails while any SAMPLE item remains
 Workers & Pages > Create > Import a repository > this repo.
 - Build command: `npm run check`
 - Deploy command: `npx wrangler deploy`
+- The Worker also runs EmDash for the blog, with a D1 database, an R2 bucket and a cron trigger. See `wrangler.jsonc`.
 
 Every push to main rebuilds and redeploys. A failing QA check stops the deploy and the last good version stays up.
