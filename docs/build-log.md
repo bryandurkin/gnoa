@@ -90,3 +90,12 @@ gains the crew line and moves above "Never Officiated Before?", and the training
 photo's screenshot bars are trimmed (`home-community.jpg`); the top-center official's head is outside
 the original frame, so a better photo is needed to show it. Waiting on the new photos for Softball,
 Never Officiated Before and Local Sports Need Officials.
+
+## 2026-11-06 Homepage photos from the Drive folder
+
+Added the seven photos in the Drive folder "GNOA Home" to their matching homepage sections. Local Sports,
+Part-Time and What Will I Need were text only, so they became split sections with the same words. Kit v1.12:
+optional split subhead, `image.fade: "short"`, `image.focus` and `image.focusPhone` crop positions, and navy
+bands now show the photo above the text on tablets and phones (on every page; the closing cta-band is unchanged). `image.stack` does the same for a split on tablets. New
+photos use `home-*` file names so other pages keep theirs. Open items: GNOA to confirm permission for the
+students in the Local Sports photo, a sharper Never Officiated photo, an uncut community group photo.

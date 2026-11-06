@@ -131,8 +131,10 @@
           "label": "Softball",
           "href": "/sports/softball/",
           "image": {
-            "src": "/images/sport-softball.jpg",
-            "alt": "Softball umpire watching the play from the field"
+            "src": "/images/home-softball.jpg",
+            "alt": "Three GNOA umpires standing for the anthem at home plate, caps over their hearts",
+            "focus": "50% 0%",
+            "focusPhone": "36% 0%"
           }
         },
         {
@@ -194,56 +196,50 @@
         "href": "/become-an-official/"
       },
       "image": {
-        "src": "/images/split-new-officials.jpg",
-        "alt": "Veteran official mentoring a younger official on the field"
+        "src": "/images/home-never-officiated.jpg",
+        "alt": "Two basketball officials in striped shirts talking through a play with a GNOA mentor in a gym",
+        "fade": "short",
+        "focus": "50% 30%",
+        "focusPhone": "50% 20%",
+        "stack": true
       }
     },
     {
-      "type": "prose",
-      "blocks": [
-        {
-          "h2": "Local Sports Need Officials"
-        },
-        {
-          "p": "Games don't happen without people willing to officiate them."
-        },
-        {
-          "p": "Athletes prepare. Coaches prepare. Schools and families show up."
-        },
-        {
-          "p": "But somebody still has to step onto the field, court, or mat and help make the competition possible."
-        },
-        {
-          "p": "Officiating is a practical way to give something back to your community."
-        },
-        {
-          "p": "You're helping local athletes compete. You're helping schools and programs play their schedules. And you're helping make sure the next generation gets the same opportunity to enjoy sports that you did."
-        },
-        {
-          "p": "That matters."
-        }
-      ]
+      "type": "split",
+      "heading": "Local Sports Need Officials",
+      "paragraphs": [
+        "Games don't happen without people willing to officiate them.",
+        "Athletes prepare. Coaches prepare. Schools and families show up.",
+        "But somebody still has to step onto the field, court, or mat and help make the competition possible.",
+        "Officiating is a practical way to give something back to your community.",
+        "You're helping local athletes compete. You're helping schools and programs play their schedules. And you're helping make sure the next generation gets the same opportunity to enjoy sports that you did.",
+        "That matters."
+      ],
+      "image": {
+        "src": "/images/home-local-sports.jpg",
+        "alt": "A GNOA official in stripes with local students and cheerleaders on a football field at sunset",
+        "fade": "short",
+        "focus": "50% 50%",
+        "focusPhone": "50% 83%",
+        "stack": true
+      }
     },
     {
-      "type": "prose",
-      "mist": true,
-      "blocks": [
-        {
-          "h2": "Can I Officiate Part-Time?"
-        },
-        {
-          "p": "Absolutely."
-        },
-        {
-          "p": "Officiating is flexible, and you can block off dates when you're unavailable and work around your schedule."
-        },
-        {
-          "p": "Games are typically played on weekday evenings and Saturdays, with no Sunday games."
-        },
-        {
-          "p": "For many officials, it fits alongside work, family, travel, and other commitments."
-        }
-      ]
+      "type": "split",
+      "heading": "Can I Officiate Part-Time?",
+      "paragraphs": [
+        "Absolutely.",
+        "Officiating is flexible, and you can block off dates when you're unavailable and work around your schedule.",
+        "Games are typically played on weekday evenings and Saturdays, with no Sunday games.",
+        "For many officials, it fits alongside work, family, travel, and other commitments."
+      ],
+      "image": {
+        "src": "/images/home-part-time.jpg",
+        "alt": "A GNOA official in a blue polo checking a rule book courtside during a volleyball match",
+        "focus": "50% 20%",
+        "focusPhone": "50% 30%"
+      },
+      "reverse": true
     },
     {
       "type": "band",
@@ -258,8 +254,10 @@
         "href": "/training-development/"
       },
       "image": {
-        "src": "/images/band-recruit-train-develop.jpg",
-        "alt": "Group of officials in striped shirts talking before a game"
+        "src": "/images/home-recruit-train-develop.jpg",
+        "alt": "A GNOA umpire crew meeting on a baseball field at night under the lights",
+        "focus": "50% 48%",
+        "focusPhone": "50% 50%"
       }
     },
     {
@@ -276,30 +274,29 @@
         "href": "/contact/"
       },
       "image": {
-        "src": "/images/split-experienced-officials.jpg",
-        "alt": "Four experienced officials in a pregame huddle on the field"
+        "src": "/images/home-experienced.jpg",
+        "alt": "An experienced FHSAA official in a light blue polo and visor watching the action at a track meet",
+        "focus": "50% 37%",
+        "stack": true,
+        "focusPhone": "50% 37%"
       }
     },
     {
-      "type": "prose",
-      "mist": true,
-      "blocks": [
-        {
-          "h2": "What Will I Need?"
-        },
-        {
-          "p": "Every sport has its own uniform and equipment requirements, but don't rush out and buy everything before talking with GNOA."
-        },
-        {
-          "p": "We'll help you understand what you actually need and what can wait."
-        },
-        {
-          "p": "Experienced officials may also have used, extra, or hand-me-down equipment available for someone just getting started."
-        },
-        {
-          "p": "Talk to us first. See what's available. Buy what you need."
-        }
-      ]
+      "type": "split",
+      "heading": "What Will I Need?",
+      "paragraphs": [
+        "Every sport has its own uniform and equipment requirements, but don't rush out and buy everything before talking with GNOA.",
+        "We'll help you understand what you actually need and what can wait.",
+        "Experienced officials may also have used, extra, or hand-me-down equipment available for someone just getting started.",
+        "Talk to us first. See what's available. Buy what you need."
+      ],
+      "image": {
+        "src": "/images/home-what-will-i-need.jpg",
+        "alt": "A volleyball official on the stand, whistle in mouth, signaling with both hands raised",
+        "focus": "50% 5%",
+        "focusPhone": "50% 11%"
+      },
+      "reverse": true
     },
     {
       "type": "cta-band",

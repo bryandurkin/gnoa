@@ -35,6 +35,13 @@ The draft site uses sample photos for now. Send us the real ones below and we sw
 | H19 | testimonial-2.jpg | What Officials Say, quote 2 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Sample in place |
 | H20 | testimonial-3.jpg | What Officials Say, quote 3 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Sample in place |
 | H21 | cta-home.jpg | Closing banner at the bottom of every page | An official seen from behind, looking out at the field | 2000 x 900 | Wide 20:9 | Person in the right half | Sample in place |
+| H22 | home-softball.jpg | Softball card, homepage only | Three umpires at the anthem | 1208 x 795 | Landscape 3:2 | Cropped from the top; heads stay in frame | Supplied real photo in place |
+| H23 | home-never-officiated.jpg | "Never Officiated Before?" section | Two officials with a mentor in a gym | 1427 x 1037 | Landscape 4:3 | Short fade so the official on the left stays visible. A sharper copy is welcome | Supplied real photo in place |
+| H24 | home-local-sports.jpg | "Local Sports Need Officials" section | An official with local students and cheerleaders | 1600 x 1200 | Landscape 4:3 | GNOA to confirm permission for the students shown | Supplied real photo in place |
+| H25 | home-part-time.jpg | "Can I Officiate Part-Time?" section | An official with a rule book courtside | 1200 x 1600 | Portrait 3:4 | Narrow photo on the left | Supplied real photo in place |
+| H26 | home-recruit-train-develop.jpg | "Recruit. Train. Develop." section | An umpire crew meeting at night | 1600 x 960 | Landscape 5:3 | Sky and grass trimmed | Supplied real photo in place |
+| H27 | home-experienced.jpg | "Already an Experienced Official?" section | An FHSAA official at a track meet | 1400 x 2100 | Portrait 2:3 | Cropped head to hands | Supplied real photo in place |
+| H28 | home-what-will-i-need.jpg | "What Will I Need?" section | A volleyball official signaling from the stand | 1200 x 1602 | Portrait 3:4 | Narrow photo on the left | Supplied real photo in place |
 
 With each headshot (H18 to H20), please also send: first name and last initial, the sport they officiate, their quote in their own words, and their OK to use it on the website.
 

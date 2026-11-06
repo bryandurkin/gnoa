@@ -2,15 +2,17 @@
 // Text and photo, photo fading into white. reverse = photo on the left.
 // text or paragraphs; list = { heading (optional), items } checklist; after = paragraph after the list;
 // aside = { heading, items, text } boxed checklist shown beside the text (use with reverse).
+// subhead optional. image.fade = "short" keeps people at the photo's edge visible (narrower text). image.focus / image.focusPhone = crop position. image.stack = photo above the text on tablets too.
 import Btn from '../Btn.astro'; import Icon from '../Icon.astro';
 const { heading, subhead, text, paragraphs, list, after, aside, button, image, reverse = false } = Astro.props;
 const paras = paragraphs ?? (text ? [text] : []);
+const cls = ['split', reverse && 'split--reverse', image.fade === 'short' && 'split--open', image.stack && 'split--stack'].filter(Boolean).join(' ');
 ---
-<section class={reverse ? 'split split--reverse' : 'split'}>
-  <div class="split__media"><img class="cover" src={image.src} alt={image.alt} loading="lazy" /></div>
+<section class={cls}>
+  <div class="split__media"><img class={image.focus ? 'cover has-focus' : 'cover'} src={image.src} alt={image.alt} loading="lazy" style={image.focus && `--focus:${image.focus};--focus-phone:${image.focusPhone ?? image.focus}`} /></div>
   <div class="wrap"><div class={aside ? 'split__body split__body--wide' : 'split__body'}>
     <h2>{heading}</h2>
-    <p class="split__sub">{subhead}</p>
+    {subhead && <p class="split__sub">{subhead}</p>}
     <div class={aside ? 'split__cols' : undefined}>
       <div>
         {paras.map(p => <p>{p}</p>)}

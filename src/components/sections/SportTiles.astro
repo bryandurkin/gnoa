@@ -5,6 +5,6 @@ const { heading, intro, tiles, mist = true, join } = Astro.props;
 <Sec mist={mist} join={join}>
   <SecHead heading={heading} intro={intro} />
   <ul class="sport-tiles">
-    {tiles.map(t => <li><a class="tile" href={t.href}><img class="cover" src={t.image.src} alt={t.image.alt} loading="lazy" /><span class="tile__label">{t.label}<Icon name="arrow" /></span></a></li>)}
+    {tiles.map(t => <li><a class="tile" href={t.href}><img class={t.image.focus ? 'cover has-focus' : 'cover'} src={t.image.src} alt={t.image.alt} loading="lazy" style={t.image.focus && `--focus:${t.image.focus};--focus-phone:${t.image.focusPhone ?? t.image.focus}`} /><span class="tile__label">{t.label}<Icon name="arrow" /></span></a></li>)}
   </ul>
 </Sec>

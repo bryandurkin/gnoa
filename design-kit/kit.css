@@ -475,3 +475,30 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
   .band--fit .band__media::after{background:linear-gradient(180deg,rgba(10,35,66,.55) 0%,rgba(10,35,66,.82) 55%,rgba(10,35,66,.94) 100%)}
   .band--fit .band__body,.band--fit .band__body--wide{max-width:none}
 }
+
+/* has-focus: crop position set per photo, with its own phone value (v1.12) */
+img.has-focus{object-position:var(--focus)!important}
+/* split--open: short fade and narrower text, for photos with people at the edge (v1.12) */
+.split--open .split__media::after{background:linear-gradient(90deg,var(--white) 0%,rgba(255,255,255,0) 14%)}
+.split--open .split__body{max-width:min(480px,35vw)}
+.split h2:not(:has(+ .split__sub)){margin-bottom:14px}
+@media (max-width:1024px){
+  /* split--stack: photo above the text on tablets as well as phones, so text never runs over faces (v1.12) */
+  .split--stack .split__media{position:relative;width:100%;height:clamp(230px,62vw,560px);z-index:0}
+  .split--stack .split__media::after{background:linear-gradient(0deg,var(--white) 0%,rgba(255,255,255,0) 30%)}
+  .split--stack .wrap{padding-top:8px}
+  .split--stack .split__body{max-width:none}
+  .split--stack img.has-focus{object-position:var(--focus-phone)!important}
+  /* band: photo above the text on tablets and phones, not behind it (v1.12). The closing cta-band keeps its background photo. */
+  .band:not(.cta-band) .band__media{position:relative;width:100%;max-width:none;height:clamp(230px,46vw,440px);margin-block:0;z-index:0}
+  .band:not(.cta-band) .band__media::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(10,35,66,0) 30%)}
+  .band:not(.cta-band) .wrap{padding-top:12px}
+  .band.band--fit:not(.cta-band) .band__media{height:auto;aspect-ratio:16/9}
+  .band.band--fit:not(.cta-band) .band__media img{object-fit:cover}
+  .band.band--fit:not(.cta-band) .band__body{max-width:none}
+}
+@media (max-width:760px){
+  img.has-focus{object-position:var(--focus-phone)!important}
+  .split--open .split__media::after{background:linear-gradient(0deg,var(--white) 0%,rgba(255,255,255,0) 35%)}
+  .split--open .split__body{max-width:none}
+}
