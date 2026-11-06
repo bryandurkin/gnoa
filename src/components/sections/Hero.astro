@@ -7,7 +7,7 @@ const { eyebrow, kicker, title1, title2, subhead, lead, paragraphs = [], buttons
 const showPoster = image?.layout === 'poster';
 ---
 <section class={["hero", isPage && "page-hero", showPoster && "hero--poster", image?.fit === 'contain' && "hero--fit", image?.fit === 'banner' && "hero--banner"].filter(Boolean).join(' ')}>
-  {image && !showPoster && <div class="hero__media"><img class="cover" src={image.src} alt={image.alt} fetchpriority="high" /></div>}
+  {image && !showPoster && <div class="hero__media"><img class={image.focus ? 'cover has-focus' : 'cover'} src={image.src} alt={image.alt} fetchpriority="high" style={image.focus && `--focus:${image.focus};--focus-phone:${image.focusPhone ?? image.focus}`} /></div>}
   <div class="wrap"><div class="hero__body">
     {eyebrow && <p class="eyebrow">{eyebrow.map((w, i) => <>{i > 0 && <span class="dot" aria-hidden="true">&bull;</span>}<span class={i < 2 ? `c${i + 1}` : undefined}>{w}</span></>)}</p>}
     {kicker && <p class="eyebrow">{kicker}</p>}

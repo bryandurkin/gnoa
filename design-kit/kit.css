@@ -530,5 +530,6 @@ img.has-focus{object-position:var(--focus)!important}
 .hero--banner .hero__media img{object-position:50% 20%}
 .hero--banner .hero__media::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(10,35,66,0) 18%)}
 .hero--banner .wrap{padding-top:16px}
-/* Source credit on rewritten news posts (v1.18) */
+/* Keep post card photos in shape; source credit on rewritten news posts (v1.18) */
+.post-card__img{overflow:hidden}
 .post-source{margin-top:1.6em;padding-top:12px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}

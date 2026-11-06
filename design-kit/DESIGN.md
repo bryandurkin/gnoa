@@ -1,4 +1,4 @@
-# GNOA Design Kit v1.17
+# GNOA Design Kit v1.18
 
 Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association), plus the Football, Baseball, About, Wrestling (page since removed), Soccer, Softball and Volleyball page handoff packs (v1.2 to v1.5 sections).
 Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY from the sections below. It does not invent new layouts, colors or fonts. Copy markup from preview.html.

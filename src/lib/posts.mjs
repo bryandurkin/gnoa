@@ -4,7 +4,9 @@ const FALLBACK_IMAGE = { src: '/images/home-hero-crew.jpg', alt: 'A large GNOA f
 export function postImage(image) {
   const key = image?.meta?.storageKey;
   const src = image?.src || (key && `/_emdash/api/media/file/${key}`);
-  return src ? { src, alt: image.alt || FALLBACK_IMAGE.alt } : FALLBACK_IMAGE;
+  // Use the focal point set in EmDash; otherwise favor the top of the photo, where faces usually are.
+  const focus = image?.focalX != null && image?.focalY != null ? `${image.focalX}% ${image.focalY}%` : '50% 15%';
+  return src ? { src, alt: image.alt || FALLBACK_IMAGE.alt, focus } : FALLBACK_IMAGE;
 }
 
 export function toPost(entry) {

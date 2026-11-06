@@ -157,3 +157,12 @@ Upgraded Astro from 5.18 to 7.4.7, because EmDash needs Astro 6 or later. Change
 `engines` for Astro's Node requirement (22.23.4 or later). No page changes: all HTML and files match the old build
 apart from the bundled menu script and stylesheet, and computed styles match on all 16 pages at 1366, 1024, 768
 and 375 px. The stylesheet differences are formatting only, such as the same gradient written the other way round.
+
+## 2026-11-06 EmDash blog on the test Worker (not on the draft site yet)
+
+Added EmDash 1.4 for blog posts only, on the separate test Worker `gnoa-emdash-test`. All other pages stay pre-built
+JSON in this repo. `/blog/`, `/blog/<slug>/` and the sitemap now read from EmDash at request time, so published posts
+appear without a rebuild, and drafts stay hidden. Posts have title, photo, summary, content, category and an optional
+source credit. Kit v1.18: post card photos keep their shape, `.post-source`, and hero `image.focus`.
+Setup note: the seed creates the post fields but not the category terms, so News, Recognition and Training must be
+added with `taxonomy_create_term` on any new site. Passkeys belong to the address they were created on.
