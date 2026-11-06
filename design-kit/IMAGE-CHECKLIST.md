@@ -97,11 +97,14 @@ Same rules as above. Officials are the main subject; players only in the backgro
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
 |---|---|---|---|---|---|---|---|
 | BK1 | basketball-hero.jpg | Big photo at the top of the Basketball page | Basketball official on the court | 2000 x 1500 | Landscape 4:3 | Official in the right half; left side is covered by the headline | Supplied real photo in place (same photo as the sport tile) |
-| BK2 | about-sport-basketball.jpg | "Never Officiated Before?" section | Official holding the ball or signaling on the court | 1200 x 1600 | Portrait 3:4 | Centered | Low-res stand-in from the mockup |
-| BK3 | basketball-experienced.jpg | "Already an Experienced Basketball Official?" | An experienced crew together on the court before a game | 1600 x 1070 | Landscape 3:2 | Centered | Needed (gray SAMPLE PHOTO now) |
-| BK4 | basketball-equipment.jpg | "What Will I Need?" | Flat lay: officiating shirt, whistle, black pants and shoes (no logos) | 1200 x 900 | Landscape 4:3 | Centered | Needed (gray SAMPLE PHOTO now) |
-| BK5 | basketball-band.jpg | "The Game Starts to Slow Down" (optional) | Official watching play from the baseline | 2200 x 1240 | Wide 16:9 | Official in the right half | Optional, plain navy now |
-| BK6 | basketball-cta.jpg | Closing banner (optional) | Official on the court, room for text on the left | 2200 x 1240 | Wide 16:9 | Subject in the right half | Optional, plain navy now |
+| BK2 | basketball-never-officiated.jpg | "Never Officiated Before?" section | Two officials talking at center court | 1600 x 1123 | Landscape 3:2 | Cropped to the officials | Supplied real photo in place |
+| BK3 | basketball-experienced.jpg | "Already an Experienced Basketball Official?" | An experienced official in stripes | 421 x 717 | Portrait | Narrow photo on the left | Supplied real photo in place. A sharper copy is welcome |
+| BK4 | basketball-equipment.jpg | "What Will I Need?" | An official with a GNOA mentor | 1200 x 677 | Landscape | Bottom trimmed to remove a drink can | Supplied real photo in place. A photo of the uniform would also work |
+| BK5 | basketball-band.jpg | "The Game Starts to Slow Down" | An official pointing during a game | 743 x 543 | Landscape 4:3 | Official points toward the text | Supplied real photo in place. A sharper copy is welcome |
+| BK6 | basketball-cta.jpg | Closing banner | An official giving a thumbs up | 1440 x 1054 | Landscape 4:3 | Official in the right half | Supplied real photo in place. A sharper copy is welcome |
+| BK7 | basketball-crew.jpg | "You Become Part of a Crew" | Three officials on the court | 949 x 1081 | Portrait | Cropped from the top; faces stay in frame | Supplied real photo in place |
+| BK8 | basketball-giving-back.jpg | "Giving Back to Local Basketball" | Three officials outside the locker room | 795 x 629 | Landscape 5:4 | Cropped from the top; faces stay in frame | Supplied real photo in place |
+| BK9 | home-never-officiated.jpg | "Keep Getting Better" | Two officials with a mentor | 1427 x 1037 | Landscape 4:3 | Same photo as the homepage | Supplied real photo in place. A sharper copy is welcome |
 
 ## Needed for the Soccer page
 
@@ -174,3 +177,18 @@ Same rules as above. Officials in proper volleyball officiating attire are the m
 | N5 | og-share.jpg | The picture that shows when someone shares a GNOA link on Facebook, LinkedIn or by text | Logo on a field photo, or a strong group shot | 1200 x 630 | Wide 1.91:1 | Centered | Not yet |
 | N6 | favicon.png | The small icon in the browser tab | The palm mark or GNOA letters | 512 x 512 | Square | Centered | Not yet |
 | N7 | post-SHORT-TITLE.jpg | Each News & Recognition post | Whatever the post is about | 1600 x 900 | Wide 16:9 | Centered | One per post |
+
+## Better copies wanted (one list for the client)
+
+The site uses the photos below for now. Add to this list page by page, and send it to GNOA once when all pages are done.
+
+| Page | Section | Photo in use | What we need |
+|---|---|---|---|
+| Home | Come for the Game. Stay for the People. | home-community.jpg | An uncut copy of the group photo; the top of one official's head is outside the frame |
+| Home, Basketball | Never Officiated Before? (Home), Keep Getting Better (Basketball) | home-never-officiated.jpg | A sharper copy; this one is soft and looks like a screenshot |
+| Basketball | Already an Experienced Basketball Official? | basketball-experienced.jpg | A much larger copy; this one is only 421 px wide |
+| Basketball | The Game Starts to Slow Down | basketball-band.jpg | A sharper, larger copy; this one is 743 px wide and looks stretched |
+| Basketball | What Will I Need? | basketball-equipment.jpg | A sharper copy, or a photo of the basketball uniform and gear |
+| Basketball | Ready to See Basketball From This Side? | basketball-cta.jpg | A sharper copy; this one is soft and looks stretched |
+
+Also needed from GNOA: confirm permission for the students shown in the homepage Local Sports photo (home-local-sports.jpg).

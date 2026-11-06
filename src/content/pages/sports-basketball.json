@@ -86,8 +86,10 @@
         "href": "/become-an-official/"
       },
       "image": {
-        "src": "/images/about-sport-basketball.jpg",
-        "alt": "Basketball official holding the game ball before play resumes"
+        "src": "/images/basketball-never-officiated.jpg",
+        "alt": "Two GNOA basketball officials talking at center court before a game, one holding the ball",
+        "focus": "61% 50%",
+        "focusPhone": "50% 20%"
       }
     },
     {
@@ -169,34 +171,34 @@
       ]
     },
     {
-      "type": "prose",
-      "mist": true,
-      "blocks": [
-        {
-          "h2": "You Become Part of a Crew"
-        },
-        {
-          "p": "One of the best parts of officiating is the people you meet."
-        },
-        {
-          "p": "You'll work games with people from different backgrounds and different stages of life, all connected by the same thing: They enjoy the game."
-        },
-        {
-          "ul": [
-            "You'll prepare together.",
-            "Work games together.",
-            "Talk about plays afterward.",
-            "Help newer officials.",
-            "Learn from experienced officials."
-          ]
-        },
-        {
-          "p": "And probably share a few laughs about things that happened during the night."
-        },
-        {
-          "p": "For many officials, the friendships and camaraderie become as important as the games themselves."
-        }
-      ]
+      "type": "split",
+      "heading": "You Become Part of a Crew",
+      "paragraphs": [
+        "One of the best parts of officiating is the people you meet.",
+        "You'll work games with people from different backgrounds and different stages of life, all connected by the same thing: They enjoy the game."
+      ],
+      "list": {
+        "columns": 1,
+        "items": [
+          "You'll prepare together.",
+          "Work games together.",
+          "Talk about plays afterward.",
+          "Help newer officials.",
+          "Learn from experienced officials."
+        ]
+      },
+      "after": [
+        "And probably share a few laughs about things that happened during the night.",
+        "For many officials, the friendships and camaraderie become as important as the games themselves."
+      ],
+      "image": {
+        "src": "/images/basketball-crew.jpg",
+        "alt": "Three smiling GNOA officials in black jackets together on a basketball court",
+        "fade": "short",
+        "stack": true,
+        "focus": "50% 0%",
+        "focusPhone": "50% 5%"
+      }
     },
     {
       "type": "band",
@@ -208,31 +210,32 @@
         "With training and experience, you learn where to look, where to move, what belongs to you, and when to trust your partners.",
         "The game doesn't actually get slower.",
         "You get better at seeing it."
-      ]
+      ],
+      "image": {
+        "src": "/images/basketball-band.jpg",
+        "alt": "A GNOA basketball official in stripes walking the court and pointing during a game",
+        "focus": "50% 36%",
+        "focusPhone": "50% 30%"
+      }
     },
     {
-      "type": "prose",
-      "mist": true,
-      "blocks": [
-        {
-          "h2": "Giving Back to Local Basketball"
-        },
-        {
-          "p": "Games don't happen without officials."
-        },
-        {
-          "p": "Youth players, high school athletes, coaches, families, and schools all depend on people willing to step onto the court and take responsibility for the game."
-        },
-        {
-          "p": "Officiating is a practical way to contribute to the sports community."
-        },
-        {
-          "p": "You're helping create opportunities for athletes to compete. You're helping schools and programs play their schedules. And you're helping make sure there are officials for the next generation of basketball players."
-        },
-        {
-          "p": "That matters."
-        }
-      ]
+      "type": "split",
+      "heading": "Giving Back to Local Basketball",
+      "paragraphs": [
+        "Games don't happen without officials.",
+        "Youth players, high school athletes, coaches, families, and schools all depend on people willing to step onto the court and take responsibility for the game.",
+        "Officiating is a practical way to contribute to the sports community.",
+        "You're helping create opportunities for athletes to compete. You're helping schools and programs play their schedules. And you're helping make sure there are officials for the next generation of basketball players.",
+        "That matters."
+      ],
+      "image": {
+        "src": "/images/basketball-giving-back.jpg",
+        "alt": "Three GNOA officials in black jackets outside the officials' locker room before a game",
+        "fade": "short",
+        "stack": true,
+        "focus": "50% 0%",
+        "focusPhone": "50% 5%"
+      }
     },
     {
       "type": "split",
@@ -247,48 +250,51 @@
         "href": "/contact/"
       },
       "image": {
-        "src": "/images/sample-photo.svg",
-        "alt": "[[sample]]Needed: an experienced GNOA basketball crew together on the court before a game[[/sample]]"
-      }
+        "src": "/images/basketball-experienced.jpg",
+        "alt": "An experienced GNOA basketball official in a striped shirt, smiling with a whistle ready",
+        "focus": "50% 5%"
+      },
+      "reverse": true
     },
     {
-      "type": "prose",
-      "mist": true,
-      "blocks": [
-        {
-          "h2": "Keep Getting Better"
-        },
-        {
-          "p": "Development is part of officiating, but it doesn't have to mean chasing the next level."
-        },
-        {
-          "p": "Sometimes getting better simply means:"
-        },
-        {
-          "ul": [
-            "Being in a better position.",
-            "Communicating more clearly.",
-            "Handling a difficult situation better than you did last time.",
-            "Helping a newer official.",
-            "Becoming a partner other officials enjoy working with.",
-            "Feeling more confident on the floor."
-          ]
-        },
-        {
-          "p": "There is always something to learn, no matter how many games you've worked."
-        },
-        {
-          "p": "Rules Study · Mechanics · Crew Work · Mentoring · Feedback · Experience"
-        }
-      ]
+      "type": "split",
+      "heading": "Keep Getting Better",
+      "paragraphs": [
+        "Development is part of officiating, but it doesn't have to mean chasing the next level.",
+        "Sometimes getting better simply means:"
+      ],
+      "list": {
+        "columns": 1,
+        "items": [
+          "Being in a better position.",
+          "Communicating more clearly.",
+          "Handling a difficult situation better than you did last time.",
+          "Helping a newer official.",
+          "Becoming a partner other officials enjoy working with.",
+          "Feeling more confident on the floor."
+        ]
+      },
+      "after": [
+        "There is always something to learn, no matter how many games you've worked.",
+        "Rules Study · Mechanics · Crew Work · Mentoring · Feedback · Experience"
+      ],
+      "image": {
+        "src": "/images/home-never-officiated.jpg",
+        "alt": "Two basketball officials in striped shirts talking through a play with a GNOA mentor in a gym",
+        "fade": "short",
+        "stack": true,
+        "focus": "30% 50%",
+        "focusPhone": "50% 20%"
+      }
     },
     {
       "type": "info-faq",
       "info": {
         "heading": "What Will I Need?",
         "image": {
-          "src": "/images/sample-photo.svg",
-          "alt": "[[sample]]Needed: flat lay of a basketball officiating shirt, whistle, black pants and shoes (no logos)[[/sample]]"
+          "src": "/images/basketball-equipment.jpg",
+          "alt": "A basketball official in a striped shirt with a GNOA mentor in a white polo beside the gym wall",
+          "position": "61% 30%"
         },
         "paragraphs": [
           "Basketball requires an approved officiating uniform and some basic equipment, but don't start buying everything before talking with GNOA.",
@@ -347,6 +353,12 @@
       "button": {
         "text": "Become a Basketball Official",
         "href": "/contact/"
+      },
+      "image": {
+        "src": "/images/basketball-cta.jpg",
+        "alt": "A smiling GNOA basketball official giving a thumbs up on the court, whistle in mouth",
+        "focus": "50% 50%",
+        "focusPhone": "56% 50%"
       }
     }
   ]

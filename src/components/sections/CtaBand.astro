@@ -6,7 +6,7 @@ const { title1, title2, paragraphs, list, after, text, button, buttons, image } 
 const btns = buttons ?? [button];
 ---
 <section class="band cta-band">
-  {image && <div class="band__media"><img class="cover" src={image.src} alt={image.alt} loading="lazy" /></div>}
+  {image && <div class="band__media"><img class={image.focus ? 'cover has-focus' : 'cover'} src={image.src} alt={image.alt} loading="lazy" style={image.focus && `--focus:${image.focus};--focus-phone:${image.focusPhone ?? image.focus}`} /></div>}
   <div class="wrap"><div class="band__body">
     <h2>{title1}{title2 && <>{' '}<br />{title2}</>}</h2>
     {paragraphs && paragraphs.map(p => <p class="band__para">{p}</p>)}

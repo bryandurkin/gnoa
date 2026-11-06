@@ -1,6 +1,6 @@
 ---
 // Text and photo, photo fading into white. reverse = photo on the left.
-// text or paragraphs; list = { heading (optional), items } checklist; after = paragraph after the list;
+// text or paragraphs; list = { heading (optional), items, columns (1 or 2) } checklist; after = paragraph or paragraphs after the list;
 // aside = { heading, items, text } boxed checklist shown beside the text (use with reverse).
 // subhead optional. image.fade = "short" keeps people at the photo's edge visible (narrower text). image.focus / image.focusPhone = crop position. image.stack = photo above the text on tablets too.
 import Btn from '../Btn.astro'; import Icon from '../Icon.astro';
@@ -16,8 +16,8 @@ const cls = ['split', reverse && 'split--reverse', image.fade === 'short' && 'sp
     <div class={aside ? 'split__cols' : undefined}>
       <div>
         {paras.map(p => <p>{p}</p>)}
-        {list && <>{list.heading && <h3 class="checklist__head">{list.heading}</h3>}<ul class="checklist" style={`--rows:${Math.ceil(list.items.length / 2)}`}>{list.items.map(i => <li><Icon name="check" />{i}</li>)}</ul></>}
-        {after && <p>{after}</p>}
+        {list && <>{list.heading && <h3 class="checklist__head">{list.heading}</h3>}<ul class={list.columns === 1 ? 'checklist checklist--one' : 'checklist'} style={`--rows:${list.columns === 1 ? list.items.length : Math.ceil(list.items.length / 2)}`}>{list.items.map(i => <li><Icon name="check" />{i}</li>)}</ul></>}
+        {after && [after].flat().map(p => <p>{p}</p>)}
         {button && <Btn {...button} variant="teal" />}
       </div>
       {aside && <div>

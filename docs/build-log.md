@@ -99,3 +99,12 @@ optional split subhead, `image.fade: "short"`, `image.focus` and `image.focusPho
 bands now show the photo above the text on tablets and phones (on every page; the closing cta-band is unchanged). `image.stack` does the same for a split on tablets. New
 photos use `home-*` file names so other pages keep theirs. Open items: GNOA to confirm permission for the
 students in the Local Sports photo, a sharper Never Officiated photo, an uncut community group photo.
+
+## 2026-11-06 Basketball page photos from the Drive folder
+
+Added the eight photos in the Drive folder "GNOA Sports > Basketball" to their matching sections and removed
+the two SAMPLE photo markers. Crew, Giving Back and Keep Getting Better were text only, so they became split
+sections with the same words. The Experienced photo moved to the narrow left spot because the file is small,
+and the What Will I Need photo is trimmed to remove a drink can. Keep Getting Better reuses the homepage
+photo. Kit v1.13: split `list.columns`, multi-paragraph `after`, cta-band `image.focus`, and narrower cta-band text on tablets (every page). Open: sharper copies
+of the five soft photos.
