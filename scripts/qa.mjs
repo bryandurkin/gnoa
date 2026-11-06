@@ -2,7 +2,7 @@
 import fs from 'node:fs'; import path from 'node:path';
 import { MODE } from '../src/mode.mjs';
 const site = JSON.parse(fs.readFileSync('src/content/site.json', 'utf8'));
-const DIST = 'dist';
+const DIST = 'dist/client';
 const files = []; (function walk(d) { for (const f of fs.readdirSync(d)) { const p = path.join(d, f); fs.statSync(p).isDirectory() ? walk(p) : p.endsWith('.html') && files.push(p); } })(DIST);
 const out = { FAIL: [], WARN: [], PENDING: new Set(), SAMPLE: [] };
 const fail = (f, m) => out.FAIL.push(`${f}: ${m}`), warn = (f, m) => out.WARN.push(`${f}: ${m}`);

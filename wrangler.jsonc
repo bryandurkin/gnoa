@@ -1,11 +1,11 @@
 {
-  // Cloudflare Worker that serves the built site from dist/.
-  // Draft worker: build command "npm run check" (draft build + QA gate). A QA failure stops the deploy.
-  "name": "gnoa",
+  // TEST Worker for the EmDash blog work. Rename to "gnoa" only when this is approved for the draft site.
+  "name": "gnoa-emdash-test",
+  "main": "./src/worker.ts",
   "compatibility_date": "2026-09-01",
-  "assets": {
-    "directory": "./dist",
-    "not_found_handling": "404-page",
-    "html_handling": "auto-trailing-slash"
-  }
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [{ "binding": "DB", "database_name": "gnoa-emdash-test" }],
+  "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "gnoa-emdash-test-media" }],
+  // Publishes scheduled posts and runs EmDash maintenance.
+  "triggers": { "crons": ["* * * * *"] }
 }

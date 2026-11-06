@@ -1,3 +1,4 @@
+export const prerender = true;
 import { getCollection } from 'astro:content';
 export async function GET({ site }) {
   const pages = Object.values(import.meta.glob('../content/pages/*.json', { eager: true })).map(m => m.default.slug ? `/${m.default.slug}/` : '/');
