@@ -502,3 +502,7 @@ img.has-focus{object-position:var(--focus)!important}
   .split--open .split__media::after{background:linear-gradient(0deg,var(--white) 0%,rgba(255,255,255,0) 35%)}
   .split--open .split__body{max-width:none}
 }
+/* cta-band: narrower text on tablets so it stays clear of the photo subject (v1.13) */
+@media (min-width:761px) and (max-width:1024px){
+  .cta-band .band__body{max-width:52%}
+}
