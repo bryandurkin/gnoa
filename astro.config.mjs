@@ -10,4 +10,4 @@ const draftHeaders = {
     else if (fs.existsSync(f)) fs.unlinkSync(f);
   } },
 };
-export default defineConfig({ site: 'https://gnoa-sample.example', trailingSlash: 'always', build: { format: 'directory' }, integrations: [draftHeaders] });
+export default defineConfig({ site: 'https://gnoa-sample.example', trailingSlash: 'ignore', build: { format: 'directory' }, integrations: [draftHeaders] });
