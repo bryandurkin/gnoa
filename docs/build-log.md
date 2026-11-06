@@ -122,3 +122,10 @@ Added the supplied photo from the Drive folder to "Already an Experienced Offici
 The changes doc named the page but not the spot, so the spot is our choice. The closing banner button linked
 to its own page and now goes to Contact. The hero poster still lists Wrestling; it stays for now and a
 corrected poster is on the better-copies list.
+
+## 2026-11-06 About page photos from the Drive folder
+
+The hero now uses the football crew photo, the same one as the homepage (the Drive file "About greater Naples
+officials association" is that photo). The closing banner uses the four officials at the state volleyball
+championships, shown whole because the file is small. Kit v1.15: cta-band `image.fit: "contain"`, above the
+text on phones. The Drive folder held only these two photos, so the rest of the page is unchanged.

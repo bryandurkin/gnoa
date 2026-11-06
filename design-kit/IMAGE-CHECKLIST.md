@@ -152,7 +152,7 @@ Same rules as above. Officials in proper volleyball officiating attire are the m
 
 | # | File name | Where it goes | What it should show | Send at least | Shape | Subject placement | Status |
 |---|---|---|---|---|---|---|---|
-| A1 | about-hero.jpg | Big photo at the top of the About page | 4 to 6 GNOA officials in a relaxed pregame or training conversation, faces visible | 2200 x 1300 | Landscape 5:3 | People in the right half; left side is covered by the headline | Sample in place |
+| A1 | home-hero-crew.jpg | Big photo at the top of the About page | A large GNOA football crew on the field (same photo as the homepage) | 1314 x 690 | Wide 2:1 | Whole photo shown; no crop | Supplied real photo in place |
 | A2 | about-sport-football.jpg | "Seven Sports" row, tile 1 | One football official, clearly the subject | 900 x 1125 | Portrait 4:5 | Centered, head near the top third | Sample in place |
 | A3 | about-sport-basketball.jpg | Tile 2 | One basketball official | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
 | A4 | about-sport-baseball.jpg | Tile 3 | One baseball umpire | 900 x 1125 | Portrait 4:5 | Centered | Sample in place |
@@ -165,6 +165,7 @@ Same rules as above. Officials in proper volleyball officiating attire are the m
 | A12 | about-path-varsity.jpg | Card 3 | An official working a live game under lights | 1000 x 700 | Landscape | Upper two thirds | Sample in place |
 | A13 | about-path-postseason.jpg | Card 4 | An experienced official or crew at a big game | 1000 x 700 | Landscape | Upper two thirds | Sample in place |
 | A14 | about-cta.jpg | Closing banner on the About page | An official from behind looking toward the field at sunset or under lights | 2200 x 900 | Wide | Person in the right half | Sample in place |
+| A20 | about-cta-championships.jpg | Closing banner, "Want to Be Part of It?" | Four GNOA officials at the state volleyball championships | 534 x 356 | Landscape 3:2 | Whole photo shown, cropped from the supplied file | Supplied real photo in place. A larger copy is welcome |
 
 ## Nice to have
 
@@ -192,5 +193,6 @@ The site uses the photos below for now. Add to this list page by page, and send 
 | Basketball | What Will I Need? | basketball-equipment.jpg | A sharper copy, or a photo of the basketball uniform and gear |
 | Basketball | Ready to See Basketball From This Side? | basketball-cta.jpg | A sharper copy; this one is soft and looks stretched |
 | Become an Official | Top of the page | gnoa-we-want-you-recruiting-poster-original.jpg | A corrected poster; this one still lists Wrestling, which GNOA no longer does |
+| About | Want to Be Part of It? | about-cta-championships.jpg | A much larger copy; this one is only 534 px wide |
 
 Also needed from GNOA: confirm permission for the students shown in the homepage Local Sports photo (home-local-sports.jpg).
