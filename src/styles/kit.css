@@ -630,3 +630,13 @@ img.has-focus{object-position:var(--focus)!important}
 @media (min-width:761px) and (max-width:1024px){
   .cta-band .band__body{max-width:52%}
 }
+/* hero--fit: whole photo on the right for large group shots; above the text on tablets and phones (v1.14) */
+.hero--fit .hero__media{bottom:auto;top:clamp(56px,7vw,96px);width:58%;aspect-ratio:1314/690}
+.hero--fit .hero__media::after{background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,0) 8%)}
+.hero--fit .hero__body{max-width:min(440px,34vw)}
+@media (max-width:1024px){
+  .hero--fit .hero__media{position:relative;top:auto;width:100%;z-index:0}
+  .hero--fit .hero__media::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(10,35,66,0) 22%)}
+  .hero--fit .wrap{padding-top:12px}
+  .hero--fit .hero__body{max-width:none}
+}

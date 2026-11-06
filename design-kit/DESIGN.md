@@ -1,4 +1,4 @@
-# GNOA Design Kit v1.13
+# GNOA Design Kit v1.14
 
 Source: GNOA homepage mockup v1.0 (Greater Naples Officials Association), plus the Football, Baseball, About, Wrestling (page since removed), Soccer, Softball and Volleyball page handoff packs (v1.2 to v1.5 sections).
 Purpose: the Builder agent reads this file plus kit.css and assembles pages ONLY from the sections below. It does not invent new layouts, colors or fonts. Copy markup from preview.html.
@@ -43,7 +43,7 @@ Fields marked * are required.
 | id | What it is | Fields | Limits |
 |---|---|---|---|
 | site-header | Logo, 5 nav links, ArbiterSports button | from site config | Same on every page. Collapses to a Menu button below 1200px |
-| hero | Large hero, navy with photo on the right | eyebrow (3 words), title (2 lines)*, subhead (short line), lead or 1 to 3 paragraphs (max 35 words each)*, 1 to 2 buttons*, image* | Home and full sport pages only. Title max 8 words |
+| hero | Large hero, navy with photo on the right | eyebrow (3 words), title (2 lines)*, subhead (short line), lead or 1 to 3 paragraphs (max 35 words each)*, 1 to 2 buttons*, image* (image.fit "contain" shows the whole photo for large group shots, v1.14) | Home and full sport pages only. Title max 8 words |
 | sport-strip | Navy band of sport links | 3 to 8 sport names with links* | Home only, directly under hero |
 | icon-strip | Navy band of icon + short label items, not links (v1.2) | 3 to 5 items (icon*, label*) | Directly under a hero. Labels max 5 words |
 | benefits | White cards with an icon | heading*, tagline, intro (max 45 words), 3 to 5 items (icon*, title*, text* or 2 short paragraphs; 5 items added v1.4), align "left" for left-aligned card text | Text max 20 words per paragraph. Title must differ from text |

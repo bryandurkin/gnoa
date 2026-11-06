@@ -17,7 +17,7 @@ The draft site uses sample photos for now. Send us the real ones below and we sw
 |---|---|---|---|---|---|---|---|
 | H1 | logo-color.svg | Top of every page | GNOA full color logo | SVG, or PNG 1200 px wide | As designed | Transparent background | Sample in place |
 | H2 | logo-white.svg | Footer | All-white version of the logo | SVG, or PNG 1200 px wide | As designed | Transparent background | Sample in place |
-| H3 | hero-home.jpg | Big photo at the top of the homepage | A GNOA official on the field, Southwest Florida feel | 2000 x 1200 | Landscape 5:3 | Person in the right half; left side is covered by the headline | Sample in place |
+| H3 | home-hero-crew.jpg | Big photo at the top of the homepage | A large GNOA football crew on the field | 1314 x 690 | Wide 2:1 | Whole photo shown; no crop | Supplied real photo in place |
 | H4 | sport-football.jpg | Football tile, top of the Football page | A GNOA official working football | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Supplied real photo in place |
 | H5 | sport-basketball.jpg | Basketball tile and page | A GNOA official working basketball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Supplied real photo in place |
 | H6 | sport-baseball.jpg | Baseball tile and page | A GNOA umpire working baseball | 1600 x 1000 | Landscape 8:5 | Centered, with space around the edges | Supplied real photo in place |
@@ -185,7 +185,7 @@ The site uses the photos below for now. Add to this list page by page, and send 
 | Page | Section | Photo in use | What we need |
 |---|---|---|---|
 | Home | Come for the Game. Stay for the People. | home-community.jpg | An uncut copy of the group photo; the top of one official's head is outside the frame |
-| Home, Basketball | Never Officiated Before? (Home), Keep Getting Better (Basketball) | home-never-officiated.jpg | A sharper copy; this one is soft and looks like a screenshot |
+| Home, Basketball | Never Officiated Before? (Home), Keep Getting Better (Basketball) | home-never-officiated.jpg | A copy with the GNOA logo on the white polo; this sharper copy shows "GHSA" instead |
 | Basketball | Already an Experienced Basketball Official? | basketball-experienced.jpg | A much larger copy; this one is only 421 px wide |
 | Basketball | The Game Starts to Slow Down | basketball-band.jpg | A sharper, larger copy; this one is 743 px wide and looks stretched |
 | Basketball | What Will I Need? | basketball-equipment.jpg | A sharper copy, or a photo of the basketball uniform and gear |

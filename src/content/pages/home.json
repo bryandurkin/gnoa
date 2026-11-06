@@ -31,8 +31,9 @@
         }
       ],
       "image": {
-        "src": "/images/hero-home-mirrored.jpg",
-        "alt": "Football referee in a striped shirt and cap on the sideline of a lit field at sunset, palm trees behind"
+        "src": "/images/home-hero-crew.jpg",
+        "alt": "A large GNOA football officiating crew in striped shirts posed together on the field before a game",
+        "fit": "contain"
       }
     },
     {
