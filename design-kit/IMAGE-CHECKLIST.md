@@ -31,7 +31,7 @@ The draft site uses sample photos for now. Send us the real ones below and we sw
 | H15 | path-local-varsity-game.jpg | Development and Recognition, card 2 | An official at a local varsity game | 1200 x 800 | Landscape 3:2 | Centered; bottom strip gets a label | Sample in place |
 | H16 | path-playoff-assignment.jpg | Development and Recognition, card 3 | A crew at a playoff game | 1200 x 800 | Landscape 3:2 | Centered; bottom strip gets a label | Sample in place |
 | H17 | path-state-championship-crew.jpg | Development and Recognition, card 4 | A GNOA crew at a state championship | 1200 x 800 | Landscape 3:2 | Centered; bottom strip gets a label | Sample in place |
-| H18 | testimonial-1.jpg | What Officials Say, quote 1 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Sample in place |
+| H18 | testimonial-1.jpg | What Officials Say, quote 1 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Not in use; the sample quote was replaced by a real quote from Ian Durkin, shown with initials |
 | H19 | testimonial-2.jpg | What Officials Say, quote 2 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Sample in place |
 | H20 | testimonial-3.jpg | What Officials Say, quote 3 | Headshot of the official quoted | 600 x 750 | Portrait 4:5 | Face centered, shoulders up | Sample in place |
 | H21 | cta-home.jpg | Closing banner at the bottom of every page | An official seen from behind, looking out at the field | 2000 x 900 | Wide 20:9 | Person in the right half | Sample in place |

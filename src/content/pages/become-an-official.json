@@ -146,13 +146,9 @@
       "heading": "What Officials Say",
       "items": [
         {
-          "photo": {
-            "src": "/images/testimonial-1.jpg",
-            "alt": "Headshot of a volleyball official smiling"
-          },
-          "quote": "[[sample]]\"GNOA gave me the training and support I needed to get started. It's an amazing community of people who truly care.\"[[/sample]]",
-          "name": "[[sample]]Sarah M.[[/sample]]",
-          "role": "Volleyball Official"
+          "quote": "\"I've had a really great experience with GNOA. From the beginning, they took me under their wing, helped me out, and made me feel like part of the group. I started when I was still at Gulf Coast HS, I really enjoy working with everyone, and it's honestly just a lot of fun. If you're thinking about getting into officiating, I can't recommend GNOA enough.\"",
+          "name": "Ian Durkin",
+          "initials": "ID"
         },
         {
           "quote": "\"The training is phenomenal; the veterans always make sure you're prepared to make the right call and they won't let you fail. Not only that, but I've made too many friends to count in the GNOA, as they are a fantastic group of guys.\"",

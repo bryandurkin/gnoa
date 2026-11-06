@@ -177,3 +177,9 @@ Pointed the EmDash work at the draft Worker `gnoa`, with new `gnoa` and `gnoa-me
 3. Add the News, Recognition and Training category terms.
 4. Connect the MCP to the draft address, then write the first posts.
 5. Delete the test Worker and its D1 database, R2 bucket and KV namespace, once Bryan agrees.
+
+## 2026-11-06 Real testimonial replaces the last sample
+
+On Become an Official and Training & Development, Ian Durkin's quote replaces the sample from "Sarah M." It uses
+initials like the other two quotes, because no headshot was supplied, and the sample's photo and role are gone.
+Copy uses straight apostrophes per the house rules, and the name replaces the em dash attribution.
