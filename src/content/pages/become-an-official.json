@@ -148,17 +148,29 @@
         {
           "quote": "\"I've had a really great experience with GNOA. From the beginning, they took me under their wing, helped me out, and made me feel like part of the group. I started when I was still at Gulf Coast HS, I really enjoy working with everyone, and it's honestly just a lot of fun. If you're thinking about getting into officiating, I can't recommend GNOA enough.\"",
           "name": "Ian Durkin",
-          "initials": "ID"
+          "initials": "ID",
+          "photo": {
+            "src": "/images/testimonial-ian-durkin.webp",
+            "alt": "Baseball umpire positioned in the infield"
+          }
         },
         {
           "quote": "\"The training is phenomenal; the veterans always make sure you're prepared to make the right call and they won't let you fail. Not only that, but I've made too many friends to count in the GNOA, as they are a fantastic group of guys.\"",
           "name": "Cameron Ballarino",
-          "initials": "CB"
+          "initials": "CB",
+          "photo": {
+            "src": "/images/testimonial-cameron-ballarino.webp",
+            "alt": "Two basketball officials discussing a play on the court"
+          }
         },
         {
           "quote": "\"I didn't know what to expect to my first officiating meeting.  I played Pop Warner through College Football, I never thought I would enjoy officiating. My experience with the GNOA has blown away my expectations. These folks are lasered focused on protecting player, perserving the game, and ensuring high quality training for both new refs and veterans alike. A first class organization\"",
           "name": "Chris Fahey",
-          "initials": "CF"
+          "initials": "CF",
+          "photo": {
+            "src": "/images/testimonial-chris-fahey.webp",
+            "alt": "Football official signaling during a game"
+          }
         }
       ]
     },
