@@ -230,8 +230,9 @@
         {
           "label": "Varsity",
           "image": {
-            "src": "/images/sample-photo.svg",
-            "alt": "[[sample]]Needed: a GNOA official working a local varsity match[[/sample]]"
+            "src": "/images/volleyball-path-varsity-ball.webp",
+            "alt": "Blue, yellow, and white volleyball resting on an indoor court line",
+            "position": "center center"
           }
         },
         {
@@ -239,7 +240,7 @@
           "image": {
             "src": "/images/volleyball-path-postseason-gnoa.webp",
             "alt": "Volleyball referee standing on the referee platform with a whistle during a match",
-            "position": "center 20%"
+            "position": "center 40%"
           }
         },
         {
