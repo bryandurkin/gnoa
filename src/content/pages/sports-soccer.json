@@ -225,8 +225,10 @@
         "text": "We'll connect you with GNOA soccer leadership and help you understand the local process."
       },
       "image": {
-        "src": "/images/sample-photo.svg",
-        "alt": "[[sample]]Needed: an experienced GNOA referee crew before a match, or a referee talking with an assistant referee[[/sample]]"
+        "src": "/images/soccer-experienced-assistant-referee.webp",
+        "alt": "Soccer assistant referee with a red and yellow flag watching players compete on the field",
+        "focus": "60% 50%",
+        "focusPhone": "62% 50%"
       }
     },
     {
@@ -273,8 +275,9 @@
       "info": {
         "heading": "What Will I Need?",
         "image": {
-          "src": "/images/sample-photo.svg",
-          "alt": "[[sample]]Needed: flat lay of a referee jersey, whistle, watch, yellow and red cards, match wallet and assistant referee flags[[/sample]]"
+          "src": "/images/soccer-equipment-assistant-flag.webp",
+          "alt": "Close-up of a soccer assistant referee holding a red and yellow flag beside the touchline",
+          "position": "50% 59%"
         },
         "paragraphs": [
           "Soccer referees need an approved uniform and some basic officiating equipment.",
