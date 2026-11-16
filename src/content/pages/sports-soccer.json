@@ -25,7 +25,7 @@
         }
       ],
       "image": {
-        "src": "/images/soccer-hero-crew.jpg",
+        "src": "/images/soccer-hero-crew-16x9.webp",
         "alt": "Three smiling GNOA soccer referees in FHSAA uniforms on the field at night",
         "fit": "contain"
       }
