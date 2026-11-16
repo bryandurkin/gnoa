@@ -193,10 +193,10 @@
         "You get better at seeing the game."
       ],
       "image": {
-        "src": "/images/soccer-match.jpg",
-        "alt": "Soccer referee watching play closely during a match",
-        "focus": "right center",
-        "focusPhone": "50% 0%"
+        "src": "/images/soccer-experienced-assistant-referee.webp",
+        "alt": "Soccer assistant referee with a red and yellow flag watching players compete on the field",
+        "focus": "60% 50%",
+        "focusPhone": "62% 50%"
       }
     },
     {
@@ -225,10 +225,10 @@
         "text": "We'll connect you with GNOA soccer leadership and help you understand the local process."
       },
       "image": {
-        "src": "/images/soccer-experienced-assistant-referee.webp",
-        "alt": "Soccer assistant referee with a red and yellow flag watching players compete on the field",
-        "focus": "60% 50%",
-        "focusPhone": "62% 50%"
+        "src": "/images/soccer-match.jpg",
+        "alt": "Soccer referee watching play closely during a match",
+        "focus": "right center",
+        "focusPhone": "50% 25%"
       }
     },
     {
