@@ -25,8 +25,8 @@
         }
       ],
       "image": {
-        "src": "/images/softball-hero.jpg",
-        "alt": "Softball plate umpire in a mask set behind the catcher, watching the pitch"
+        "src": "/images/softball-hero-action-gnoa.webp",
+        "alt": "Softball batter swings at a pitch with catcher and plate umpire behind home plate"
       }
     },
     {
@@ -85,8 +85,8 @@
         "href": "/become-an-official/"
       },
       "image": {
-        "src": "/images/softball-training.jpg",
-        "alt": "Softball resting on the infield dirt beside the white foul line"
+        "src": "/images/softball-never-umpired-ball-gnoa.webp",
+        "alt": "Bright yellow softball resting on the infield dirt beside a chalk line"
       }
     },
     {
@@ -168,8 +168,8 @@
         "href": "/contact/"
       },
       "image": {
-        "src": "/images/softball-cta.jpg",
-        "alt": "Softball umpire in a mask and light blue shirt extending an arm to make a call"
+        "src": "/images/softball-cta-plate-umpire-gnoa.webp",
+        "alt": "Softball plate umpire positions behind catcher as a pitch comes toward home plate"
       }
     }
   ]
