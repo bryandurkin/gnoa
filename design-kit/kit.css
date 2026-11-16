@@ -527,35 +527,32 @@ img.has-focus{object-position:var(--focus)!important}
   .cta-band.band--fit .band__media::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(10,35,66,0) 30%)}
   .cta-band.band--fit .wrap{padding-top:12px}
 }
-/* Soccer hero: blend the complete three-official group photo into the navy hero,
-   rather than presenting it as a hard-edged rectangular insert. */
+/* Soccer hero: place the complete 16:9 photo in a true 16:9 desktop region.
+   All three officials stay inside the frame, with edges softly blending into navy. */
 .hero--fit .hero__media img[src="/images/soccer-hero-crew-16x9.webp"]{
-  -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 16%,#000 80%,transparent 100%);
-  mask-image:linear-gradient(to bottom,transparent 0%,#000 16%,#000 80%,transparent 100%);
+  -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 8%,#000 83%,transparent 100%);
+  mask-image:linear-gradient(to bottom,transparent 0%,#000 8%,#000 83%,transparent 100%);
 }
-.hero--fit .hero__media:has(img[src="/images/soccer-hero-crew-16x9.webp"])::after{
-  background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.85) 8%,rgba(10,35,66,.32) 25%,rgba(10,35,66,0) 43%);
+.hero--fit .hero__media:has(> img[src="/images/soccer-hero-crew-16x9.webp"])::after{
+  background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.7) 8%,rgba(10,35,66,0) 23%);
 }
-
-/* Desktop only — soccer hero: full-height media region, whole group photo visible,
-   soft edges fading into navy instead of a cropped rectangular insert. */
 @media (min-width:1025px){
   .hero--fit .hero__media:has(> img[src="/images/soccer-hero-crew-16x9.webp"]){
-    top:0;
-    bottom:0;
-    right:0;
-    width:72%;
+    top:clamp(48px,5vw,82px);
+    right:clamp(14px,2vw,36px);
+    bottom:auto;
+    width:63%;
     height:auto;
-    aspect-ratio:auto;
+    aspect-ratio:16/9;
   }
   .hero--fit .hero__media img[src="/images/soccer-hero-crew-16x9.webp"]{
     object-fit:contain;
     object-position:center center;
-    -webkit-mask-image:radial-gradient(ellipse 73% 65% at 52% 49%,#000 50%,rgba(0,0,0,.9) 64%,transparent 100%);
-    mask-image:radial-gradient(ellipse 73% 65% at 52% 49%,#000 50%,rgba(0,0,0,.9) 64%,transparent 100%);
+    -webkit-mask-image:radial-gradient(ellipse 82% 87% at 50% 48%,#000 59%,rgba(0,0,0,.85) 73%,transparent 100%);
+    mask-image:radial-gradient(ellipse 82% 87% at 50% 48%,#000 59%,rgba(0,0,0,.85) 73%,transparent 100%);
   }
   .hero--fit .hero__media:has(> img[src="/images/soccer-hero-crew-16x9.webp"])::after{
-    background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.65) 12%,rgba(10,35,66,0) 40%);
+    background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.55) 10%,transparent 30%);
   }
 }
 /* Image-free split sections: keep content across the full width, without an empty photo column. */
