@@ -651,6 +651,15 @@ img.has-focus{object-position:var(--focus)!important}
   .cta-band.band--fit .band__media::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(10,35,66,0) 30%)}
   .cta-band.band--fit .wrap{padding-top:12px}
 }
+/* Soccer hero: blend the complete three-official group photo into the navy hero,
+   rather than presenting it as a hard-edged rectangular insert. */
+.hero--fit .hero__media img[src="/images/soccer-hero-crew.jpg"]{
+  -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 16%,#000 80%,transparent 100%);
+  mask-image:linear-gradient(to bottom,transparent 0%,#000 16%,#000 80%,transparent 100%);
+}
+.hero--fit .hero__media:has(img[src="/images/soccer-hero-crew.jpg"])::after{
+  background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.85) 8%,rgba(10,35,66,.32) 25%,rgba(10,35,66,0) 43%);
+}
 /* hero--banner: very wide group photo across the full width, above the text (v1.17) */
 .hero--banner .hero__media{position:relative;width:100%;height:min(33.34vw,480px);z-index:0}
 .hero--banner .hero__media img{object-position:50% 20%}
