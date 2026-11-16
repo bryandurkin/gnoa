@@ -661,6 +661,27 @@ img.has-focus{object-position:var(--focus)!important}
   background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.85) 8%,rgba(10,35,66,.32) 25%,rgba(10,35,66,0) 43%);
 }
 
+/* Desktop only — soccer hero: full-height media region, whole group photo visible,
+   soft edges fading into navy instead of a cropped rectangular insert. */
+@media (min-width:1025px){
+  .hero--fit .hero__media:has(> img[src="/images/soccer-hero-crew.jpg"]){
+    top:0;
+    bottom:0;
+    right:0;
+    width:72%;
+    height:auto;
+    aspect-ratio:auto;
+  }
+  .hero--fit .hero__media img[src="/images/soccer-hero-crew.jpg"]{
+    object-fit:contain;
+    object-position:center center;
+    -webkit-mask-image:radial-gradient(ellipse 73% 65% at 52% 49%,#000 50%,rgba(0,0,0,.9) 64%,transparent 100%);
+    mask-image:radial-gradient(ellipse 73% 65% at 52% 49%,#000 50%,rgba(0,0,0,.9) 64%,transparent 100%);
+  }
+  .hero--fit .hero__media:has(> img[src="/images/soccer-hero-crew.jpg"])::after{
+    background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.65) 12%,rgba(10,35,66,0) 40%);
+  }
+}
 /* Image-free split sections: keep content across the full width, without an empty photo column. */
 .split--text-only .split__body{margin-left:0;max-width:none}
 /* hero--banner: very wide group photo across the full width, above the text (v1.17) */
