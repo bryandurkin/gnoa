@@ -653,18 +653,18 @@ img.has-focus{object-position:var(--focus)!important}
 }
 /* Soccer hero: blend the complete three-official group photo into the navy hero,
    rather than presenting it as a hard-edged rectangular insert. */
-.hero--fit .hero__media img[src="/images/soccer-hero-crew.jpg"]{
+.hero--fit .hero__media img[src="/images/soccer-hero-crew-16x9.webp"]{
   -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 16%,#000 80%,transparent 100%);
   mask-image:linear-gradient(to bottom,transparent 0%,#000 16%,#000 80%,transparent 100%);
 }
-.hero--fit .hero__media:has(img[src="/images/soccer-hero-crew.jpg"])::after{
+.hero--fit .hero__media:has(img[src="/images/soccer-hero-crew-16x9.webp"])::after{
   background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.85) 8%,rgba(10,35,66,.32) 25%,rgba(10,35,66,0) 43%);
 }
 
 /* Desktop only — soccer hero: full-height media region, whole group photo visible,
    soft edges fading into navy instead of a cropped rectangular insert. */
 @media (min-width:1025px){
-  .hero--fit .hero__media:has(> img[src="/images/soccer-hero-crew.jpg"]){
+  .hero--fit .hero__media:has(> img[src="/images/soccer-hero-crew-16x9.webp"]){
     top:0;
     bottom:0;
     right:0;
@@ -672,13 +672,13 @@ img.has-focus{object-position:var(--focus)!important}
     height:auto;
     aspect-ratio:auto;
   }
-  .hero--fit .hero__media img[src="/images/soccer-hero-crew.jpg"]{
+  .hero--fit .hero__media img[src="/images/soccer-hero-crew-16x9.webp"]{
     object-fit:contain;
     object-position:center center;
     -webkit-mask-image:radial-gradient(ellipse 73% 65% at 52% 49%,#000 50%,rgba(0,0,0,.9) 64%,transparent 100%);
     mask-image:radial-gradient(ellipse 73% 65% at 52% 49%,#000 50%,rgba(0,0,0,.9) 64%,transparent 100%);
   }
-  .hero--fit .hero__media:has(> img[src="/images/soccer-hero-crew.jpg"])::after{
+  .hero--fit .hero__media:has(> img[src="/images/soccer-hero-crew-16x9.webp"])::after{
     background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.65) 12%,rgba(10,35,66,0) 40%);
   }
 }
