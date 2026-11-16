@@ -236,29 +236,6 @@
         "There's room for both."
       ],
       "mist": true,
-      "items": [
-        {
-          "label": "Varsity",
-          "image": {
-            "src": "/images/sample-photo.svg",
-            "alt": "[[sample]]Needed: a GNOA referee crew working a local varsity match[[/sample]]"
-          }
-        },
-        {
-          "label": "Postseason",
-          "image": {
-            "src": "/images/sample-photo.svg",
-            "alt": "[[sample]]Needed: a GNOA referee crew at a district or regional playoff match[[/sample]]"
-          }
-        },
-        {
-          "label": "Championship",
-          "image": {
-            "src": "/images/sample-photo.svg",
-            "alt": "[[sample]]Needed: a GNOA referee crew at a state championship venue[[/sample]]"
-          }
-        }
-      ],
       "button": {
         "text": "Soccer News & Recognition",
         "href": "/blog/"
