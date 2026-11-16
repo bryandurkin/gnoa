@@ -181,8 +181,9 @@
         "You get better at seeing it."
       ],
       "image": {
-        "src": "/images/volleyball-match-gnoa.webp",
-        "alt": "Smiling volleyball official on the referee stand beside the net"
+        "src": "/images/volleyball-experienced-gnoa.webp",
+        "alt": "Four experienced volleyball officials standing together in blue shirts in a gym",
+        "fit": "contain"
       }
     },
     {
@@ -211,8 +212,8 @@
         "text": "We'll connect you with GNOA volleyball leadership and help you understand the local process."
       },
       "image": {
-        "src": "/images/volleyball-experienced-gnoa.webp",
-        "alt": "Four experienced volleyball officials standing together in blue shirts in a gym"
+        "src": "/images/volleyball-match-gnoa.webp",
+        "alt": "Smiling volleyball official on the referee stand beside the net"
       }
     },
     {
