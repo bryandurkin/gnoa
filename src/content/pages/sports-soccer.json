@@ -223,12 +223,6 @@
           "Current certifications"
         ],
         "text": "We'll connect you with GNOA soccer leadership and help you understand the local process."
-      },
-      "image": {
-        "src": "/images/soccer-match.jpg",
-        "alt": "Soccer referee watching play closely during a match",
-        "focus": "right center",
-        "focusPhone": "50% 25%"
       }
     },
     {
