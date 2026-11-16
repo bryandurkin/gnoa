@@ -499,6 +499,26 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
   .sport-row--icons .sport-row__tile:hover{transform:translateY(-3px)}
 }
 
+/* About: More Than the Game — keep every face visible in the group selfie. */
+.skills__img:has(> img[src="/images/about-community.jpg"]){
+  min-height:0;
+  align-self:center;
+  background:transparent;
+}
+.skills__img img[src="/images/about-community.jpg"]{
+  display:block;
+  width:100%;
+  height:auto;
+  object-fit:contain;
+  object-position:center;
+}
+@media (min-width:961px){
+  .skills:has(.skills__img img[src="/images/about-community.jpg"]){
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+    gap:32px;
+    align-items:center;
+  }
+}
 /* skills: text + small icon tiles beside a rounded photo */
 .skills{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:stretch}
 .skills h2{font-weight:800;font-size:clamp(32px,3.8vw,46px)}
