@@ -320,8 +320,10 @@
         "href": "/contact/"
       },
       "image": {
-        "src": "/images/soccer-cta.jpg",
-        "alt": "Soccer ball resting on the touchline of a grass field in late afternoon light"
+        "src": "/images/soccer-cta-referee-action.webp",
+        "alt": "Soccer referee in yellow signaling beside a player in red during a match",
+        "focus": "72% 50%",
+        "focusPhone": "75% 50%"
       }
     }
   ]
