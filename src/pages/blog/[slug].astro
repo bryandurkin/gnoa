@@ -15,6 +15,8 @@ if (!entry) Astro.response.status = 404;
 else if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
 if (MODE === 'draft') Astro.response.headers.set('X-Robots-Tag', 'noindex, nofollow');
 const p = entry && toPost(entry);
+// This recognition graphic contains crew names and logos; never crop it like an action photo.
+const showFullRecognitionImage = p?.slug === 'gnoa-football-officiating-crew' || slug === 'gnoa-football-officiating-crew';
 const d = entry?.data;
 const author = d?.byline?.displayName ?? site.shortName;
 const nice = p && new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
@@ -23,12 +25,18 @@ const schema = p && { '@context': 'https://schema.org', '@type': 'BlogPosting', 
 ---
 {!entry ? <NotFound /> : (
 <Base title={`${p.title} | ${site.shortName}`} description={description} path={`/blog/${p.slug}/`} schema={schema}>
-  <Hero isPage kicker={p.category ?? 'News & Recognition'} title1={p.title} lead={p.summary} image={p.image} />
+  <Hero isPage kicker={p.category ?? 'News & Recognition'} title1={p.title} lead={p.summary} image={showFullRecognitionImage ? undefined : p.image} />
+  {showFullRecognitionImage && <figure class="recognition-featured-image"><img src={p.image.src} alt={p.image.alt} loading="eager" decoding="async" /></figure>}
   <section class="sec"><div class="wrap"><article class="prose">
     <p class="post-meta">{nice} &middot; {author}</p>
     <PortableText value={d.content} />
     {d.source_name && <p class="post-source">Originally reported by {d.source_url ? <a href={d.source_url} target="_blank" rel="noopener noreferrer">{d.source_name}</a> : d.source_name}.</p>}
   </article></div></section>
   <CtaBand {...site.defaultCta} />
+  <style>
+    .recognition-featured-image{width:min(100% - 32px,900px);margin:36px auto 10px;text-align:center}
+    .recognition-featured-image img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:center;border-radius:8px}
+    @media(max-width:640px){.recognition-featured-image{width:calc(100% - 24px);margin:20px auto 4px}}
+  </style>
 </Base>
 )}
