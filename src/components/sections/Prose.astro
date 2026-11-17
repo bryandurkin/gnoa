@@ -3,9 +3,14 @@
 //          {ul: [..]} | {links: [{text, href}]} | {button: {text, href, variant?}}]
 import Sec from '../Sec.astro';
 import Btn from '../Btn.astro';
-const { blocks, mist = false, join } = Astro.props;
+const { blocks, introImage, introText, mist = false, join } = Astro.props;
 ---
-<Sec mist={mist} join={join}><div class="prose">
+<Sec mist={mist} join={join}>
+  {introImage && <div class="prose-photo-intro">
+    <figure class="prose-photo-intro__media"><img src={introImage.src} alt={introImage.alt} loading="eager" decoding="async" /></figure>
+    <div class="prose-photo-intro__copy"><p>{introText}</p></div>
+  </div>}
+  <div class="prose">
   {blocks.map(b =>
     b.h2 ? <h2>{b.h2}</h2>
     : b.h3 ? <h3>{b.h3}</h3>
