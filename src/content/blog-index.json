@@ -9,20 +9,9 @@
       "title1": "News & Recognition",
       "lead": "From your first game to your biggest assignment.",
       "image": {
-        "src": "/images/news-recognition-hero-umpire.webp",
-        "alt": "Football official smiling on the field at night while raising his cap"
+        "src": "/images/news-recognition-award-group.webp",
+        "alt": "GNOA recognition group of four, including a man in a white GNOA polo holding a framed award"
       }
-    },
-    {
-      "type": "gallery",
-      "items": [
-        {
-          "image": {
-            "src": "/images/news-recognition-award-group.webp",
-            "alt": "Four people posing for a GNOA recognition photograph, with one holding a framed award"
-          }
-        }
-      ]
     },
     {
       "type": "post-cards",
