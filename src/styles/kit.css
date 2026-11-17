@@ -79,6 +79,51 @@ h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.05;marg
 .hero__media{position:absolute;top:0;right:0;bottom:0;width:62%;z-index:-1}
 .hero__media::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.6) 22%,rgba(10,35,66,0) 55%)}
 .hero__media img{object-position:right center}
+/* Training & Development hero: keep the entire three-official photo visible.
+   Give the image its own proportional area instead of cropping a full-height background. */
+@media (min-width:961px){
+  .page-hero:has(.hero__media img[src="/images/training-hero.jpg"]) .hero__media{
+    top:clamp(24px,3vw,46px);
+    bottom:clamp(24px,3vw,46px);
+    right:clamp(16px,3vw,42px);
+    width:52%;
+  }
+  .page-hero:has(.hero__media img[src="/images/training-hero.jpg"]) .hero__body{
+    max-width:46%;
+  }
+}
+.page-hero .hero__media:has(> img[src="/images/training-hero.jpg"])::after{
+  background:linear-gradient(90deg,var(--navy) 0%,rgba(10,35,66,.35) 12%,transparent 28%);
+}
+.page-hero .hero__media img[src="/images/training-hero.jpg"]{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center center;
+}
+@media (max-width:960px){
+  .page-hero .hero__media:has(> img[src="/images/training-hero.jpg"]){
+    position:relative;
+    top:auto;right:auto;bottom:auto;
+    width:min(92%,720px);
+    height:auto;
+    margin:20px auto 0;
+    z-index:0;
+  }
+  .page-hero .hero__media img[src="/images/training-hero.jpg"]{
+    height:auto;
+    object-fit:contain;
+  }
+  .page-hero .hero__media:has(> img[src="/images/training-hero.jpg"])::after{
+    background:linear-gradient(180deg,transparent 72%,var(--navy) 100%);
+  }
+  .page-hero:has(.hero__media img[src="/images/training-hero.jpg"]) .hero__body{
+    max-width:none;
+  }
+  .page-hero:has(.hero__media img[src="/images/training-hero.jpg"]) .wrap{
+    padding-top:20px;
+  }
+}
 /* Training hero: compact split layout, keep the complete wide group shot in view. */
 .page-hero .hero__media img[src="/images/training-hero.jpg"]{object-fit:contain;object-position:center bottom}
 .hero .wrap{padding-top:clamp(56px,7vw,96px);padding-bottom:clamp(56px,7vw,96px)}
