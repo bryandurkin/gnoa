@@ -609,6 +609,28 @@ img.has-focus{object-position:var(--focus)!important}
 .hero--banner .hero__media img{object-position:50% 20%}
 .hero--banner .hero__media::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(10,35,66,0) 18%)}
 .hero--banner .wrap{padding-top:16px}
+
+/* News & Recognition hero: original portrait photo shown in full, without cropped faces. */
+.page-hero:has(.hero__media img[src="/images/news-recognition-hero-umpire.webp"]){min-height:clamp(490px,42vw,595px)}
+.page-hero .hero__media:has(> img[src="/images/news-recognition-hero-umpire.webp"]){
+  top:20px;right:clamp(18px,5vw,80px);bottom:20px;width:40%;
+}
+.page-hero .hero__media:has(> img[src="/images/news-recognition-hero-umpire.webp"])::after{background:none}
+.page-hero .hero__media img[src="/images/news-recognition-hero-umpire.webp"]{
+  object-fit:contain;object-position:center center;
+  -webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 92%,transparent 100%);
+  mask-image:linear-gradient(to bottom,#000 0%,#000 92%,transparent 100%);
+}
+.page-hero:has(.hero__media img[src="/images/news-recognition-hero-umpire.webp"]) .hero__body{max-width:52%}
+@media (max-width:960px){
+  .page-hero:has(.hero__media img[src="/images/news-recognition-hero-umpire.webp"]){min-height:0}
+  .page-hero .hero__media:has(> img[src="/images/news-recognition-hero-umpire.webp"]){
+    position:relative;top:auto;right:auto;bottom:auto;
+    width:min(90%,420px);height:clamp(320px,85vw,520px);margin:20px auto 0;z-index:0;
+  }
+  .page-hero:has(.hero__media img[src="/images/news-recognition-hero-umpire.webp"]) .hero__body{max-width:none}
+  .page-hero:has(.hero__media img[src="/images/news-recognition-hero-umpire.webp"]) .wrap{padding-top:24px}
+}
 /* Keep post card photos in shape; source credit on rewritten news posts (v1.18) */
 .post-card__img{overflow:hidden}
 .post-source{margin-top:1.6em;padding-top:12px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
