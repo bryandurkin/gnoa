@@ -750,6 +750,12 @@ img.has-focus{object-position:var(--focus)!important}
     mask-image:linear-gradient(180deg,#000 0%,#000 70%,transparent 100%);
   }
 }
+/* Keep the News & Updates subheading clear of the recognition photo. */
+@media (min-width:761px){
+  .page-hero:has(.hero__media img[src="/images/news-recognition-award-group.webp"]) .hero__lead{
+    max-width:min(34vw,430px);
+  }
+}
 /* Keep post card photos in shape; source credit on rewritten news posts (v1.18) */
 .post-card__img{overflow:hidden}
 .post-source{margin-top:1.6em;padding-top:12px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
