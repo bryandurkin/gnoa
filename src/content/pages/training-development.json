@@ -8,18 +8,11 @@
       "type": "page-hero",
       "kicker": "Training & Development",
       "title1": "Recruit. Train. Develop.",
-      "lead": "GNOA develops people, not just assigns games.",
-      "image": {
-        "src": "/images/training-hero.jpg",
-        "alt": "Three GNOA umpires in FHSAA caps smiling together at the ballpark"
-      }
+      "lead": "GNOA develops people, not just assigns games."
     },
     {
       "type": "prose",
       "blocks": [
-        {
-          "p": "We provide quality training, mentorship, and ongoing development to help you grow your skills and reach your goals as an official."
-        },
         {
           "h2": "Training for New and Experienced Officials"
         },
@@ -56,7 +49,12 @@
             "variant": "teal"
           }
         }
-      ]
+      ],
+      "introImage": {
+        "src": "/images/training-hero.jpg",
+        "alt": "Three GNOA umpires in FHSAA caps smiling together at the ballpark"
+      },
+      "introText": "We provide quality training, mentorship, and ongoing development to help you grow your skills and reach your goals as an official."
     },
     {
       "type": "gallery",
