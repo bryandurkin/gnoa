@@ -14,6 +14,17 @@
       }
     },
     {
+      "type": "gallery",
+      "items": [
+        {
+          "image": {
+            "src": "/images/news-recognition-award-group.webp",
+            "alt": "Four people posing for a GNOA recognition photograph, with one holding a framed award"
+          }
+        }
+      ]
+    },
+    {
       "type": "post-cards",
       "empty": "[[sample]]News and recognition posts from GNOA[[/sample]]"
     },
