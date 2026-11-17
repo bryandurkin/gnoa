@@ -765,7 +765,7 @@ img.has-focus{object-position:var(--focus)!important}
   }
 }
 /* Basketball page: retain natural proportions in these two photo sections. */
-.band .band__media:has(> img[src="/images/basketball-band.jpg"]{width:55%}
+.band .band__media:has(> img[src="/images/basketball-band.jpg"]){width:55%}
 .band .band__media img[src="/images/basketball-band.jpg"]{
   display:block;width:100%;height:100%;object-fit:contain;object-position:center center;
 }
